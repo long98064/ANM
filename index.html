@@ -3,57 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trắc Nghiệm An Ninh Mạng</title>
+    <title>Trắc Nghiệm An Ninh Mạng Pro</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        
+    <audio id="bg-music" loop>
+        <source src="bgm.mp3">
+    </audio>
+    
+
+    <button id="settings-btn" onclick="toggleSettings()">⚙️</button>
+
+    <div id="settings-modal" class="hide">
+        <h3>CÀI ĐẶT</h3>
+        <div class="setting-item">
+            <span>🔊 Âm thanh (SFX)</span>
+            <input type="checkbox" id="toggle-sfx" checked>
+        </div>
+        <div class="setting-item">
+            <span>🎵 Nhạc nền</span>
+            <input type="checkbox" id="toggle-bgm">
+        </div>
+        <div class="setting-item">
+            <span>🔥 Hiệu ứng Streak</span>
+            <input type="checkbox" id="toggle-streak" checked>
+        </div>
+        <button class="btn-close" onclick="toggleSettings()">Đóng</button>
+    </div>
+
+    <div id="streak-box" class="hide">🔥 Streak: <span id="streak-count">0</span></div>
+
+    <div class="container" id="main-container">
         <div id="start-screen" class="center-box">
             <h1>ÔN THI AN NINH MẠNG</h1>
-            <p>Ngân hàng câu hỏi của thầy Khánh béo: <span id="total-questions-count">Đang tải...</span> câu</p>
-            <p class="subtitle">Làm bởi: chi yeu minh karina thoi</p>
-            <button id="start-btn" class="btn-start" onclick="startQuiz()" disabled>BẮT ĐẦU</button>
+            <p>Ngân hàng: <span id="total-questions-count">...</span> câu</p>
+            <p>Made by: chi yeu minh karina thoi</p>
+            <div class="mode-selection">
+                <button id="btn-practice" class="btn-start btn-mode" onclick="startQuiz('practice')" disabled>📖 ÔN TẬP</button>
+                <button id="btn-test" class="btn-start btn-mode" onclick="startQuiz('test')" disabled>⏱️ THI THỬ</button>
+            </div>
         </div>
 
         <div id="quiz-box" class="hide">
             <div class="header">
-                <div class="progress-container">
-                    <div id="progress-bar"></div>
-                </div>
+                <div class="progress-container"><div id="progress-bar"></div></div>
                 <div class="stats-text">
                     <span id="question-count">Câu 1</span>
                     <span id="score">Điểm: 0</span>
                 </div>
             </div>
             
+            <div id="redemption-alert" class="hide">🌟 CƠ HỘI GỠ ĐIỂM! 🌟</div>
+
             <div class="question-container">
                 <h2 id="question-text">Đang tải...</h2>
             </div>
 
-            <div class="options-grid" id="options-container">
-                </div>
+            <div class="options-grid" id="options-container"></div>
 
-            <button id="next-btn" class="hide" onclick="nextQuestion()">Câu tiếp theo ➜</button>
+            <button id="next-btn" class="hide" onclick="handleNextButton()">Tiếp tục ➜</button>
         </div>
 
         <div id="result-box" class="hide center-box">
-            <img src="https://cdn-icons-png.flaticon.com/512/190/190411.png" alt="Cup" width="80">
             <h2>Hoàn thành!</h2>
-            <p>Kết quả của bạn:</p>
-            <h1 id="final-score" style="font-size: 3rem; color: #00b894;">0/0</h1>
-            
+            <h1 id="final-score">0/0</h1>
             <div id="review-container" class="hide">
-                <h3>⚠️ Các câu cần xem lại:</h3>
+                <h3>⚠️ Câu sai:</h3>
                 <div id="review-list"></div>
             </div>
-
-            <button class="btn-start" onclick="location.reload()">Làm lại từ đầu</button>
+            <button class="btn-start" onclick="location.reload()">Làm lại</button>
         </div>
-
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
     <script src="script.js"></script>
 </body>
-
 </html>
