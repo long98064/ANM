@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trắc Nghiệm An Ninh Mạng</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        
+        <div id="start-screen" class="center-box">
+            <h1>ÔN THI AN NINH MẠNG</h1>
+            <p>Ngân hàng câu hỏi: <span id="total-questions-count">Đang tải...</span> câu</p>
+            <p class="subtitle">Chế độ: Làm tất cả câu hỏi</p>
+            <button id="start-btn" class="btn-start" onclick="startQuiz()" disabled>BẮT ĐẦU</button>
+        </div>
+
+        <div id="quiz-box" class="hide">
+            <div class="header">
+                <div class="progress-container">
+                    <div id="progress-bar"></div>
+                </div>
+                <div class="stats-text">
+                    <span id="question-count">Câu 1</span>
+                    <span id="score">Điểm: 0</span>
+                </div>
+            </div>
+            
+            <div class="question-container">
+                <h2 id="question-text">Đang tải...</h2>
+            </div>
+
+            <div class="options-grid" id="options-container">
+                </div>
+
+            <button id="next-btn" class="hide" onclick="nextQuestion()">Câu tiếp theo ➜</button>
+        </div>
+
+        <div id="result-box" class="hide center-box">
+            <img src="https://cdn-icons-png.flaticon.com/512/190/190411.png" alt="Cup" width="80">
+            <h2>Hoàn thành!</h2>
+            <p>Kết quả của bạn:</p>
+            <h1 id="final-score" style="font-size: 3rem; color: #00b894;">0/0</h1>
+            
+            <div id="review-container" class="hide">
+                <h3>⚠️ Các câu cần xem lại:</h3>
+                <div id="review-list"></div>
+            </div>
+
+            <button class="btn-start" onclick="location.reload()">Làm lại từ đầu</button>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
