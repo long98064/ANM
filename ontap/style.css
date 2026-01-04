@@ -1,0 +1,386 @@
+/* 1. Cài đặt Font chữ tròn, đẹp, hiện đại */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    /* Màu nền tối nhưng sang trọng (Dark Slate) */
+    background: linear-gradient(135deg, #1e272e, #485460);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Khung chứa nội dung chính - Giống thẻ bài */
+.container {
+    width: 90%;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.05); /* Hiệu ứng kính mờ */
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Phần Header: Điểm số và Tiến trình */
+.header {
+    margin-bottom: 20px;
+}
+
+.stats-text {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #dfe6e9;
+}
+
+/* Thanh tiến trình đẹp hơn */
+.progress-container {
+    width: 100%;
+    height: 12px;
+    background-color: #2d3436;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 2px solid #636e72;
+}
+
+#progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #f0932b, #f6e58d);
+    width: 0%;
+    transition: width 0.4s ease-in-out;
+    border-radius: 20px;
+}
+
+/* Phần hiển thị câu hỏi */
+.question-container {
+    background-color: #2d3436;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+    border: 2px solid #636e72;
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#question-text {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    font-weight: 800; /* Chữ đậm rõ ràng */
+}
+
+/* Lưới 4 đáp án (Quan trọng nhất để giống Quizizz) */
+.options-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Chia làm 2 cột */
+    gap: 15px; /* Khoảng cách giữa các ô */
+}
+
+/* Nút đáp án chung */
+.btn {
+    padding: 25px 15px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.1s, opacity 0.2s;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Hiệu ứng nhấn nút */
+.btn:active {
+    transform: scale(0.98);
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* Phối màu 4 nút đặc trưng của Quizizz/Kahoot */
+.btn:nth-child(1) { 
+    background-color: #2d9da6; /* Xanh ngọc */
+    box-shadow: 0 5px 0 #1b6d74; 
+} 
+.btn:nth-child(2) { 
+    background-color: #eca82c; /* Vàng cam */
+    box-shadow: 0 5px 0 #a8761a; 
+} 
+.btn:nth-child(3) { 
+    background-color: #d23f31; /* Đỏ */
+    box-shadow: 0 5px 0 #8f291f; 
+} 
+.btn:nth-child(4) { 
+    background-color: #46e0bc; 
+    box-shadow: 0 5px 0 #2a8f76; 
+    color: white; /* <--- Đổi từ #2d3436 thành white */
+}
+
+/* Khi chọn đúng/sai */
+.correct { 
+    background-color: #00b894 !important; 
+    box-shadow: 0 0 15px #00b894 !important;
+    opacity: 1 !important;
+    border: 2px solid white;
+}
+.wrong { 
+    background-color: #636e72 !important; 
+    box-shadow: none !important;
+    opacity: 0.3 !important;
+    cursor: not-allowed;
+}
+
+/* Nút Next */
+#next-btn {
+    width: 100%;
+    margin-top: 25px;
+    padding: 15px;
+    background-color: white;
+    color: #2d3436;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 5px 0 #b2bec3;
+}
+
+#next-btn:hover {
+    background-color: #dfe6e9;
+}
+
+.hide { display: none !important; }
+
+/* Responsive: Trên điện thoại thì xếp dọc cho dễ bấm */
+@media (max-width: 600px) {
+    .options-grid {
+        grid-template-columns: 1fr; /* 1 cột duy nhất */
+    }
+    .question-container {
+        padding: 15px;
+        font-size: 1rem;
+    }
+}
+#review-container {
+    margin-top: 20px;
+    text-align: left;
+    width: 100%;
+    max-height: 400px; /* Chiều cao tối đa */
+    overflow-y: auto;  /* Cho phép cuộn dọc nếu danh sách dài */
+    background: rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#review-container h3 {
+    color: #ff7675;
+    margin-top: 0;
+    border-bottom: 1px solid #636e72;
+    padding-bottom: 10px;
+}
+
+.review-item {
+    background-color: #2d3436;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 5px solid #d63031;
+}
+
+.review-item p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+.user-ans {
+    color: #ff7675; /* Màu đỏ nhạt */
+}
+
+.correct-ans {
+    color: #55efc4; /* Màu xanh nhạt */
+    font-weight: bold;
+}
+
+/* Tùy chỉnh thanh cuộn cho đẹp */
+#review-container::-webkit-scrollbar {
+    width: 8px;
+}
+#review-container::-webkit-scrollbar-track {
+    background: #2d3436; 
+}
+#review-container::-webkit-scrollbar-thumb {
+    background: #636e72; 
+    border-radius: 4px;
+}
+/* --- Copy đoạn này đè vào phần cũ hoặc thêm xuống cuối file style.css --- */
+
+/* 1. Đáp án ĐÚNG: Màu xanh lá + Viền sáng */
+.correct { 
+    background-color: #00b894 !important; 
+    color: white !important;
+    box-shadow: 0 0 15px #00b894 !important; /* Hiệu ứng phát sáng */
+    border: 2px solid white !important;
+    opacity: 1 !important;
+}
+
+/* 2. Đáp án SAI (Nút bạn chọn): Màu đỏ đậm */
+.wrong { 
+    background-color: #d63031 !important; 
+    color: white !important;
+    box-shadow: none !important;
+    opacity: 1 !important;
+    animation: shake 0.3s; /* Hiệu ứng rung lắc nhẹ */
+}
+
+/* 3. Đáp án BỊ LÀM MỜ (Các nút sai còn lại): Tối đi */
+.dim {
+    background-color: #636e72 !important; /* Màu xám tối */
+    color: rgba(255, 255, 255, 0.5) !important; /* Chữ mờ đi */
+    box-shadow: none !important;
+    opacity: 0.4 !important; /* Làm trong suốt */
+    transform: scale(0.95); /* Thu nhỏ lại một chút */
+    cursor: not-allowed;
+}
+
+/* Hiệu ứng rung khi chọn sai */
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+/* Nút Bắt đầu - Phong cách Game/Quizizz */
+.btn-start {
+    /* Màu nền Gradient chuyển từ Xanh ngọc sang Xanh dương nhạt */
+    background: linear-gradient(135deg, #00b894, #00cec9); 
+    color: white;
+    
+    /* Font chữ và kích thước */
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900; /* Chữ siêu đậm */
+    text-transform: uppercase; /* Viết hoa toàn bộ */
+    letter-spacing: 1px; /* Giãn cách chữ cho thoáng */
+    
+    /* Hình dáng nút */
+    border: none;
+    border-radius: 50px; /* Bo tròn hình viên thuốc */
+    padding: 18px 50px;
+    margin-top: 30px;
+    cursor: pointer;
+    
+    /* Hiệu ứng đổ bóng và phát sáng */
+    box-shadow: 0 10px 20px rgba(0, 184, 148, 0.4);
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* Hiệu ứng khi di chuột vào (Hover) */
+.btn-start:hover {
+    transform: translateY(-5px) scale(1.05); /* Bay lên nhẹ và phóng to */
+    box-shadow: 0 15px 30px rgba(0, 184, 148, 0.6); /* Bóng đổ đậm hơn */
+    filter: brightness(1.1); /* Sáng hơn một chút */
+}
+
+/* Hiệu ứng khi bấm xuống (Active) */
+.btn-start:active {
+    transform: translateY(2px) scale(0.98); /* Lún xuống */
+    box-shadow: 0 5px 10px rgba(0, 184, 148, 0.4);
+}
+
+/* (Tùy chọn) Hiệu ứng lấp lánh quét qua nút */
+.btn-start::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+    transition: 0.5s;
+}
+
+.btn-start:hover::after {
+    left: 100%; /* Quét ánh sáng từ trái qua phải khi hover */
+    transition: 0.7s;
+}
+/* --- PHẦN DÀNH RIÊNG CHO ĐIỆN THOẠI (Mobile Responsive) --- */
+@media (max-width: 768px) {
+    
+    /* 1. Co lại khung chính cho vừa màn hình dọc */
+    .container {
+        width: 95%; /* Chiếm 95% màn hình thay vì cố định */
+        padding: 15px; /* Giảm lề cho đỡ tốn diện tích */
+        margin-top: 20px;
+    }
+
+    /* 2. Xếp 4 đáp án thành 1 cột dọc (Dễ bấm bằng ngón cái) */
+    .options-grid {
+        grid-template-columns: 1fr; /* Chuyển từ 2 cột thành 1 cột */
+        gap: 10px; /* Khoảng cách giữa các nút hẹp lại chút */
+    }
+
+    /* 3. Giảm cỡ chữ câu hỏi cho đỡ bị tràn */
+    #question-text {
+        font-size: 1.2rem; /* Nhỏ hơn chút */
+        padding: 0;
+    }
+    
+    .question-container {
+        padding: 15px;
+        min-height: auto; /* Không bắt buộc chiều cao tối thiểu */
+    }
+
+    /* 4. Chỉnh nút đáp án nhỏ gọn hơn */
+    .btn {
+        padding: 15px; /* Giảm độ dày nút */
+        min-height: 60px; /* Chiều cao tối thiểu thấp hơn */
+        font-size: 1rem; /* Cỡ chữ vừa phải */
+    }
+
+    /* 5. Chỉnh lại phần Header (Điểm số) cho gọn */
+    .header {
+        margin-bottom: 15px;
+    }
+    
+    .stats-text {
+        font-size: 0.9rem;
+    }
+
+    /* 6. Nút Bắt đầu nhỏ lại */
+    .btn-start {
+        font-size: 1.2rem;
+        padding: 15px 30px;
+        width: 100%; /* Full chiều ngang điện thoại */
+    }
+    
+    /* 7. Ẩn ảnh cái cúp nếu màn hình quá bé */
+    #result-box img {
+        width: 60px;
+    }
+    
+    #final-score {
+        font-size: 2.5rem !important;
+    }
+}
