@@ -384,3 +384,169 @@ body {
         font-size: 2.5rem !important;
     }
 }
+/* --- GIAO DIỆN CHẾ ĐỘ GỠ ĐIỂM (REDEMPTION) --- */
+
+/* Khi class này được thêm vào container, đổi màu nền */
+.redemption-theme {
+    background: linear-gradient(135deg, #6c5ce7, #a29bfe) !important;
+    border: 2px solid #fff;
+    box-shadow: 0 0 30px #a29bfe;
+    animation: pulse 1s infinite alternate;
+}
+
+/* Dòng chữ thông báo CƠ HỘI GỠ ĐIỂM */
+#redemption-alert {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #fdcb6e;
+    text-shadow: 2px 2px 0px #d63031;
+    margin-bottom: 15px;
+    background: rgba(0,0,0,0.3);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+@keyframes pulse {
+    from { transform: scale(1); }
+    to { transform: scale(1.01); }
+}
+/* --- THÊM VÀO CUỐI FILE CSS CŨ --- */
+
+/* 1. Nút Cài đặt & Modal */
+#settings-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: rgba(0,0,0,0.6);
+    border: none;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1000;
+    transition: transform 0.3s;
+}
+#settings-btn:hover { transform: rotate(90deg); }
+
+#settings-modal {
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    background: #2d3436;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid #fff;
+    z-index: 2000;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+.setting-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+
+.btn-close {
+    background: #d63031;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* 2. Hiển thị Streak (Lửa) */
+#streak-box {
+    position: fixed;
+    top: 20px; right: 20px;
+    background: linear-gradient(45deg, #ff9f43, #ee5253);
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    box-shadow: 0 5px 15px rgba(238, 82, 83, 0.4);
+    animation: bounce 1s infinite alternate;
+}
+@keyframes bounce { from {transform: translateY(0);} to {transform: translateY(-5px);} }
+
+/* 3. Nút Điều hướng (Back / Next) */
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn-nav {
+    flex: 1;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+#next-btn { background-color: #0984e3; box-shadow: 0 4px 0 #074f8a; }
+#prev-btn { background-color: #636e72; box-shadow: 0 4px 0 #2d3436; }
+
+#prev-btn:hover { opacity: 0.9; }
+#prev-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+/* Responsive Settings */
+@media (max-width: 600px) {
+    #settings-btn { top: 10px; left: 10px; }
+    #streak-box { top: 10px; right: 10px; font-size: 1rem; padding: 8px 15px; }
+}
+/* --- THÊM VÀO CUỐI FILE STYLE.CSS --- */
+
+/* Hộp hiển thị Streak */
+#streak-box {
+    position: fixed;
+    top: 20px; 
+    right: 20px;
+    
+    /* Màu lửa cháy */
+    background: linear-gradient(45deg, #ff9f43, #ee5253, #ff6b6b);
+    background-size: 200% 200%;
+    
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-weight: 900;
+    font-size: 1.3rem;
+    color: white;
+    box-shadow: 0 5px 20px rgba(238, 82, 83, 0.6);
+    border: 2px solid #fff;
+    z-index: 1000;
+    
+    /* Animation nảy */
+    animation: bounce 0.6s infinite alternate, flameFlow 3s infinite ease-in-out;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* Hiệu ứng nảy lên xuống */
+@keyframes bounce { 
+    from { transform: translateY(0) scale(1); } 
+    to { transform: translateY(-5px) scale(1.05); } 
+}
+
+/* Hiệu ứng màu lửa chuyển động */
+@keyframes flameFlow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Responsive trên điện thoại */
+@media (max-width: 600px) {
+    #streak-box {
+        top: 15px; 
+        right: 15px; 
+        font-size: 1rem; 
+        padding: 8px 15px;
+    }
+}
