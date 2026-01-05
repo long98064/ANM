@@ -2514,7 +2514,18 @@
       "d. 4 vòng thay thế trên các khối 64 bit với khóa 56 bit"
     ],
     "answer": 0,
-    "explanation": "Câu 235 DES sử dụng khóa 56 bit "
+    "explanation": ""
+  },
+  {
+    "question": "Câu 235: DES sử dụng khóa 56 bit",
+    "options": [
+      "a. Không thể bị bẻ khóa trong thời gian ngắn với các máy tính hiện nay",
+      "b. Có thể bị bẻ khóa với các máy tính hiệu năng cao hiện nay",
+      "c. Không thể bị bẻ khóa",
+      "d. Chỉ có thể bị bẻ khóa nếu biết thuật toán, ngay cả với máy tính tốc độ chậm"
+    ],
+    "answer": 1,
+    "explanation": ""
   },
   {
     "question": "Câu 236: DES và thuật toán khóa công khai được kết hợp",
@@ -2525,7 +2536,18 @@
       "d. Vì sự kết hợp luôn tốt hơn từng hệ thống riêng lẻ"
     ],
     "answer": 2,
-    "explanation": "Câu 237” DES… "
+    "explanation": ""
+  },
+  {
+    "question": "Câu 237: ” DES…",
+    "options": [
+      "a. Đảm bảo an ninh tuyệt đối",
+      "b. Không thể triển khai dưới dạng chip phần cứng VLSI",
+      "c. Là một phương pháp mã hóa khóa đối xứng",
+      "d. Là một phương pháp mã hóa công khai"
+    ],
+    "answer": 2,
+    "explanation": ""
   },
   {
     "question": "Câu 238: DHA là gì?",
