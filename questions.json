@@ -2511,13 +2511,9 @@
       "a. Hoán vị và thay thế trên các khối 64 bit của bản rõ",
       "b. Phép XOR các bit khóa với các khối 64 bit",
       "c. Chỉ hoán vị trên các khối 128 bit",
-      "d. 4 vòng thay thế trên các khối 64 bit với khóa 56 bit",
-      "a. Không thể bị bẻ khóa trong thời gian ngắn với các máy tính hiện nay",
-      "b. Có thể bị bẻ khóa với các máy tính hiệu năng cao hiện nay",
-      "c. Không thể bị bẻ khóa",
-      "d. Chỉ có thể bị bẻ khóa nếu biết thuật toán, ngay cả với máy tính tốc độ chậm"
+      "d. 4 vòng thay thế trên các khối 64 bit với khóa 56 bit"
     ],
-    "answer": 5,
+    "answer": 0,
     "explanation": "Câu 235 DES sử dụng khóa 56 bit "
   },
   {
@@ -2526,13 +2522,9 @@
       "a. Làm giảm tốc độ truyền thông điệp đã mã hóa",
       "b. Vì nó được yêu cầu trong thương mại điện tử",
       "c. Để đảm bảo an ninh cao hơn bằng cách sử dụng khóa khác nhau cho mỗi lần truyền",
-      "d. Vì sự kết hợp luôn tốt hơn từng hệ thống riêng lẻ",
-      "a. Đảm bảo an ninh tuyệt đối",
-      "b. Không thể triển khai dưới dạng chip phần cứng VLSI",
-      "c. Là một phương pháp mã hóa khóa đối xứng",
-      "d. Là một phương pháp mã hóa công khai"
+      "d. Vì sự kết hợp luôn tốt hơn từng hệ thống riêng lẻ"
     ],
-    "answer": 6,
+    "answer": 2,
     "explanation": "Câu 237” DES… "
   },
   {
