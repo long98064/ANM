@@ -1,0 +1,387 @@
+[
+  {
+    "question": "Với SHA-3-256, số lượng giá trị hex tối đa khác nhau có thể tạo ra là:",
+    "options": [
+      "$16^{64}$",
+      "$16^{32}$",
+      "$2^{32}$",
+      "$2^{64}$"
+    ],
+    "answer": 0,
+    "explanation": "SHA-3-256 có độ dài 256 bit. Mỗi ký tự Hex là 4 bit, vậy cần 64 ký tự Hex ($256/4$). Tổng số giá trị = $16^{64}$ (tương đương $2^{256}$)."
+  },
+  {
+    "question": "MD5 có độ dài 128 bit. Không gian vét cạn brute-force tương đương bao nhiêu giá trị?",
+    "options": [
+      "$2^{64}$",
+      "$2^{32}$",
+      "$10^{38}$",
+      "$2^{128}$"
+    ],
+    "answer": 3,
+    "explanation": "Độ dài 128 bit tạo ra không gian mẫu là $2^{128}$."
+  },
+  {
+    "question": "Nếu một máy thử được $10^{10}$ khóa/giây, thời gian vét cạn brute-force DES (56 bit) trung bình là:",
+    "options": [
+      "Vài tuần",
+      "$56^{10}$ giây",
+      "Không thực tế (hàng năm)",
+      "Vài giờ"
+    ],
+    "answer": 0,
+    "explanation": "Không gian DES là $2^{56}$. Trung bình cần thử 50% ($2^{55}$). Thời gian = $2^{55} / 10^{10} \\approx 3.6$ triệu giây $\\approx 41$ ngày (hơn 1 tháng -> Vài tuần)."
+  },
+  {
+    "question": "Một IDS xử lý 300,000 sự kiện/giây. Khi bật thêm 20% rule nâng cao, tốc độ giảm còn 240,000 sự kiện/giây. Nếu lưu lượng vào là 350,000 sự kiện/giây, số sự kiện bị drop mỗi giây là:",
+    "options": [
+      "80,000",
+      "110,000",
+      "50,000",
+      "140,000"
+    ],
+    "answer": 1,
+    "explanation": "Khả năng xử lý = 240,000. Lưu lượng vào = 350,000. Bị drop = $350,000 - 240,000 = 110,000$."
+  },
+  {
+    "question": "Một attacker brute-force SHA-1 với tốc độ $10^{10}$ hash/s. Thời gian quét toàn bộ 160 bit là:",
+    "options": [
+      "Quá nhiều năm, gần như không thể thực tế",
+      "100 năm",
+      "1000 năm",
+      "10000 năm"
+    ],
+    "answer": 0,
+    "explanation": "SHA-1 là $2^{160}$. Con số này cực kỳ lớn, ngay cả với $10^{10}$ hash/s cũng mất hàng tỷ tỷ năm."
+  },
+  {
+    "question": "Trong Diffie–Hellman, nếu p là số nguyên tố 2048 bit, không gian exponentiation diễn ra trong trường modulo có kích thước:",
+    "options": [
+      "$2^{2048}$",
+      "$2^{1024}$",
+      "$10^{2048}$",
+      "$2^{128}$"
+    ],
+    "answer": 0,
+    "explanation": "Các phép tính lũy thừa được thực hiện modulo p (2048 bit), nên không gian giá trị nằm trong khoảng $[0, p-1]$, tức xấp xỉ $2^{2048}$."
+  },
+  {
+    "question": "Một IDS yêu cầu 10 microsecond (µs) để xử lý 1 gói. Tốc độ tối đa hệ thống có thể xử lý là bao nhiêu? Biết $1 µs = 0.000001 s$.",
+    "options": [
+      "10,000 gói/s",
+      "200,000 gói/s",
+      "50,000 gói/s",
+      "100,000 gói/s"
+    ],
+    "answer": 3,
+    "explanation": "1 gói tốn $10^{-5}$ giây. Tốc độ = $1 / 10^{-5} = 100,000$ gói/s."
+  },
+  {
+    "question": "Cho 2 mã hex: 5d41402abc4b2a76b9719d911017c592 và 7b52009b64fd0a2a49e6d8a93975307792b0554. Hai mã hex trên có thể lần lượt là kết quả của thuật toán băm nào?",
+    "options": [
+      "MD5 và SHA-1",
+      "SHA-1 và SHA-256",
+      "SHA-256 và MD5",
+      "MD5 và SHA-256"
+    ],
+    "answer": 0,
+    "explanation": "Mã đầu dài 32 ký tự hex = 128 bit -> MD5. Mã sau dài 40 ký tự hex = 160 bit -> SHA-1."
+  },
+  {
+    "question": "Một cơ sở dữ liệu chứa 1 triệu ($10^6$) mật khẩu băm SHA-256 (256 bit). Tổng dung lượng lưu trữ CHỈ các mã băm là bao nhiêu?",
+    "options": [
+      "32 MB",
+      "256 MB",
+      "64 MB",
+      "128 MB"
+    ],
+    "answer": 0,
+    "explanation": "1 hash = 256 bit = 32 Byte. Tổng = $10^6 \\times 32$ Byte = 32 MB."
+  },
+  {
+    "question": "Ổ cứng 1 TB ($10^{12}$ Byte). Mỗi chuỗi băm MD5 dài 128 bit (16 Byte). Ổ cứng chứa được tối đa bao nhiêu mã băm?",
+    "options": [
+      "62.5 tỷ mã",
+      "100 tỷ mã",
+      "8 tỷ mã",
+      "16 tỷ mã"
+    ],
+    "answer": 0,
+    "explanation": "Số lượng = $10^{12} / 16 = 62,500,000,000$ (62.5 tỷ)."
+  },
+  {
+    "question": "Trong thuật toán RSA, giả sử chọn $p=3$ và $q=11$. Giá trị của n (modulus) và hàm Euler $\\phi(n)$ lần lượt là bao nhiêu?",
+    "options": [
+      "$n=33, \\phi(n)=20$",
+      "$n=33, \\phi(n)=30$",
+      "$n=14, \\phi(n)=20$",
+      "$n=33, \\phi(n)=10$"
+    ],
+    "answer": 0,
+    "explanation": "$n = p \\times q = 3 \\times 11 = 33$. Hàm Euler $\\phi(n) = (p-1)(q-1) = (3-1)(11-1) = 2 \\times 10 = 20$."
+  },
+  {
+    "question": "Vẫn với thuật toán RSA ($p=3, q=11, \\phi(n)=20$). Nếu chọn khóa công khai $e=3$. Giá trị khóa bí mật $d$ phải là bao nhiêu để $d \\times e \\equiv 1 \\pmod{\\phi(n)}$?",
+    "options": [
+      "$d=7$",
+      "$d=3$",
+      "$d=11$",
+      "$d=9$"
+    ],
+    "answer": 0,
+    "explanation": "Cần tìm $d$ sao cho $(d \\times 3)$ chia 20 dư 1. Thử $d=7$: $7 \\times 3 = 21$. 21 chia 20 dư 1 ($21 \\equiv 1 \\pmod{20}$). Vậy $d=7$."
+  },
+  {
+    "question": "Trong trao đổi khóa Diffie-Hellman, giả sử $p=23$ và $g=5$. Alice chọn $a=6$, Bob chọn $b=15$. Khóa chung (Shared Secret) là bao nhiêu?",
+    "options": [
+      "2",
+      "8",
+      "19",
+      "4"
+    ],
+    "answer": 0,
+    "explanation": "Alice tính $A = 5^6 \\pmod{23} = 8$. Bob tính $K = 8^{15} \\pmod{23} = 2$."
+  },
+  {
+    "question": "Một chính sách mật khẩu yêu cầu: Độ dài đúng 5 ký tự, chỉ sử dụng chữ cái thường (a-z, 26 ký tự). Không gian mẫu là bao nhiêu?",
+    "options": [
+      "$26 \\times 5$",
+      "$26^5$",
+      "$5^{26}$",
+      "$26! / 5!$"
+    ],
+    "answer": 1,
+    "explanation": "Mỗi vị trí có 26 lựa chọn. Có 5 vị trí. Tổng số = $26^5$."
+  },
+  {
+    "question": "Nếu hacker thử được 1 triệu mật khẩu/giây. Thời gian tối đa để tìm ra mật khẩu (không gian mẫu $26^5 \\approx 11.8$ triệu) là bao nhiêu?",
+    "options": [
+      "Khoảng 12 giây",
+      "Khoảng 12 phút",
+      "Khoảng 1.2 giây",
+      "Khoảng 1 ngày"
+    ],
+    "answer": 0,
+    "explanation": "Thời gian = $11,881,376 / 1,000,000 \\approx 11.88$ giây."
+  },
+  {
+    "question": "Một Botnet có 1.000 máy tính. Mỗi máy có upload 2 Mbps. Tổng lưu lượng tấn công là bao nhiêu Gbps?",
+    "options": [
+      "2 Gbps",
+      "20 Gbps",
+      "200 Gbps",
+      "0.2 Gbps"
+    ],
+    "answer": 0,
+    "explanation": "Tổng lưu lượng = $1,000 \\times 2$ Mbps = 2,000 Mbps = 2 Gbps."
+  },
+  {
+    "question": "Kẻ tấn công muốn tải file log nặng 1 GB. Tốc độ download là 8 MB/s. Hắn cần bao lâu để tải xong?",
+    "options": [
+      "128 giây",
+      "100 giây",
+      "1024 giây",
+      "800 giây"
+    ],
+    "answer": 0,
+    "explanation": "1 GB = 1024 MB. Thời gian = $1024 / 8 = 128$ giây."
+  },
+  {
+    "question": "Một file log nặng 100 Byte/dòng. Có 10 truy cập/giây. Sau 1 ngày (24 giờ), dung lượng file log tăng thêm bao nhiêu?",
+    "options": [
+      "Khoảng 86.4 MB",
+      "Khoảng 8.64 MB",
+      "Khoảng 864 KB",
+      "Khoảng 1 GB"
+    ],
+    "answer": 0,
+    "explanation": "Số giây trong 1 ngày = $24 \\times 60 \\times 60 = 86,400$. Tổng dung lượng = $86,400 \\times 10 \\times 100$ Byte $\\approx 86.4$ MB."
+  },
+  {
+    "question": "Một quản trị viên cấu hình TTL là 64. Mỗi khi qua 1 Router, TTL giảm 1. Nếu đi qua 15 Router thì TTL còn lại bao nhiêu?",
+    "options": [
+      "49",
+      "50",
+      "63",
+      "0"
+    ],
+    "answer": 0,
+    "explanation": "TTL mới = $64 - 15 = 49$."
+  },
+  {
+    "question": "Một hệ thống IDS có thể xử lý 100,000 gói/s. Sau khi cập nhật rule, giảm còn 80,000 gói/s. Nếu tấn công 120,000 gói/s, bao nhiêu % gói tin bị bỏ qua?",
+    "options": [
+      "20%",
+      "40%",
+      "33.3%",
+      "50%"
+    ],
+    "answer": 2,
+    "explanation": "Số gói bị drop = $120,000 - 80,000 = 40,000$. Phần trăm = $(40,000 / 120,000) \\times 100\\% = 33.3\\%$."
+  },
+  {
+    "question": "Một mật khẩu gồm 6 ký tự số (0-9). Một mật khẩu khác gồm 4 ký tự chữ+số. Mật khẩu nào khó đoán hơn?",
+    "options": [
+      "Mật khẩu 6 ký tự số ($10^6$)",
+      "Mật khẩu 4 ký tự chữ+số ($36^4$)",
+      "Hai mật khẩu mạnh như nhau",
+      "Không so sánh được"
+    ],
+    "answer": 1,
+    "explanation": "Mật khẩu 1: $10^6 = 1,000,000$ trường hợp. Mật khẩu 2: $36^4 = 1,679,616$ trường hợp. Vì $1,679,616 > 1,000,000$ nên mật khẩu 4 ký tự mạnh hơn."
+  },
+  {
+    "question": "\"Entropy\" của một mật khẩu được tính bằng công thức $E = \\log_2(N^L)$ (bit). Entropy của một mã PIN 4 số ($N=10, L=4$) là bao nhiêu?",
+    "options": [
+      "Khoảng 13.3 bit",
+      "Khoảng 10 bit",
+      "Khoảng 4 bit",
+      "Khoảng 40 bit"
+    ],
+    "answer": 0,
+    "explanation": "Tổng trường hợp $S = 10^4 = 10,000$. Entropy $E = \\log_2(10,000) \\approx 13.28$ bit."
+  },
+  {
+    "question": "Trong thuật toán RSA, giả sử chọn $p=5$ và $q=11$. Giá trị Modulus $n$ và hàm Euler $\\phi(n)$ lần lượt là:",
+    "options": [
+      "$n=55, \\phi(n)=55$",
+      "$n=55, \\phi(n)=40$",
+      "$n=16, \\phi(n)=40$",
+      "$n=55, \\phi(n)=50$"
+    ],
+    "answer": 1,
+    "explanation": "$n = 5 \\times 11 = 55$. $\\phi(n) = (5-1)(11-1) = 4 \\times 10 = 40$."
+  },
+  {
+    "question": "Một hệ thống mã hóa đối xứng (như AES) xử lý dữ liệu với tốc độ 100 MB/s. Cần bao lâu để mã hóa một ổ cứng dữ liệu 500 GB?",
+    "options": [
+      "500 giây",
+      "5,000 giây (khoảng 83 phút)",
+      "50,000 giây",
+      "8 phút"
+    ],
+    "answer": 1,
+    "explanation": "$500$ GB = $500,000$ MB. Thời gian = $500,000 / 100 = 5,000$ giây."
+  },
+  {
+    "question": "Với thuật toán Diffie-Hellman, giả sử $p=23$ và $g=5$. Alice chọn số bí mật $a=6$. Giá trị công khai $A$ mà Alice gửi cho Bob là bao nhiêu? ($A = g^a \\mod p$)",
+    "options": [
+      "8",
+      "4",
+      "15",
+      "2"
+    ],
+    "answer": 0,
+    "explanation": "Tính $5^6 \\mod 23$. $5^2 = 25 \\equiv 2$. $5^4 \\equiv 4$. $5^6 = 5^4 \\times 5^2 \\equiv 4 \\times 2 = 8$. Vậy $A=8$."
+  },
+  {
+    "question": "Với SHA-3-256, số lượng giá trị hex tối đa khác nhau có thể tạo ra là:",
+    "options": [
+      "$16^{64}$",
+      "$16^{32}$",
+      "$2^{32}$",
+      "$2^{64}$"
+    ],
+    "answer": 0,
+    "explanation": "SHA-3-256 dài 256 bit. Mỗi ký tự Hex là 4 bit $\\rightarrow$ cần $256/4 = 64$ ký tự Hex. Tổng số giá trị = $16^{64}$ (tương đương $2^{256}$)."
+  },
+  {
+    "question": "\"Entropy\" của một mật khẩu được tính bằng công thức $E = \\log_2(N^L)$ (bit). Entropy của một mã PIN 4 số ($N=10, L=4$) là bao nhiêu?",
+    "options": [
+      "Khoảng $13.3$ bit",
+      "Khoảng $10$ bit",
+      "Khoảng $4$ bit",
+      "Khoảng $40$ bit"
+    ],
+    "answer": 0,
+    "explanation": "Tổng trường hợp $S = 10^4 = 10,000$. Entropy $E = \\log_2(10,000) \\approx 13.28$ bit."
+  },
+  {
+    "question": "Một mật khẩu gồm 6 ký tự số (0-9). Một mật khẩu khác gồm 4 ký tự chữ+số. Mật khẩu nào khó đoán hơn?",
+    "options": [
+      "Mật khẩu 6 ký tự số ($10^6$)",
+      "Mật khẩu 4 ký tự chữ+số ($36^4$)",
+      "Hai mật khẩu mạnh như nhau",
+      "Không so sánh được"
+    ],
+    "answer": 1,
+    "explanation": "Mật khẩu 1: $10^6 = 1,000,000$ trường hợp.<br>Mật khẩu 2: Bộ ký tự có $26+10=36$. Không gian mẫu $36^4 = 1,679,616$.<br>Vì $1,679,616 > 1,000,000$ $\\rightarrow$ Mật khẩu 4 ký tự mạnh hơn."
+  },
+  {
+    "question": "Trong thuật toán RSA, giả sử chọn $p = 5$ và $q = 11$. Giá trị Modulus $n$ và hàm Euler $\\phi(n)$ lần lượt là:",
+    "options": [
+      "$n=55, \\phi(n)=55$",
+      "$n=55, \\phi(n)=40$",
+      "$n=16, \\phi(n)=40$",
+      "$n=55, \\phi(n)=50$"
+    ],
+    "answer": 1,
+    "explanation": "$n = p \\times q = 5 \\times 11 = 55$.<br>Hàm Euler $\\phi(n) = (p-1)(q-1) = 4 \\times 10 = 40$."
+  },
+  {
+    "question": "Một quản trị viên cấu hình TTL là 64. Mỗi khi qua 1 Router, TTL giảm 1. Nếu đi qua 15 Router thì TTL còn lại bao nhiêu?",
+    "options": [
+      "49",
+      "50",
+      "63",
+      "0"
+    ],
+    "answer": 0,
+    "explanation": "$TTL_{mới} = 64 - 15 = 49$."
+  },
+  {
+    "question": "Cho chuỗi mã băm (hash): ba7816bf... (64 ký tự). Đây có khả năng là thuật toán nào?",
+    "options": [
+      "MD5",
+      "SHA-1",
+      "SHA-256",
+      "CRC32"
+    ],
+    "answer": 2,
+    "explanation": "64 ký tự hex $\\times$ 4 bit = 256 bit. Đây là đặc trưng của SHA-256."
+  },
+  {
+    "question": "MD5 có độ dài 128 bit. Không gian vét cạn brute-force tương đương bao nhiêu giá trị?",
+    "options": [
+      "$2^{64}$",
+      "$2^{32}$",
+      "$10^{38}$",
+      "$2^{128}$"
+    ],
+    "answer": 3,
+    "explanation": "Độ dài 128 bit tạo ra không gian mẫu là $2^{128}$."
+  },
+  {
+    "question": "Nếu một máy thử được $10^{10}$ khóa/giây, thời gian vét cạn brute-force DES (56 bit) trung bình là:",
+    "options": [
+      "Vài tuần",
+      "$56^{10}$ giây",
+      "Không thực tế",
+      "Vài giờ"
+    ],
+    "answer": 0,
+    "explanation": "Không gian DES là $2^{56}$. Trung bình thử 50% ($2^{55}$). Thời gian = $2^{55} / 10^{10} \\approx 41$ ngày."
+  },
+  {
+    "question": "Cho 2 mã hex: (1) e10adc... (32 ký tự) và (2) 2fd4e1... (40 ký tự). Hai mã hex trên lần lượt tương ứng với thuật toán nào?",
+    "options": [
+      "SHA-1 và MD5",
+      "MD5 và SHA-1",
+      "SHA-256 và MD5",
+      "MD5 và SHA-256"
+    ],
+    "answer": 1,
+    "explanation": "Mã 1 có 32 ký tự $\\rightarrow$ MD5.<br>Mã 2 có 40 ký tự $\\rightarrow$ SHA-1."
+  },
+  {
+    "question": "Bạn nhận được chữ ký số dài 128 ký tự Hex. Thuật toán băm nào đã được sử dụng?",
+    "options": [
+      "SHA-256",
+      "MD5",
+      "SHA-512",
+      "SHA-1"
+    ],
+    "answer": 2,
+    "explanation": "128 ký tự $\\times$ 4 bit = 512 bit $\\rightarrow$ SHA-512."
+  }
+]

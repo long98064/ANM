@@ -1,0 +1,4983 @@
+[
+  {
+    "question": "1. Theo Luật giao dịch điện tử Việt Nam: Giao dịch điện tử là giao dịch được thực hiện bằng ...",
+    "options": [
+      "a. phương tiện điện tử và mạng viễn thông",
+      "b. phương tiện điện tử",
+      "c. máy tính và các phương tiện điện tử",
+      "d. máy tính và internet"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "2. Website ABC có dịch vụ giúp các cá nhân bán hàng cho các cá nhân khác và thu một khoản phí trên các giao dịch được thực hiện. Website ABC là mô hình TMĐT nào?",
+    "options": [
+      "a. B2B",
+      "b. B2C",
+      "c. C2C",
+      "d. P2P"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "3. Chỉ ra loại hình giao dịch Thương mại điện tử chưa phổ biến hiện nay:",
+    "options": [
+      "a. B2B",
+      "b. B2C",
+      "c. B2G",
+      "d. G2C"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "4. Khi tham gia vào các sàn giao dịch điện tử hay các cổng thương mại điện tử, doanh nghiệp không phải thực hiện những nhiệm vụ gì?",
+    "options": [
+      "a. Xây dựng mô hình cấu trúc, chức năng của website",
+      "b. Mua tên miền, thuê máy chủ",
+      "c. Thiết kế website",
+      "d. Quản trị và cập nhật nội dung website thường xuyên"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "5. Điều kiện cơ bản nhất đảm bảo thành công của các mô hình kinh doanh Sàn giao dịch điện tử B2B:",
+    "options": [
+      "a. Nhiều lĩnh vực kinh doanh",
+      "b. Nhiều thành viên tham gia",
+      "c. Tạo ra được nhiều lợi ích cho các doanh nghiệp thành viên",
+      "d. Cung cấp nhiều dịch vụ, tiện ích cho các doanh nghiệp"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "6. Hãy chỉ ra lợi ích nổi bật nhất khi tham gia website cổng thương mại điện tử quốc gia?",
+    "options": [
+      "a. Tận dụng được uy tín, thương hiệu của sàn",
+      "b. Sử dụng các dịch vụ của sàn giao dịch cung cấp",
+      "c. Có được website, tự quản lý và cập nhật website của mình",
+      "d. Giao dịch an toàn, bảo mật, phù hợp với tiêu chuẩn quốc tế"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "8. Trong một mô hình giao dịch, các bước được tiến hành như thế nào là đúng?",
+    "options": [
+      "a. Đặt hàng, thanh toán, liên hệ đối tác, giao hàng",
+      "b. Đặt hàng, thanh toán, giao hàng, xử lý hàng trả lại",
+      "c. Đặt hàng, thanh toán, gửi đơn hàng, giao hàng",
+      "d. Liên hệ đối tác, đặt hàng, thanh toán, giao hàng"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "9. Trong các yếu tố sau, yếu tố nào quan trọng nhất đối với sự phát triển TMĐT:",
+    "options": [
+      "a. Công nghệ thông tin",
+      "b. Nguồn nhân lực",
+      "c. Môi trường pháp lý, kinh tế",
+      "d. Môi trường chính trị, xã hội"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "10. Mô hình 4N gồm các yếu tố cơ bản để phát triển thương mại điện tử. Hãy chỉ ra bốn yếu tố đó (chọn 4 yếu tố).",
+    "options": [
+      "a. Nhân lực: Đội ngũ chuyên gia cần được xây dựng và phát triển",
+      "b. Nguồn vốn: cần vốn đầu tư xây dựng hạ tầng viễn thông",
+      "c. Nội lực: các hoạt động thương mại truyền thống cần phát triển làm cơ sở cho thương mại điện tử",
+      "d. Nhận thức: Đánh giá đúng tầm quan trọng và lợi ích của TMĐT"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "11. Website dell.com thuộc mô hình nào?",
+    "options": [
+      "a. B2C",
+      "b. B2G",
+      "c. B2B",
+      "d. C2C"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "12. Trong mô hình thương mại điện tử dưới góc độ quản lý nhà nước, yếu tố nào giải thích chưa đúng (2 yếu tố)",
+    "options": [
+      "a. I. tri thức (intelligent)",
+      "b. M. marketing",
+      "c. A. các ứng dụng (application)",
+      "d. B. các luật (basic laws)",
+      "a. B2B",
+      "b. B2C",
+      "c. C2C",
+      "d. P2P",
+      "a. Phân tích SWOT và xác định mục tiêu",
+      "b. Lựa chọn nhà cung cấp phần mềm giải pháp",
+      "c. Xây dựng mô hình cấu trúc chức năng của website",
+      "d. Quảng bá website, đăng ký trên các công cụ tìm kiếm",
+      "a. 7C",
+      "b. ICET",
+      "c. 4N",
+      "d. SWOT",
+      "a. Cơ hội tìm được người mua, người bán",
+      "b. Cập nhật được các thông tin thị trường, xúc tiến thương mại",
+      "c. Thực hiện các giao dịch, mua bán trực tuyến an toàn, hiệu quả",
+      "d. Giới thiệu được doanh nghiệp của mình trên một website có uy tín"
+    ],
+    "answer": 19,
+    "explanation": ""
+  },
+  {
+    "question": "17. Website XYZ được xây dựng để cá nhân mua bán trên đó, đây là mô hình gì?",
+    "options": [
+      "a. B2B",
+      "b. B2C",
+      "c. C2C",
+      "d. P2P"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "18. Trong các bước giao dịch mua sắm trên website bước nào doanh nghiệp khó thực hiện nhất?",
+    "options": [
+      "a. Khả năng xử lý thông tin như tìm kiếm, xây dựng đơn hàng, chấp nhận thanh toán",
+      "b. Khả năng giới thiệu chi tiết sản phẩm và các sản phẩm liên quan",
+      "c. Khả năng tùy biến các giao dịch theo hành vi của khách hàng",
+      "d. Khả năng so sánh sản phẩm với những sản phẩm tương tự"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "19. Website mà tại đó các doanh nghiệp có thể tiến hành các hoạt động thương mại từ quảng cáo, giới thiệu hàng hoá, dịch vụ tới trao đổi thông tin, ký kết hợp đồng, thanh toán,... được gọi là:",
+    "options": [
+      "a. Sàn giao dịch điện tử",
+      "b. Chợ điện tử",
+      "c. Trung tâm thương mại điện tử",
+      "d. Sàn giao dịch điện tử B2B"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "20. Để sàn giao dịch hoạt động hiệu quả, cần có những bên nào tham gia? (Chọn 3 lựa chọn)",
+    "options": [
+      "a. Người mua đăng các thông tin cần mua",
+      "b. Người bán đăng các thông tin cần bán",
+      "c. Nhà cung cấp dịch vụ thanh toán",
+      "d. Cơ quan quản lý sàn cung cấp dịch vụ hỗ trợ"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "21. Chức năng cơ bản nhất của các sàn giao dịch điện tử như Alibaba.com, ec21.com, vnemart.com... là gì?",
+    "options": [
+      "a. Kết nối người mua và người bán",
+      "b. Hỗ trợ doanh nghiệp xúc tiến thương mại",
+      "c. Cung cấp cơ chế để doanh nghiệp giao dịch, mua bán",
+      "d. Tất cả các chức năng trên"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "22. Các website xúc tiến và hỗ trợ kinh doanh cần có chức năng nào nhất?",
+    "options": [
+      "a. Thông tin thương mại",
+      "b. Tìm kiếm đối tác, bạn hàng, người mua, người bán",
+      "c. Đăng nhập các chào mua, chào bán",
+      "d. Giới thiệu các doanh nghiệp uy tín"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "23. Chỉ ra hạn chế khó vượt qua nhất đối với việc ứng dụng và phát triển thương mại điện tử của DN Việt nam hiện nay:",
+    "options": [
+      "a. Nhân lực: đội ngũ chuyên gia kém cả về số lượng và chất lượng",
+      "b. Vốn: thiếu vốn đầu tư xây dựng hạ tầng viễn thông",
+      "c. Thương mại: các hoạt động thương mại truyền thống chưa phát triển",
+      "d. Nhận thức: nhiều doanh nghiệp còn e ngại, chưa đánh giá đúng tầm quan trọng của TMĐT"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "24. Theo UN, định nghĩa Thương mại điện tử theo chiều dọc là:",
+    "options": [
+      "a. IMBAS",
+      "b. IMBSA",
+      "c. IBMSA",
+      "d. IBMAS"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "25. Chỉ ra ví dụ thành công điển hình của mô hình thương mại điện tử e-marketplace:",
+    "options": [
+      "a. www.ecvn.gov.vn",
+      "b. www.vnemart.com",
+      "c. www.jetro.go.jp",
+      "d. www.alibaba.com"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "26. Việc các doanh nghiệp chia sẻ thông tin qua mạng với nhau để phối hợp sản xuất hiệu quả được thực hiện trong mô hình nào?",
+    "options": [
+      "a. Giai đoạn thương mại điện tử thông tin",
+      "b. Giai đoạn thương mại điện tử giao dịch",
+      "c. Giai đoạn thương mại điện tử \"cộng tác\"",
+      "d. Giai đoạn thương mại điện tử tích hợp"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "27. Chỉ ra yếu tố KHÔNG phải là lợi ích của Thương mại điện tử:",
+    "options": [
+      "a. Khách hàng có nhiều sự lựa chọn hơn",
+      "b. Các doanh nghiệp có thể giao dịch dễ dàng hơn",
+      "c. Khách hàng và sự riêng tư của họ được bảo vệ tốt hơn",
+      "d. Doanh nghiệp tiếp cận nhiều thị trường mới hơn"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "28. Hãy chỉ ra 3 lợi ích của doanh nghiệp khi tham gia các cổng thương mại điện tử:",
+    "options": [
+      "a. Tận dụng được uy tín, thương hiệu của sàn",
+      "b. Sử dụng các dịch vụ của sàn giao dịch cung cấp",
+      "c. Có được website, tự quản lý và cập nhật website của mình",
+      "d. Giao dịch an toàn, bảo mật, phù hợp với tiêu chuẩn quốc tế"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "29. Việc các doanh nghiệp giới thiệu sản phẩm qua website, giao dịch bằng thư điện tử với đối tác là đặc điểm nổi bật của:",
+    "options": [
+      "a. Giai đoạn thương mại điện tử thông tin",
+      "b. Giai đoạn thương mại điện tử giao dịch",
+      "c. Giai đoạn thương mại điện tử \"cộng tác\"",
+      "d. Giai đoạn thương mại điện tử tích hợp"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "30. Đối với các công ty đã có website giới thiệu sản phẩm, để phát triển hoạt động thương mại điện tử hơn nữa nhiệm vụ nào sau đây quan trọng nhất?",
+    "options": [
+      "a. Tăng cường quảng bá, giới thiệu website",
+      "b. Bổ sung các chức năng bảo mật và thanh toán",
+      "c. Bổ sung các chức năng hỗ trợ giao dịch điện tử",
+      "d. Liên kế website với đối tác, cơ quan quản lý"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "31. Các Sàn giao dịch và Cổng thông tin giúp doanh nghiệp vượt qua giai đoạn nào trong thương mại điện tử?",
+    "options": [
+      "a. Thương mại điện tử thông tin",
+      "b. Thương mại điện tử giao dịch",
+      "c. Thương mại điện tử liên kết",
+      "d. Thương mại điện tử tương tác"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "32. Trong giai đoạn hiện nay, các website TMĐT B2C của Việt Nam hướng tới mô hình nào?",
+    "options": [
+      "a. Website thương mại điện tử thông tin",
+      "b. Website thương mại điện tử giao dịch",
+      "c. Website thương mại điện tử liên kết",
+      "d. Website thương mại điện tử tương tác"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "34. Mô hình ứng dụng thương mại điện tử của Amazon.com, Dell.com, Cisco.com,... được coi là mô hình phát triển cao của thương mại điện tử với khả năng",
+    "options": [
+      "a. Chấp nhận và xử lý các đơn đặt hàng tự động",
+      "b. Xử lý các đơn đặt hàng và thanh toán qua mạng",
+      "c. Thực hiện các giao dịch và chia sẻ thông tin với các đối tác, nhà cung cấp và KH",
+      "d. Giao dịch, chia sẻ thông tin và phối hợp hoạt động với các bên liên quan"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "35. Chỉ ra yếu tố KHÔNG phải là lợi ích của Thương mại điện tử",
+    "options": [
+      "a. Khách hàng có nhiều sự lựa chọn hơn",
+      "b. Các doanh nghiệp có thể giao dịch dễ dàng hơn",
+      "c. Khung pháp lý mới, hoàn chỉnh hơn",
+      "d. Doanh nghiệp tiếp cận nhiều thị trường mới hơn"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "36. Sàn giao dịch thương mại điện tử cần có sự tham gia của ít nhất bao nhiêu chủ thể trong: người mua, người bán, người quản lý sàn, cơ quan chứng thực, nhà cung cấp dịch vụ thanh toán?",
+    "options": [
+      "a. Hai",
+      "b. Ba",
+      "c. Bốn",
+      "d. Năm"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "37. Hiện nay, sau khi có nghị định về chữ ký số và chứng thực điện tử, doanh nghiệp vẫn chưa thể tiến hành hoạt động gì trực tuyến?",
+    "options": [
+      "a. Đàm phán và ký kết hợp đồng điện tử",
+      "b. Giới thiệu hàng hoá, dịch vụ",
+      "c. Tìm kiếm khách hàng và chia sẻ thông tin",
+      "d. Ký kết hợp đồng điện tử"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "38. Việc các doanh nghiệp chia sẻ thông tin để phối hợp hoạt động hiệu quả thuộc mô hình nào?",
+    "options": [
+      "a. Giai đoạn thương mại điện tử thông tin",
+      "b. Giai đoạn thương mại điện tử giao dịch",
+      "c. Giai đoạn thương mại điện tử \"cộng tác\"",
+      "d. Giai đoạn thương mại điện tử tích hợp"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "39. Tại Việt Nam, các doanh nghiệp sản xuất hàng tiêu dùng (ví dụ: Kinh Đô, Hải Hà) nên hướng tới mô hình TMĐT nào?",
+    "options": [
+      "a. Chấp nhận và xử lý các đơn đặt hàng tự động",
+      "b. Xử lý các đơn đặt hàng và thanh toán qua mạng",
+      "c. Chia sẻ thông tin với các đối tác, nhà cung cấp, nhà phân phối",
+      "d. Giao dịch, chia sẻ thông tin và phối hợp hoạt động với các bên liên quan"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "40. Bộ tài chính cung cấp các thông tin hướng dẫn doanh nghiệp tính toán và nộp thuế thu nhập thông qua website chính thức của Bộ và cập nhật thường xuyên hàng quý. Đây là mô hình gì?",
+    "options": [
+      "a. G2B",
+      "b. G2C",
+      "c. G2E",
+      "d. G2G"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "41. Dell Computers cho phép khách hàng thiết kế máy tính phù hợp với các nhu cầu cụ thể của họ. Đây là ví dụ về mô hình TMĐT nào?",
+    "options": [
+      "a. cá biệt hóa sản phẩm và dịch vụ",
+      "b. tìm giá tốt nhất",
+      "c. marketing liên kết",
+      "d. mua hàng theo nhóm"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "42. Ford, General Motor và một số hãng trong ngành công nghiệp ô tô đã liên kết xây dựng một sàn giao dịch điện tử (e-marketplace). Đây là ví dụ về mô hình:",
+    "options": [
+      "a. liên minh chiến lược",
+      "b. tái xây dựng quy trình kinh doanh mới",
+      "c. I-commerce",
+      "d. T-commerce"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "43. Hai sinh viên dùng mạng Internet để trao đổi thông tin, hình ảnh và video clip nhằm thực hiện bài tập lớn ở trường. Đây là ví dụ của:",
+    "options": [
+      "a. P2P",
+      "b. C2C",
+      "c. S2S",
+      "d. B2C"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "44. Hotwire.com cung cấp sản phẩm phù hợp với các nhu cầu đặc biệt của khách hàng với mức giá thấp nhất. Đây là ví dụ của mô hình:",
+    "options": [
+      "a. mua hàng theo nhóm",
+      "b. khách hàng tự đưa ra mức giá mong muốn",
+      "c. đấu thầu trực tuyến",
+      "d. đấu giá trực tuyến"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "45. IMDB cho phép các thành viên đã đăng ký truy cập vào toàn bộ cơ sở dữ liệu phim trực tuyến với điều kiện phải đóng phí hàng tháng, đây là ví dụ của mô hình doanh thu nào:",
+    "options": [
+      "a. phí thuê bao",
+      "b. phí giao dịch",
+      "c. doanh thu bán hàng",
+      "d. phí liên kết"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "46. Khách hàng nhập số vận đơn vào website của FedEx để kiểm tra tình trạng thực của hàng hóa đang trên đường vận chuyển. Đây là ví dụ về:",
+    "options": [
+      "a. tạo dựng năng lực canh tranh chiến lược từ công nghệ thông tin",
+      "b. xây dựng lại quy trình kinh doanh",
+      "c. liên minh chiến lược",
+      "d. cải tiến quy trình kinh doanh"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "47. Khoảng 2h chiều, ông X. dùng PDA để truy cập vào một cửa hàng bán đồ tạp hóa trực tuyến. Ông ta đặt mua một vài món đồ cho bữa tối, khi về nhà tất cả mọi thứ đã được giao đến cửa nhà. Đây là mô hình:",
+    "options": [
+      "a. trao đổi điện tử ngang hàng (peer-to-peer application)",
+      "b. giao dịch điện tử trong nội bộ doanh nghiệp",
+      "c. TMĐT cộng tác (C-commerce)",
+      "d. TMĐT di động (M-commerce)"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "48. Mô hình doanh thu (revenue model) theo đó một công ty nhận tiền phí cho việc giới thiệu khách hàng từ website của mình đến website của công ty khác là ví dụ về:",
+    "options": [
+      "a. phí đăng ký",
+      "b. phí giao dịch",
+      "c. doanh thu bán hàng",
+      "d. phí liên kết"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "49. Một cá nhân truy cập vào trang web thuộc Bộ tài chính để kê khai các thông tin về thuế thu nhập hàng năm. Đây là ví dụ của mô hình gì?",
+    "options": [
+      "a. E-government",
+      "b. G2B",
+      "c. G2E",
+      "d. G2G"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "50. Một mô hình kinh doanh nên bao gồm các yếu tố sau, ngoại trừ:",
+    "options": [
+      "a. hệ thống dữ liệu cần thiết để quản lý các quy trình kinh doanh",
+      "b. mô tả tất cả các sản phẩm dịch vụ mà công ty cung cấp",
+      "c. thông tin về các nhà cung cấp và những đối tác của doanh nghiệp",
+      "d. thông tin về các nguồn thu"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "51. Một người hâm mộ mua một đĩa hát bằng cách download trực tiếp từ cửa hàng âm nhạc trực tuyến. Đây là mô hình:",
+    "options": [
+      "a. B2C",
+      "b. B2B",
+      "c. B2E",
+      "d. C2E"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "52. Một nhà bán lẻ trực tuyến chỉ bán đồ chơi trẻ em. Đây là ví dụ của mô hình TMĐT nào?",
+    "options": [
+      "a. mua sắm hiệu quả",
+      "b. củng cố quan hệ khách hàng",
+      "c. chuyên môn hóa nhà cung cấp",
+      "d. cải tiến dây chuyền cung ứng"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "53. Một nhà cung cấp thiết bị văn phòng tập hợp các đơn hàng từ 15 văn phòng nhỏ thành một đơn hàng lớn và như vậy có thể cung cấp với mức giá thấp hơn do được giảm giá khi mua số lượng lớn từ các nhà sản xuất. Đây là ví dụ của mô hình TMĐT nào?",
+    "options": [
+      "a. cá biệt hóa sản phẩm và dịch vụ",
+      "b. tìm giá tốt nhất",
+      "c. marketing liên kết",
+      "d. mua hàng theo nhóm"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "54. Một nhà máy đường nhận được thư mời thầu tự động để cung cấp hàng cho một siêu thị, sau khi chào hàng với một mức giá thấp nhất đã ký kết được hợp đồng cung cấp hàng cho siêu thị này. Đây là ví dụ về:",
+    "options": [
+      "a. mua hàng theo nhóm",
+      "b. khách hàng tự đưa ra mức giá mong muốn",
+      "c. đấu thầu trực tuyến",
+      "d. đấu giá trực tuyến"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "55. Một nhân viên trong phòng hành chính của một công ty đặt vé máy bay trực tuyến cho chuyến công tác của ban giám đốc tại website của một hãng hàng không. Đây là ví dụ về:",
+    "options": [
+      "a. B2B",
+      "b. B2B2C",
+      "c. B2C",
+      "d. B2E"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "56. Một tổ chức lớn thường mua sắm thông qua hệ thống đấu thầu được xây dựng và hoạt động trên mạng. Đây là ví dụ của mô hình:",
+    "options": [
+      "a. viral marketing",
+      "b. marketing liên kết",
+      "c. marketing trực tiếp",
+      "d. đấu thầu trực tuyến"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "57. Phòng nhân sự đăng tải một số thông tin về tuyển dụng vào bộ phận marketing trên website nội bộ công ty. Đây là ví dụ về:",
+    "options": [
+      "a. B2E",
+      "b. B2C",
+      "c. B2B",
+      "d. E2C"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "58. Priceline.com là ví dụ điển hình của mô hình TMĐT nào:",
+    "options": [
+      "a. mua hàng theo nhóm",
+      "b. khách hàng tự đưa ra mức giá mong muốn",
+      "c. đấu thầu trực tuyến",
+      "d. đấu giá trực tuyến"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "59. Sàn giao dịch chứng khoán NASDAQ là điển hình của mô hình TMĐT nào sau đây:",
+    "options": [
+      "a. marketing liên kết",
+      "b. mua bán theo nhóm",
+      "c. sàn giao dịch điện tử (e-marketplace)",
+      "d. khách hàng tự đưa ra mức giá mong muốn"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "60. Sau đây là các hạn chế KHÔNG mang tính kỹ thuật đối với TMĐT, NGOẠI TRỪ:",
+    "options": [
+      "a. lo lắng về an toàn khiến nhiều khách hàng không mua hàng trực tuyến",
+      "b. tốc độ đường truyền chậm khiến việc mua hàng trở nên khó chịu",
+      "c. lo lắng về tính riêng tư",
+      "d. khách hàng thiếu sự tin cậy đối với những giao dịch “giấu mặt”"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "61. Sau đây là những lợi ích của TMĐT đối với khách hàng, NGOẠI TRỪ:",
+    "options": [
+      "a. TMĐT cho phép khách hàng mua sắm mọi nơi, mọi lúc",
+      "b. TMĐT giảm sự giao tiếp xã hội mặt-đối-mặt",
+      "c. TMĐT cho phép giao hàng nhanh chóng, đặc biệt là hàng hóa số hóa",
+      "d. TMĐT thúc đẩy cạnh tranh, do đó làm giảm giá cả"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "62. Theo Turban (2006), TMĐT là quá trình:",
+    "options": [
+      "a. mua, bán, hoặc trao đổi hàng hóa, dịch vụ thông qua máy tính và mạng viễn thông, đặc biệt là Internet",
+      "b. sử dụng các thiết bị điện tử và mạng viễn thông để marketing sản phẩm, dịch vụ",
+      "c. tự động hóa quá trình bán hàng và thanh toán",
+      "d. sử dụng thiết bị điện tử trong một số bước hoặc toàn bộ quy trình kinh doanh"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "63. Trong các yếu tố sau, yếu tố nào KHÔNG phải là hạn chế về công nghệ đối với TMĐT:",
+    "options": [
+      "a. các hệ thống an ninh và phòng tránh rủi ro vẫn đang trong giai đoạn phát triển",
+      "b. tốc độ đường truyền tại một số khu vực vẫn chưa đáp ứng được nhu cầu của doanh nghiệp và người sử dụng",
+      "c. còn nhiều vấn đề pháp lý chưa được giải quyết",
+      "d. vẫn chưa có sự tương thích giữa các phần cứng và phần mềm"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "64. Trong các yếu tố sau, yếu tố nào KHÔNG phải là lợi ích của TMĐT đối với xã hội:",
+    "options": [
+      "a. thông tin cá nhân được bảo vệ tốt hơn so với thương mại truyền thống",
+      "b. nhiều người có thể làm việc từ xa, giảm đi lại và tiêu thụ năng lượng",
+      "c. TMĐT là động lực giảm giá",
+      "d. TMĐT giúp mọi người ở mọi nơi có thể tiếp cận thông tin về sản phẩm dễ dàng hơn"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "65. Trong những yếu tố sau, yếu tố nào KHÔNG phải là lợi ích của TMĐT đối với một công ty:",
+    "options": [
+      "a. giảm lượng hàng lưu kho",
+      "b. giảm chi phí xử lý, cung cấp và truy cập thông tin",
+      "c. tăng số lượng khách hàng với chi phí thấp nhất",
+      "d. tiếp cận thị trường toàn cầu dễ dàng hơn"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "66. Trong TMĐT thuần túy (pure E-commerce) nhận xét nào sau đây là đúng:",
+    "options": [
+      "a. tất cả các chiều trong mô hình đều gắn với thương mại truyền thống",
+      "b. ít nhất 2 chiều gắn với thương mại truyền thống",
+      "c. tất cả các chiều đều gắn với thương mại điện tử",
+      "d. ít nhất hai chiều gắn với thương mại điện tử"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "67. Trường hợp nào sau đây được gọi là TMĐT thuần túy?",
+    "options": [
+      "a. Một khách hàng mua ebook từ Amazon.com, thanh toán bằng thẻ tín dụng tại website của Amazon, download xuống máy tính cá nhân",
+      "b. Một khách hàng vào website Amazon.com lựa chọn một số cuốn tiểu thuyết, thanh toán bằng thẻ tín dụng và lựa chọn phương thức giao hàng qua FedEx",
+      "c. Một khách hàng lựa chọn mua một số ebook từ Amazon, thanh toán bằng tài khoản Paypal và chọn chế độ giao hàng tới địa chỉ.",
+      "d. Không có đáp án đúng"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "68. Trường hợp nào dưới đây là điển hình của TMĐT thuần túy:",
+    "options": [
+      "a. lựa chọn một quyển sách từ online catalog, đặt hàng trực tuyến, giao hàng qua mail",
+      "b. download phần mềm về máy tính cá nhân, thanh toán bằng thẻ tín dụng qua điện thoại thông qua số điện thoại miễn phí (toll-free number)",
+      "c. mua sách mạng, thanh toán bằng thẻ tín dụng tại website, sách được giao đến nhà vào ngày hôm sau bằng FedEx",
+      "d. lựa chọn một bài hát từ website của người bán, thanh toán bằng thẻ tín dụng, download xuống máy tính cá nhân và copy ra đĩa CD"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "69. Wal-Mart xây dựng một website để bán các sản phẩm của mình, tuy nhiên đa số các hoạt động của công ty vẫn được thực hiện tại các cửa hàng bán lẻ. Đây là mô hình:",
+    "options": [
+      "a. TMĐT thuần túy (pure E-commerce)",
+      "b. TMĐT truyền thống (brick-and-morar operation)",
+      "c. TMĐT trên nền thương mại truyền thống (click-and-mortar operation)",
+      "d. một mạng lưới giá trị gia tăng"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "70. Yếu tố nào sau đây KHÔNG phải là trụ cột chính hỗ trợ TMĐT:",
+    "options": [
+      "a. con người: người mua, người bán, trung gian, người quản lý, người xây dựng hệ thống thông tin",
+      "b. phần mềm tự động hóa giao dịch điện tử",
+      "c. các chính sách liên quan đến TMĐT",
+      "d. các dịch vụ hỗ trợ TMĐT: thanh toán, xây dựng phần mềm, logistic, an toàn bảo mật"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "71. B2Bi thuộc giai đoạn phát triển nào của thương mại điện tử?",
+    "options": [
+      "a. Thương mại thông tin (i-commerce)",
+      "b. Thương mại cộng tác (c-commerce)",
+      "c. Thương mại giao dịch (t-commerce)",
+      "d. Thương mại di động (m-commerce)"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "72. Banner quảng cáo GIẢM GIÁ 20% được hiện ra trên màn hình trong quá trình khách hàng đang lựa chọn sản phẩm nhằm tác động đến giai đoạn nào trong mô hình AIDA?",
+    "options": [
+      "a. Tạo sự nhận biết về sản phẩm được giảm giá",
+      "b. Tạo sự quan tâm, thích thú cho khách hàng",
+      "c. Thuyết phục khách hàng mua hàng",
+      "d. Cung cấp thêm thông tin cho khách hàng"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "73. Bưu thiếp truyền thống và bưu thiếp điện tử khác nhau ở điểm nào?",
+    "options": [
+      "a. Sản phẩm cốt lõi và sản phẩm hiện thực",
+      "b. Sản phẩm hiện thực và sản phẩm bổ sung",
+      "c. Sản phẩm bổ sung và sản phẩm cốt lõi",
+      "d. Sản phẩm tiềm năng và sản phẩm cốt lõi"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "74. Các doanh nghiệp xuất nhập khẩu thường sử dụng hoạt động thương mại điện tử nào đầu tiên?",
+    "options": [
+      "a. Email giao dịch với khách hàng",
+      "b. Xây dựng website để giới thiệu sản phẩm",
+      "c. Tham gia các sàn giao dịch điện tử",
+      "d. Sử dụng các phần mềm quản trị nhân sự, kế toán, khách hàng"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "75. Các vấn đề liên quan đến giới thiệu sản phẩm, giỏ mua hàng, thanh toán, quản lý các đơn đặt hàng, dịch vụ hỗ trợ khách hàng được đề cập đến trong giai đoạn nào khi triển khai thương mại điện tử? (Chọn 2 giai đoạn)",
+    "options": [
+      "a. Thiết kế website",
+      "b. Xây dựng mô hình cấu trúc, chức năng cho website",
+      "c. Phân tích SWOT, lập kế hoạch, xác định mục tiêu, vốn đầu tư",
+      "d. Nghiệm thu, đánh giá website"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "76. Các website cung cấp dịch vụ đăng ký tên miền chưa cung cấp dịch vụ nào sau đây:",
+    "options": [
+      "a. Hỗ trợ tìm các tên miền tương tự tên miền doanh nghiệp quan tâm",
+      "b. Hỗ trợ tìm các tên miền",
+      "c. Hỗ trợ đăng ký tên miền",
+      "d. Hỗ trợ tạo ra các tên miền tốt"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "77. Chỉ ra đặc điểm KHÔNG phù hợp với một tên miền tốt:",
+    "options": [
+      "a. Ngắn gọn và dễ nhớ",
+      "b. Dễ đánh vần",
+      "c. Dài và có ý nghĩa",
+      "d. Tránh sử dụng số và ký tự đặc biệt"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "78. Chỉ ra những điều kiện cơ bản đảm bảo thành công của mô hình thương mại điện tử B2C. (chọn 3 điều kiện)",
+    "options": [
+      "a. Thương hiệu mạnh: Dell, Ebay, Sony, Cisco",
+      "b. Doanh nghiệp lớn",
+      "c. Lợi thế về giá thấp hơn các đối thủ cạnh tranh: priceline, etrade",
+      "d. Sản phẩm tiêu chuẩn hóa: sách, game, vé máy bay"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "79. Chỉ ra thành phần của AIDA trong Marketing điện tử được giải thích CHƯA đúng:",
+    "options": [
+      "a. Attention - Website phải thu hút sự chú ý của người xem (đẹp, ấn tượng, thẩm mỹ cao)",
+      "b. Interest - Website được thiết kế tốt, dễ tìm kiếm, dễ xem, truy cập nhanh, phong phú…",
+      "c. Desire - Có các biện pháp xúc tiến để tạo mong muốn mua hàng: giảm giá, quà tặng",
+      "d. Action - Form mẫu đẹp, tiện lợi, an toàn để khách hàng thực hiện giao dịch dễ dàng"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "80. Chỉ ra thành phần của AIDA trong Marketing điện tử được giải thích chưa đúng:",
+    "options": [
+      "a. Attention - Website phải thu hút sự chú ý của người xem (đẹp, ấn tượng, thẩm mỹ cao)",
+      "b. Interest - Website cung cấp các sản phẩm, dịch vụ, thông tin... phù hợp với nhu cầu khách hàng",
+      "c. Desire - Có các biện pháp xúc tiến để tạo mong muốn mua hàng: giảm giá, quà tặng",
+      "d. Action - Website có các biện pháp khuyến khích khách hàng hành động"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "81. Chỉ ra thành phần của AIDA trong Marketing điện tử được giải thích CHƯA đúng:",
+    "options": [
+      "a. Attention - Website thu hút được sự chú ý của khách hàng",
+      "b. Interest - Website cung cấp các sản phẩm, dịch vụ, thông tin phù hợp nhu cầu khách hàng mục tiêu",
+      "c. Desire - Website cần được thiết kế tốt, phù hợp với từng khách hàng",
+      "d. Action - Form mẫu đẹp, tiện lợi, an toàn để khách hàng thực hiện giao dịch dễ dàng"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "82. Chỉ ra thành phần của AIDA trong Marketing điện tử được giải thích CHƯA đúng.",
+    "options": [
+      "a. Attention - Website phải có nét riêng độc đáo đối với khách hàng",
+      "b. Interest - Website cung cấp các sản phẩm, dịch vụ, thông tin phù hợp nhu cầu khách hàng mục tiêu",
+      "c. Desire - Có các biện pháp xúc tiến để tạo mong muốn mua hàng: giảm giá, quà tặng",
+      "d. Action - Form mẫu đẹp, tiện lợi, an toàn để khách hàng thực hiện giao dịch dễ dàng"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "83. Chỉ ra website thương mại điện tử được “định vị” khác với các website còn lại?",
+    "options": [
+      "a. Amazon.com: Website có nhiều sản phẩm được bán nhất",
+      "b. Dell.com: Công ty cung cấp giải pháp CNTT tốt nhất cho khách hàng",
+      "c. Wand.com: Danh bạ công ty toàn cầu lớn nhất",
+      "d. Sony.com: Chất lượng sản phẩm tốt nhất"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "84. Chỉ ra yếu tố khiến sản phẩm KHÔNG phù hợp khi kinh doanh trên môi trường Internet:",
+    "options": [
+      "a. Giá sản phẩm cao hơn giá các hàng hóa thông thường",
+      "b. Mức độ mua sắm thường xuyên hơn việc mua hàng tiêu dùng",
+      "c. Khả năng giới thiệu chi tiết sản phẩm trên mạng",
+      "d. Khách hàng có nhu cầu đa dạng về sản phẩm"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "85. Chỉ ra yếu tố KHÔNG phải là tài sản chiến lược hay lợi thế cạnh tranh nòng cốt của các công ty TMĐT hoạt động chủ yếu thông qua mạng Internet (born-on-the-net):",
+    "options": [
+      "a. Xây dựng thương hiệu mới",
+      "b. Mô hình cấu trúc công ty linh hoạt",
+      "c. Hệ thống thông tin hiện đại",
+      "d. Ban giám đốc sẵn sàng chấp nhận mạo hiểm"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "86. Chỉ ra yếu tố KHÔNG phải là tài sản chiến lược hay năng lực cạnh tranh chính của các công ty truyền thống khi mở rộng hoặc chuyển sang thương mại điện tử (move-to-the-net):",
+    "options": [
+      "a. Nguồn khách hàng",
+      "b. Hệ thống thông tin hiện đại",
+      "c. Thương hiệu",
+      "d. Kinh nghiệm"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "87. Công cụ dịch vụ khách hàng trực tuyến được các doanh nghiệp sử dụng phổ biến nhất hiện nay là gì?",
+    "options": [
+      "a. Chatroom - diễn đàn",
+      "b. E-mail - thư điện tử",
+      "c. Call center - trung tâm dịch vụ khách hàng",
+      "d. FAQs - các câu hỏi thường gặp"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "88. Công ty ABC gửi những e-mail tiếp thị đến các khách hàng trung thành của mình. Công ty hy vọng rằng những khách hàng này sẽ chuyển tiếp những thông điệp tiếp thị đó đến bạn bè, đồng nghiệp, người quen của họ. Hình thức marketing này được gọi là gì?",
+    "options": [
+      "a. Push marketing",
+      "b. Pull marketing",
+      "c. Email marketing",
+      "d. Viral marketing"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "89. Công ty ABC mở một sàn giao dịch B2B cho phép các doanh nghiệp tham gia quảng cáo, giới thiệu sản phẩm dịch vụ và giao dịch với khách hàng qua sàn giao dịch này. Công ty ABC nên lựa chọn phương thức nào để vừa thu hút thành viên và vừa có doanh thu?",
+    "options": [
+      "a. Thu phí trên các giao dịch thành công giữa các thành viên",
+      "b. Thu phí quảng cáo đối với các thành viên",
+      "c. Thu phí tham gia sàn giao dịch",
+      "d. Thu phí khi sử dụng các dịch vu gia tăng"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "90. Công ty ABC quyết định xem xét việc ứng dụng thương mại điện tử vì thấy các đối thủ cạnh tranh ứng dụng và bắt đầu có những thành công nhất định. Đặc điểm của việc ứng dụng thương mại điện tử này là gì?",
+    "options": [
+      "a. Căn cứ vào thị trường (Market-driven)",
+      "b. Tránh các rủi ro (Fear-driven)",
+      "c. Tác động của công nghệ (Technology-driven)",
+      "d. Giải pháp mới (Problem-driven)"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "91. Công ty cho phép khách hàng thảo luận về sản phẩm, công dụng, cách sử dụng… trên website của mình. Hình thức này gọi là xúc tiến thông qua:",
+    "options": [
+      "a. Diễn đàn",
+      "b. Chatroom",
+      "c. Viral marketing",
+      "d. Blog"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "92. Dịch vụ đăng ký “search engines” của Google là:",
+    "options": [
+      "a. Google advertisement",
+      "b. Google adwords",
+      "c. Google y-pages",
+      "d. Google gold-pages"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "93. Hoạt động nào dưới đây KHÔNG giúp các doanh nghiệp mở rộng thị trường nhanh chóng?",
+    "options": [
+      "a. Bạn hàng giới thiệu khách hàng về website bán hàng của công ty",
+      "b. Khách hàng giới thiệu với bạn bè, người quen về sản phẩm dịch vụ của công ty",
+      "c. Công ty cho phép một nửa nhân viên làm việc từ xa qua mạng",
+      "d. Một số công ty liên kết để mở rộng danh mục sản phẩm"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "94. Mức độ phù hợp của một sản phẩm khi giới thiệu trên mạng phụ thuộc nhiều nhất vào yếu tố nào dưới đây? (chọn 2 yếu tố)",
+    "options": [
+      "a. Giá",
+      "b. Tần suất mua",
+      "c. Khả năng thông tin qua mạng",
+      "d. Khả năng cá biệt hoá"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "95. Nhiều công ty thương mại điện tử đã thất bại và đem lại các bài học kinh nghiệm cho các công ty sau này. Hãy chỉ ra yếu tố KHÔNG phải bài học rút ra từ thất bại của những công ty thương mại điện tử (dot.com)?",
+    "options": [
+      "a. Thương mại điện tử cũng phải tính đến lợi nhuận",
+      "b. Để thành công trong thương mại điện tử cần thời gian",
+      "c. Trong kinh doanh, kinh nghiệm là một yếu tố quan trọng để thành công",
+      "d. Xây dựng thương hiệu là vấn đề sống còn đối với các công ty"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "96. Nhược điểm lớn nhất của các website của các công ty XNK hiện nay là gì?",
+    "options": [
+      "a. Số lượng sản phẩm giới thiệu còn hạn chế",
+      "b. Thông tin về sản phẩm chưa chi tiết",
+      "c. Không được cập nhật thường xuyên",
+      "d. Chưa được quảng cáo rộng rãi đến khách hàng tiềm năng"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "97. Sản phẩm \"bổ sung\" của một chiếc máy tính xách tay được bán qua mạng là gì?",
+    "options": [
+      "a. Mọi tính năng của máy tính đó nhằm đáp ứng nhu cầu của khách hàng mua máy tính",
+      "b. Hình ảnh và thông tin về máy tính trên website",
+      "c. Các dịch vụ và sản phẩm hỗ trợ kèm theo máy tính",
+      "d. Các linh kiện cấu thành nên máy tính"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "98. Sản phẩm cốt lõi của các chương trình học tiếng Anh trực tuyến là gì?",
+    "options": [
+      "a. Kiến thức và kỹ năng sử dụng tiếng Anh",
+      "b. Nội dung bài giảng",
+      "c. Âm thanh, hỉnh ảnh và nội dung bài giảng",
+      "d. Nội dung bài giảng và các hoạt động hỗ trợ",
+      "a. Đáp ứng nhu cầu của khách hàng mua hoa, tặng quà",
+      "b. Hình ảnh và thông tin về hoa, quà tặng được đưa lên website",
+      "c. Quy trình giao dịch mua sắm trên website",
+      "d. Bản thân các sản phẩm hoa và quà tặng"
+    ],
+    "answer": 7,
+    "explanation": ""
+  },
+  {
+    "question": "100. Thương mại điện tử giúp khách hàng giảm chi phí tìm kiếm, do đó cho phép họ:",
+    "options": [
+      "a. đưa ra các quyết định mua hàng đúng đắn",
+      "b. tìm kiếm nhiều sản phẩm và chọn được mức giá tốt nhất",
+      "c. thương lượng được mức giá tốt nhất",
+      "d. mua được sản phẩm với giá thành rẻ hơn do chi phí tìm kiếm giảm"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "101. Thương mại điện tử giúp doanh nghiệp cá biệt hóa sản phẩm theo nhu cầu khách hàng, ví dụ như Dell, Ford, Amazon… tuy nhiên, chính sách định giá các sản phẩm được cá biệt hóa cần dựa trên căn cứ nào?",
+    "options": [
+      "a. Chi phí tương đương của những sản phẩm được cá biệt hóa",
+      "b. Thị trường tiêu thụ sản phẩm",
+      "c. Mức độ sẵn sàng chi trả cho các sản phẩm cá biệt hóa của khách hàng",
+      "d. Chi phí để sản xuất, cung cấp các sản phẩm cá biệt hóa"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "102. Thương mại điên tử được ứng dụng mạnh mẽ nhất vào 2 giai đoạn nào trong quy trình kinh doanh xuất nhập khẩu?",
+    "options": [
+      "a. Giới thiệu, quảng bá sản phẩm",
+      "b. Giao dịch, đàm phán, ký kết hợp đồng",
+      "c. Thanh toán",
+      "d. Vận tải, bảo hiểm"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "103. Trong các cách quảng bá website sau đây, cách nào có chi phí cao nhất?",
+    "options": [
+      "a. Đăng ký trên các Search Engine phổ biến như Google, Yahoo, MSN",
+      "b. Liên kết quảng cáo giữa các doanh nghiệp với nhau thông qua website",
+      "c. Sử dụng chiến lược marketing lan toả (viral marketing)",
+      "d. Quảng bá trên các sàn giao dịch, cổng thương mại điện tử"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "104. Trong các công cụ sau, hãy chỉ ra công cụ TỐT nhất để hỗ trợ khách hàng doanh nghiệp nên sử dụng khi ứng dụng thương mại điện tử.",
+    "options": [
+      "a. Diễn đàn",
+      "b. FAQs",
+      "c. Chat group",
+      "d. Discussion topics"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "105. Trong các hình thức xúc tiến thương mại điện tử sau đây, hình thức nào đòi hỏi nhiều thời gian và nhân lực nhất?",
+    "options": [
+      "a. Tham gia vào các Điểm thương mại (trade point)",
+      "b. Đăng ký vào các công cụ search nổi tiếng như Google, Yahoo...",
+      "c. Khai thác các cổng thông tin thị trường như Intracen, Superpages, Europages...",
+      "d. Tham gia vào các sàn giao dịch thương mại điện tử như ecvn, ec21, vnemart..."
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "106. Trong các hoạt động sau, hoạt động nào được doanh nghiệp xuất nhập khẩu sử dụng đầu tiên?",
+    "options": [
+      "a. Xây dựng Website",
+      "b. Giao dịch qua mạng",
+      "c. Mua tên miền, thuê máy chủ",
+      "d. Tham gia các cổng thương mại điện tử"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "107. Trong các yếu tố 7C khi đánh giá website thương mại điện tử, KHÔNG có yếu tố nào sau đây?",
+    "options": [
+      "a. Content",
+      "b. Context",
+      "c. Consumer",
+      "d. Connection"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "108. Trong các yếu tố sau, yếu tố nào được đánh giá là nguy cơ chiến lược (stragegic threat) và là đe dọa lớn nhất đối với hoạt động của các đại lý du lịch (travel agent) truyền thống?",
+    "options": [
+      "a. Các website du lịch điện tử cho phép khách hàng đặt tour qua mạng",
+      "b. Các công ty du lịch có xu hướng xây dựng website để tiến hành giao dịch qua mạng",
+      "c. Giá du lịch có xu hướng giảm",
+      "d. Các tour du lịch nhiều hơn"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "109. Ứng dụng nào của thương mại điện tử được các doanh nghiệp xuất nhập khẩu sử dụng phổ biến ở VN hiện nay",
+    "options": [
+      "a. Cung cấp dịch vụ khách hàng qua mạng Internet",
+      "b. Cung cấp dịch vụ FAQ để giải đáp các thắc mắc của khách hàng",
+      "c. Gửi e-mail quảng cáo đến các khách hàng tiềm năng",
+      "d. Nghiên cứu thị trường nước ngoài"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "110. Yếu tố nào KHÔNG phải lợi ích của thị trường lao động điện tử (electronic job market) đối với người lao động?",
+    "options": [
+      "a. Tốc độ giao tiếp giữa người tìm việc và người tuyển dụng",
+      "b. Lương cao hơn",
+      "c. Khả năng tìm kiếm nhanh và rộng trên các thị trường điện tử",
+      "d. Khả năng tìm được nhiều công việc phù hợp hơn"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "111. Amazon.com tận dụng nhiều loại dịch vụ để phục vụ các nhóm khách hàng khác nhau thông qua website của mình, đây là hình thức:",
+    "options": [
+      "a. “cybermediation”",
+      "b. “disintermediation”",
+      "c. “unbundling”",
+      "d. “hypermediation”"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "112. Chiến lược marketing của Dell được gọi là:",
+    "options": [
+      "a. “shared service”",
+      "b. “click-and-mortar”",
+      "c. “direct from manufacturer”",
+      "d. “brick-and-mortar”"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "113. Chiến lược marketing của Sears được gọi là:",
+    "options": [
+      "a. “shared service”",
+      "b. “click-and-mortar”",
+      "c. “direct from manufacturer”",
+      "d. “brick-and-mortar”"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "114. Dấu TRUSTe được gắn trên các website thương mại điện tử là ví dụ của:",
+    "options": [
+      "a. “a business rating” – đánh giá kinh doanh",
+      "b. “a trust mark” – đánh dấu tin cậy",
+      "c. “a copy right” – bản quyền",
+      "d. “a B2B exchange” – sàn giao dịch B2B"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "115. Đặc điểm nào đúng với ngân hàng trực tuyến?",
+    "options": [
+      "a. Ngân hàng trực tuyến kết hợp dịch vụ ngân hàng truyền thống và ngân hàng điện tử",
+      "b. Ngân hàng trực tuyến có nhiều rủi ro hơn ngân hàng truyền thống",
+      "c. Ngân hàng trực tuyến không có chi nhánh như ngân hàng truyền thống",
+      "d. Ngân hàng trực tuyến có khả năng thành công cao hơn, đem lại lợi nhuận cao hơn"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "116. Khi các đại lý bảo hiểm phát hiện thấy công ty bắt đầu bán bảo hiểm qua Internet, họ phản đối và tỏ ý sẽ đồng loạt không hợp tác trừ khi công ty có chính sách phù hợp. Đây là ví dụ về:",
+    "options": [
+      "a. “channel conflict”",
+      "b. “unbundling”",
+      "c. “cybermediation”",
+      "d. “hypermediation”"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "117. Khi chiến lược tự triển khai thương mại điện tử (click-and-mortar) của ToysRUs thất bại, công ty chuyển sang sử dụng hệ thống bán hàng trực tuyến của Amazon.com. Đây là ví dụ minh họa mô hình nào?",
+    "options": [
+      "a. “disintermediation”",
+      "b. “channel conflict”",
+      "c. “a digital delivery system”",
+      "d. “a strategic alliance”"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "118. Khi định vị sản phẩm, e-manager phải trả lời các câu hỏi sau, NGOẠI TRỪ:",
+    "options": [
+      "a. Sản phẩm sẽ đáp ứng phân đoạn thị trường nào?",
+      "b. Công ty nào sẽ cung cấp các phần cứng và phần mềm để triển khai bán hàng trực tuyến",
+      "c. Công ty sẽ phối hợp với các đối tác nào?",
+      "d. Công ty sẽ outsource các hoạt động kinh doanh nào?"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "119. Một công ty xây dựng hệ thống thương mại điện tử để bán các tour du lịch trực tuyến, đây là mô hình gì?",
+    "options": [
+      "a. “viral marketer”",
+      "b. “content disseminator”",
+      "c. “transaction broker”",
+      "d. “market maker”"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "120. Một công ty xây dựng và quản lý một chợ điện tử giao dịch theo mô hình many-to-many, công ty này được gọi là gì?",
+    "options": [
+      "a. “viral marketer”",
+      "b. “content disseminator”",
+      "c. “transaction broker”",
+      "d. “market maker”"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "121. Một cửa hàng truyền thống sử dụng website thương mại điện tử để hỗ trợ bán hàng (click-and-mortar) nhằm các mục tiêu sau, NGOẠI TRỪ:",
+    "options": [
+      "a. giảm số lượng hàng trả lại",
+      "b. củng cố thương hiệu",
+      "c. tăng cường phục vụ khách hàng",
+      "d. khai thác lợi thế của cả thương mại truyền thống và thương mại điện tử"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "122. Một nhà tiếp thị sử dụng e-mail để quảng cáo đến các khách hàng tiềm năng, hình thức này được gọi là gì?",
+    "options": [
+      "a. “viral marketer”",
+      "b. “content disseminator”",
+      "c. “transaction broker”",
+      "d. “market maker”"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "123. Những đặc điểm sau giúp sản phẩm được bán trực tuyến tốt hơn, NGOẠI TRỪ:",
+    "options": [
+      "a. sản phẩm có thể số hóa được",
+      "b. sản phẩm được tiêu chuẩn hóa",
+      "c. giá cao",
+      "d. sản phẩm được mua tương đối thường xuyên",
+      "a. “shopping avoiders”",
+      "b. “new technologists”",
+      "c. “leading edgers”",
+      "d. “time-starved customers”"
+    ],
+    "answer": 7,
+    "explanation": ""
+  },
+  {
+    "question": "125. Những khách hàng mua hàng trực tuyến vì không thích mua sắm tại các cửa hàng truyền thống, đây là nhóm khách hàng nào?",
+    "options": [
+      "a. “shopping avoiders”",
+      "b. “new technologists”",
+      "c. “leading edgers”",
+      "d. “time-starved customers”"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "126. Phần mềm có chức năng tìm kiếm trên web để phát hiện các cửa hàng bán cùng sản phẩm với giá thấp hơn được gọi là?",
+    "options": [
+      "a. “shopbots”",
+      "b. “shopping portals”",
+      "c. “shopping browsers”",
+      "d. “intelligent search engines”"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "127. Tất cả những nhóm sản phẩm sau đây đều đã thành công trong ứng dụng thương mại điện tử, NGOẠI TRỪ:",
+    "options": [
+      "a. phần cứng máy tính",
+      "b. trang thiết bị văn phòng",
+      "c. ô tô",
+      "d. thiết bị thể thao"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "128. Thay vì bán sản phẩm máy tính tại các cửa hàng, Dell quyết định bán trực tiếp cho khách hàng. Hình thức này gọi là gì?",
+    "options": [
+      "a. “reintermediation”",
+      "b. “cybermediation”",
+      "c. “disintermediation”",
+      "d. “channel conflict”"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "129. Website dẫn đến cửa hàng trực tuyến được gọi là:",
+    "options": [
+      "a. “shopbots”",
+      "b. “shopping portals”",
+      "c. “shopping browsers”",
+      "d. “intelligent search engines”"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "130. Website đánh giá và xác thực mức độ tin cậy của các công ty bán lẻ trực tuyến được gọi là gì?",
+    "options": [
+      "a. “business rating sites”",
+      "b. “shopbots”",
+      "c. “trust verification sites”",
+      "d. “shopping portals”"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "131. WeRFishingLures đã kinh doanh sản phẩm phục vụ câu cá hơn 50 năm, sản phẩm được phân phối thông qua các cửa hàng và siêu thị. Công ty định mở một website để bán sản phẩm trong và ngoài nước. Rủi ro mà công ty gặp phải là:",
+    "options": [
+      "a. sản phẩm có khả năng không phù hợp với thị trường mục tiêu",
+      "b. chi phí sẽ tăng và làm giảm lợi nhuận",
+      "c. quy định khác nhau về sản phẩm ở nhiều thị trường khác nhau",
+      "d. cơ cấu chi phí thay đổi làm tăng khả năng thua lỗ"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "132. Yếu tố quan trọng nhất quyết định sự tồn tại của trung gian trong thương mại điện tử là:",
+    "options": [
+      "a. các dịch vụ giá trị gia tăng mà phía trung gian đó cung cấp",
+      "b. khả năng kết nối người mua và người bán",
+      "c. lợi nhuận của trung gian",
+      "d. quan hệ của trung gian đối với các bên"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "133. Một website TMĐT tập trung nhiều sản phẩm của nhiều nhà cung cấp khác nhau để nhiều người mua có thể xem xét được gọi là gì?",
+    "options": [
+      "a. Sàn giao dịch B2B của người bán - supplier sell-side B2B site",
+      "b. Catalog điện tử",
+      "c. Mua sắm trực tuyến",
+      "d. Sàn giao dịch – an exchange"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "134. Nguyên nhân thứ hai khiến các khách hàng e ngại mua hàng trực tuyến qua các website bán hàng là gì?",
+    "options": [
+      "a. Lo ngại các sản phẩm đã đặt mua không được giao",
+      "b. Lo ngại vì không được trả lại hàng",
+      "c. Không sờ thấy sản phẩm trước khi mua",
+      "d. Lo ngại về lừa đảo khi mua hàng trên internet"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "135. Khi ông X. vừa hoàn thành đơn đặt hàng mua một hộp mực in cho máy in của mình, website của công ty X-PC lập tức đưa ra gợi ý về hộp mực màu cho loại máy in đó và các loại giấy in phù hợp. Đây là ví dụ về hình thức bán hàng nào?",
+    "options": [
+      "a. Chương trình khách hàng trung thành",
+      "b. Bán những sản phẩm liên quan - cross-selling",
+      "c. Bán thêm sản phẩm dịch vụ gia tăng - up-selling",
+      "d. Thu hút khách hàng tiềm năng"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "136. Chiến lược thực hiện đơn hàng theo đó các linh kiện, bộ phận cấu thành sản phẩm được tập hợp từ nhiều hơn hai địa điểm được gọi là gì?",
+    "options": [
+      "a. Kho hàng lưu động",
+      "b. Trì hoãn thực hiện đơn hàng",
+      "c. Giao hàng tập trung",
+      "d. merge-in-transit"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "137. Đối với các công ty bán hàng trực tuyến, ví dụ người sản xuất hay bán lẻ, bước thứ hai trong quá trình thực hiện đơn hàng là gì?",
+    "options": [
+      "a. Dự báo nhu cầu",
+      "b. Thực hiện đơn hàng",
+      "c. Nhận đơn đặt hàng",
+      "d. Kiểm tra nguồn hàng trong kho"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "138. Tất cả các dịch vụ nhằm đảm bảo khách hàng nhận được sản phẩm mà họ đặt mua qua mạng trong thời gian đã cam kết được gọi là gì?",
+    "options": [
+      "a. Hoạt động back-office",
+      "b. Thực hiện đơn hàng",
+      "c. Logistics",
+      "d. Vận tải"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "139. Công ty X-PC nhận màn hình từ Đài Loan, CPU từ Malaysia và lắp ráp tại Trung Quốc rồi giao cho khách hàng. Đây là ví dụ về hình thức nào?",
+    "options": [
+      "a. Giao hàng tập trung",
+      "b. Trì hoãn thực hiện đơn hàng",
+      "c. Kho hàng lưu động",
+      "d. merge-in-transit"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "140. VMU lập ra danh mục các câu hỏi và câu trả lời mà sinh viên mới vào trường hay quan tâm dựa trên một điều tra quy mô trong vài năm. Đây là hình thức gì?",
+    "options": [
+      "a. Bảng câu hỏi FAQs",
+      "b. Ứng dụng chiến lược khách hàng trung tâm",
+      "c. Ứng dụng chiến lược giao tiếp với khách hàng",
+      "d. Hoạt động trực tuyến"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "141. Ông X. đặt mua một chiếc laptop tại LaptopVN qua website của công ty. Công ty xác nhận đơn hàng sau 10 phút và hạn giao hàng là 3 ngày. Mỗi ngày sau đó, LaptopVN đều gửi cho ông X. email thông báo về tình hình lắp ráp chiếc laptop theo yêu cầu đó. Khi hàng bắt đầu giao, ông X. nhận được một email thông báo thời gian bắt đầu giao hàng. Đây là ví dụ về:",
+    "options": [
+      "a. Hỗ trợ khách hàng trong suốt quá trình mua hàng",
+      "b. Hỗ trợ trước khi mua hàng",
+      "c. Hỗ trợ sau khi mua",
+      "d. Giao hàng - purchase dispatch."
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "142. Công cụ sử dụng phổ biến nhất hiện nay để hỗ trợ khách hàng trực tuyến là gì?",
+    "options": [
+      "a. Trung tâm hỗ trợ khách hàng qua điện thoại",
+      "b. Thư rác",
+      "c. Hệ thống thảo luận hiện đại",
+      "d. Thư điện tử e-mail"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "143. Việc tổ chức nhận hàng trả lại từ những khách hàng không hài lòng đến người cung cấp được gọi là gì?",
+    "options": [
+      "a. thực hiện đơn đặt hàng",
+      "b. logistics",
+      "c. hoạt động front-office",
+      "d. reverse logistics"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "144. Việc tập hợp và phân tích các dữ liệu về khách hàng thu thập qua website để tìm ra những thói quen mua hàng được gọi là gì?",
+    "options": [
+      "a. Xử lý, khai mỏ dữ liệu - data mining.",
+      "b. Khảo sát theo nhóm",
+      "c. Theo dõi cookie",
+      "d. Khảo sát dựa-trên-nền-web"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "145. Với mức thiệt hại trên 1.2 tỷ USD, thiệt hại lớn nhất trong lịch sử các công ty dot.com xảy ra với:",
+    "options": [
+      "a. Amazon.com.",
+      "b. E-Toys.",
+      "c. Webvan.",
+      "d. Kozmo.com."
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "146. Ông X. gửi thông báo cho ngân hàng để hủy bỏ việc sử dụng thẻ tín dụng. Ngân hàng trả lời bằng email trong đó đề nghị giảm 3% lãi suất năm nếu ông X. tiếp tục sử dụng loại thẻ này. Đây là ví dụ về hình thức nào?",
+    "options": [
+      "a. Bán thêm sản phẩm dịch vụ gia tăng - up-selling",
+      "b. Chương trình khách hàng trung thành",
+      "c. Thu hút khách hàng tiềm năng",
+      "d. Hỗ trợ nhằm giữ chân khách hàng"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "147. Khả năng giao hàng đúng thời hạn là vấn đề của:",
+    "options": [
+      "a. Chỉ đối với thương mại điện tử",
+      "b. Đối với tất cả các hoạt động trên thế giới, tuy nhiên đây không phải là trở ngại đối với các hoạt động nội địa",
+      "c. Cả thương mại truyền thống và thương mại điện tử",
+      "d. Các dịch vụ logistics truyền thống, nhưng vấn đề này chỉ có thể thực hiện trong thương mại điện tử"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "148. Kế toán và logistics là hai ví dụ về mảng hoạt động nào khi triển khai thương mại điện tử?",
+    "options": [
+      "a. Dịch vụ khách hàng",
+      "b. Thực hiện đơn hàng",
+      "c. Hoạt động Back-office",
+      "d. Dịch vụ vận chuyển"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "149. Bán hàng, quảng cáo và hỗ trợ khách hàng trực tuyến là ví dụ về mảng hoạt động nào trong thương mại điện tử?",
+    "options": [
+      "a. Hoạt động Back-office",
+      "b. Dịch vụ khách hàng",
+      "c. Hoạt động Front-office",
+      "d. Thực hiện đơn hàng"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "150. Chỉ ra những hoạt động có thể cải tiến để nâng cao hiệu quả các giao dịch thương mại điện tử trực tuyến.",
+    "options": [
+      "a. Tất cả các lựa chọn",
+      "b. logistics",
+      "c. thay đổi cơ cấu trong công ty",
+      "d. cải tiến hệ thống thanh toán"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "151. Trong thương mại điện tử, các hoạt động sau là ví dụ về hoạt động hỗ trợ khách hàng trực tuyến, NGOẠI TRỪ:",
+    "options": [
+      "a. Thời gian phản hồi",
+      "b. Hỗ trợ đối với sản phẩm hư hỏng",
+      "c. Tính sẵn có của website",
+      "d. Cung cấp dữ liệu kịp thời ngay trên website"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "152. Ông X. lên website của công ty LaptopVn để mua một chiếc máy tính. Trong quá trình mua hàng, ông X. lựa chọn linh kiện và cấu hình máy phù hợp và nhận được mức giá cụ thể đối với từng loại máy tính mà bà xem xét và thời hạn giao hàng đối với từng loại. Đây là ví dụ về hoạt động nào?",
+    "options": [
+      "a. Giao hàng - purchase dispatch",
+      "b. Hỗ trợ sau khi mua - postpurchase support",
+      "c. Hỗ trợ trước khi mua - pre-purchase support",
+      "d. Hỗ trợ khách hàng trong suốt quá trình mua hàng- customer support during purchase."
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "153. Bước đầu tiên trong quá trình thực hiện đơn đặt hàng trực tuyến là gì?",
+    "options": [
+      "a. Xác nhận chắc chắn khách hàng sẽ thực hiện thanh toán",
+      "b. Thu xếp dịch vụ vận chuyển",
+      "c. Kiểm tra nguồn hàng trong kho",
+      "d. Sản xuất sản phẩm"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "154. Ngược với giao dịch truyền thống theo kiểu đẩy (push), giao dịch thương mại điện tử thường theo kiểu kéo (pull) và có đặc điểm là:",
+    "options": [
+      "a. Có số lượng hàng thành phẩm lưu kho lớn hơn",
+      "b. Bắt đầu với việc tiến hành sản xuất sản phẩm để lưu kho",
+      "c. Khởi đầu với 1 đơn hàng",
+      "d. Xây dựng kho hàng mà không cần quan tâm đến nhu cầu tiềm năng"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "155. Ông X. trả tiền vé tàu điện ngầm bằng cách quẹt thẻ plastic qua thiết bị đọc thẻ tại lối vào nhà ga. Đây là ví dụ minh họa của công nghệ nào?",
+    "options": [
+      "a. GPS technology",
+      "b. a proximity card",
+      "c. mSCM",
+      "d. telemetry"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "156. Hãy chỉ ra hai lợi ích lớn nhất của B2B mobile commerce:",
+    "options": [
+      "a. giảm cả chi phí tiếp thị và quản trị",
+      "b. giảm chi phí quản trị và hợp tác với đối tác",
+      "c. giảm chi phí tiếp thị và chi sẻ thông tin trong chuỗi cung cấp",
+      "d. sử dụng truyền thông không dây để chia sẻ thông tin trong chuỗi cung cấp và hợp tác với các đối tác"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "157. Micropayments hay giao dịch giá trị nhỏ là các giao dịch thanh toán điện tử có trị giá:",
+    "options": [
+      "a. cho các dịch vụ vi tính",
+      "b. dưới $1",
+      "c. dưới $10",
+      "d. dưới $100"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "158. Một lái xe trả phí đường cao tốc khi đi qua trạm thu phí đường bằng thẻ đặt trên xe ô tô và máy đọc thẻ tại trạm tự động trừ tiền trên thẻ. Đây là ví dụ minh họa:",
+    "options": [
+      "a. RFID technology",
+      "b. contextual computing",
+      "c. distributed processing",
+      "d. pervasive computing"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "159. Một loại máy tính cầm tay chủ yếu được sử dụng để nhận, gửi thư điện tử được gọi là:",
+    "options": [
+      "a. Ogo",
+      "b. Blackberry",
+      "c. smartphone",
+      "d. personal data assistant"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "160. Một loại máy tính cầm tay chủ yếu được sử dụng để quản lý thông tin cá nhân được gọi là:",
+    "options": [
+      "a. personal data assistant",
+      "b. smartphone",
+      "c. Blackberry",
+      "d. Ogo"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "161. Một luật sư lưu trữ các thông tin liên lạc của khách hàng trong PDA. Anh ta có thể vừa tra cứu thông tin liên lạc trên PDA, vừa kết nối Internet để tra cứu thông tin của một số khách hàng hàng thông qua website danh bạ điện thoại. Hoạt động này được thể hiện đúng nhất bằng thuật ngữ nào dưới đây?",
+    "options": [
+      "a. nội bộ hóa sản phẩm và dịch vụ - localization of products and services",
+      "b. tính di động - mobility",
+      "c. sự tiện lợi - convenience",
+      "d. khắp mọi nơi - ubiquity"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "162. Một thiết bị lưu trữ được sử dụng để xác định danh tính, địa điểm và xử lý các giao dịch được gọi là:",
+    "options": [
+      "a. Wireless Applications Protocol",
+      "b. Universal Mobile Telecommunications Systems",
+      "c. Transmission Control Protocol",
+      "d. Subscriber Identification Module"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "163. Ông X. mua một chai Coca-cola từ máy bán hàng tự động và thanh toán thông qua điện thoại di động. Đây là ví dụ về:",
+    "options": [
+      "a. e-wallet",
+      "b. m-wallet",
+      "c. wireless bill payment",
+      "d. mobile banking"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "164. Thương mại điện tử không dây thu hút hai hoạt động CRM nào dưới đây?",
+    "options": [
+      "a. wearable devices và job dispatch",
+      "b. sales force mobilization và field service",
+      "c. field service và job dispatch",
+      "d. sales force mobilization và wearable devices"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "165. Trong các địa điểm sau, địa điểm nào có số lượng điểm truy cập không dây nhiều nhất nhằm hỗ trợ giải quyết công việc?",
+    "options": [
+      "a. tòa nhà văn phòng chính quyền",
+      "b. sân bay",
+      "c. nhà hàng",
+      "d. thư viện"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "166. Trong các ví dụ sau, ví dụ nào được gọi là giao dịch thanh toán giá trị nhỏ?",
+    "options": [
+      "a. thanh toán một hóa đơn điện thoại 35$ qua Internet",
+      "b. mua một chiếc laptop qua Internet",
+      "c. mua một bài hát 3$ qua Internet",
+      "d. thanh toán một hóa đơn sử dụng dịch vụ Internet 300$"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "167. Trung tâm của một mạng không dây cho phép các thiết bị có thể kết nối mạng tại đó được gọi là:",
+    "options": [
+      "a. mobile access point (map)",
+      "b. m-connection",
+      "c. wireless access point",
+      "d. Bluetooth"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "168. Việc cập nhật đồng bộ dữ liệu giữa các thiết bị điện tử, máy tính được gọi là:",
+    "options": [
+      "a. synchronization",
+      "b. data transfer - chuyển dữ liệu",
+      "c. docking",
+      "d. data attaching - gắn kết dữ liệu"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "169. Việc giới trẻ từ 15-25 tuổi gia tăng sử dụng các thiết bị điện tử di động để giao tiếp, giải trí, học tập và làm việc được gọi là:",
+    "options": [
+      "a. handset culture",
+      "b. thúc đẩy nhà bán hàng",
+      "c. phổ biến mọi nơi",
+      "d. dịch vụ kinh tế"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "170. Việc ứng dụng công nghệ không dây với các thiết bị như smartphone và PDA cho phép thực hiện các giao dịch điện tử và trao đổi thông tin mọi nơi, mọi lúc được thể hiện rõ nhất bằng thuật ngữ nào dưới đây:",
+    "options": [
+      "a. interactivity - tính tương tác",
+      "b. ubiquity - khắp mọi nơi",
+      "c. mobility - tính di động",
+      "d. convenience - sự tiện lợi"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "171. Sau đây là các bước trong giao dịch trực đấu giá trực tuyến, NGOẠI TRỪ:",
+    "options": [
+      "a. người bán và người mua đưa ra các điều khoản cho giao dịch bao gồm giá cả, chất lượng sản phẩm, giao hàng và các điều khỏan về thanh toán.",
+      "b. người mua sắp xếp tất cả các sản phẩm bằng giá trên catalog.",
+      "c. phần mềm lọc các lựa chọn đưa ra các thông tin để giúp người mua và người bán quyết định mua hoặc bán cái gì và mua từ nhà cung cấp nào.",
+      "d. tất cả các thông tin liên quan về sản phẩm và người bán hoặc người mua chỉ tập trung tại một địa điểm."
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "172. Chỉ ra hình thức đấu giá, theo đó vật đang đấu giá được bán cho người trả giá cao nhất?",
+    "options": [
+      "a. Hình thức đấu giá kiểu Hà Lan - a Dutch auction.",
+      "b. Hình thức đấu giá tự do - a free-fall auction.",
+      "c. Hình thức đấu giá kiểu Anh - an English auction.",
+      "d. Hình thức đấu giá Yankee - a Yankee auction."
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "173. Chỉ ra ví dụ minh hoạ cho giá động – dynamic pricing.",
+    "options": [
+      "a. ”Giá chỉ áp dụng trong tuần này!” được đăng trên các banner quảng cáo",
+      "b. Giá cả tại một cửa hàng rau quả",
+      "c. Giá cả được công bố trên Catalog",
+      "d. Giá cả được ấn định thông qua thương lượng và trả giá"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "174. Mô hình kinh doanh nào phù hợp với các giao dịch điện tử có một người bán nhiều người mua?",
+    "options": [
+      "a. Sàn giao dịch hàng đổi hàng điện tử - E-bartering",
+      "b. Sàn giao dịch động - Dynamic exchanges",
+      "c. Sàn đấu thầu - Reverse auctions",
+      "d. Sàn đấu giá - Forward auctions"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "175. Sau đây là những lợi ích của đấu giá đối với người bán, NGOẠI TRỪ?",
+    "options": [
+      "a. Người bán có thể nhận được những thông tin nhạy cảm có giá trị về giá cả",
+      "b. Người bán luôn ẩn danh",
+      "c. Người bán có thể bán được số lượng lớn hàng tồn kho rất nhanh chóng",
+      "d. Đấu giá có thể giúp tăng số lượng khách hàng và giảm thời gian quay vòng"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "176. Chiêu thức được người tham gia đấu thầu sử dụng, theo đó dùng một số người giả tham gia trả giá rất cao để loại bỏ những người cùng tham gia, sau đó người này rút lui vào phút cuối để người thứ hai trúng thầu với mức giá thấp hơn nhiều được gọi là:",
+    "options": [
+      "a. Dùng phần mềm để đẩy giá lên cao",
+      "b. Người bán thuê người tham gia trả giá cao",
+      "c. Người mua thuê người tham gia trả giá cao",
+      "d. Tham gia chào giá vào phút chót"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "177. Trong các giao dịch điện tử sử dụng hình thức định giá linh hoạt hay giá động:",
+    "options": [
+      "a. Giá cả do người bán đưa ra dựa trên cơ cấu chi phí.",
+      "b. Giá cố định.",
+      "c. Giá cả không cố định và vì thế nên thường xuyên thay đổi.",
+      "d. Giá cả do các cơ quan của Chính phủ điều tiết."
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "178. Sau đây là những lợi ích của đấu giá đối với người mua, NGOẠI TRỪ:",
+    "options": [
+      "a. Người mua có nhiều cơ hội mặc cả.",
+      "b. Người mua có thể không cần xuất hiện.",
+      "c. Các cuộc đấu giá bảo đảm cho người mua có thể mua được hàng hóa với giá rẻ nhất có thể.",
+      "d. Người mua có cơ hội mua được hàng hiếm và quý."
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "179. Trong các giao dịch điện tử có một người mua và nhiều người bán, mô hình kinh doanh nào dưới đây phù hợp nhất?",
+    "options": [
+      "a. Sàn giao dịch động - Dynamic exchanges",
+      "b. Sàn giao dịch hàng đổi hàng điện tử - E-bartering",
+      "c. Sàn đấu giá - Forward auctions",
+      "d. Sàn đấu thầu - Reverse auctions"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "180. Hình thức nào dưới đây phù hợp nhất đối với giao dịch điện tử có nhiều người mua và nhiều người bán?",
+    "options": [
+      "a. Sàn đấu thầu - Reverse auctions",
+      "b. Sàn giao dịch động - Dynamic exchanges",
+      "c. Sàn giao dịch hàng đổi hàng điện tử - E-bartering",
+      "d. Sàn đấu giá - Forward auctions"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "181. Chiêu thức được người bán sử dụng theo đó cử một số người tham gia đấu thầu và chào giá cùng với những người tham gia để đẩy giá lên cao được gọi là:",
+    "options": [
+      "a. Người mua thuê người tham gia trả giá cao",
+      "b. Người bán thuê người tham gia trả giá cao",
+      "c. Dùng phần mềm để đẩy giá lên cao",
+      "d. Tham gia chào giá vào phút chót"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "182. Một website đấu giá chuyên đấu giá các món hàng phục vụ một chuỗi cung cấp trong một ngành được gọi là:",
+    "options": [
+      "a. website đấu giá kiểu Hà Lan",
+      "b. website đấu giá chuyên dụng",
+      "c. website đấu giá",
+      "d. website đấu thầu"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "183. Bước đầu tiên trong quá trình đấu giá trực tuyến là:",
+    "options": [
+      "a. tìm hiểu và so sánh",
+      "b. bắt đầu đấu giá",
+      "c. các loại dịch vụ sau đấu giá",
+      "d. tiến hành đấu thầu"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "184. Chỉ ra hình thức auction, theo đó người mua đưa ra mức giá họ sẵn sàng trả cho sản phẩm hoặc dịch vụ, người bán đưa ra các sản phẩm và dịch vụ với mức giá đó để người mua lựa chọn?",
+    "options": [
+      "a. Hình thức đấu giá kiểu Yankee - the Yankee auction model.",
+      "b. Hình thức đấu thầu tự do - the free-fall auction model.",
+      "c. Hình thức tự đưa ra giá của bạn - a name-your-own-price model.",
+      "d. Hình thức đấu thầu - the tendering system model."
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "185. Các nghiên cứu đã cho thấy những website thương mại điện tử có sử dụng mô hình đấu giá trực tuyến có xu hướng:",
+    "options": [
+      "a. Xây dựng cộng đồng chậm hơn so với các website chỉ có chức năng bán hàng.",
+      "b. Xây dựng được cộng đồng nhanh hơn so với các website chỉ có chức năng chỉ bán hàng",
+      "c. Dễ thất bại hơn so với các mô hình khác.",
+      "d. Có nhiều lợi nhuận hơn."
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "186. Hình thức đấu giá cho phép các bên tham gia tại mọi nơi, mọi lúc được gọi là:",
+    "options": [
+      "a. sàn giao dịch thực hiện đấu giá",
+      "b. trung gian thực hiện đấu giá",
+      "c. đấu giá động",
+      "d. đấu giá trên mạng cá nhân"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "187. Quyết định đầu tiên trong xây dựng website đấu giá là:",
+    "options": [
+      "a. nên sử dụng nhà trung gian hay tự công ty tiến hành đấu giá?",
+      "b. nên hay không sử dụng chiến lược giá tĩnh?",
+      "c. trong bao lâu thì phiên đấu giá sẽ tiến hành?",
+      "d. liệu công ty có nên đấu giá hay không?"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "188. Chỉ ra hình thức đấu giá, theo đó các vật đấu giá được giới thiệu trên Internet nhưng quá trình đấu giá vẫn được tổ chức như truyền thống?",
+    "options": [
+      "a. Hình thức đấu giá kiểu Anh - an English auction.",
+      "b. Hình thức đấu giá kiểu Hà Lan - a Dutch auction.",
+      "c. Hình thức đấu giá Yankee - a Yankee auction.",
+      "d. Hình thức đấu giá có liệt kê danh mục được phân loại - a classified listing."
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "189. Trong một cuộc đấu giá kiểu Hà Lan, số máy tính đấu giá là 15 chiếc, hai bên A và B tham gia và trả giá như nhau. Bên A trả giá trước bên B 25 phút. Trong trường hợp này kết quả sẽ như thế nào?",
+    "options": [
+      "a. Chỉ bên A mua được máy tính.",
+      "b. Bên B sẽ phải trả giá cao hơn để mua được máy tính.",
+      "c. Cả bên A và bên B đều sẽ mua được máy tính.",
+      "d. Bên B sẽ mua được máy tính vì giá của anh ta đưa ra là giá cao thứ hai."
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "190. Chỉ ra hình thức đấu giá, theo đó vật được đấu giá sẽ được bán cho người đầu tiên trả giá bằng với mức được người bán đặt ra?",
+    "options": [
+      "a. Hình thức đấu giá kiểu Anh - an English auction.",
+      "b. Hình thức đấu giá kiểu Yankee - a Yankee auction.",
+      "c. Hình thức đấu giá kiểu Hà Lan - a Dutch auction",
+      "d. Hình thức đấu giá nhanh - a quick win auction."
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "191. Chỉ ra yếu tố KHÔNG cùng loại với các yếu tố khác",
+    "options": [
+      "a. ATM",
+      "b. EFT (Electronic Funds Transfer - Chuyển tiền điện tử, Chuyển khoản điện tử)",
+      "c. ACH (Automated Clearing House Network)",
+      "d. EDI (Electronic Data Interchange)"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "192. Loại thẻ nào có độ bảo mật cao hơn các loại thẻ còn lại",
+    "options": [
+      "a. Thẻ rút tiền mặt (ATM)",
+      "b. Thẻ mua hàng",
+      "c. Thẻ băng từ",
+      "d. Thẻ thông minh"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "193. Ông X. đăng ký sử dụng một dịch vụ thanh toán cho phép tập hợp tất cả các hóa đơn GS phải trả trong tháng từ các nhà cung cấp dịch vụ khác nhau, và chỉ phải thực hiện một thanh toán duy nhất. Đây là ví dụ về hình thức thanh toán điện tử nào?",
+    "options": [
+      "a. Cổng thanh toán hóa đơn trực tuyến - bill consolidator",
+      "b. Ngân hàng điện tử - online banking",
+      "c. Thanh toán hóa đơn trực tuyến - biller direct",
+      "d. Thẻ tín dụng ảo - virtual credit card"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "194. Dịch vụ kết nối người bán hàng, khách hàng, và các ngân hàng liên quan để thực hiện các giao dịch thanh toán điện tử được gọi là gì?",
+    "options": [
+      "a. Người bán - merchant.",
+      "b. Ngân hàng phát hành - issuing bank.",
+      "c. Ngân hàng thông báo - acquiring bank.",
+      "d. Dịch vụ thanh toán trực tuyến - payment processing service."
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "195. Quá trình chuyển tiền từ tài khoản của người mua sang tài khoản của người bán được gọi là gì?",
+    "options": [
+      "a. Thanh toán - settlement.",
+      "b. Phê duyệt - approval.",
+      "c. Mua hàng - procurement.",
+      "d. Xác thực - authorization."
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "196. Yếu tố nào không phải lợi ích của dịch vụ ngân hàng điện tử",
+    "options": [
+      "a. Truy cập các thông tin về tài khoản và các giao dịch đã thực hiện",
+      "b. Thanh toán các hóa đơn trực tuyến",
+      "c. Truy cập mọi nơi, mọi lúc",
+      "d. Tương tác trực tiếp với nhân viên ngân hàng"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "197. Ông X. sử dụng thẻ để mua một số sách trên mạng. Các khoản thanh toán bị trừ tực tiếp từ tài khoản tiền gửi của ông đặt tại ngân hàng Xbank. Trong trường hợp này, ông X. đã sử dụng loại thẻ nào?",
+    "options": [
+      "a. Thẻ tín dụng - credit card.",
+      "b. Thẻ ghi nợ - debit card.",
+      "c. Thẻ mua hàng - charge card.",
+      "d. Ví điện tử - e-wallet."
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "198. Một loại thẻ thanh toán, không có giới hạn nhất định, chủ thẻ phải trả các khoản chi tiêu, mua sắm hàng tháng. Đây là loại thẻ nào?",
+    "options": [
+      "a. Thẻ tín dụng - credit card.",
+      "b. Thẻ mua hàng - charge card.",
+      "c. Thẻ thanh toán điện tử - e-payment card.",
+      "d. Thẻ ghi nợ - debit card."
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "199. Một loại thẻ thanh toán cho phép chủ thẻ sử dụng một khoản tiền để thanh toán với giới hạn nhất định do công ty cấp thẻ đưa ra và thường yêu cầu một tỷ suất lợi nhuận khá cao đối với những khoản thanh toán không được trả đúng hạn. Đây là loại thẻ nào?",
+    "options": [
+      "a. Thẻ ghi nợ - debit card.",
+      "b. Thẻ tín dụng - credit card.",
+      "c. Thẻ thanh toán điện tử - e-payment card.",
+      "d. Thẻ mua hàng - charge card."
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "200. Quá trình kiểm tra để xác định xem thông tin về thẻ có chính xác không và số dư tiền trên thẻ đủ để thanh toán cho giao dịch hay không được gọi là gì?",
+    "options": [
+      "a. Xác thực - authorization.",
+      "b. Mua hàngprocurement.",
+      "c. Thanh toán",
+      "d. settlement."
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "201. Công ty bán sản phẩm hay dịch vụ trực tuyến, sử dụng thẻ tín dụng là công cụ thanh toán được gọi là gì?",
+    "options": [
+      "a. Nhà cung cấp dịch vụ - processor.",
+      "b. Ngân hàng thông báo - acquiring bank.",
+      "c. Người bán - merchant.",
+      "d. Ngân hàng phát hành - issuing bank. Correct"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "202. Trên góc độ khách hàng sử dụng hóa đơn điện tử, hãy chỉ ra vấn đề KHÔNG phải là lợi ích đối với họ.",
+    "options": [
+      "a. Nhận ít hơn những mẩu quảng cáo từ các doanh nghiệp gửi hóa đơn.",
+      "b. Giảm chi phí.",
+      "c. Có thể thanh toán hóa đơn mọi nơi mọi lúc.",
+      "d. Dễ dàng lưu trữ các loại hóa đơn."
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "203. Trong năm 2004, theo thống kê của Turban (2006), tổng thiệt hại do các giao dịch thanh toán giả mạo trực tuyến đối với người bán hàng là bao USD?",
+    "options": [
+      "a. $26 triệu.",
+      "b. $2.6 tỷ.",
+      "c. $260 triệu.",
+      "d. $26 tỷ."
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "204. Các giao dịch thanh toán điện tử có giá trị nhỏ hơn 10 USD được gọi là gì?",
+    "options": [
+      "a. Thanh toán điện tử bằng thẻ thông minh - e-smart payments.",
+      "b. Thanh toán điện tử nhỏ - e-micropayments.",
+      "c. Tiền điện tử - e-cash.",
+      "d. Thanh toán điện tử trung bình - e-mediumpayments."
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "205. Sự khác biệt lớn nhất giữa Thẻ tín dụng (credit card) và Thẻ ghi nợ (debit card) là:",
+    "options": [
+      "a. Khả năng thanh toán trong giao dịch qua Internet (mua hàng qua mạng)",
+      "b. Khả năng chi tiêu bị giới hạn",
+      "c. Khả năng thanh toán trong các giao dịch truyền thống (tại siêu thị, cửa hàng...)",
+      "d. Khả năng rút tiền từ các máy ATM"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "206. Sử dụng ..... khách hàng không cần phải điền các thông tin vào các đơn đặt hàng trực tuyến mà chỉ cần chạy phần mềm trên máy tính",
+    "options": [
+      "a. Tiền điện tử: E-cash",
+      "b. Séc điện tử: E-cheque",
+      "c. Ví điện tử: E-wallet",
+      "d. Tiền số hoá: Digital cash"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "207. Giỏ mua hàng điện tử KHÔNG nhất thiết phải có chức năng nào dưới đây?",
+    "options": [
+      "a. Tính toán giá, lập hóa đơn",
+      "b. Tìm kiếm sản phẩm",
+      "c. Lựa chọn, thêm, bớt sản phẩm",
+      "d. Liên kết đến phần mềm thanh toán điện tử"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "208. Ông X. thực hiện thanh toán các hóa đơn tiền điện, điện thoại, internet bằng cách vào các website của những nhà cung cấp dịch vụ trên và nhập vào đó thông tin tài khoản để thanh toán, đây là hình thức thanh toán điện tử gì?",
+    "options": [
+      "a. Cổng thanh toán hóa đơn trực tuyến - bill consolidator",
+      "b. Thanh toán hóa đơn trực tuyến - biller direct",
+      "c. Thẻ tín dụng ảo - virtual credit card",
+      "d. Ngân hàng điện tử - online banking"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "209. Tổ chức cung cấp tài khoản chấp nhận thanh toán cho người bán (hay Internet Merchant Accounts) với mục đích chấp nhận các khoản thanh toán bằng thẻ tín dụng được gọi là gì?",
+    "options": [
+      "a. Nhà cung cấp dịch vụ - processor.",
+      "b. Ngân hàng thông báo - acquiring bank.",
+      "c. Tổ chức cung thẻ tín dụng - credit card association.",
+      "d. Ngân hàng phát hành - issuing bank."
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "210. Người mua/chủ thẻ, ngân hàng của người mua/ngân hàng phát hành thẻ, ngân hàng của người bán, người bán/tổ chức chấp nhận thanh toán thẻ, tổ chức cung cấp dịch vụ thanh toán điện tử là các bên liên quan đến giao dịch thương mại điện tử nào?",
+    "options": [
+      "a. Rút tiền mặt từ máy ATM để thanh toán khi mua hàng",
+      "b. Mua hàng và thanh toán bằng thẻ tại siêu thị",
+      "c. Mua hàng và thanh toán bằng thẻ tín dụng tại cửa hàng",
+      "d. Mua hàng và thanh toán bằng thẻ tín dụng qua Internet"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "211. Lợi ích cơ bản nhất của Internet banking là gì?",
+    "options": [
+      "a. Xây dựng lòng trung thành và gia tăng lợi nhuận cho khách hàng",
+      "b. Tăng mức độ thuận tiện trong giao dịch của khách hàng",
+      "c. Tạo điều kiện cung ứng thêm các dịch vụ cho khách hàng",
+      "d. Tiết kiệm chi phí giao dịch"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "212. Tổ chức tài chính cung cấp thẻ thanh toán cho các khách hàng cá nhân được gọi là gì?",
+    "options": [
+      "a. Tổ chức cung thẻ tín dụng - credit card association.",
+      "b. Ngân hàng phát hành - issuing bank.",
+      "c. Ngân hàng thông báo - acquiring bank.",
+      "d. Nhà cung cấp dịch vụ - processor."
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "213. Hạn chế khó khắc phục nhất khi đẩy mạnh cung cấp dịch vụ Internet banking tại VN là:",
+    "options": [
+      "a. Thị trường tiềm năng nhỏ",
+      "b. Khó đảm bảo các vấn đề an toàn, bảo mật",
+      "c. Hạn chế về trình độ trong ngành ngân hàng",
+      "d. Thiếu vốn đầu tư và công nghệ"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "214. Một loại thẻ thông minh với một con chíp nhỏ, màu vàng gắn trên bề mặt thẻ cho phép gửi và nhận thông tin với máy đọc thẻ khi đặt vào trong máy đọc thẻ được gọi là gì?",
+    "options": [
+      "a. debit card",
+      "b. optical memory card",
+      "c. purchase card",
+      "d. contact card"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "215. Một loại thẻ thanh toán cho phép các giao dịch thanh toán được thực hiện khi đặt gần thiết bị đọc thẻ như trả phí giao thông trên đường cao tốc, trả vé tầu điện ngầm… được gọi là gì?",
+    "options": [
+      "a. optical memory card",
+      "b. debit card",
+      "c. contactless card",
+      "d. contact card"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "216. Một loại thẻ thanh toán cho phép chủ thẻ rút tiền trực tiếp từ tài khoản tiền gửi của mình tại ngân hàng. Đây là loại thẻ nào?",
+    "options": [
+      "a. Thẻ ghi nợ - debit card",
+      "b. Thẻ thanh toán điện tử - e-payment card",
+      "c. Thẻ mua hàng – charge card",
+      "d. Thẻ tín dụng – credit card"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "217. Ông X. thực hiện các khoản thanh toán hàng tháng thông qua một website thanh toán trực tuyến do ngân hàng cung cấp. Đây là ví dụ về:",
+    "options": [
+      "a. Thẻ tín dụng ảo – virtual credit card",
+      "b. Cổng thanh toán hóa đơn trực tuyến – bill consolidator",
+      "c. Ngân hàng điện tử - online banking",
+      "d. Thanh toán hóa đơn trực tuyến – biller direct"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "218. Trong giao dịch thương mại quốc tế, với những hợp đồng có giá trị lớn, ví dụ trên 50.000 USD, các doanh nghiệp thường sử dụng hình thức thanh toán nào?",
+    "options": [
+      "a. Thanh toán bằng thẻ - trade card payment",
+      "b. Thanh toán sử dụng chữ ký số - PKI payment",
+      "c. Thanh toán điện tử nhỏ - e-micropayment",
+      "d. Thư tín dụng – letter of credit"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "219. Trên góc độ người cung cấp hóa đơn điện tử, hãy chỉ ra đặc điểm KHÔNG phải lợi ích của hoạt động này.",
+    "options": [
+      "a. Giúp doanh nghiệp hiện diện trên toàn thế giới",
+      "b. Cải thiện chất lượng dịch vụ khách hàng",
+      "c. Thu hút thêm nhiều khách hàng tiềm năng",
+      "d. Giảm chi phí xử lý giao dịch"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "220. Một công ty, đại học, hoặc một tổ chức phi lợi nhuận hỗ trợ các doanh nghiệp tiềm năng trong giai đoạn đầu xây dựng và phát triển được gọi là gì?",
+    "options": [
+      "a. Nhà đầu tư thiên thần - angel investor.",
+      "b. Lồng ấp - incubator",
+      "c. Nhà đầu tư mạo hiểm - venture capitalist.",
+      "d. Doanh nhân – entrepreneur"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "221. Ông X. truy cập một website ở đó có chức năng truy cập tiếp vào các thông tin được cá biệt hóa theo đúng nhu cầu của mình, đây là ví dụ về mô hình gì?",
+    "options": [
+      "a. Sàn giao dịch",
+      "b. Cửa hàng trực tuyến",
+      "c. Cổng thông tin",
+      "d. Trình duyệt"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "222. Khi triển khai website thương mại điện tử, quyết định nào trong những quyết định sau phải được thực hiện đầu tiên và có tác động đến các hoạt động thương mại điện tử sau này?",
+    "options": [
+      "a. Ai sẽ là người lưu trữ website",
+      "b. Khách hàng sẽ thanh toán như thế nào",
+      "c. Màu sắc và kết cấu",
+      "d. Tên miền - domain name."
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "223. Để triển khai dự án thương mại điện tử thành công, yếu tố nào sau đây đóng vai trò quan trọng nhất?",
+    "options": [
+      "a. Ban lãnh đạo am hiểu thương mại điện tử",
+      "b. Đội ngũ chuyên gia thương mại điện tử",
+      "c. Đội ngũ kỹ sư tin học tốt",
+      "d. Sự phối hợp giữa chuyên gia công nghệ, kinh doanh và thương mại điện tử"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "224. Sự khác biệt lớn nhất giữa một kế hoạch kinh doanh truyền thống và kế hoạch kinh doanh điện tử là gì?",
+    "options": [
+      "a. Hiểu được mọi mặt về công nghệ cần thiết để triển khai một dự án",
+      "b. Phát triển một kế hoạch kinh doanh kéo dài ít nhất là 20 năm",
+      "c. Nhận thức được các quy tắc truyền thống không thể ứng dụng được khi kinh doanh trên mạng Internet",
+      "d. Nhận thức được kinh doanh trong môi trường Internet là kinh doanh trong một môi trường kinh doanh đặc thù"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "225. Portal có vai trò làm giao diện giữa công ty, khách hàng và nhà cung cấp để cung cấp thông tin đến từng nhóm đối tượng cụ thể được gọi là gì?",
+    "options": [
+      "a. Cổng thông tin nội bộ",
+      "b. Cổng thông tin cá nhân",
+      "c. Cổng thông tin bên ngoài",
+      "d. Cổng cung cấp các sản phẩm tự phục vụ"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "226. Công ty EcomPro đã kinh doanh được 50 năm, thế hệ EcomPro3 quyết định mở một kênh bán hàng trực tuyến để tăng cường quảng cáo và bán hàng cho cửa hàng truyền thống. Đây là ví dụ về:",
+    "options": [
+      "a. Đấu thầu",
+      "b. Cửa hàng trực tuyến - a storefront.",
+      "c. Mua sắm trực tuyến",
+      "d. Cổng thông tin"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "227. Một module của website cho phép khách truy cập và giao tiếp trực tuyến đồng thời với nhau được gọi là:",
+    "options": [
+      "a. Danh sách chung",
+      "b. Danh sách thảo luận qua email",
+      "c. Chat group",
+      "d. Diễn đàn thảo luận điện tử"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "228. Gói phần mềm bao gồm cửa hàng trực tuyến, giỏ mua hàng trực tuyến, mẫu đặt hàng, cơ sở dữ liệu mô tả sản phẩm, giá và đơn đặt hàng,… được gọi là gì?",
+    "options": [
+      "a. phần mềm trang chủ bán hàng",
+      "b. một catalog điện tử",
+      "c. trọn gói phần mềm về thương mại điện tử",
+      "d. một gói phần mềm theo chức năng"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "229. Một công ty lưu trữ website cung cấp nhiều dịch vụ lưu trữ khác nhau cho các loại hình doanh nghiệp khác nhau được gọi là gì?",
+    "options": [
+      "a. pure Web hosting service.",
+      "b. ISP hosting.",
+      "c. self-hosting.",
+      "d. storebuilder."
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "230. Khi đánh giá một gói ứng dụng thương mại điện tử, khả năng thu thập, lưu trữ, truy xuất thông tin và cấu trúc cơ sở dữ liệu của hệ thống đó cần được tiến hành cẩn thận. Quá trình đánh giá này gọi là gì?",
+    "options": [
+      "a. cải cách công nghệ.",
+      "b. các yêu cầu về thông tin.",
+      "c. tính linh hoạt.",
+      "d. thân thiện với người dùng."
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "231. Cá nhân giàu có, đóng góp quỹ và có thể là kiến thức chuyên môn trong giai đoạn đầu tiên xây dựng một doanh nghiệp mới được gọi là gì?",
+    "options": [
+      "a. Nhà đầu tư mạo hiểm - venture capitalist.",
+      "b. Nhà đầu tư thiên thần - angel investor.",
+      "c. Lồng ấp - incubator",
+      "d. Doanh nhân – entrepreneur"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "232. Trong một cửa hàng trực tuyến B2C, chức năng cung cấp cho khách hàng thông tin về sản phẩm qua các phần mềm duyệt web gọi là gì?",
+    "options": [
+      "a. Chức năng giới thiệu sản phẩm",
+      "b. Chức năng thanh toán trực tuyến",
+      "c. Chức năng thực hiện đơn hàng",
+      "d. Chức năng đặt hàng trực tuyến"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "233. Việc xây dựng website nội bộ có những lợi ích sau, NGOẠI TRỪ:",
+    "options": [
+      "a. Cho phép công ty sử dụng chuyên gia nội bộ",
+      "b. Cho phép công ty mở rộng tầm kiểm soát hơn trong quy trình và các trang web đã hoàn thành",
+      "c. Cho phép công ty bảo hộ công nghệ độc quyền",
+      "d. Cung cấp tốc độ nhanh nhất ra thị trường"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "234. Yêu cầu về thống nhất “consistency” trong thiết kế website nhằm mục tiêu nào sau đây?",
+    "options": [
+      "a. đảm bảo rằng tất cả khách viếng thăm tìm thấy được những gì mà họ cần tìm",
+      "b. đảm bảo rằng các khách hàng nhận được ứng xử như nhau khi họ tiếp xúc với dịch vụ khách hàng",
+      "c. đảm bảo rằng các tin nhắn được gửi đến cho những khách hàng đã liên hệ với công ty là nhất quán",
+      "d. đảm bảo rằng các trang web của website phải nhất quán với nhau"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "235. Mỗi lần khách hàng đặt hàng một đĩa CD từ cửa hàng bán đĩa nhạc trực tuyến, phần mềm quản lý kho hàng thông báo rằng một chiếc đĩa loại đó đã được đặt hàng. Đây là ví dụ về:",
+    "options": [
+      "a. Chức năng hỗ trợ sản phẩm",
+      "b. Chức năng cung cấp dịch vụ khách hàng",
+      "c. Chức năng thực hiện đơn hàng",
+      "d. Chức năng đặt hàng trực tuyến"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "236. Khi triển khai một dự án thương mại điện tử, việc chạy thử để đảm bảo các module trong toàn bộ dự án hoạt động phối hợp tốt với nhau gọi là gì?",
+    "options": [
+      "a. Kiểm tra kết quả",
+      "b. Kiểm tra khả năng tích hợp",
+      "c. Kiểm tra khả năng hoạt động",
+      "d. Kiểm tra khả năng sử dụng"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "237. Trong quá trình chuyển đổi từ thương mại truyền thống sang thương mại điện tử, vấn đề nào sau đây thường xảy ra?",
+    "options": [
+      "a. Sẽ có sự thay đổi về hình thức bên ngoài, tuy nhiên có rất ít thay đổi trong quá trình triển khai hay trong quyết định đầu tư vào cơ sở hạ tầng.",
+      "b. Hầu hết mọi hoạt động của doanh nghiệp đều có thể phải thay đổi và cách thức làm truyền thống sẽ phải dẹp bỏ.",
+      "c. Sẽ có sự ngày càng nhiều sự thay đổi về cách thức triển khai các hoạt động của doanh nghiệp.",
+      "d. Sự thay đổi có thể chỉ ảnh hưởng đến một hoặc một số các phòng ban chức năng của doanh nghiệp."
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "238. Việc đánh giá khả năng mở rộng của hệ thống thương mại điện tử theo nhiều chiều khác nhau để có thể cung cấp thêm các sản phẩm dịch vụ mới được gọi là gì?",
+    "options": [
+      "a. sự linh hoạt - flexibility",
+      "b. tài nguyên phần cứng và phần mềm",
+      "c. yêu cầu thông tin",
+      "d. sự mở rộng - scalability"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "239. Khi triển khai một dự án thương mại điện tử, việc chạy thử để kiểm tra cảm nhận của người sử dụng khi tương tác với website thương mại điện tử gọi là gì?",
+    "options": [
+      "a. Kiểm tra khả năng sử dụng.",
+      "b. Kiểm tra kết quả.",
+      "c. Kiểm tra khả năng hoạt động.",
+      "d. Kiểm tra khả năng tích hợp."
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "240. Khi lập một dự án Thương mại điện tử, người lập dự án đầu tiên phải quan tâm đến những vấn đề nào?",
+    "options": [
+      "a. Xem xét mức độ phù hợp của dự án thương mại điện tử với chiến lược tổng thể của doanh nghiệp.",
+      "b. Các nguồn lực về công nghệ hiện có có thể sử dụng cho dự án.",
+      "c. Vạch sẵn khung thời gian để triển khai và hoàn thành dự án.",
+      "d. Chi phí để triển khai dự án."
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "241. Bước đầu tiên trong việc xây dựng một đơn vị kinh doanh mới là gì?",
+    "options": [
+      "a. Tìm kiếm nguồn vốn cần thiết để đảm bảo sự thành công.",
+      "b. Xem xét toàn bộ các cơ hội kinh doanh hiện hữu.",
+      "c. Xác định những nhu cầu hiện tại chưa được đáp ứng của người tiêu dùng hoặc doanh nghiệp.",
+      "d. Xây dựng kế hoạch kinh doanh."
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "242. Ông X. mua một e-book từ một nhà xuất bản qua mạng. Trong khi đang download tài liệu về thì máy tính gặp sự cố mất điện. Khi kết nối lại và bắt đầu download lại tài liệu thì nhận được thông báo rằng quá trình download đã hoàn tất. Ông X. phải sử dụng chức năng nào?",
+    "options": [
+      "a. Chức năng thực hiện đơn hàng.",
+      "b. Chức năng dịch vụ khách hàng",
+      "c. Chức năng hỗ trợ về sản phẩm.",
+      "d. Chức năng giới thiệu sản phẩm."
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "243. Những nội dung trên website cho phép truy cập miễn phí hoặc tự do được gọi là gì?",
+    "options": [
+      "a. Thông tin đặc biệt - premium content.",
+      "b. Thông tin thương mại - commodity content.",
+      "c. Thông tin dành cho thành viên - member content.",
+      "d. Thông tin nội bộ - local content."
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "244. Một website với mục đích chính là cung cấp thông tin về doanh nghiệp và sản phẩm, dịch vụ được gọi là gì?",
+    "options": [
+      "a. Trang web tương tác - interactive site.",
+      "b. Trang web nhằm thu hút khách hàng - attractor.",
+      "c. Trang web cung cấp thông tin - informational site.",
+      "d. Trang web cho phép giao dịch - transactional site."
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "245. Một nhà sản xuất lớn có tám nhà máy tại một số địa điểm khác nhau. Công ty có website giới thiệu từng nhà máy trên 10 năm nay, tại đó có thông tin đầy đủ về tên, địa chỉ, điện thoại, email liên hệ cho từng nhà máy. Những thông tin này không thay đổi từ khi website được xây dựng và công ty không có nhu cầu thay đổi các thông tin này. Đây là ví dụ về:",
+    "options": [
+      "a. Nội dung đặc biệt - premium content.",
+      "b. Nội dung động - dynamic content.",
+      "c. Nội dung tĩnh - static content.",
+      "d. Nội dung tối ưu - optimized content."
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "246. Khó khăn lớn nhất trong sử dụng vốn mạo hiểm – venture capital là gì?",
+    "options": [
+      "a. Mất đi sự tự chủ.",
+      "b. Tìm được một nhà đầu tư mạo hiểm đồng ý cấp vốn",
+      "c. Tìm được số vốn mà nhà đầu tư yêu cầu.",
+      "d. Chuyển địa điểm tới một lồng ấp."
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "247. Về cơ bản, tại sao phải xây dựng một kế hoạch kinh doanh?",
+    "options": [
+      "a. Đưa ra cơ chế hoạt động cho doanh nghiệp.",
+      "b. Đưa ra định hướng chiến lược cho nhân viên.",
+      "c. Giúp các nhà lãnh đạo ghi nhớ mục tiêu cần hoàn thiện.",
+      "d. Tìm được vốn đầu tư."
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "248. Theo một số nghiên cứu, khách hàng cần có khả năng trở về trang chủ của website với điều kiện nào sau đây?",
+    "options": [
+      "a. Trong vòng 10 phút hoặc kém hơn",
+      "b. Chỉ với một cái nhấp chuột",
+      "c. Không cần nhấp chuột",
+      "d. Hơn 3 cái nhấp chuột"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "249. Việc xác định xem sẽ đặt website tại đâu là một phần của hoạt động nào dưới đây?",
+    "options": [
+      "a. Lưu trữ web - Web host.",
+      "b. Định dạng thiết kế web - Web design format.",
+      "c. Nội dung - content.",
+      "d. Tên miền - domain name."
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "250. Trong quá trình giao dịch trực tuyến, website bán hàng đưa ra các lựa chọn liên quan với giá cao hơn, chất lượng và tính năng cao hơn, đây là quá trình:",
+    "options": [
+      "a. Bình luận - comment.",
+      "b. Bán sản phẩm dịch vụ liên quan - cross selling.",
+      "c. Xúc tiến - promotion.",
+      "d. Bán thêm các sản phẩm dịch vụ gia tăng - up selling.",
+      "a. URL name",
+      "b. host name",
+      "c. domain name",
+      "d. ISP address"
+    ],
+    "answer": 6,
+    "explanation": ""
+  },
+  {
+    "question": "252. Khi triển khai một dự án thương mại điện tử, việc chạy thử để đảm bảo các module trong toàn bộ dự án hoạt động phối hợp tốt với nhau gọi là gì?",
+    "options": [
+      "a. Kiểm tra khả năng sử dụng - usability testing.",
+      "b. Kiểm tra kết quả - acceptance testing.",
+      "c. Kiểm tra khả năng hoạt động - performance testing.",
+      "d. Kiểm tra khả năng tích hợp - integration testing."
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "253. Khi triển khai một dự án thương mại điện tử, việc xác định xem website có đáp ứng những mục tiêu kinh doanh và tầm nhìn của doanh nghiệp hay không gọi là gì?",
+    "options": [
+      "a. Kiểm tra khả năng hoạt động - performance testing.",
+      "b. Kiểm tra khả năng tích hợp - integration testing.",
+      "c. Kiểm tra kết quả - acceptance testing.",
+      "d. Kiểm tra khả năng sử dụng - usability testing."
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "254. Đối với những ứng dụng thương mại điện tử cần triển khai nhanh chóng, mất nhiều chi phí xây dựng và duy trì, vận hành hệ thống, lựa chọn nào sau đây là phù hợp nhất?",
+    "options": [
+      "a. leasing",
+      "b. tích hợp ứng dụng doanh nghiệp",
+      "c. outsourcing",
+      "d. insourcing"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "255. Một portal được xây dựng cho toàn bộ các tổ chức thành viên của công ty truy cập được gọi là gì?",
+    "options": [
+      "a. Cổng thông tin cá nhân",
+      "b. Cổng cung cấp các sản phẩm tự phục vụ",
+      "c. Cổng thông tin nội bộ",
+      "d. Cổng thông tin doanh nghiệp"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "256. Trong quá trình giao dịch trực tuyến, website bán hàng cung cấp các phiếu mua hàng, phiếu giảm giá, dịch vụ miễn phí được gọi là gì?",
+    "options": [
+      "a. Bình luận - comment.",
+      "b. Bán sản phẩm dịch vụ liên quan - cross selling.",
+      "c. Bán thêm các sản phẩm dịch vụ khác - up selling.",
+      "d. Xúc tiến - promotion."
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "257. Những nội dung thông tin không bao giờ được truy cập qua web được gọi là gì?",
+    "options": [
+      "a. Thông tin nội bộ - local content.",
+      "b. Thông tin thương mại - commodity content.",
+      "c. Thông tin đặc biệt - premium content.",
+      "d. Thông tin dành cho thành viên - member content."
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "258. Kỹ thuật phát triển các ứng dụng thương mại điện tử nào theo đó các ứng dụng được triển khai đồng bộ và tương thích với hệ thống của các đối tác?",
+    "options": [
+      "a. leasing",
+      "b. tích hợp ứng dụng doanh nghiệp",
+      "c. insourcing",
+      "d. outsourcing"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "259. Việc website và các trang web trên đó được sắp xếp, đặt tên, liên kết để hỗ trợ quá trình xem và duyệt web hay tìm kiếm được gọi là gì?",
+    "options": [
+      "a. Định dạng web",
+      "b. Cấu trúc Web",
+      "c. Thiết kế website",
+      "d. Bản mẫu Web"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "260. Kỹ thuật phát triển các ứng dụng Thương mại điện tử nào phù hợp với mục tiêu đưa ra các ứng dụng chiến lược nhằm tạo sự khác biệt của công ty với các đối thủ cạnh tranh?",
+    "options": [
+      "a. outsourcing",
+      "b. insourcing",
+      "c. leasing",
+      "d. một hệ thống đã có sẵn"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "261. Việc lưu trữ website, theo đó các doanh nghiệp mua phần cứng, phần mềm, tuyển dụng nhân sự và đường truyền để lưu trữ các website của mình được gọi là gì?",
+    "options": [
+      "a. mirror hosting.",
+      "b. self-hosting",
+      "c. ISP hosting.",
+      "d. sử dụng storebuilder."
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "262. Trong quá trình giao dịch điện tử, website bán hàng sử dụng các thông tin về sản phẩm, dịch vụ liên quan để đưa ra các chào bán cho khách hàng. Quá trình này được gọi là:",
+    "options": [
+      "a. Bán sản phẩm dịch vụ liên quan - cross selling.",
+      "b. Xúc tiến - promotion.",
+      "c. Bình luận - comment.",
+      "d. Bán thêm các sản phẩm dịch vụ gia tăng - up selling."
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "263. Một module trên website cho phép người xem tự do đăng nhập, đặt câu hỏi, bình luận và trao đổi ý kiện gọi là:",
+    "options": [
+      "a. Danh sách thảo luận qua email",
+      "b. Chat group",
+      "c. Danh sách chung",
+      "d. Diễn đàn thảo luận điện tử"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "264. Bước đầu tiên trong xây dựng dự án Thương mại điện tử là gì?",
+    "options": [
+      "a. Xác định, đánh giá và lập kế hoạch xây dựng hệ thống thương mại điện tử.",
+      "b. Lựa chọn một phương án phát triển.",
+      "c. Thiết kế cấu trúc kinh doanh thương mại điện tử.",
+      "d. Cài đặt, kiểm tra, kết nối, và triển khai các ứng dụng."
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "265. Khi đánh giá một dự án thương mại điện tử, việc đảm bảo hệ thống máy tính, hệ điều hành của hệ thống thương mại điện tử mới tương thích với hệ thống hiện tại được gọi là gì?",
+    "options": [
+      "a. tài nguyên phần cứng và phần mềm",
+      "b. thân thiện với người dùng.",
+      "c. tính linh hoạt.",
+      "d. yêu cầu về thông tin"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "266. Một chợ điện tử - emarketplace liên kết nhiều người mua và nhiều người bán với nhau gọi là gì?",
+    "options": [
+      "a. Mua sắm trực tuyến",
+      "b. Đấu giá",
+      "c. Đấu thầu",
+      "d. Sàn giao dịch"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "267. Theo một số nghiên cứu, người xem website nên tìm được thông tin họ quan tâm với điều kiện nào sau đây?",
+    "options": [
+      "a. Trong vòng 10 phút hoặc kém hơn",
+      "b. Hơn 3 cái nhấp chuột",
+      "c. Chỉ với một cái nhấp chuột",
+      "d. Không cần nhấp chuột"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "268. Một gói phần mềm tập hợp các công cụ thương mại điện tử, các modul và thành phần tích hợp với nhau trong một hệ thống thương mại điện tử gọi là gì?",
+    "options": [
+      "a. Trọn gói phần mềm về TMĐT",
+      "b. Phần mềm trang chủ bán hàng",
+      "c. Một catalog điện tử",
+      "d. Một gói phần mềm theo chức năng"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "269. Ông X. mua và download một phần mềm tường lửa trực tuyến. Sau khi cài đặt phần mềm này trên máy tính xong, ông phát hiện ra máy tính không thể kết nối Internet được. Ông X. truy cập vào website của nhà cung cấp phần mềm, xem mục FAQ của phần mềm này và tìm được cách khắc phục sự cố. Đây là ví dụ minh họa hoạt động nào?",
+    "options": [
+      "a. Chức năng thực hiện đơn hàng.",
+      "b. Chức năng cung cấp dịch vụ khách hàng.",
+      "c. Chức năng hỗ trợ về sản phẩm.",
+      "d. Chức năng giới thiệu sản phẩm."
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "270. Một portal đóng vai trò cổng kết nối đến các portal và website khác của công ty:",
+    "options": [
+      "a. Cổng thông tin cá nhân",
+      "b. Cổng thông tin doanh nghiệp",
+      "c. Cổng thông tin nội bộ",
+      "d. Cổng cung cấp các sản phẩm tự phục vụ"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "271. Mức độ thuận tiện của hệ thống nhằm giúp người dùng trung bình có thể sử dụng được dễ dàng được gọi là gì?",
+    "options": [
+      "a. yêu cầu thông tin",
+      "b. cách mạng công nghệ",
+      "c. tính linh hoạt.",
+      "d. thân thiện với người dùng"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "272. Trang web giúp mọi người xem tìm hiểu chung về website và giới thiệu về website được gọi là gì?",
+    "options": [
+      "a. Trang giao dịch",
+      "b. Trang nội dung",
+      "c. Trang trợ giúp",
+      "d. Trang chủ"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "273. Một nhóm người cùng có một số mối quan tâm và giao tiếp với nhau qua email list được gọi là gì?",
+    "options": [
+      "a. Diễn đàn thảo luận điện tử",
+      "b. Danh sách thảo luận qua email",
+      "c. chat group",
+      "d. Danh sách chung"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "274. Khi cần triển khai các ứng dụng thương mại điện tử trong thời gian ngắn, nguồn vốn ít, hệ thống mới không giữ vị trí chiến lược trong hoạt động kinh doanh, lựa chọn nào sau đây là phù hợp nhất?",
+    "options": [
+      "a. mua ứng dụng về thương mại",
+      "b. insourcing",
+      "c. tích hợp ứng dụng doanh nghiệp",
+      "d. outsourcing"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "275. Việc một website thương mại điện tử tập trung nhiều sản phẩm của nhiều nhà cung cấp khác nhau để nhiều người mua có thể xem xét được gọi là gì?",
+    "options": [
+      "a. Catalog điện tử.",
+      "b. Mua sắm trực tuyến.",
+      "c. Sàn giao dịch B2B của người bán.",
+      "d. Sàn giao dịch."
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "276. Công ty EcomPro sản xuất và bán các loại hàng điện tử dưới nhiều nhãn hiệu khác nhau, có một số website riêng cho từng nhãn hiệu này. Công ty quyết định tập hợp tất cả các website riêng lẻ đó vào một website, từ đó liên kết đến các website riêng, bên cạnh đó cung cấp thông tin chung về công ty, thông tin hỗ trợ khách hàng, ban quản lý, lịch sử công ty… Đây là ví dụ về:",
+    "options": [
+      "a. Cổng thông tin",
+      "b. Thanh toán trực tuyến",
+      "c. Cửa hàng trực tuyến",
+      "d. Đấu thầu."
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "277. Trang web giúp khách hàng trong quá trình mua hàng được gọi là gì?",
+    "options": [
+      "a. Trang trợ giúp",
+      "b. Trang nội dung",
+      "c. Trang chủ",
+      "d. Trang giao dịch"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "278. Trang web giúp người xem sử dụng hay định hướng khi đọc thông tin trên website được gọi là gì?",
+    "options": [
+      "a. Trang giao dịch",
+      "b. Trang trợ giúp",
+      "c. Trang nội dung",
+      "d. Trang chủ"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "279. Theo thống kê chung, tương quan giữa chi phí xây dựng và lắp đặt một hệ thống thương mại điện tử và chi phí vận hành và duy trì hệ thống có đặc điểm gì?",
+    "options": [
+      "a. Không có một mối quan hệ tổng thể nào giữa chi phí xây dựng và lắp đặt một hệ thống thướng mại điện tử và chi phí vận hành và duy trì hệ thống.",
+      "b. Chi phí xây dựng và lắp đặt một hệ thống thương mại điện tử lớn hơn chi phí vận hành và duy trì hệ thống.",
+      "c. Chi phí xây dựng và lắp đặt một hệ thống thương mại điện tử nhỏ hơn chi phí vận hành và duy trì hệ thống.",
+      "d. Chi phí xây dựng và lắp đặt một hệ thống thương mại điện tử tương đương chi phí vận hành và duy trì hệ thống."
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "280. Luật giao dịch điện tử của Việt Nam (Đ19): Trường hợp công ty ABC là người nhận thông điệp dữ liệu chỉ định hộp thư điện tử để nhận thông điệp dữ liệu là congtyabc@hn.vnn.vn thì thời điểm nhận là thời điểm thông điệp dữ liệu nhập vào hệ thống …………….. và địa điểm nhận là ………………………..",
+    "options": [
+      "a. máy chủ thư điện tử @hn.vnn.vn / trụ sở công ty",
+      "b. máy chủ thư điện tử @hn.vnn.vn / địa điểm đặt máy chủ thư điện tử",
+      "c. hộp thư điện tử congtyabc@hn.vnn.vn / trụ sở công ty",
+      "d. hộp thư điện tử congtyabc@hn.vnn.vn / địa điểm đặt máy chủ thư điện tử"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "281. Theo Luật giao dịch điện tử của Việt Nam, những hành vi nào bị cấm trong giao dịch điện tử. ( chọn tối đa 3 hành vi bị cấm)",
+    "options": [
+      "a. Ngăn chặn trái phép quá trình truyền, gửi, nhận thông điệp dữ liệu",
+      "b. Thay đổi, xóa, giả mạo trái phép thông điệp dữ liệu",
+      "c. Tạo ra thông điệp dữ liệu nhằm thực hiện hành vi trái pháp luật",
+      "d. Phát tán các chương trình phần mềm trên mạng có tổ chức"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "282. Thông điệp dữ liệu do tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử phát hành nhằm xác nhận cơ quan, tổ chức, cá nhân được chứng thực là người ký chữ ký điện tử được gọi là:",
+    "options": [
+      "a. Chứng thư điện tử",
+      "b. Chứng thực điện tử",
+      "c. Chứng thư chứng thực chữ ký số",
+      "d. Chứng thực điện tử chứng thực chữ ký số"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "283. Theo Luật giao dịch điện tử VN: Địa điểm nào được coi là địa điểm gửi thông điệp dữ liệu:",
+    "options": [
+      "a. Trụ sở của người gửi",
+      "b. Địa điểm lưu trữ máy chủ hệ thống thông tin của người gửi",
+      "c. Địa điểm lưu trữ máy chủ email của người gửi",
+      "d. Địa điểm thông điệp đó được khởi tạo và gửi đi"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "284. Luật giao dịch điện tử của Việt Nam (Đ21): Giao kết hợp đồng điện tử bằng e-mail được chấp nhận nhưng giá trị làm chứng cứ thấp vì những lý do nào sau đây (chọn tối đa 3 lựa chọn):",
+    "options": [
+      "a. Độ tin cậy của cách thức khởi tạo, lưu trữ, truyền gửi thông điệp thấp",
+      "b. Cách thức bảo đảm và duy trì tính toàn vẹn của thông điệp thấp",
+      "c. Khó xác định người ký và sự chấp thuận của người đó đối với nội dung hợp đồng",
+      "d. Không thể hiện con dấu của doanh nghiệp trên hợp đồng này"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "285. Giao dịch điện tử được thực hiện tự động từng phần hoặc toàn bộ thông qua hệ thống thông tin được thiết lập sẵn được gọi là:",
+    "options": [
+      "a. Giao dịch điện tử tự động",
+      "b. Giao dịch điện tử",
+      "c. Giao dịch điện tử tự động giữa người mua và người bán"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "286. Theo Luật giao dịch điện tử VN: Khi người gửi yêu cầu xác nhận thì thông điệp dữ liệu được coi là:",
+    "options": [
+      "a. Chưa gửi đến khi người nhận gửi thông báo xác nhận",
+      "b. Chưa gửi đến khi người khởi tạo nhận được thông báo xác nhận của người nhận",
+      "c. Đã gửi khi người khởi tạo gửi thông báo xác nhận",
+      "d. Đã gửi khi người khởi tạo nhận được và truy cập được vào thông điệp xác nhận"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "287. Luật giao dịch điện tử của Việt Nam (Đ17) Thời điểm gửi thông điệp dữ liệu là thời điểm thông điệp dữ liệu này nhập vào hệ thống thông tin ………………",
+    "options": [
+      "a. nằm ngoài sự kiểm soát của người khởi tạo",
+      "b. dưới sự kiểm soát của người khởi tạo",
+      "c. dưới sự kiểm soát của người nhận",
+      "d. nằm trong sự kiểm soát của người nhận và người gửi"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "288. Luật giao dịch điện tử của Việt Nam đề cập các vấn đề chính sau, ngoại trừ (2 vấn đề)",
+    "options": [
+      "a. Giá trị pháp lý của thông điệp dữ liệu",
+      "b. Thời gian gửi và nhận thông điệp dữ liệu",
+      "c. Thừa nhận chữ ký điện tử và chứng thư điện tử nước ngoài",
+      "d. Thanh toán điện tử"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "289. Luật giao dịch điện tử của Việt Nam (Đ18) Trường hợp trước hoặc trong khi gửi thông điệp dữ liệu, người khởi tạo tuyên bố thông điệp dữ liệu chỉ có giá trị khi có thông báo xác nhận thì thông điệp dữ liệu được coi là …………………. cho đến khi ……………………… nhận được thông báo xác nhận đã nhận được thông điệp dữ liệu đó.",
+    "options": [
+      "a. chưa gửi / người khởi tạo",
+      "b. chưa nhận / người khởi tạo",
+      "c. chưa gửi / người nhận",
+      "d. chưa nhận / người nhận"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "290. Luật giao dịch điện tử của Việt Nam (Đ15) Hợp đồng ký kết giữa khách hàng cá nhân và website bán hàng trực tuyến có giá trị làm chứng cứ hay không phụ thuộc các yếu tố nào sau đây:",
+    "options": [
+      "a. Độ tin cậy của cách thức tạo, lưu trữ và gửi hợp đồng",
+      "b. Cách thức đảm bảo, duy trì tính toàn vẹn nội dung của hợp đồng",
+      "c. Cách thức xác định người khởi tạo",
+      "d. Cách thức ràng buộc trách nhiệm người mua với hợp đồng đã ký kết"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "292. Hệ thống được tạo lập để gửi, nhận, lưu trữ, hiển thị hoặc thực hiện các xử lý khác đối với thông điệp dữ liệu được gọi là gì?",
+    "options": [
+      "a. Hệ thống thông tin",
+      "b. Hệ thống thương mại điện tử",
+      "c. Hệ thống thông tin thương mại và thị trường",
+      "d. Hệ thống thông tin giao dịch điện tử"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "293. Nghị định số 57/2006/NĐ-CP về Thương mại điện tử (Đ15): Khách hàng đặt hàng mua sách qua mạng và mắc một lỗi nhập số lượng hàng cần mua, thay vì mua 10 đã nhập nhầm là mua 100 cuốn sách, số tiền thanh toán bằng thẻ tín dụng đã bì trừ đủ cho 100 cuốn sách. Người mua thông báo bằng email cho người bán về lỗi trên ngay sau đó. Một tuần sau, khi nhận được lô hàng, người mua trả lại 90 cuốn sách cho người bán. Người bán không chấp nhận vì hợp đồng đã được thực hiện.",
+    "options": [
+      "a. Người bán hành động như trên là sai",
+      "b. Người mua phải chịu trách nhiệm vì họ gây ra lỗi nhập sai dữ liệu",
+      "c. Người mua phải chịu trách nhiệm vì phát hiện lỗi quá muộn",
+      "d. Hai bên thương lượng tiếp để giải quyết số sách chênh lệch"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "294. Luật giao dịch điện tử của Việt Nam (Đ4): Chương trình máy tính được thiết lập để hoạt động tạo ra các chữ ký số gọi là:",
+    "options": [
+      "a. Chương trình chứng thực điện tử",
+      "b. Chương trình ký điện tử",
+      "c. Chương trình cấp chứng thư điện tử",
+      "d. Chương trình kiểm tra chữ ký điện tử"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "295. Luật giao dịch điện tử của Việt Nam: Khái niệm nào KHÔNG được định nghĩa:",
+    "options": [
+      "a. Chữ ký điện tử",
+      "b. Chứng thư điện tử",
+      "c. Giao kết hợp đồng điện tử",
+      "d. Hoạt động chứng thực điện tử"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "296. Luật giao dịch điện tử của Việt Nam (Đ12): Một thông điệp dữ liệu được xem là có giá trị như văn bản viết nếu thông tin hàm chứa trong thông điệp dữ liệu đó có thể ……………. để tham chiếu khi cần thiết.",
+    "options": [
+      "a. Hiển thị trên màn hình và đọc được",
+      "b. In ra giấy và sử dụng được làm bằng chứng",
+      "c. Truy cập và sử dụng được",
+      "d. Truy cập, đọc và in ra được"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "297. Luật giao dịch điện tử của Việt Nam (Đ1): Luật này KHÔNG áp dụng đối với những hoạt động nào dưới đây (2 hoạt động):",
+    "options": [
+      "a. Dân sự",
+      "b. Thương mại",
+      "c. Cấp giấy chứng nhận quyền sở hữu nhà",
+      "d. Văn bản thừa kế"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "298. Luật giao dịch điện tử của Việt Nam (Đ13): Hợp đồng được bên A tạo ra dưới dạng văn bản word, ký và gửi cho bên B, bên B chấp nhận toàn bộ nội dung, bôi đen một số điều khoản để nhấn mạnh, ký và gửi lại cho bên A. Để chắc chắn, bên B trước khi gửi chuyển hợp đồng sang định dạng pdf và đặt password cấm thay đổi nội dung. Hợp đồng bên A nhận lại có được coi là có giá trị như văn bản gốc hay không",
+    "options": [
+      "a. Có",
+      "b. Không",
+      "c. Luật chưa quy định rõ trường hợp này",
+      "d. Chỉ hợp đồng dạng word do bên B tạo ra được coi là có giá trị như bản gốc"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "299. Theo Luật giao dịch điện tử VN: Khi nào người nhận được coi là đã nhận được thông điệp dữ liệu",
+    "options": [
+      "a. Khi thông điệp dữ liệu nhập vào hệ thống thông tin của người nhận",
+      "b. Khi người nhận đọc thông điệp dữ liệu",
+      "c. Khi người nhận download thông điệp dữ liệu về máy tính của mình và có thể truy cập được",
+      "d. Khi người nhận có khả năng đọc được thông điệp dữ liệu"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 1: Cách gọi nào không đúng bản chất TMĐT:",
+    "options": [
+      "a. Online Trade",
+      "b. Cyber Trade",
+      "c. Electronic Business",
+      "d. Các câu trả lời trên đều đúng"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 2: Thương mại điện tử là tất cả hoạt động trao đổi thông tin, sản phẩm, dịch vụ, thanh toán… thông qua các phương tiện điện tử như máy tính, đường dây điện thoại, internet và các phương tiện khác. Đây là TMĐT nhìn từ góc độ:",
+    "options": [
+      "a. Truyền thông",
+      "b. Kinh doanh",
+      "c. Dịch vụ",
+      "d. Mạng Internet"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 3: TMĐT là việc ứng dụng các phương tiện điện tử và công nghệ thông tin nhằm tự động hoá quá trình và các nghiệp vụ kinh doanh. Đây là TMĐT nhìn từ góc độ:",
+    "options": [
+      "a. Truyền thông",
+      "b. Kinh doanh",
+      "c. Dịch vụ",
+      "d. Mạng Internet"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 4: TMĐT là tất cả các hoạt động mua bán sản phẩm, dịch vụ và thông tin thông qua mạng Internet và các mạng khác. Đây là TMĐT nhìn từ góc độ:",
+    "options": [
+      "a. Truyền thông",
+      "b. Kinh doanh",
+      "c. Dịch vụ",
+      "d. Mạng Internet"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 5: Theo cách hiểu chung hiện nay, TMĐT là việc sử dụng…….để tiến hành các hoạt động thương mại",
+    "options": [
+      "a. Internet",
+      "b. Các mạng",
+      "c. Các phương tiện điện tử",
+      "d. Các phương tiện điện tử và mạng Internet"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 6: Chỉ ra yếu tố không phải lợi ích của TMĐT",
+    "options": [
+      "a. Giảm chi phí, tăng lợi nhuận",
+      "b. Dịch vụ khách hàng tốt hơn",
+      "c. Giao dịch an toàn hơn",
+      "d. Tăng thêm cơ hội mua bán"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 7: Chỉ ra yếu tố không phải là lợi ích của TMĐT:",
+    "options": [
+      "a. Khách hàng có nhiều sự lựa chọn hơn",
+      "b. Tăng phúc lợi xã hội",
+      "c. Khung pháp lý mới, hoàn chỉnh hơn",
+      "d. Tiếp cận nhiều thị trường mới hơn"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 8: Chỉ ra yếu tố không phải hạn chế của TMĐT:",
+    "options": [
+      "a. Vấn đề an toàn",
+      "b. Sự thống nhất về phần cứng, phần mềm",
+      "c. Văn hoá của những người sử dụng Internet",
+      "d. Thói quen mua sắm truyền thống"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 9: Chỉ ra yếu tố không thuộc hạ tầng công nghệ thông tin cho TMĐT",
+    "options": [
+      "a. Hệ thống máy tính được nối mạng và hệ thống phần mềm ứng dụng TMĐT",
+      "b. Ngành điện lực",
+      "c. Hệ thống các đường truyền Internet trong nước và kết nối ra nước ngoài",
+      "d. Tất cả các yếu tố trên"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 10: Thành phần nào không trực tiếp tác động đến sự phát triển của TMĐT",
+    "options": [
+      "a. Chuyên gia tin học",
+      "b. Dân chúng",
+      "c. Người biết sử dụng Internet",
+      "d. Nhà kinh doanh TMĐT"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 11: Yếu tố nào tác động trực tiếp nhất đến sự phát triển TMĐT",
+    "options": [
+      "a. Nhận thức của người dân",
+      "b. Cơ sở pháp lý",
+      "c. Chính sách phát triển TMĐT",
+      "d. Các chương trình đào tạo về TMĐT"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 12: Trong các yếu tố sau, yếu tố nào quan trọng nhất với sự phát triển TMĐT",
+    "options": [
+      "a. Công nghệ thông tin",
+      "b. Nguồn nhân lực",
+      "c. Môi trường pháp lý, kinh tế",
+      "d. Môi trường chính trị, xã hội"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 13: Chỉ ra loại hình không phải giao dịch cơ bản trong TMĐT",
+    "options": [
+      "a. B2B",
+      "b. B2C",
+      "c. B2G",
+      "d. B2E"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 14: Chỉ ra thành phần của AIDA trong Marketing điện tử được giải thích chưa đúng:",
+    "options": [
+      "a. A: Website phải thu hút sự chú ý của người xem",
+      "b. I: Website được thiết kế tốt, dễ tìm kiếm, dễ xem, nhanh chóng, thông tin phong phú",
+      "c. D: Có các biện pháp xúc tiến để tạo mong muốn mua hàng: giảm giá, quà tặng",
+      "d. A: Form mẫu đẹp, tiện lợi, an toàn để khách hàng thực hiện đơn hàng qua mạng"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 15: Chỉ ra hoạt động chưa hoàn hảo trong TMĐT",
+    "options": [
+      "a. Hỏi hàng",
+      "b. Chào hàng",
+      "c. Xác nhận",
+      "d. Hợp đồng"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 16: Đối tượng nào không được phép kí kết hợp đồng mua bán ngoại thương qua mạng",
+    "options": [
+      "a. Doanh nghiệp XNK",
+      "b. Doanh nghiệp",
+      "c. Cá nhân",
+      "d. Chưa có quy định rõ về điều này"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 17. Nguyên tắc nào phổ biến hơn cả để hình thành hợp đồng điện tử",
+    "options": [
+      "a. Nhận được xác nhận là đã nhận được chấp nhận đối với chào hàng",
+      "b. Thời điểm chấp nhận được gửi đi, dù nhận được hay không",
+      "c. Thời điểm nhận được chấp nhận hay gửi đi tuỳ các nước quy định",
+      "d. Thời điểm xác nhận đã nhận được chấp nhận được gửi đi"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 18: Nội dung gì của hợp đồng điện tử không khác với hợp đồng truyên thống",
+    "options": [
+      "a. Địa chỉ các bên",
+      "b. Quy định về thời gian, địa điểm của giao dịch",
+      "c. Quy định về thời gian, địa điểm hình thành hợp đồng",
+      "d. Quy định về các hình thức thanh toán điện tử"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 19: Chỉ ra yếu tố không phải đặc điểm của chữ kí điện tử",
+    "options": [
+      "a. Bằng chứng pháp lý: xác minh người lập chứng từ",
+      "b. Ràng buộc trách nhiệm: người kí có trách nhiệm với nội dung trong văn bản",
+      "c. Đồng ý: thể hiện sự tán thành và cam kết thực hiện các nghĩa vụ trong chứng từ",
+      "d. Duy nhất: Chỉ duy nhất người kí có khả năng kí điện tử vào văn bản"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 20: Vấn đề gì nên chú ý nhất khi sử dụng Chữ kí số hoá",
+    "options": [
+      "a. Xác định chính xác người kí",
+      "b. Lưu giữ chữ kí bí mật",
+      "c. Nắm được mọi khoá công khai",
+      "d. Biết sự khác nhau về luật pháp các nước về chữ kí điện tử"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 21: Để thực hiện các giao dịch điện tử B2B các bên cần có bằng chứng đảm bảo chữ kí trong hợp đồng điện từ chính là của bên đối tác mình giao dịch, để đảm bảo như vậy cần",
+    "options": [
+      "a. Có cơ quan quản lý nhà nước đảm bảo",
+      "b. Có tổ chức quốc tế có uy tín đảm bảo",
+      "c. Có ngân hàng lớn, có tiềm lực tài chính, uy tín lớn đảm bảo",
+      "d. Có tổ chức trung gian, có uy tín, có khả năng tài chính đảm bảo"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 22: Bước nào trong quy trình sử dụng vận đơn đường biển điện tử sau là không đúng",
+    "options": [
+      "a. Người chuyên chở sau khi nhận hàng sẽ soạn thảo vận đơn đường biển dưới dạng thông điệp điện tử/ dữ liệu",
+      "b. Người chuyên chở kí bằng chữ kí số và gửi cho người gửi hàng thông qua trung tâm truyền dữ liệu",
+      "c. Người gửi hàng gửi mã khoá bí mật cho người nhận hàng",
+      "d. Người gửi hàng gửi tiếp mã khoá bí mật cho ngân hàng"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 23: Phương tiện thanh toán điện tử được dùng phổ biến nhất",
+    "options": [
+      "a. Thẻ tín dụng",
+      "b. Thẻ ghi nợ",
+      "c. Thẻ thông minh",
+      "d. Tiền điện tử"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 24: Sử dụng….khách hàng không cần phải điền các thông tin vào các đơn đặt hàng trực tuyến mà chỉ cần chạy phần mềm trên máy tính",
+    "options": [
+      "a. Tiền số hoá",
+      "b. Tiền điện tử",
+      "c. Ví điện tử",
+      "d. Séc điện tử"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 25: Doanh thu bán lẻ trên mạng ở Mĩ và EU chiếm tỉ lệ…….trong tổng doanh thu bán lẻ",
+    "options": [
+      "a. Dưới 3%",
+      "b. Từ 3-5%",
+      "c. Từ 5-20%",
+      "d. Trên 20%"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 26: Trong các luật sau, luật nào không áp dụng ở Mĩ",
+    "options": [
+      "a. UETA",
+      "b. UCITA",
+      "c. E-SIGN",
+      "d. E-SIGNATURE"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 27: Website mà tại đó các doanh nghiệp có thể tiến hành các hoạt động thương mại từ quảng cáo, giới thiệu hàng hoá, dịch vụ tới trao đổi thông tin, kí kết hợp đồng thanh toán… được gọi là",
+    "options": [
+      "a. Sàn giao dịch điện tử",
+      "b. Chợ điện tử",
+      "c. Trung tâm thương mại điện tử",
+      "d. Sàn giao dịch điện tử B2B"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 28: Chỉ ra sàn giao dịch của nhà nước",
+    "options": [
+      "a. www.vnet.vn",
+      "b. www.Export.com.vn",
+      "c. www.worldtradeB2B.com",
+      "d. www.vnemart.com.vn"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 29: Trên sàn giao dịch hiện nay, các doanh nghiệp không thể làm gì",
+    "options": [
+      "a. Quảng cáo",
+      "b. Giới thiệu hàng hoá, dịch vụ",
+      "c. Tìm kiếm khách hàng",
+      "d. Kí kết hợp đồng"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 30: Chỉ ra yếu tố không phải khó khăn khi tham gia TMĐT",
+    "options": [
+      "a. Nhân lực: đội ngũ chuyên gia kém cả về số lượng và chất lượng",
+      "b. Vốn: thiếu vốn đầu tư xây dựng hạ tầng viễn thông",
+      "c. Thương mại truyền thống chưa phát triển",
+      "d. Nhận thức quá “đơn giản” về TMĐT"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 31: Tổ chức nào đã đưa ra các hướng dẫn cụ thể về ứng dụng Internet vào kinh doanh quốc tế",
+    "options": [
+      "a. WTO",
+      "b. OECD",
+      "c. UNCTAD",
+      "d. APEC"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 32: Sử dụng Internet vào hoạt động kinh doanh quốc tế cần tuân theo 5 bước cơ bản theo thứ tự nào là đúng",
+    "options": [
+      "a. Đánh giá năng lực xuất khẩu, lập kế hoạch xuất nhập khẩu, xúc tiến và tìm kiếm cơ hội xuất nhập khẩu, tiến hành giao dịch xuất nhập khẩu, quản trị mối quan hệ khách hàng",
+      "b. Quản trị quan hệ khách hàng, đánh giá năng lực xuất khẩu, lập kế hoạch xuất nhập khẩu, xúc tiến và tìm cơ hội xuất nhập khẩu, tiến hành giao dịch xuất nhập khẩu",
+      "c. Đánh giá năng lực xuất khẩu, quản trị quan hệ khách hàng, lập kế hoạch xuất nhập khẩu, xúc tiến và tìm kiếm cơ hội xuất nhập khẩu, tiến hành giao dịch xuất nhập khẩu",
+      "d. Đánh giá năng lực xuất khẩu, lập kế hoạch xuất nhập khẩu, xúc tiến, tìm kiếm cơ hội xuất nhập khẩu, quản trị quan hệ khách hàng, tiến hành giao dịch xuất nhập khẩu"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 33: Để xúc tiến xuất khẩu thành công trong thời đại hiện nay, doanh nghiệp không cần yếu tố nào",
+    "options": [
+      "a. Trang web riêng của công ty",
+      "b. Có kế hoạch marketing trực tiếp thông qua thư điện tử",
+      "c. Tham gia các sàn giao dịch thương mại điện tử",
+      "d. Có đội ngũ cán bộ chuyên trách về công nghệ thông tin"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 34: Mệnh đề nào sai",
+    "options": [
+      "a. www.wtpfed.org là website cung cấp thông tin thị trường",
+      "b. www.jetro.go.jp hỗ trợ các nhà xuất khẩu nước ngoài tìm nhà nhập khẩu Nhật Bản",
+      "c. www.worldtariff.com là website của công ty FedEx Trade Network",
+      "d. www.jurisint.org cung cấp các thông tin về thương mại trừ luật"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 35: Chỉ ra các ví dụ thành công điển hình của e-markespace",
+    "options": [
+      "a. Amazon.com",
+      "b. Hp.com",
+      "c. Jetro.go.jp",
+      "d. Alibaba.com"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 36: Website wtpfed.org là mô hình",
+    "options": [
+      "a. B2C",
+      "b. B2B",
+      "c. B2G",
+      "d. G2B"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 37: website http://unstats.un.org là website cung cấp thông tin",
+    "options": [
+      "a. Thương mại",
+      "b. Xuất nhập khẩu",
+      "c. Luật trong thương mại quốc tế",
+      "d. Niên giám thương mại"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 38: Website www.tsnn.com là website cung cấp thông tin về",
+    "options": [
+      "a. Các mặt hàng cần mua và doanh nghiệp nhập khẩu",
+      "b. Các mặt hàng cần bán và doanh nghiệp xuất khẩu",
+      "c. Các thông tin về triển lãm thương mại",
+      "d. Các thông tin về đấu giá quốc tế"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 39: Website www.countryreports.org có tác dụng đối với hoạt động nào nhất",
+    "options": [
+      "a. Nghiên cứu thị trường nước ngoài",
+      "b. Đánh giá khả năng tài chính của đối tác",
+      "c. Xin hỗ trợ tài chính xuất khẩu",
+      "d. Tìm kiếm danh mục các công ty xuất nhập khẩu"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 40: Chỉ ra giải pháp không có chung tính chất với các giải pháp còn lại",
+    "options": [
+      "a. Hoàn thiện hệ thống chính sách pháp lý về TMĐT",
+      "b. Bảo hộ sở hữu trí tuệ",
+      "c. Bảo vệ người tiêu dùng",
+      "d. Chiến lược ứng dụng TMĐT cho SMEs"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 41: Chỉ ra giải pháp không có chung tính chất với các giải pháp còn lại",
+    "options": [
+      "a. Đầu tư phát triển hệ thống thông tin cho các tổ chức, doanh nghiệp",
+      "b. Đầu tư, phát triển nguồn nhân lực cho TMĐT",
+      "c. Xây dựng lộ trình cụ thể ứng dụng TMĐT cho doanh nghiệp XNK",
+      "d. Luật hoá vấn đề bảo mật thông tin cá nhân"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 42: Website nào không hỗ trợ về bảo mật thông tin cá nhân",
+    "options": [
+      "a. W3C (P3P)",
+      "b. BBBOnline",
+      "c. BetterWeb",
+      "d. Intracen"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 43: Quy trình ứng dụng TMĐT với doanh nghiệp XNK nào đúng",
+    "options": [
+      "a. Xác định ngành hàng KD, xây dựng website, quảng bá website, hỗ trợ khách hàng, thanh toán qua mạng, đổi mới phương thức kinh doanh",
+      "b. Xác định ngành hàng KD, xây dựng website, hỗ trợ khách hàng, quảng bá website, thanh toán qua mạng, đổi mới phương thức kinh doanh",
+      "c. Xác định ngành hàng KD, xây dựng website, thanh toán qua mạng, quảng bá website, hỗ trợ khách hàng, đổi mới phương thức kinh doanh",
+      "d. Xác định ngành hàng KD, xây dựng website, quảng bá website, thanh toán qua mạng, đổi mới phương thức kinh doanh, hỗ trợ khách hàng"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 44: Chỉ ra yếu tố quan trọng nhất đối với một website",
+    "options": [
+      "a. Mua tên miền và dịch vụ hosting",
+      "b. Tổ chức các nội dung website",
+      "c. Thiết kế website",
+      "d. Bảo trì và cập nhật thông tin"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 45: Quảng bá website như thế nào sẽ không tiết kiệm nhất",
+    "options": [
+      "a. Đăng kí trên các search engine",
+      "b. Liên kết quảng cáo giữa các doanh nghiệp với nhau",
+      "c. Sử dụng viral-marketing",
+      "d. Quảng cáo trên tạp chí chuyên ngành như thương mại hay bưu chính viễn thông"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 46: Các mô hình kinh doanh thương mại điện tử thực chất là:",
+    "options": [
+      "a. Các mô hình kinh doanh truyền thống và các mô hình hoàn toàn mới",
+      "b. Các mô hình kinh doanh truyền thống đặt trong môi trưòng thương mại điện tử",
+      "c. Sự nâng cấp các mô hình kinh doanh truyền thống",
+      "d. Sự nâng cấp các mô hình kinh doanh truyền thống và các mô hình kinh doanh hoàn toàn mới"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 47: Chỉ ra mô hình kinh doanh B2B trong các mô hình sau:",
+    "options": [
+      "a. Amazon.com",
+      "b. eBay.com",
+      "c. ChemUnity.com",
+      "d. Goodsonline.com"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 48: hợp đồng điện tử là hợp đồng được giao kết thông qua các phương tiện điện tử, trong đó hợp đồng hoặc một phần của hợp đồng được lập dưới dạng dữ liệu điện tử. Đây là khái niệm hợp đồng điện tử trong",
+    "options": [
+      "a. Dự thảo pháp lệnh thương mại điện tử của Việt nam",
+      "b. Luật mẫu về thương mại điện tử UNCITRAL",
+      "c. Nhóm nghiên cứu thuộc uỷ ban châu âu về hợp đồng trong TMĐT",
+      "d. OECD"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 49: Việc kí kết hợp đồng điện tử là quá trình thiết lập, đàm phán , kí kết và duy trì các hợp đồng hoàn toàn ở dạng dữ liệu điện tử. Đây là khái niệm về giao kết hợp đồng điện tử trong",
+    "options": [
+      "a. Dự thảo pháp lệnh TMĐT của Việt nam",
+      "b. Luật mẫu về TMĐT UNCITRAL",
+      "c. Nhóm nghiên cứu thuộc uỷ ban châu âu về hợp đồng TMĐT",
+      "d. OECD"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 50: Chỉ ra yếu tố không phải là lợi ích của hợp đồng điện tử",
+    "options": [
+      "a. Tiết kiệm thời gian và chi phí cho các bên tham gia",
+      "b. Tiến tới thế giới tự động hoá trong kinh doanh",
+      "c. Đảm bảo sự an toàn, chính xác, tránh giả mạo",
+      "d. Tăng thêm thị phần cho doanh nghiệp trên thị trường quốc tế"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 51: Chỉ ra yếu tố không phải là lợi ích của hợp đồng điện tử",
+    "options": [
+      "a. An toàn trong giao dịch, kí kết hợp đồng",
+      "b. Nâng cao năng lực cạnh tranh và hội nhập kinh tế quốc tế",
+      "c. Duy trì quan hệ lâu dài với khách hàng và người cung cấp",
+      "d. Tiền đề thực hiện toàn bộ các giao dịch điện tử qua mạng"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 52: Điều gì không phải sự khác biệt giữa hợp đồng điện tử và hợp đồng truyền thống",
+    "options": [
+      "a. Sử dụng chữ kí bằng tay và sử dụng chứ kí điện tử",
+      "b. Một hợp đồng bằng giấy hoàn chỉnh và một hợp đồng được tổng hợp thông qua thống nhất các điều khoản ở các thông điệp dữ liệu khác nhau",
+      "c. Thời điểm kí của hai bên gần nhau và cách xa nhau",
+      "d. Nội dung hợp đồng truyền thống đơn giản hơn"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 53: Sự khác biệt giữa hợp đồng truyền thống và điện tử thể hiện rõ nhất ở",
+    "options": [
+      "a. Đối tượng của hợp đồng",
+      "b. Nội dung của hợp đồng",
+      "c. Chủ thể của hợp đồng",
+      "d. Hình thức của hợp đồng"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 54: Chỉ ra mệnh đề không đúng:",
+    "options": [
+      "a. Hợp đồng B2B linh hoạt hơn hợp đồng B2C",
+      "b. Hợp đồng điện tử phụ thuộc vào máy tính và các phần mềm lập và hiển thị nó",
+      "c. Người mua trong hợp đồng điện tử nhiều khi không thể nhận được hàng",
+      "d. Hợp đồng điện tử được kí giữa người và phần mềm máy tính"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 55: Công ước E-terms là do tổ chức nào đưa ra",
+    "options": [
+      "a. ICC",
+      "b. UNCITRAL",
+      "c. ITC",
+      "d. WTO"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 56: Chỉ ra mệnh đề không đúng",
+    "options": [
+      "a. Khi mua hàng trên mạng, chào hàng chỉ bắt đầu khi người mua đồng ý với đơn hàng do cửa hàng tổng hợp tên cơ sở các chọn lựa của người mua trước đó",
+      "b. Khi người mua chấp nhận chào hàng này thì hợp đồng được hình thành và người bán có thể nhận được tiền ngay sau đó",
+      "c. Nguyên tắc chung khi mua sắm trên mạng là chọn các cửa hàng lớn, có uy tín để mua",
+      "d. Hợp đồng điện tử B2C được hình thành khác với các hợp đồng truyền thống về nội dung"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 57: Chỉ ra mệnh đề sai",
+    "options": [
+      "a. Website là phương pháp không dễ dàng để sản phẩm được biết đến trên thế giới",
+      "b. Xây dựng website dễ hơn việc cập nhật, duy trì và phát triển website",
+      "c. Các trung gian thương mại sẽ bị loại bỏ khi TMĐT ra đời và phát triển",
+      "d. Các rủi ro trong thanh toán bằng thẻ tín dụng do người bán chịu"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 58: Vận đơn đường biển thường bị làm giả không vì mục đích nào",
+    "options": [
+      "a. Sửa đổi số lượng, chất lượng của hàng hoá được mô tả trên vận đơn",
+      "b. Làm giả vận đơn để bán lại hàng hoá cho người hàng hoặc nhận hàng",
+      "c. Làm giả vận đơn để nhận tiền theo quy định trong LC",
+      "d. Làm giả vận đơn để gửi sớm cho người mua để họ nhận hàng"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 59: Vì………….là chứng từ có thể chuyển nhượng được nên ngân hàng có thể giữ chứng từ này như một sự đảm bảo cho các khoản tín dụng cấp cho người nhập khẩu. Khi hàng hoá tới cảng đến, người mua xuất trình ……….gốc cho người chuyên chở để nhận hàng",
+    "options": [
+      "a. Vận đơn đường biển",
+      "b. Vận đơn điện tử",
+      "c. Hợp đồng điện tử",
+      "d. Bộ chứng từ thanh toán"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 60: Đặc điểm nào không phải của mã khoá bí mật",
+    "options": [
+      "a. Khoá để mã hoá và giải mã giống nhau",
+      "b. Người gửi và người nhận cùng biết khoá này",
+      "c. Chi phí quản lý loại khoá này thấp và quản lý đơn giản với cả hai bên",
+      "d. Doanh nghiệp sẽ phải tạo ra khoá bí mật cho từng khách hàng"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 61: Yếu tố nào không thuộc quy trình tạo lập chữ kí điện tử",
+    "options": [
+      "a. Thông điệp gốc",
+      "b. Bản tóm lược của thông điệp",
+      "c. Khoá công cộng",
+      "d. Chữ kí điện tử"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 62: Yếu tố nào không thuộc quy trình xác nhận chữ kí điện tử",
+    "options": [
+      "a. Thông điệp nhận được",
+      "b. Khoá bí mật",
+      "c. Bản tóm lược của thông điệp",
+      "d. Kết quả so sánh hai bản tóm lược"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 63: Về cơ bản, trên chứng thực điện tử (hay chứng chỉ số hoá) được cấp cho một tổ chức gồm có, ngoại trừ",
+    "options": [
+      "a. Tên đầy đủ, tên viết tắt, tên giao dịch",
+      "b. Địa chỉ liên lạc",
+      "c. Thời hạn hiệu lực, mã số của chứng thực",
+      "d. Mã số công cộng và khả năng tài chính của tổ chức"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 64: Trong thương mại quốc tế, các chứng thực cần được một tổ chức cấp, tổ chức này cần có đặc điểm sau, ngoại trừ:",
+    "options": [
+      "a. Một tổ chức hàng đầu thế giới",
+      "b. Có uy tín trong cộng đồng kinh doanh, ngân hàng, vận tải",
+      "c. Có khả năng đặc biệt về ứng dụng CNTT trong TMĐT",
+      "d. Có mạng lưới chi nhánh rộng khắp thế giới"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 65: Các quy tắc của CMI sử dụng công cụ………… để thực hiện việc kí hậu và chuyển quyền sở hữu đối với vận đơn điện tử",
+    "options": [
+      "a. Khoá công cộng của vận đơn điện tử",
+      "b. Khoá bí mật của vận đơn điện tử",
+      "c. Chữ kí điện tử",
+      "d. Hệ thống Bolero"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 66: Người nắm giữ………….của vận đơn điện tử có thể ra lệnh giao hàng, chuyển quyền sở hữu hàng hoá cho bên thứ ba, chỉ định hoặc thay thế người nhận hàng, nhìn chung có đầy đủ các quyền mà người nắm giữ vận đơn giấy có được",
+    "options": [
+      "a. Khoá công cộng",
+      "b. Khoá bí mật",
+      "c. Chữ kí điện tử",
+      "d. Hệ thống Bolero"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 67: Các vấn đề chính được đề cập trong các nguồn luật điều chỉnh TMĐT gồm, ngoại trừ",
+    "options": [
+      "a. Hiệu lực pháp lý của các thông điệp dữ liệu",
+      "b. Yêu cầu về Văn bản",
+      "c. Yêu cầu về Chữ kí",
+      "d. Vận đơn điện tử"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 68: Chỉ ra mệnh đề không đúng",
+    "options": [
+      "a. Tại nhiều quốc gia, các bản ghi điện tử đã được chấp nhận là bằng chứng",
+      "b. Hiệu lực pháp lý, giá trị hay hiệu lực thi hành của thông tin thường vẫn bị phủ nhận vì nó được thể hiện dưới dạng thông điệp dữ liệu mà không phải bằng giấy",
+      "c. Quy tắc bằng chứng tốt nhất hay bằng chứng bổ sung khi áp dụng với thông điệp dữ liệu thì cũng không thay đổi hiệu lực pháp lý và giá trị làm bằng chứng của các thông điệp này",
+      "d. Trong trường hợp không có chứng từ gốc, một thông điệp dữ liệu hoặc một bản in từ máy tính có thể được coi là bằng chứng tốt nhất"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 69: “Bằng văn bản” theo luật của Úc, được hiểu là, ngoại trừ",
+    "options": [
+      "a. Bất kì giấy tờ hoặc chất liệu nào có chữ trên đó",
+      "b. Bất kì giấy tờ hoặc chất liêu nào có các kí hiệu, hình ảnh… có ý nghĩa và có thể hiểu được",
+      "c. Bất kì đồ vật hoặc chất liệu nào phát ra hình ảnh hoặc chữ viết mà có thể tái tạo lại được",
+      "d. Các hình thức khác chữ trên giấy hoặc chất liệu tương tự đều không được chấp nhận"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 70: Việc chứng thực một thông điệp điện tử bằng …………là để cho người nhận thông điệp đó hay bên thứ ba biết được nguồn gốc của thông điệp cũng như ý chí của bên đưa ra thông điệp đó",
+    "options": [
+      "a. Mã khoá bí mật",
+      "b. Mã khoá công cộng",
+      "c. Chữ kí điện tử",
+      "d. Cơ quan chứng thưc"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 71: Incoterms 2000 và eUCP 1.0 đều",
+    "options": [
+      "a. Có quy định chi tiết và rõ ràng về các chứng từ điện tử",
+      "b. Có quy định và đề cập đến những nội dung cơ bản về chứng từ điện tử",
+      "c. Chưa có quy định cụ thể về chứng từ điện tử",
+      "d. Chấp nhận tất cả chứng từ điện tử"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 72: Chỉ ra định nghĩa TMĐT theo chiều ngang",
+    "options": [
+      "a. MSDP",
+      "b. MSPD",
+      "c. MDSP",
+      "d. MDPS"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 73: Chỉ ra định nghĩa TMĐT theo chiều dọc",
+    "options": [
+      "a. IMBSA",
+      "b. IMBAS",
+      "c. IBMSA",
+      "d. IBMAS"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 74: Đặc trưng nào không phải của riêng TMĐT",
+    "options": [
+      "a. Các bên giao dịch không cần gặp trực tiếp, không cần biết nhau từ trước",
+      "b. Xoá nhoà khái niệm biên giới quốc gia",
+      "c. Sự tham gia của cơ quan chứng thực là tất yếu",
+      "d. Thông tin thị trường trở thành công cụ cạnh tranh đắc lực"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 75. Các mô hình kinh doanh sau đây, mô hình nào không phù hợp với môi trường kinh doanh trên Internet:",
+    "options": [
+      "a. Marketing liên kết",
+      "b. Đấu giá",
+      "c. Chuyển phát nhanh",
+      "d. Khách hàng tự đặt giá"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 76. Công ty XYZ có dịch vụ giúp các cá nhân bán hàng cho các cá nhân khác và thu một khoản phí trên các giao dịch được thực hiện. Mô hình kinh doanh EC nào được công ty sử dụng:",
+    "options": [
+      "a. B2B",
+      "b. B2C",
+      "c. C2C",
+      "d. P2P"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 77: Cá biệt hoá rộng rãi cho phép công ty có thể:",
+    "options": [
+      "a. Sản xuất số lượng lớn sản phẩm giống nhau",
+      "b. Sản xuất các sản phẩm phù hợp từng nhóm khách hàng",
+      "c. Sản xuất số lượng lớn sản phẩm phù hợp từng cá nhân",
+      "d. Hiểu được những nhu cầu cụ thể của số đông khách hàng để từ đó tạo ra những sản phẩm thành công"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 78: Nhận xét nào không phải là hạn chế của TMĐT:",
+    "options": [
+      "a. Một số khách hàng thích kiểm tra hàng hoá thực khi mua",
+      "b. Tốc độ đường truyền Internet ngày càng nhanh hơn",
+      "c. Vấn đề an ninh còn ít được chú ý và đang trong giai đoạn xây dựng",
+      "d. Các phần mềm ứng dụng thay đổi thường xuyên"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 79: Công ty XYZ bán hàng hoá cho các khách hàng cá nhân, mô hình nào được sử dụng:",
+    "options": [
+      "a. B2B",
+      "b. B2C",
+      "c. C2C",
+      "d. P2P"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 80: Chỉ ra hạn chế của TMĐT:",
+    "options": [
+      "a. Khả năng hoạt động liên tục 24/7",
+      "b. Liên kết với hệ thống thông tin của nhà cung cấp, nhà phân phối",
+      "c. Yêu cầu về hệ thống phần cứng, phần mềm, nối mạng",
+      "d. Mở rộng thị trường"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 81: Chỉ ra lợi ích của TMĐT:",
+    "options": [
+      "a. Khắc phục hạn chế về đường truyền",
+      "b. Mọi người có thể giao tiếp dễ dàng hơn",
+      "c. Khách hàng mua hàng có thể yên tâm hơn về an ninh TMĐT",
+      "d. TMĐT và các công nghệ liên quan ngày càng phát triển mạnh"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 82: TMĐT làm giảm chu kì của các hoạt động sau, ngoại trừ:",
+    "options": [
+      "a. Sự thoả mãn của khách hàng",
+      "b. Các chiến lược marketing",
+      "c. Vòng đời sản phẩm",
+      "d. Thời gian tung sản phẩm ra thị trường"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 83: Tại sao TMĐT B2C lại kém hấp dẫn hơn so với B2B:",
+    "options": [
+      "a. Dễ tiến hành hơn",
+      "b. Chi phí đầu tư và thực hiện thấp hơn",
+      "c. Số lượng khách hàng lớn hơn",
+      "d. Xung đột trong kênh phân phối"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 84: Công ty XYZ giúp các cá nhân trao đổi các sản phẩm số hoá, mô hình kinh doanh đã được áp dụng là mô hình nào",
+    "options": [
+      "a. B2B",
+      "b. B2C",
+      "c. C2C",
+      "d. P2P"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 85: Công ty ABC có nhiều chi nhánh đã thiết kế được hệ thống thông tin của mình cho phép truy cập từ bên ngoài thông qua Internet. Công ty sẽ liên kết các chi nhánh này với nhau. Mạng của công ty thuộc loại gì:",
+    "options": [
+      "a. Internet",
+      "b. Intranet",
+      "c. Extranet",
+      "d. VPN"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 86: Công ty XYZ bán nhiều loại sản phẩm thông qua website của mình, họ đang sử dụng mô hình kinh doanh nào?",
+    "options": [
+      "a. Marketing liên kết",
+      "b. Đấu giá trực tuyến",
+      "c. Bán lẻ trực tuyến",
+      "d. Khách hàng tự định giá"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 87: ABC là một hiệp hội giúp các thành viên của mình mua sắm với giá thấp hơn khi mua số lượng lớn. Mô hình kinh doanh mà ABC đang sử dụng là mô hình gì?",
+    "options": [
+      "a. Mua sắm theo nhóm",
+      "b. Đấu giá trực tuyến",
+      "c. Marketing liên kết",
+      "d. Khách hàng tự định giá"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 88: Yếu tố nào không phải chức năng của thị trường:",
+    "options": [
+      "a. Kết nối người mua và người bán",
+      "b. Tạo điều kiện để tiến hành giao dịch",
+      "c. Đảm bảo lợi nhuận cho người môi giới",
+      "d. Cung cấp môi trường để tiến hành các hoạt động kinh doanh"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 89: Chỉ ra bên trung gian:",
+    "options": [
+      "a. Một hãng marketing chuyên cung cấp các quảng cáo",
+      "b. Hệ thống máy tính, phần mềm kết nối những người mua và người bán",
+      "c. Người bán cung cấp các sản phẩm đến khách hàng",
+      "d. UPS cung cấp các sản phẩm đến khách hàng"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 90: Giảm chi phí tìm kiếm của khách hàng cho phép họ:",
+    "options": [
+      "a. Tìm kiếm nhiều sản phẩm và giá cả để lựa chọn tốt nhất",
+      "b. Thực hiện các quyết định mua sắm đúng đắn",
+      "c. Tính toán được chi phí của sản phẩm",
+      "d. Thương lượng được giá tốt nhất"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 91: Hoạt động nào không được sử dụng để làm tăng lòng tin về chất lượng:",
+    "options": [
+      "a. Mẫu hàng miễn phí",
+      "b. Giảm giá",
+      "c. Chính sách trả lại hàng",
+      "d. Bảo hành"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 92: Theo chiến lược khác biệt hoá sản phẩm, định giá căn cứ vào:",
+    "options": [
+      "a. Chi phí sản xuất",
+      "b. Chi phí của sản phẩm tương tự",
+      "c. Giá trên thị trường",
+      "d. Mức giá khách hàng sẵn sàng chấp nhận thanh toán"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 93: Chỉ ra yếu tố không thuộc Năm lực lượng cạnh tranh của Michael Porter:",
+    "options": [
+      "a. Đe doạ từ phía các sản phẩm thay thế",
+      "b. Sức ép từ phía nhà cung cấp",
+      "c. Sức ép từ phía đối thủ cạnh tranh",
+      "d. Tác động của hệ thống thông tin TMĐT"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 94: Tại sao người kinh doanh muốn cá biệt hoá sản phẩm:",
+    "options": [
+      "a. Có thể định giá cao hơn",
+      "b. Giảm chi phí sản xuất",
+      "c. Trong TMĐT yêu cầu phải cá biệt hoá",
+      "d. Khách hàng có xu hướng chỉ chấp nhận các sản phẩm cá biệt hoá"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 95: Chỉ ra ví dụ của việc tiếp tục sử dụng trung gian trong kinh doanh:",
+    "options": [
+      "a. Sử dụng nhân viên bán hàng để thương lượng các hợp đồng lớn, phức tạp",
+      "b. Mua vé máy bay trực tiếp từ hãng hàng không",
+      "c. Mua bảo hiểm từ công ty thay vì qua đại lý",
+      "d. Mua bán chứng khoán qua Internet thay vì dùng môi giới"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 96: Chỉ ra yếu tố là hạn chế của đấu giá truyền thống:",
+    "options": [
+      "a. Thời gian tiến hành",
+      "b. Thời gian kiểm tra",
+      "c. Khả năng kĩ thuật của người mua",
+      "d. Yêu cầu hiện diện thực tế"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 97: Chỉ ra yếu tố không phải là lợi ích của đấu giá với người bán:",
+    "options": [
+      "a. Nhiều khách hàng",
+      "b. Giải trí",
+      "c. Nhanh chóng thu được tiền",
+      "d. Loại bỏ các trung gian"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 98: Chỉ ra các bước trong quá trình mặc cả trên mạng:",
+    "options": [
+      "a. Tìm kiếm. lựa chọn, thương lượng, hoàn thành giao dịch",
+      "b. Tìm kiếm, lựa chọn, thương lượng, tiếp tục lựa chọn, thương lượng, hoàn thành giao dịch",
+      "c. Tìm kiếm, thương lượng, lựa chọn, hoàn thành giao dịch",
+      "d. Tìm kiếm, thương lượng, lựa chọn, tiếp tục lựa chọn và thương lượng, hoàn thành giao dịch"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 99: Chỉ ra hạn chế của đấu giá:",
+    "options": [
+      "a. Quy mô thị trường",
+      "b. Đa dạng hoá các sản phẩm chào bán",
+      "c. Có nguy cơ giả mạo",
+      "d. Bán hàng linh hoạt"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 100: Jeff muốn mua hàng trên mạng nhưng không tin tưởng vào chính sách bảo mật thông tin cá nhân, anh ta có thể sử dụng công cụ nào trên mạng để tham khảo?",
+    "options": [
+      "a. Shopbot",
+      "b. Trust verification site",
+      "c. Business rating site",
+      "d. Shopping portals"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 101: Các site đánh giá độ tin cậy của các site thương mại điện tử khác. Các đánh giá này có độ tin cậy như thế nào?",
+    "options": [
+      "a. Rất cao, các đánh giá bảo đảm độ tin cậy tuyệt đối của các site được đánh giá",
+      "b. Trung bình, thông thường mức đánh giá được tham khảo để khách hàng quyết định",
+      "c. Thấp, công ty nào cũng được đánh giá là tốt",
+      "d. Thấp, công ty nào bị coi là không đáng tin cậy thì mới được đánh giá"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 102: Một site cung cấp nội dung miễn phí, tuy nhiên , trên các banner có những quảng cáo, công ty đang sử dụng mô hình kinh doanh nào?",
+    "options": [
+      "a. Sponsorship Model",
+      "b. Transaction Model",
+      "c. Subscription Model",
+      "d. Advertisintg-supported Model"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 103: Chỉ ra ví dụ của mô hình bán lẻ qua mạng:",
+    "options": [
+      "a. Cửa hàng A không có trụ sở thực và bán nhiều loại hàng hoá qua mạng Internet",
+      "b. Cửa hàng B không có trụ sở thực và bán một số sản phẩm nhất định qua mạng",
+      "c. Cửa hàng C có trụ sở thực và có website, bán nhiều loại hàng hoá",
+      "d. Cửa hàng D có trụ sở thực và bán nhiều loại hàng hoá"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 104: Chỉ ra dịch vụ Không được các công ty du lịch qua mạng cung cấp:",
+    "options": [
+      "a. Bán và đặt vé",
+      "b. Thông tin giới thiệu",
+      "c. Giảm giá vé máy bay",
+      "d. Máy tính chuyển đổi tiền"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 105: Các đại lý trên mạng không tạo ra thay đổi nào dưới đây đối với ngành du lịch:",
+    "options": [
+      "a. Các dịch vụ cá biệt hoá nhiều hơn",
+      "b. Tiện lợi hơn",
+      "c. Hiểu biết nhiều về sản phẩm hơn",
+      "d. Chi phí cao hơn do giảm bớt nhiều dịch vụ"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 106: Đe doạ nghiêm trọng nhất đối với các đại lý du lịch truyền thống là gì?",
+    "options": [
+      "a. Giá thấp hơn",
+      "b. Các đại lý ảo qua mạng",
+      "c. Dịch vụ tự động",
+      "d. Dịch vụ liên tục 24/24"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 107: Chỉ ra yếu tố không phải là động lực trong thị trường lao động qua mạng?",
+    "options": [
+      "a. Quy mô của thị trường lao động",
+      "b. Chi phí",
+      "c. Thời gian tìm kiếm",
+      "d. Tốc độ giao tiếp"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 108: Chỉ ra yếu tố không phải lợi thế của thị trường lao động qua mạng đối với người lao động:",
+    "options": [
+      "a. Tốc độ giao tiếp",
+      "b. Khả năng tìm kiếm nhiều vị trí hơn",
+      "c. Khả năng đánh giá giá trị của mình",
+      "d. Số người sử dụng Internet còn thấp"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 109: Chỉ ra yếu tố không phải lợi thế của Internet khi hỗ trợ các giao dịch về bất động sản",
+    "options": [
+      "a. Xem sản phẩm qua mạng, tiết kiệm thời gian",
+      "b. Sắp xếp các sản phẩm theo thuộc tính để đánh giá nhanh hơn",
+      "c. Thông tin chi tiết về sản phẩm",
+      "d. Dịch vụ qua mạng giảm nhu cầu đến tận nơi để xem"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 110: Trong các công ty sau, công ty nào không mua bán chứng khoán qua mạng:",
+    "options": [
+      "a. Priceline.com",
+      "b. Schwab.com",
+      "c. E-Trade.com",
+      "d. Datek.com"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 111. Dịch vụ nào không thuộc khả năng của Home Banking:",
+    "options": [
+      "a. In séc mới từ Internet",
+      "b. Thanh toán hoá đơn",
+      "c. Xem thông tin về tài khoản",
+      "d. Chuyển tiền giữa các tài khoản"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 112: Chỉ ra yếu tố không phải là lợi thế của Online Banking:",
+    "options": [
+      "a. Thanh toán hoá đơn qua mạng",
+      "b. Truy cập mọi lúc",
+      "c. Giao tiếp trực tiếp với nhân viên",
+      "d. Xem chi tiết các giao dịch đã thực hiện"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 113: Các nội dung được xuất bản nhưng chỉ có thể đọc được qua máy vi tính hay các thiết bị cầm tay là ví dụ nào của xuất bản điện tử?",
+    "options": [
+      "a. Edu-tainment",
+      "b. E-book",
+      "c. P2P",
+      "d. Distance Learning"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 114: Một website có 10000 người xem một ngày nhưng chủ website không thể biết chính xác những người xem đó giống hay khác nhau. 10000 lần mở website này được gọi là:",
+    "options": [
+      "a. Impression",
+      "b. Unique visitors",
+      "c. Hits",
+      "d. Cookies"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 115: Chỉ ra lý do không làm quảng cáo trên Internet ngày càng phát triển:",
+    "options": [
+      "a. Các quảng cáo được cập nhật dễ dàng",
+      "b. Quảng cáo có thể sử dụng nhiều phương tiện khác nhau",
+      "c. Số người dùng Internet đạt mức bão hoà",
+      "d. Web TV đã phát triển để người sử dụng Internet có thể tiếp cận"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 116: Chỉ ra yếu tố không phải hạn chế của quảng cáo trực tuyến",
+    "options": [
+      "a. Chưa có tiêu chuẩn chung để đánh giá",
+      "b. Khó phân đoạn thị trường",
+      "c. Khó đo lường quy mô thị trường",
+      "d. Khó so sánh các cơ hội quảng cáo"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 117: Chỉ ra yếu tố không phải lợi ích của quảng cáo bằng banner trên mạng",
+    "options": [
+      "a. Dẫn người sử dụng đến website được quảng cáo",
+      "b. Người xem bị buộc phải xem banner quảng cáo",
+      "c. Thay đổi nội dung phù hợp thị trường mục tiêu",
+      "d. Chi phí thấp"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 118: Công ty A đăng quảng cáo trên hàng loạt các website khác đồng thời bán lại chỗ để quảng cáo trên website của mình, chiến lược công ty sử dụng là gì:",
+    "options": [
+      "a. Skyscaper Ad",
+      "b. Banner exchange",
+      "c. Banner swapping",
+      "d. Customized banner"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 119: Tạo sao email được sử dụng phổ biến trong quảng cáo điện tử",
+    "options": [
+      "a. Phản hồi nhanh từ phía khách hàng tiềm năng",
+      "b. Khách hàng có số lượng message giảm dần",
+      "c. Không có phản ứng dữ dội từ phía khách hàng",
+      "d. Chi phí cao khiến ngày càng ít người sử dụng phương thức này"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 120: Công ty ABC cho phép người sử dụng sản phẩm thảo luận về sản phẩm, công dụng, cách sử dụng…..trên website của mình, công ty đang sử dụng hình thức gì:",
+    "options": [
+      "a. Email",
+      "b. Emercial",
+      "c. Chat rooms",
+      "d. Banner"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 121: Công ty ABC gửi những email đến các khách hàng trung thành của mình, công ty hi vọng rằng những khách hàng này sẽ chuyển tiếp những thông điệp đến bạn bè, đồng nghiệp của họ, hình thức marketing này được gọi là gì",
+    "options": [
+      "a. Push marketing",
+      "b. Pull marketing",
+      "c. Test marketing",
+      "d. Viral marketing"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 122: Các website find-the-best-price cho phép khách hàng:",
+    "options": [
+      "a. Tìm giá tốt nhất của một sản phẩm nhất định giữa những người cung cấp là thành viên của site",
+      "b. Tìm giá tốt nhất của sản phẩm trên Internet",
+      "c. Đưa ra quyết định tốt nhất để mua một sản phẩm",
+      "d. Xác định xem một sản phẩm có được định giá hợp lý hay không"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 123: Công ty ABC cho thuê chỗ để quảng cáo và tính phí trên số lượng người truy cập website của khách hàng thông qua banner này, đây là mô hình quảng cáo gì:",
+    "options": [
+      "a. Page views",
+      "b. Click throughs",
+      "c. Hits",
+      "d. Actual Purchases"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 124: Chỉ ra yếu tố không phải là lợi thế của online catalogue đối với catalogue truyền thống:",
+    "options": [
+      "a. Đòi hỏi kĩ năng về tin học",
+      "b. Cá biệt hoá đơn giản",
+      "c. Dễ cập nhật",
+      "d. Có khả năng so sánh dễ dàng hơn"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 125: Cindy xem một catalogue trên mạng. Dựa vào những sản phẩm mà Cindy xem, website tự xây dựng một danh mục các sản phẩm cho Cindy. Catalogue kiểu này được gọi là website gì:",
+    "options": [
+      "a. Catalogue động",
+      "b. Catalogue so sánh",
+      "c. Catalogue cá biệt hoá",
+      "d. Pointcast"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 126: Điều gì không bị coi là vi phạm đạo đức kinh doanh đối với người sử dụng web:",
+    "options": [
+      "a. Bán danh sách thông tin khách hàng mà không được sự đồng ý của họ",
+      "b. Sử dụng cookies",
+      "c. Bán hàng trên mạng",
+      "d. Spamming"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 127: Yếu tố nào là không cần thiết khi tiến hành quảng cáo trên mạng:",
+    "options": [
+      "a. Phối hợp quảng cáo truyền thống",
+      "b. Xác định khách hàng mục tiêu",
+      "c. Khách hàng mục tiêu cần online",
+      "d. Có phần cứng phù hợp"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 128: Chỉ ra mô hình B2B emarketplace tư nhân:",
+    "options": [
+      "a. Công ty ABC bán phụ tùng máy móc cho 20 khách hàng qua catalogue in",
+      "b. Công ty ABC cùng với các nhà sản xuất khác và người giao dịch mua bán phụ tùng máy móc thông qua một website",
+      "c. Công ty ABC bán phụ tùng máy móc cho 20 khách hàng thông qua website của mình",
+      "d. Công ty ABC bán CDs cho khách hàng thông qua website của mình"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 129: Chỉ ra ví dụ minh hoạ loại bỏ trung gian trong thương mại điện tử:",
+    "options": [
+      "a. Bên cạnh bán hàng qua catalogue in ấn, công ty mở rộng kênh bán hàng qua mạng",
+      "b. Bên cạnh bán hàng qua các cửa hàng tổng hợp, công ty mở rộng bán hàng qua mạng",
+      "c. Công ty bỏ kênh bán hàng quan catalogue để tập trung vào bán hàng qua mạng",
+      "d. Bên cạnh bán hàng qua catalogue, công ty bắt đầu bán qua các cửa hàng tổng hợp"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 130: Công ty ABC giúp người mua và người bán tiến hành giao dịch qua mạng, ABC đang sử dụng mô hình gì:",
+    "options": [
+      "a. Chợ điện tử của người bán",
+      "b. Thương mại điện tử phối hợp",
+      "c. Chợ điện tử nhiều-một",
+      "d. Chợ điện tử nhiều-nhiều"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 131: Chỉ ra yếu tố không phải đặc điểm của chợ điện tử của người bán:",
+    "options": [
+      "a. Cung cấp nhiều dịch vụ khách hàng",
+      "b. Cung cấp catalogue cá biệt theo nhu cầu khách hàng",
+      "c. Giá cả cao hơn giá trên thị trường truyền thống",
+      "d. Cung cấp các sản phẩm cá biệt hoá"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 132: Một số công ty cùng sử dụng một mô hình catalogue trên mạng. Đây là mô hình:",
+    "options": [
+      "a. Đổi hàng",
+      "b. Thương mại điện tử hợp tác",
+      "c. Mua hàng theo nhóm",
+      "d. Liên kết catalogue"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 133: Chỉ ra yếu tố không phải là yêu cầu của chợ điện tử B2B:",
+    "options": [
+      "a. Máy chủ",
+      "b. Phần cứng và phần mềm bảo mật",
+      "c. Phần mềm hỗ trợ bên bán và bên mua",
+      "d. Mạng nội bộ và ngoại bộ riêng"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 134: Chỉ ra ví dụ công ty không theo mô hình hướng vào TMĐT:",
+    "options": [
+      "a. Công ty ABC bán đấu giá hàng trên mạng",
+      "b. Công ty ABC bán hàng trên mạng",
+      "c. Một số công ty cùng mua đồ văn phòng phẩm qua catalogue trực tuyến",
+      "d. Công ty ABC mua văn phòng phẩm qua catalogue trực tuyền"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 135: Chỉ ra ví dụ không phải thuộc hoạt động B2E:",
+    "options": [
+      "a. Nhân viên sử dụng các tài liệu đào tạo của công ty trên website của công ty",
+      "b. Nhân viên yêu cầu các văn phòng phẩm qua mạng",
+      "c. Công ty quảng cáo tuyển dụng nhân viên mới qua website của mình",
+      "d. Công ty đặt các biên bản ghi nhớ trên mạng nội bộ"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 136: Chỉ ra yếu tố không phải là đặc điểm của mạng Intranet:",
+    "options": [
+      "a. Thiết kế để phục vụ một công ty",
+      "b. Chỉ sử dụng trong nội bộ công ty",
+      "c. Có thể browse giống như Internet",
+      "d. Sử dụng các nguồn lực của riêng công ty"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 137: Chỉ ra yếu tố không phải yêu cầu của mạng Internet:",
+    "options": [
+      "a. Máy chủ lưu trữ web",
+      "b. Truy cập internet",
+      "c. Công cụ xuất bản trên www",
+      "d. Các phần mềm duyệt web",
+      "a. Không thường xuyên, không liên tục",
+      "b. Có giới hạn do hạn chế công nghê",
+      "c. Có một số giới hạn do thiếu sự chấp nhận",
+      "d. Mạnh mẽ, các ứng dụng vẫn tiếp tục được phát triển"
+    ],
+    "answer": 7,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 139: Cổng thông tin của công ty ABC được thiết kế cho mạng nội bộ của công ty. Tại cổng này có một số lượng lớn các thông tin hướng tới một số hạn chế người sử dụng. Cổng này thuộc loại hình:",
+    "options": [
+      "a. Cổng xuất bản",
+      "b. Cổng thương mại",
+      "c. Cổng cá nhân",
+      "d. Cổng doanh nghiệp"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 140: Chính phủ điện tử không gồm hoạt động nào dưới đây:",
+    "options": [
+      "a. Cung cấp các tiện ích cho mọi công dân",
+      "b. Bán hàng hoá và dịch vụ",
+      "c. Cung cấp các mẫu form của nhà nước",
+      "d. Cung cấp cổng truy nhập vào thông tin của chính phủ"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 141: Chỉ ra hoạt động thuộc phạm vi hoạt động của chính phủ với công dân G2C:",
+    "options": [
+      "a. Chuyển nhượng lợi ích",
+      "b. Mua sắm điện tử",
+      "c. Đấu gia điện tử",
+      "d. Mua bán trên mạng"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 142: Thay đổi cơ cấu tổ chức chính phủ thực sự được thực hiện trong giai đoạn nào:",
+    "options": [
+      "a. Xuất bản thông tin",
+      "b. Giao dịch hai chiều chính thức",
+      "c. Cá biệt hoá các cổng",
+      "d. Chia nhóm các dịch vụ"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 143: Chỉ ra ví dụ của P2P, giao dịch TMĐT ngang hàng:",
+    "options": [
+      "a. Chia sẻ file",
+      "b. Dịch vụ cá biệt hoá",
+      "c. Trao đổi giữa người tiêu dùng",
+      "d. Trao đổi quảng cáo"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 144: Yếu tố nào ít được coi trọng nhất khi các doanh nghiệp tạo cổng thông tin:",
+    "options": [
+      "a. Dịch vụ tin tức",
+      "b. Các kiến thức chuyên ngành",
+      "c. Các công cụ hỗ trợ tác nghiệp",
+      "d. Các công cụ học tập"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 145: Cổng thông tin ABC được thiết kế cho nhiều và đa dạng người sử dụng. Có rất ít chức năng cá biệt hoá cho các nhu cầu cụ thể. Cổng này thuộc loại:",
+    "options": [
+      "a. Cổng xuất bản",
+      "b. Cổng thương mại",
+      "c. Cổng cá nhân",
+      "d. Cổng công ty"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 146: Chỉ ra yếu tố không thuộc phạm vi của Chính phủ điện tử hiện nay:",
+    "options": [
+      "a. G2G",
+      "b. G2C",
+      "c. G2P",
+      "d. G2E"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 147: Chỉ ra yếu tố không phải lợi ích của chuyển nhượng lợi ích điện tử:",
+    "options": [
+      "a. Tốc độ giao dịch",
+      "b. Tính toán và nộp thuế",
+      "c. Giảm gian lận",
+      "d. Giảm chi phí"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 148: Tổ chức nào không đóng vai trò quan trọng về luật trong TMĐT quốc tế:",
+    "options": [
+      "a. UNCITRAL",
+      "b. OECD",
+      "c. WIPO",
+      "d. ASEAN"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 149: Tổ chức nào không đóng vai trò quan trọng về luật trong TMĐT quốc tế:",
+    "options": [
+      "a. APEC",
+      "b. Hague Conference in Private International Law",
+      "c. WTO",
+      "d. OPEC"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 150: Chỉ ra mệnh đề không đúng:",
+    "options": [
+      "a. UNCITRAL vai trò chính trong phát triển các luật mẫu điều chỉnh giao dịch điện tử:",
+      "b. OECD vai trò dẫn đầu điều chỉnh thuế, bảo vệ người tiêu dùng, bảo vệ sự riêng tư trong TMĐT",
+      "c. WIPO dẫn đầu về bản quyền và thương hiệu trong TMĐT",
+      "d. ASEAN các vấn đề về thương mại điện tử quốc tế trong khu vực"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 151: Chỉ ra mệnh đề không đúng:",
+    "options": [
+      "a. ICANN Chính sách giải quyết tranh chấp liên quan đến tên miền, đã góp phần giải quyết được hàng nghìn vụ tranh chấp liên quan đến tên miền",
+      "b. APEC Nghiên cứu các vấn đề về sự cách biệt số hoá và khả năng ứng dụng TMĐT cho các doanh nghiệp vừa và nhỏ",
+      "c. WTO Các vấn đề về rào cản đối với TMĐT",
+      "d. AMA Các vấn đề về marketing điện tử quốc tế trong TMĐT"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 152: Trên phạm vi quốc gia, tổ chức nào đưa ra luật điều chỉnh TMĐT. Chỉ ra mệnh đề sai:",
+    "options": [
+      "a. Nhật, Sing, Việt ở cấp chính phủ",
+      "b. Mĩ, Canada ở bang và liên bang",
+      "c. Liên minh châu Âu áp dụng cho các quốc gia thuộc liên minh",
+      "d. Australia áp dụng luật mẫu về TMĐT của UNCITRAL tại các bang"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 153: UNCITRAL đã đưa ra hai luật mẫu quan trọng về thương mại điện tử:",
+    "options": [
+      "a. Luật mẫu về TMĐT và luật mẫu về chữ kí điện tử",
+      "b. Luật mẫu về TMĐT và luật mẫu về giao dịch điện tử",
+      "c. Luật mẫu về hợp đồng điện tử và luật mẫu về chữ kí điện tử",
+      "d. Luật mẫu về hợp đồng điện tử và luật mẫu về giao dịch điện tử"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 154: Hai luật mẫu quan trọng về TMĐT được UNCITRAL đưa ra vào các năm:",
+    "options": [
+      "a. 1996,2001",
+      "b. 1996,2002",
+      "c. 1995.2001",
+      "d. 1995,2004"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 155: Tổ chức ………. đưa ra chương trình hành động đối với TMĐT năm 1998. Trong kế hoạch này tập trung vào xây dựng lòng tin của người sử dụng và khách hàng, thiết lập các quy định cơ bản cho thị trường điện tử, đẩy mạnh cơ sở hạ tầng thông tin cho TMĐT và tối đa hoá các lợi ích của TMĐT:",
+    "options": [
+      "a. OECD",
+      "b. UNCITRAL",
+      "c. WIPO",
+      "d. ICANN"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 156: Tổ chức…………….đang thực hiện các chương trình về TMĐT như: hướng dẫn về bảo vệ người tiêu dùng, công nghệ bảo mật bảo vệ sự riêng tư cá nhân, phổ biến và đào tạo cho người sử dụng về bảo vệ riêng tư cá nhân trên mạng, tác động của thương mại điện tử về dịch vụ tài chính, ngân hàng, luật về hợp đồng:",
+    "options": [
+      "a. OECD",
+      "b. WTO",
+      "c. UNCITRAL",
+      "d. WIPO"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 157: Tổ chức ………..đựoc thành lập tháng 10/ 1998 bởi các doanh nghiệp thương mại điện tử, các kĩ sư công nghệ thông tin, giáo sư và cộng đồng người sử dụng Internet. Đây là một tổ chức phi lợi nhuận, tư nhân, nhằm đảm bảo sự ổn định của Internet, đại diện cho cộng đồng sử dụng Internet:",
+    "options": [
+      "a. INCANN",
+      "b. WIPO",
+      "c. WTO",
+      "d. WWW"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 158: Tổ chức…………điều phối các hoạt động để đạt được sự thống nhất trên toàn cầu với Internet như: tên miền Internet, địa chỉ IP, các thông số về giao thức cổng, hệ thống máy chủ gốc.",
+    "options": [
+      "a. ICANN",
+      "b. WIPO",
+      "c. WWW",
+      "d. EU"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 159: Chỉ ra mệnh đề không đúng:",
+    "options": [
+      "a. Hague Conference năm 1999 tập trung vào 3 vấn đề chính là hợp đồng điện tử, các giao dịch B2B và B2C, các biện pháp giải quyết tranh chấp trong TMĐT",
+      "b. WTO từ năm 1998 đã xem xét các hoạt động của TMĐT đến các hiệp định hiện hành, với sự phát triển của TMĐT cần phải điều chỉnh các chính sách như thế nào, các vấn đề gì mới phát sinh từ TMĐT cần được đàm phán để giải quyết",
+      "c. WTO quan tâm là những hàng số hoá xuất nhập khẩu nên được điều chỉnh bởi GATT hay GATS",
+      "d. WTO đưa ra một hệ thống để kiểm soát thuế nhập khẩu với phần mềm trên mạng"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 160: Chỉ ra mệnh đề không đúng:",
+    "options": [
+      "a. Văn bản quan trọng nhất của EU hiện nay về TMĐT là bản hướng dẫn 2000/31/EC của nghị viện châu Âu ngày 8/6/2000",
+      "b. Hoạt động nổi bật nhất của hội đồng châu Âu về TMĐT là đã hoàn thành các đàm phán về hiệp ước tội phạm tin học toàn cầu 2001",
+      "c. Mĩ đã có luật thống nhất về giao dịch điện tử",
+      "d. Australia rất chậm chễ trong việc thiết lập hệ thống quy định pháp lý về TMĐT"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 161: Chỉ ra mệnh đề không đúng:",
+    "options": [
+      "a. Sing là một trong những nước đầu tiên trên thế giới thiết lập khung pháp lý điều chỉnh TMĐT năm 1998",
+      "b. Colombia đã thông qua luật về TMĐT, chữ kí và chứng thực điện tử năm 1999",
+      "c. GBDe là tổ chức phi chính phủ có các công ty hàng đầu thế giới là thành viên cung cấp cho các chính phủ cơ sở để thiết lập chính sách và luật về TMĐT",
+      "d. ICC chưa thực sự quan tâm đến sự phát triển của TMĐT trong những năm gần đây"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 162: Chỉ ra mệnh đề không đúng:",
+    "options": [
+      "a. Một trong những điều khoản quan trọng nhất của luật mẫu về TMĐT của UNCITRAL là quy định “thông tin hay dữ liệu điện tử không thể bị từ chối giá trị pháp lý hay hiệu lực pháp lý chỉ vì lý do duy nhất là chúng được thể hiện dưới dạng điện tử”",
+      "b. Luật mẫu này chưa thừa nhận giá trị làm chứng cứ của các dữ liệu điện tử",
+      "c. Luật mẫu đã loại bỏ sự nghi ngờ về giá trị pháp lý của hành động click chuột vào “I agree” khi mua sắm qua các website",
+      "d. Luật mẫu này đưa ra các khái niệm mới về giá trị chức năng tương đương của “Bản gốc, bằng văn bản, chữ kí”"
+    ],
+    "answer": 1,
+    "explanation": ""
+  }
+]
