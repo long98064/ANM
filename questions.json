@@ -1349,7 +1349,7 @@
       "c. Giao thức",
       "d. Băm thông điệp"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": ""
   },
   {
@@ -1666,7 +1666,7 @@
       "c. 1980",
       "d. 1960"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -1842,7 +1842,7 @@
       "c. 1/7/2019",
       "d. 1/1/2018"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -1897,7 +1897,7 @@
       "c. Điều 4",
       "d. Điều 3"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -1963,7 +1963,7 @@
       "c. Thực hiện cả 03 hành động.",
       "d. Đây là thủ đoạn lừa đảo giả danh ngân hàng nên không làm theo."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -2337,7 +2337,7 @@
       "c. Trojan horse",
       "d. Phần mềm gián điệp (Spyware)"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": ""
   },
   {
@@ -3213,7 +3213,7 @@
       "c. Ứng dụng Nhắn tin qua Intranet (Intranet Messaging Application)",
       "d. Giao thức Truy cập Thư qua Internet (Internet Message Access Protocol)"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": ""
   },
   {
@@ -4016,7 +4016,7 @@
       "c. Xóa thư rác",
       "d. Trả lại cho người gửi"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -4892,7 +4892,7 @@
       "c. Khóa riêng của họ",
       "d. Khóa công khai của họ"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": ""
   },
   {
