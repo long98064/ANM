@@ -550,3 +550,126 @@ body {
         padding: 8px 15px;
     }
 }
+
+
+/* Màu cho nút Tính toán (Tím mộng mơ) */
+.math-mode {
+    background: linear-gradient(135deg, #a55eea, #8854d0); 
+    box-shadow: 0 8px 0 #5f27cd;
+}
+.math-mode:hover {
+    box-shadow: 0 12px 0 #5f27cd;
+    transform: translateY(-4px);
+}
+.math-mode:active {
+    box-shadow: 0 4px 0 #5f27cd;
+    transform: translateY(4px);
+}
+
+/* Định dạng phần Giải thích trong bảng kết quả */
+.explanation-text {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border-left: 4px solid #fdcb6e; /* Viền vàng */
+    color: #dfe6e9;
+    font-style: italic;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+/* --- THÊM VÀO CUỐI FILE CSS --- */
+
+#explanation-box {
+    background-color: rgba(255, 255, 255, 0.1); /* Nền mờ nhẹ */
+    border: 2px solid #a55eea; /* Viền tím */
+    color: #fff;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+#explanation-box strong {
+    color: #fdcb6e; /* Chữ "Giải thích" màu vàng */
+    text-transform: uppercase;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+/* --- THÊM VÀO CUỐI STYLE.CSS --- */
+
+/* Lưới chọn môn */
+.subject-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.btn-subject {
+    padding: 30px 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.btn-subject:hover {
+    transform: translateY(-5px);
+    filter: brightness(1.1);
+}
+
+/* Màu riêng cho từng môn */
+.anm-theme {
+    background: linear-gradient(135deg, #3498db, #2980b9); /* Xanh dương */
+    box-shadow: 0 8px 0 #2573a7;
+}
+
+.commerce-theme {
+    background: linear-gradient(135deg, #f39c12, #d35400); /* Cam */
+    box-shadow: 0 8px 0 #ba4900;
+}
+
+/* Nút Quay lại */
+.btn-back, .btn-home {
+    background: #95a5a6;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+.btn-back:hover, .btn-home:hover { background: #7f8c8d; }
+
+.result-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .subject-grid { grid-template-columns: 1fr; }
+}
+/* --- Thêm vào cuối style.css --- */
+.marketing-theme {
+    background: linear-gradient(135deg, #e84393, #d63031); /* Màu hồng đỏ */
+    box-shadow: 0 8px 0 #b33939;
+}
+.marketing-theme:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 0 #b33939;
+    filter: brightness(1.1);
+}
