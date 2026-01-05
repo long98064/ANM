@@ -27,6 +27,10 @@ let isSfxOn = true;
 let isMusicOn = false;
 let isStreakOn = true;
 
+let scoreHistory = JSON.parse(localStorage.getItem('quiz_history')) || {}; // Load lịch sử điểm
+let scoreChart = null; // Biến giữ biểu đồ
+
+// Âm thanh
 const correctSound = new Audio('correct.mp3');
 const wrongSound = new Audio('wrong.mp3');
 const bgMusic = document.getElementById('bg-music');
@@ -335,11 +339,19 @@ function showResult() {
     
     document.getElementById('final-score').innerText = `${score} / ${currentQuizData.length}`;
 
+    // --- CODE MỚI: LƯU ĐIỂM VÀ VẼ BIỂU ĐỒ ---
+    saveScoreToHistory();
+    drawScoreChart();
+    // ----------------------------------------
+
+    // ... (Phần hiển thị câu sai review cũ giữ nguyên) ...
     if (wrongAnswers.length > 0) {
         reviewContainer.classList.remove('hide');
+        // ... (code render list cũ) ...
         reviewList.innerHTML = "";
         wrongAnswers.forEach((item, index) => {
-            const div = document.createElement('div');
+            // ... (code tạo div cũ) ...
+             const div = document.createElement('div');
             div.classList.add('review-item');
             let explanationHTML = item.explanation ? `<div class="explanation-text">💡 ${item.explanation}</div>` : "";
             div.innerHTML = `
@@ -356,6 +368,70 @@ function showResult() {
     }
 }
 
+// Hàm lưu điểm vào LocalStorage
+function saveScoreToHistory() {
+    // Nếu chưa có lịch sử môn này thì tạo mảng mới
+    if (!scoreHistory[currentSubject]) scoreHistory[currentSubject] = [];
+    
+    // Chỉ lưu điểm của chế độ Thi thử hoặc Ôn tập (không lưu chế độ Math/Saved để biểu đồ chuẩn hơn)
+    if (currentMode === 'practice' || currentMode === 'test') {
+        const date = new Date().toLocaleDateString('vi-VN', {day: '2-digit', month: '2-digit'});
+        const percent = Math.round((score / currentQuizData.length) * 100);
+        
+        scoreHistory[currentSubject].push({ date: date, score: percent });
+        
+        // Chỉ giữ lại 10 lần thi gần nhất
+        if (scoreHistory[currentSubject].length > 10) {
+            scoreHistory[currentSubject].shift();
+        }
+        
+        localStorage.setItem('quiz_history', JSON.stringify(scoreHistory));
+    }
+}
+
+// Hàm vẽ biểu đồ
+function drawScoreChart() {
+    const ctx = document.getElementById('scoreChart').getContext('2d');
+    
+    // Hủy biểu đồ cũ nếu có để vẽ cái mới
+    if (scoreChart) scoreChart.destroy();
+    
+    const data = scoreHistory[currentSubject] || [];
+    const labels = data.map((d, i) => `Lần ${i+1} (${d.date})`);
+    const scores = data.map(d => d.score);
+
+    scoreChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: `Tiến độ môn ${currentSubject === 'anm' ? 'ANM' : (currentSubject === 'commerce' ? 'TMĐT' : 'Tiếp Thị')}`,
+                data: scores,
+                borderColor: '#e74c3c',
+                backgroundColor: 'rgba(231, 76, 60, 0.2)',
+                borderWidth: 3,
+                tension: 0.3, // Đường cong mềm mại
+                fill: true,
+                pointRadius: 5
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    max: 100,
+                    title: { display: true, text: 'Điểm (%)' }
+                }
+            },
+            plugins: {
+                legend: { labels: { color: 'white' } } // Chữ màu trắng nếu nền tối
+            }
+        }
+    });
+}
+
 // Cài đặt Toggle
 function toggleSettings() { settingsModal.classList.toggle('hide'); }
 if(toggleSfxBtn) toggleSfxBtn.addEventListener('change', (e) => isSfxOn = e.target.checked);
@@ -365,5 +441,28 @@ if(toggleBgmBtn) toggleBgmBtn.addEventListener('change', (e) => {
     isMusicOn ? bgMusic.play().catch(e=>console.log(e)) : bgMusic.pause();
 });
 
+// ==============================================
+// TÍNH NĂNG 2: PHÍM TẮT (1,2,3,4/A,B,C,D & Enter/Space)
+// ==============================================
+document.addEventListener('keydown', (e) => {
+    // Chỉ hoạt động khi đang làm bài
+    if (quizBox.classList.contains('hide')) return;
+
+    const options = document.querySelectorAll('#options-container .btn');
+    const key = e.key.toLowerCase(); 
+
+    // 1. Chọn đáp án (Số 1-4 hoặc Chữ A-D)
+    if ((key === '1' || key === 'a') && options[0]) options[0].click();
+    if ((key === '2' || key === 'b') && options[1]) options[1].click();
+    if ((key === '3' || key === 'c') && options[2]) options[2].click();
+    if ((key === '4' || key === 'd') && options[3]) options[3].click();
+
+    // 2. Chuyển câu (Enter hoặc Space)
+    // Lưu ý: key === ' ' nghĩa là phím Space
+    if ((key === 'enter' || key === ' ') && !nextButton.classList.contains('hide')) {
+        e.preventDefault(); // Dòng này QUAN TRỌNG: Ngăn trang web bị trôi xuống khi bấm Space
+        handleNextButton();
+    }
+});
 // KHỞI CHẠY
 loadAllData();
