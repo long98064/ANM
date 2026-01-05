@@ -6,77 +6,84 @@
     <title>Trắc Nghiệm An Ninh Mạng Pro</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+    <script>window.MathJax = {tex: {inlineMath: [['$', '$'], ['\\(', '\\)']] }};</script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
-    <audio id="bg-music" loop>
-        <source src="bgm.mp3">
-    </audio>
-    
-
+    <audio id="bg-music" loop><source src="bgm.mp3"></audio>
     <button id="settings-btn" onclick="toggleSettings()">⚙️</button>
-
     <div id="settings-modal" class="hide">
         <h3>CÀI ĐẶT</h3>
-        <div class="setting-item">
-            <span>🔊 Âm thanh (SFX)</span>
-            <input type="checkbox" id="toggle-sfx" checked>
-        </div>
-        <div class="setting-item">
-            <span>🎵 Nhạc nền</span>
-            <input type="checkbox" id="toggle-bgm">
-        </div>
-        <div class="setting-item">
-            <span>🔥 Hiệu ứng Streak</span>
-            <input type="checkbox" id="toggle-streak" checked>
-        </div>
+        <div class="setting-item"><span>🔊 Âm thanh</span><input type="checkbox" id="toggle-sfx" checked></div>
+        <div class="setting-item"><span>🎵 Nhạc nền</span><input type="checkbox" id="toggle-bgm"></div>
+        <div class="setting-item"><span>🔥 Streak</span><input type="checkbox" id="toggle-streak" checked></div>
         <button class="btn-close" onclick="toggleSettings()">Đóng</button>
     </div>
-
     <div id="streak-box" class="hide">🔥 Streak: <span id="streak-count">0</span></div>
 
     <div class="container" id="main-container">
-        <div id="start-screen" class="center-box">
-            <h1>ÔN THI AN NINH MẠNG</h1>
-            <p>Ngân hàng: <span id="total-questions-count">...</span> câu</p>
+        
+        <div id="home-screen" class="center-box">
+            <h1>CHỌN MÔN HỌC</h1>
             <p>Made by: chi yeu minh karina thoi</p>
+            <div class="subject-grid">
+                <button class="btn-subject anm-theme" onclick="selectSubject('anm')">
+                    <br>AN NINH MẠNG
+                </button>
+                
+                <button class="btn-subject commerce-theme" onclick="selectSubject('commerce')">
+                    <br>THƯƠNG MẠI ĐIỆN TỬ
+                </button>
+
+                <button class="btn-subject anm-theme" onclick="selectSubject('marketing')">
+                    <br>TIẾP THỊ TRỰC TUYẾN 
+                </button>
+            </div>
+        </div>
+
+        <div id="start-screen" class="center-box hide">
+            <button class="btn-back" onclick="goHome()">⬅ Quay lại</button>
+            <h1 id="subject-title">TÊN MÔN HỌC</h1>
+            <p>Ngân hàng: <span id="total-questions-count">...</span> câu</p>
+            
             <div class="mode-selection">
-                <button id="btn-practice" class="btn-start btn-mode" onclick="startQuiz('practice')" disabled>📖 ÔN TẬP</button>
-                <button id="btn-test" class="btn-start btn-mode" onclick="startQuiz('test')" disabled>⏱️ THI THỬ</button>
+                <button id="btn-practice" class="btn-start btn-mode" onclick="startQuiz('practice')">📖 ÔN TẬP</button>
+                <button id="btn-test" class="btn-start btn-mode" onclick="startQuiz('test')">⏱️ THI THỬ</button>
+                
+                <button id="btn-math" class="btn-start btn-mode math-mode hide" onclick="startQuiz('math')">
+                    🧮 TÍNH TOÁN
+                </button>
             </div>
         </div>
 
         <div id="quiz-box" class="hide">
             <div class="header">
                 <div class="progress-container"><div id="progress-bar"></div></div>
-                <div class="stats-text">
-                    <span id="question-count">Câu 1</span>
-                    <span id="score">Điểm: 0</span>
-                </div>
+                <div class="stats-text"><span id="question-count">Câu 1</span><span id="score">Điểm: 0</span></div>
             </div>
-            
             <div id="redemption-alert" class="hide">🌟 CƠ HỘI GỠ ĐIỂM! 🌟</div>
-
-            <div class="question-container">
-                <h2 id="question-text">Đang tải...</h2>
-            </div>
-
+            <div class="question-container"><h2 id="question-text">Loading...</h2></div>
             <div class="options-grid" id="options-container"></div>
-
+            <div id="explanation-box" class="hide"></div>
             <button id="next-btn" class="hide" onclick="handleNextButton()">Tiếp tục ➜</button>
         </div>
 
         <div id="result-box" class="hide center-box">
             <h2>Hoàn thành!</h2>
             <h1 id="final-score">0/0</h1>
-            <div id="review-container" class="hide">
-                <h3>⚠️ Câu sai:</h3>
-                <div id="review-list"></div>
+            <div id="review-container" class="hide"><h3>⚠️ Câu sai:</h3><div id="review-list"></div></div>
+            <div class="result-buttons">
+                <button class="btn-start" onclick="selectSubject(currentSubject)">Làm lại</button>
+                <button class="btn-start btn-home" onclick="goHome()">🏠 Về trang chủ</button>
             </div>
-            <button class="btn-start" onclick="location.reload()">Làm lại</button>
         </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script>
+      window.MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] } };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
