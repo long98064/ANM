@@ -193,7 +193,7 @@ function setNextQuestion() {
     resetState();
     let questionToShow = isRedemptionMode ? redemptionQuestion : currentQuizData[currentQuestionIndex];
     
-    // Giao diện gỡ điểm
+    // --- PHẦN HIỂN THỊ CÂU HỎI ---
     if (isRedemptionMode) {
         mainContainer.classList.add('redemption-theme');
         redemptionAlert.classList.remove('hide');
@@ -211,25 +211,40 @@ function setNextQuestion() {
     scoreText.innerText = `Điểm: ${score}`;
     questionElement.innerText = questionToShow.question;
 
-    // Render MathJax nếu có công thức
     if (window.MathJax) MathJax.typesetPromise();
 
-    questionToShow.options.forEach((option, index) => {
+    // ============================================================
+    // --- LOGIC: ĐẢO LỘN THỨ TỰ ĐÁP ÁN ---
+    // ============================================================
+    
+    // 1. Tạo một mảng tạm lưu nội dung đáp án + vị trí gốc (index) của nó
+    // Ví dụ: [{text: "Đáp án A...", origin: 0}, {text: "Đáp án B...", origin: 1}...]
+    let answersToRender = questionToShow.options.map((opt, i) => {
+        return { text: opt, originIndex: i };
+    });
+
+    // 2. Xáo trộn mảng này ngẫu nhiên
+    answersToRender.sort(() => Math.random() - 0.5);
+
+    // 3. Vẽ nút bấm dựa trên mảng đã xáo trộn
+    answersToRender.forEach((item) => {
         const button = document.createElement('button');
-        button.innerText = option; // Text đáp án
+       // Xóa ký tự A., B., C., D. ở đầu câu cho đẹp
+        button.innerText = item.text.replace(/^[A-Da-d][\.\)]\s*/, ''); 
         button.classList.add('btn');
         
-        // Đánh dấu đúng
-        if (index === questionToShow.answer) button.dataset.correct = "true";
+        // So sánh vị trí gốc (originIndex) với đáp án đúng trong data
+        if (item.originIndex === questionToShow.answer) {
+            button.dataset.correct = "true";
+        }
         
         button.addEventListener('click', (e) => selectAnswer(e, questionToShow));
         answerButtonsElement.appendChild(button);
     });
+    // ============================================================
+
     if (window.MathJax) {
-        // Báo cho MathJax vẽ lại công thức trong toàn bộ khung quiz
-        MathJax.typesetPromise([quizBox]).then(() => {
-            console.log("MathJax rendered!");
-        });
+        MathJax.typesetPromise([quizBox]).then(() => { console.log("MathJax rendered!"); });
     }
 }
 
@@ -466,3 +481,4 @@ document.addEventListener('keydown', (e) => {
 });
 // KHỞI CHẠY
 loadAllData();
+
