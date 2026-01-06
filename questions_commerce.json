@@ -1290,13 +1290,20 @@
       "a. sản phẩm có thể số hóa được",
       "b. sản phẩm được tiêu chuẩn hóa",
       "c. giá cao",
-      "d. sản phẩm được mua tương đối thường xuyên",
+      "d. sản phẩm được mua tương đối thường xuyên"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "124. Những khách hàng vốn rất bận rộn và sẵn sàng mua hàng trực tuyến để tiết kiệm thời gian mua sắm được gọi là gì?",
+    "options": [
       "a. “shopping avoiders”",
       "b. “new technologists”",
       "c. “leading edgers”",
       "d. “time-starved customers”"
     ],
-    "answer": 7,
+    "answer": 3,
     "explanation": ""
   },
   {
@@ -4980,4 +4987,5 @@
     "answer": 1,
     "explanation": ""
   }
+
 ]
