@@ -1185,14 +1185,21 @@
       "A. Chiến lược truyền thông",
       "B. Chiến lược cạnh tranh",
       "C. Chiến lược tùy biến",
-      "D. Văn hóa doanh nghiệp",
+      "D. Văn hóa doanh nghiệp"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Câu hỏi 8. Đối với các nhà tiếp thị đa kênh, môi trường trực tuyến nên củng cố:",
+    "options": [
       "A. Thương hiệu ngoại tuyến",
       "B. Giá trị thương hiệu nhất quán trên tất cả các kênh",
       "C. Hình ảnh bản thân (persona) của khách hàng",
       "D. Mối quan hệ giữa nhà cung cấp và nhà phân phối"
     ],
-    "answer": 5,
-    "explanation": "Câu hỏi 8 . Đối với các nhà tiếp thị đa kênh, môi trường trực tuyến nên củng cố: "
+    "answer": 1,
+    "explanation": ""
   },
   {
     "question": "Câu hỏi 9. Ảnh hưởng chính trị rất quan trọng trong việc phát triển:",
@@ -1695,14 +1702,21 @@
       "A. Một chương trình máy tính sắp xếp và xếp hạng kết quả tìm kiếm",
       "B. Một thư mục do con người cung cấp",
       "C. Một chương trình đo lường ROI",
-      "D. Một chương trình tìm kiếm các trang web Internet",
+      "D. Một chương trình tìm kiếm các trang web Internet"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Câu hỏi 55. Khi một công cụ tìm kiếm nhận ra các trang từ cơ sở dữ liệu khác của họ, thứ hạng được xác định bởi:",
+    "options": [
       "A. Phân tích chỉ số",
       "B. Phân tích liên kết",
       "C. Kết nối",
       "D. Máy quét Crawler"
     ],
-    "answer": 5,
-    "explanation": "Câu hỏi 55 . Khi một công cụ tìm kiếm nhận ra các trang từ cơ sở dữ liệu khác của họ, thứ hạng được xác định bởi: "
+    "answer": 1,
+    "explanation": ""
   },
   {
     "question": "Câu hỏi 56. Directory khác với các công cụ tìm kiếm crawler dạng web bởi vì:",
