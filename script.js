@@ -193,7 +193,7 @@ function setNextQuestion() {
     resetState();
     let questionToShow = isRedemptionMode ? redemptionQuestion : currentQuizData[currentQuestionIndex];
     
-    // --- PHẦN HIỂN THỊ CÂU HỎI ---
+    // --- PHẦN GIAO DIỆN THANH TIẾN ĐỘ ---
     if (isRedemptionMode) {
         mainContainer.classList.add('redemption-theme');
         redemptionAlert.classList.remove('hide');
@@ -209,39 +209,31 @@ function setNextQuestion() {
     }
     
     scoreText.innerText = `Điểm: ${score}`;
-    questionElement.innerText = questionToShow.question;
+    
+    let cleanQuestionText = questionToShow.question.replace(/^(Câu(\s+(hỏi|số))?)?\s*\d+[\.\:\)]?\s*/i, '');
+
+    cleanQuestionText = cleanQuestionText.charAt(0).toUpperCase() + cleanQuestionText.slice(1);
+
+    questionElement.innerText = cleanQuestionText;
 
     if (window.MathJax) MathJax.typesetPromise();
-
-    // ============================================================
-    // --- LOGIC: ĐẢO LỘN THỨ TỰ ĐÁP ÁN ---
-    // ============================================================
-    
-    // 1. Tạo một mảng tạm lưu nội dung đáp án + vị trí gốc (index) của nó
-    // Ví dụ: [{text: "Đáp án A...", origin: 0}, {text: "Đáp án B...", origin: 1}...]
     let answersToRender = questionToShow.options.map((opt, i) => {
         return { text: opt, originIndex: i };
     });
 
-    // 2. Xáo trộn mảng này ngẫu nhiên
     answersToRender.sort(() => Math.random() - 0.5);
 
-    // 3. Vẽ nút bấm dựa trên mảng đã xáo trộn
     answersToRender.forEach((item) => {
         const button = document.createElement('button');
-       // Xóa ký tự A., B., C., D. ở đầu câu cho đẹp
         button.innerText = item.text.replace(/^[A-Da-d][\.\)]\s*/, ''); 
-        button.classList.add('btn');
         
-        // So sánh vị trí gốc (originIndex) với đáp án đúng trong data
+        button.classList.add('btn');
         if (item.originIndex === questionToShow.answer) {
             button.dataset.correct = "true";
         }
-        
         button.addEventListener('click', (e) => selectAnswer(e, questionToShow));
         answerButtonsElement.appendChild(button);
     });
-    // ============================================================
 
     if (window.MathJax) {
         MathJax.typesetPromise([quizBox]).then(() => { console.log("MathJax rendered!"); });
@@ -514,5 +506,6 @@ document.addEventListener('keydown', (e) => {
 });
 // KHỞI CHẠY
 loadAllData();
+
 
 
