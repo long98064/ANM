@@ -4,7 +4,15 @@
 * {
     box-sizing: border-box;
 }
-
+/* --- CHẶN BÔI ĐEN VĂN BẢN --- */
+body {
+    -webkit-user-select: none; 
+    -ms-user-select: none;    
+    user-select: none;       
+}
+input, textarea {
+    user-select: text;
+}
 body {
     margin: 0;
     padding: 0;
@@ -673,3 +681,4 @@ body {
     box-shadow: 0 12px 0 #b33939;
     filter: brightness(1.1);
 }
+
