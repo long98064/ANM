@@ -479,6 +479,40 @@ document.addEventListener('keydown', (e) => {
         handleNextButton();
     }
 });
+// ==============================================
+// BẢO VỆ NỘI DUNG (CHỐNG COPY)
+// ==============================================
+
+// 1. Chặn menu chuột phải (Right Click)
+document.addEventListener('contextmenu', (e) => {
+    e.preventDefault();
+    // alert("Chức năng này đã bị tắt!"); // Có thể bật dòng này nếu muốn thông báo
+});
+
+// 2. Chặn các phím tắt sao chép và soi code
+document.addEventListener('keydown', (e) => {
+    // Chặn F12 (Developer Tools)
+    if (e.key === 'F12') {
+        e.preventDefault();
+        return;
+    }
+
+    // Chặn các tổ hợp phím với Ctrl (hoặc Cmd trên Mac)
+    if (e.ctrlKey || e.metaKey) {
+        switch (e.key.toLowerCase()) {
+            case 'c': // Chặn Copy (Ctrl+C)
+            case 'x': // Chặn Cut (Ctrl+X)
+            case 'u': // Chặn View Source (Ctrl+U)
+            case 's': // Chặn Save (Ctrl+S)
+            case 'p': // Chặn Print (Ctrl+P)
+            case 'a': // Chặn Select All (Ctrl+A)
+                e.preventDefault();
+                alert("Định copy tra chatgpt à!"); 
+                break;
+        }
+    }
+});
 // KHỞI CHẠY
 loadAllData();
+
 
