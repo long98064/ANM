@@ -115,25 +115,53 @@
       "a. I. tri thức (intelligent)",
       "b. M. marketing",
       "c. A. các ứng dụng (application)",
-      "d. B. các luật (basic laws)",
+      "d. B. các luật (basic laws)"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "13. Website eBay cho phép các cá nhân đấu giá trực tuyến qua mạng, đây là mô hình thương mại điện tử nào?",
+    "options": [
       "a. B2B",
       "b. B2C",
       "c. C2C",
-      "d. P2P",
+      "d. P2P"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "14. Để website thương mại điện tử hoạt động đáp ứng các mục tiêu kinh doanh được đã đặt ra, giai đoạn nào sau đây cần được chú trọng hơn cả?",
+    "options": [
       "a. Phân tích SWOT và xác định mục tiêu",
       "b. Lựa chọn nhà cung cấp phần mềm giải pháp",
       "c. Xây dựng mô hình cấu trúc chức năng của website",
-      "d. Quảng bá website, đăng ký trên các công cụ tìm kiếm",
+      "d. Quảng bá website, đăng ký trên các công cụ tìm kiếm"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "15. Những công cụ nào dưới đây được sử dụng để đánh giá hiệu quả hoạt động của website thương mại điện tử? (Chọn 4 lựa chọn)",
+    "options": [
       "a. 7C",
       "b. ICET",
       "c. 4N",
-      "d. SWOT",
+      "d. SWOT"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "16. Khi tham gia các cổng thương mại điện tử, doanh nghiệp có những lợi ích nào? (chọn 3 lựa chọn)",
+    "options": [
       "a. Cơ hội tìm được người mua, người bán",
       "b. Cập nhật được các thông tin thị trường, xúc tiến thương mại",
       "c. Thực hiện các giao dịch, mua bán trực tuyến an toàn, hiệu quả",
       "d. Giới thiệu được doanh nghiệp của mình trên một website có uy tín"
     ],
-    "answer": 19,
+    "answer": 3,
     "explanation": ""
   },
   {
@@ -1022,13 +1050,20 @@
       "a. Kiến thức và kỹ năng sử dụng tiếng Anh",
       "b. Nội dung bài giảng",
       "c. Âm thanh, hỉnh ảnh và nội dung bài giảng",
-      "d. Nội dung bài giảng và các hoạt động hỗ trợ",
+      "d. Nội dung bài giảng và các hoạt động hỗ trợ"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "99. Sản phẩm hiện thực được cung cấp qua các website bán hoa & quà tặng trực tuyến là gì?",
+    "options": [
       "a. Đáp ứng nhu cầu của khách hàng mua hoa, tặng quà",
       "b. Hình ảnh và thông tin về hoa, quà tặng được đưa lên website",
       "c. Quy trình giao dịch mua sắm trên website",
       "d. Bản thân các sản phẩm hoa và quà tặng"
     ],
-    "answer": 7,
+    "answer": 3,
     "explanation": ""
   },
   {
@@ -1292,7 +1327,7 @@
       "c. giá cao",
       "d. sản phẩm được mua tương đối thường xuyên"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -4987,5 +5022,4 @@
     "answer": 1,
     "explanation": ""
   }
-
 ]
