@@ -29,8 +29,10 @@ let isStreakOn = true;
 
 let scoreHistory = JSON.parse(localStorage.getItem('quiz_history')) || {}; // Load lịch sử điểm
 let scoreChart = null; // Biến giữ biểu đồ
+let timerInterval;
 
-// Âm thanh
+const timerBox = document.getElementById('timer-box');
+const timeLeftSpan = document.getElementById('time-left');
 const correctSound = new Audio('correct.mp3');
 const wrongSound = new Audio('wrong.mp3');
 const bgMusic = document.getElementById('bg-music');
@@ -179,8 +181,10 @@ function startQuiz(mode) {
     // Cắt bớt nếu là chế độ Thi thử
     if (currentMode === 'test') {
         currentQuizData = shuffled.slice(0, 75); // Thi thử lấy 75 câu
+        startTimer(50);
     } else {
         currentQuizData = shuffled; // Ôn tập lấy hết
+        timerBox.classList.add('hide');
     }
     
     setNextQuestion();
@@ -374,7 +378,46 @@ function showResult() {
         reviewContainer.classList.add('hide');
     }
 }
+// Hàm bắt đầu đếm ngược
+function startTimer(minutes) {
+    let seconds = minutes * 60;
+    
+    // Hiển thị khung giờ
+    timerBox.classList.remove('hide');
+    
+    // Xóa timer cũ nếu có để tránh chạy chồng chéo
+    clearInterval(timerInterval);
 
+    timerInterval = setInterval(() => {
+        seconds--;
+        
+        // Cập nhật giao diện
+        const m = Math.floor(seconds / 60).toString().padStart(2, '0');
+        const s = (seconds % 60).toString().padStart(2, '0');
+        timeLeftSpan.innerText = `${m}:${s}`;
+        
+        // Hiệu ứng cảnh báo khi còn dưới 5 phút (300 giây)
+        if (seconds < 300) {
+            timerBox.classList.add('time-warning');
+        } else {
+            timerBox.classList.remove('time-warning');
+        }
+
+        // Hết giờ
+        if (seconds <= 0) {
+            clearInterval(timerInterval);
+            alert("⏰ ĐÃ HẾT GIỜ LÀM BÀI!");
+            showResult(); // Tự động nộp bài
+        }
+    }, 1000);
+}
+
+// Hàm dừng timer (dùng khi nộp bài sớm hoặc thoát)
+function stopTimer() {
+    clearInterval(timerInterval);
+    timerBox.classList.add('hide');
+    timerBox.classList.remove('time-warning');
+}
 // Hàm lưu điểm vào LocalStorage
 function saveScoreToHistory() {
     // Nếu chưa có lịch sử môn này thì tạo mảng mới
@@ -504,8 +547,10 @@ document.addEventListener('keydown', (e) => {
         }
     }
 });
+
 // KHỞI CHẠY
 loadAllData();
+
 
 
 
