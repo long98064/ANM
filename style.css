@@ -681,4 +681,33 @@ body {
     box-shadow: 0 12px 0 #b33939;
     filter: brightness(1.1);
 }
+/* --- ĐỒNG HỒ ĐẾM NGƯỢC --- */
+#timer-box {
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e74c3c; /* Màu đỏ báo động */
+    margin-bottom: 10px;
+    background: #fff;
+    padding: 5px 15px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    float: right; /* Đẩy sang phải */
+}
+
+/* Khi thời gian sắp hết (dưới 5 phút) sẽ thêm class này để nhấp nháy */
+.time-warning {
+    animation: blink 1s infinite;
+    color: #c0392b !important;
+    background: #fadbd8 !important;
+}
+
+@keyframes blink {
+    50% { opacity: 0.5; }
+}
+
+/* Sửa lại thanh progress một chút để không bị đồng hồ đè lên */
+.progress-container {
+    clear: both; /* Đảm bảo nằm dưới đồng hồ */
+}
 
