@@ -22,6 +22,9 @@ let touchOffsetX = 0;
 let touchOffsetY = 0;
 let originalTouchStyle = {}; // Lưu style cũ để khôi phục nếu thả trượt
 
+// Biến cho tính năng Bấm-để-Nối (Tap-to-Match)
+let firstSelectedItem = null; // Lưu ô đầu tiên được bấm
+
 // Tính năng phụ
 let streak = 0;
 let currentMode = 'practice';
@@ -448,9 +451,12 @@ function renderTextInput(q) {
 }
 // --- RENDER 3: KÉO THẢ (DRAG & DROP) ---
 // ============================================================
-
-function renderDragDrop(q) {  // <--- BẠN BỊ THIẾU DÒNG NÀY
+// --- RENDER 3: KÉO THẢ & BẤM NỐI (DRAG & TAP TO MATCH) ---
+function renderDragDrop(q) {
     window.currentDragStatus = []; 
+    // Reset biến chọn mỗi khi render câu mới
+    firstSelectedItem = null; 
+
     try {
         // Ép giao diện Block
         if(answerButtonsElement) {
@@ -477,15 +483,16 @@ function renderDragDrop(q) {  // <--- BẠN BỊ THIẾU DÒNG NÀY
 
         const shuffledPairs = [...q.pairs].sort(() => Math.random() - 0.5);
 
-        // --- CỘT TRÁI (VÙNG THẢ) ---
+        // --- CỘT TRÁI ---
         q.pairs.forEach(pair => {
             const box = document.createElement('div');
-            box.className = 'drop-zone';
+            box.className = 'drop-zone match-item'; // Thêm class match-item để dễ xử lý
             box.innerText = pair.left;
             box.dataset.id = pair.id; 
+            box.dataset.type = 'left'; // Đánh dấu đây là cột trái
             
             // Style
-            box.style.padding = '10px';
+            box.style.padding = '15px';
             box.style.border = '2px dashed #95a5a6';
             box.style.borderRadius = '8px';
             box.style.background = '#ffffff';
@@ -496,54 +503,49 @@ function renderDragDrop(q) {  // <--- BẠN BỊ THIẾU DÒNG NÀY
             box.style.justifyContent = 'center';
             box.style.textAlign = 'center';
             box.style.fontWeight = 'bold';
-            box.style.fontSize = '0.9rem';
-            box.style.wordBreak = 'break-word';
+            box.style.cursor = 'pointer'; // Con trỏ tay
+            box.style.userSelect = 'none'; // Chống bôi đen text khi bấm nhanh
 
-            // Sự kiện chuột (PC)
+            // Sự kiện Drag cho PC (giữ lại nếu thích)
             box.addEventListener('dragover', e => { e.preventDefault(); box.style.borderColor = '#e74c3c'; });
             box.addEventListener('dragleave', () => box.style.borderColor = '#95a5a6');
             box.addEventListener('drop', handleDrop);
             
+            // --- SỰ KIỆN CLICK (CHO CẢ MOBILE & PC) ---
+            box.addEventListener('click', handleItemClick);
+            
             colLeft.appendChild(box);
         });
 
-        // --- CỘT PHẢI (VÙNG KÉO) ---
+        // --- CỘT PHẢI ---
         shuffledPairs.forEach(pair => {
             const item = document.createElement('div');
-            item.className = 'draggable-item';
+            item.className = 'draggable-item match-item';
             item.innerText = pair.right;
             item.draggable = true;
             item.dataset.id = pair.id; 
+            item.dataset.type = 'right'; // Đánh dấu đây là cột phải
 
             // Style
-            item.style.padding = '10px';
+            item.style.padding = '15px';
             item.style.border = '1px solid #3498db';
             item.style.borderRadius = '8px';
             item.style.background = '#ecf0f1';
             item.style.color = '#333333';
             item.style.minHeight = '60px';
-            item.style.cursor = 'grab';
+            item.style.cursor = 'pointer';
             item.style.display = 'flex';
             item.style.alignItems = 'center';
             item.style.justifyContent = 'center';
             item.style.textAlign = 'center';
-            item.style.fontSize = '0.9rem';
-            item.style.touchAction = 'none'; 
+            item.style.userSelect = 'none';
 
-            // Sự kiện chuột (PC)
-            item.addEventListener('dragstart', () => {
-                draggedItem = item;
-                setTimeout(() => item.style.opacity = '0.5', 0);
-            });
-            item.addEventListener('dragend', () => {
-                item.style.opacity = '1';
-                draggedItem = null;
-            });
+            // Sự kiện Drag cho PC
+            item.addEventListener('dragstart', () => { draggedItem = item; });
+            item.addEventListener('dragend', () => { draggedItem = null; });
 
-            // --- SỰ KHIỆN CẢM ỨNG (MOBILE) ---
-            item.addEventListener('touchstart', handleTouchStart, {passive: false});
-            item.addEventListener('touchmove', handleTouchMove, {passive: false});
-            item.addEventListener('touchend', handleTouchEnd);
+            // --- SỰ KIỆN CLICK (CHO CẢ MOBILE & PC) ---
+            item.addEventListener('click', handleItemClick);
             
             colRight.appendChild(item);
         });
@@ -554,94 +556,20 @@ function renderDragDrop(q) {  // <--- BẠN BỊ THIẾU DÒNG NÀY
 
     } catch (err) {
         console.error(err);
-        alert("Lỗi hiển thị: " + err.message);
     }
-} // <--- BẠN BỊ THIẾU DẤU ĐÓNG NGOẶC NÀY
-
+}
 
 // --- XỬ LÝ SỰ KIỆN THẢ (DROP) - UPDATED ---
+// --- XỬ LÝ KÉO THẢ CHUỘT (PC) ---
 function handleDrop(e) {
     const dropZone = e.target.closest('.drop-zone');
-    if (!dropZone) return;
+    if (!dropZone || !draggedItem) return;
 
-    // Reset màu viền
+    // Gọi chung hàm logic với tính năng bấm
+    checkMatchLogic(dropZone, draggedItem);
+    
+    // Reset hiệu ứng hover
     dropZone.style.borderColor = '#95a5a6';
-
-    if (dropZone.classList.contains('correct-match')) return;
-
-    if (draggedItem) {
-        const dragId = draggedItem.dataset.id;
-        const zoneId = dropZone.dataset.id;
-        
-        // --- CHẾ ĐỘ THI THỬ ---
-        if (currentMode === 'test') {
-            dropZone.classList.add('correct-match'); 
-            dropZone.style.background = '#e3f2fd'; 
-            dropZone.style.borderColor = '#2196f3'; 
-            dropZone.style.color = '#0d47a1';
-            
-            dropZone.innerHTML = `<span>${dropZone.innerText}</span> <b style='margin:0 10px; color:#2196f3'>=</b> <span>${draggedItem.innerText}</span>`;
-            
-            // Xóa item
-            draggedItem.remove(); 
-            if(typeof activeTouchItem !== 'undefined' && activeTouchItem === draggedItem) {
-                activeTouchItem = null;
-            }
-
-            const isPairCorrect = (dragId === zoneId);
-            window.currentDragStatus.push(isPairCorrect);
-
-            matchedCount++;
-            let currentQ = currentQuizData[currentQuestionIndex];
-            if (matchedCount === currentQ.pairs.length) {
-                const isAllCorrect = window.currentDragStatus.every(status => status === true);
-                if (isAllCorrect) score++; 
-                else {
-                    wrongAnswers.push({
-                        question: currentQ.question,
-                        correctAnswer: "Xem lại ở phần Drag & Drop",
-                        userAnswer: "Bạn đã nối sai",
-                        explanation: currentQ.explanation
-                    });
-                }
-                scoreText.innerText = `Điểm: ${score}`;
-                setTimeout(() => handleNextButton(), 500);
-            }
-
-        } else {
-            // --- CHẾ ĐỘ ÔN TẬP ---
-            if (dragId === zoneId) {
-                dropZone.classList.add('correct-match');
-                dropZone.style.background = '#d4edda'; 
-                dropZone.style.borderColor = '#28a745';
-                dropZone.style.color = '#155724';
-                dropZone.innerHTML = `<span>${dropZone.innerText}</span> <b style='margin:0 10px; color:green'>=</b> <span>${draggedItem.innerText}</span>`;
-                
-                draggedItem.remove(); 
-                if(typeof activeTouchItem !== 'undefined' && activeTouchItem === draggedItem) {
-                    activeTouchItem = null;
-                }
-
-                matchedCount++;
-                let currentQ = isRedemptionMode ? redemptionQuestion : currentQuizData[currentQuestionIndex];
-                if (matchedCount === currentQ.pairs.length) {
-                    handleCorrectAnswer(); 
-                }
-            } else {
-                // SAI
-                dropZone.style.borderColor = '#e74c3c';
-                dropZone.style.background = '#f8d7da';
-                setTimeout(() => {
-                    dropZone.style.borderColor = '#95a5a6';
-                    dropZone.style.background = '#ffffff';
-                }, 500);
-                if(isSfxOn) { wrongSound.currentTime = 0; wrongSound.play(); }
-                
-                // Nếu là mobile: Đưa item về chỗ cũ
-                if(typeof resetTouchItem === 'function') resetTouchItem();
-            }
-        }
-    }
 }
 
 // ==============================================
@@ -979,6 +907,149 @@ function resetTouchItem() {
         activeTouchItem.style.boxShadow = 'none';
     }
 }
+// ==============================================
+// XỬ LÝ BẤM ĐỂ NỐI (TAP TO MATCH)
+// ==============================================
+function handleItemClick(e) {
+    // 1. Lấy ô vừa bấm
+    // Dùng closest để chắc chắn lấy đúng thẻ div dù bấm vào chữ bên trong
+    const clickedItem = e.target.closest('.match-item');
+    
+    // Nếu ô này đã được nối đúng rồi thì bỏ qua
+    if (!clickedItem || clickedItem.classList.contains('correct-match')) return;
 
+    // 2. Nếu chưa chọn ô nào (Lần bấm thứ 1)
+    if (!firstSelectedItem) {
+        firstSelectedItem = clickedItem;
+        firstSelectedItem.classList.add('selected-item'); // Thêm viền vàng
+        return;
+    }
+
+    // 3. Nếu bấm lại vào chính ô đang chọn -> Hủy chọn
+    if (clickedItem === firstSelectedItem) {
+        firstSelectedItem.classList.remove('selected-item');
+        firstSelectedItem = null;
+        return;
+    }
+
+    // 4. Nếu bấm vào ô cùng một phía (VD: Trái rồi lại bấm Trái) -> Đổi sang chọn ô mới
+    if (clickedItem.dataset.type === firstSelectedItem.dataset.type) {
+        firstSelectedItem.classList.remove('selected-item'); // Bỏ chọn cái cũ
+        firstSelectedItem = clickedItem;
+        firstSelectedItem.classList.add('selected-item'); // Chọn cái mới
+        return;
+    }
+
+    // 5. Nếu bấm vào 2 phía khác nhau (1 Trái + 1 Phải) -> TIẾN HÀNH KIỂM TRA
+    // Gọi hàm checkMatchLogic để xử lý giống hệt như khi kéo thả
+    checkMatchLogic(firstSelectedItem, clickedItem);
+
+    // Reset sau khi kiểm tra xong
+    firstSelectedItem.classList.remove('selected-item');
+    firstSelectedItem = null;
+}
+
+// Hàm kiểm tra ghép đôi (Tách ra từ handleDrop để dùng chung)
+function checkMatchLogic(item1, item2) {
+    // Xác định đâu là dropZone (cột trái) và item (cột phải) để tái sử dụng style cũ
+    // Tuy nhiên logic so sánh chỉ cần ID
+    const id1 = item1.dataset.id;
+    const id2 = item2.dataset.id;
+
+    // --- CHẾ ĐỘ THI THỬ ---
+    if (currentMode === 'test') {
+        // Luôn chấp nhận nối
+        item1.classList.add('correct-match');
+        item2.classList.add('correct-match');
+        
+        // Style xanh dương (Trung tính)
+        const neutralStyle = "background:#e3f2fd; border-color:#2196f3; color:#0d47a1; opacity:0.6;";
+        item1.style.cssText += neutralStyle;
+        item2.style.cssText += neutralStyle;
+        
+        // Hiển thị dấu nối (Chỉ cần hiện ở cột trái cho gọn, hoặc cả 2)
+        // Tìm xem cái nào là cột trái (drop-zone) để hiện kết quả
+        const leftSide = item1.classList.contains('drop-zone') ? item1 : item2;
+        const rightSide = item1.classList.contains('drop-zone') ? item2 : item1;
+        
+        leftSide.innerHTML = `<span>${leftSide.innerText}</span> <b style='margin:0 5px; color:#2196f3'>=</b> <span>${rightSide.innerText}</span>`;
+        
+        // Ẩn bên phải đi cho gọn (hoặc giữ lại tùy ý)
+        rightSide.style.visibility = 'hidden'; 
+
+        // Ghi nhận kết quả ngầm
+        const isPairCorrect = (id1 === id2);
+        window.currentDragStatus.push(isPairCorrect);
+
+        matchedCount++;
+        let currentQ = currentQuizData[currentQuestionIndex];
+        if (matchedCount === currentQ.pairs.length) {
+            const isAllCorrect = window.currentDragStatus.every(status => status === true);
+            if (isAllCorrect) score++; 
+            else {
+                 wrongAnswers.push({
+                    question: currentQ.question,
+                    correctAnswer: "Xem lại ở phần Drag & Drop",
+                    userAnswer: "Bạn đã nối sai",
+                    explanation: currentQ.explanation
+                });
+            }
+            scoreText.innerText = `Điểm: ${score}`;
+            setTimeout(() => handleNextButton(), 500);
+        }
+    } 
+    else {
+        // --- CHẾ ĐỘ ÔN TẬP ---
+        if (id1 === id2) {
+            // ĐÚNG
+            item1.classList.add('correct-match');
+            item2.classList.add('correct-match');
+            
+            // Style xanh lá
+            const correctStyle = "background:#d4edda; border-color:#28a745; color:#155724;";
+            item1.style.cssText += correctStyle;
+            item2.style.cssText += correctStyle;
+            
+            // Tìm cột trái để hiện text nối
+            const leftSide = item1.classList.contains('drop-zone') ? item1 : item2;
+            const rightSide = item1.classList.contains('drop-zone') ? item2 : item1;
+            
+            leftSide.innerHTML = `<span>${leftSide.innerText}</span> <b style='margin:0 5px; color:green'>=</b> <span>${rightSide.innerText}</span>`;
+            rightSide.style.visibility = 'hidden'; // Ẩn cột phải đã nối đúng đi
+
+            if(isSfxOn) { correctSound.currentTime=0; correctSound.play(); }
+
+            matchedCount++;
+            let currentQ = isRedemptionMode ? redemptionQuestion : currentQuizData[currentQuestionIndex];
+            if (matchedCount === currentQ.pairs.length) {
+                handleCorrectAnswer(); 
+            }
+        } else {
+            // SAI
+            // Nháy đỏ cả 2 ô
+            item1.style.background = '#f8d7da'; item1.style.borderColor = '#e74c3c';
+            item2.style.background = '#f8d7da'; item2.style.borderColor = '#e74c3c';
+            
+            if(isSfxOn) { wrongSound.currentTime = 0; wrongSound.play(); }
+
+            setTimeout(() => {
+                // Reset về màu cũ
+                item1.style.background = ''; item1.style.borderColor = '';
+                item2.style.background = ''; item2.style.borderColor = '';
+                // Nếu style bị mất, trả lại style mặc định
+                if(item1.classList.contains('drop-zone')) {
+                    item1.style.background='#ffffff'; item1.style.borderColor='#95a5a6';
+                } else {
+                    item1.style.background='#ecf0f1'; item1.style.borderColor='#3498db';
+                }
+                if(item2.classList.contains('drop-zone')) {
+                    item2.style.background='#ffffff'; item2.style.borderColor='#95a5a6';
+                } else {
+                    item2.style.background='#ecf0f1'; item2.style.borderColor='#3498db';
+                }
+            }, 500);
+        }
+    }
+}
 // Khởi chạy
 loadAllData();
