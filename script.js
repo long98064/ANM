@@ -14,6 +14,14 @@ let currentQuestionIndex = 0;
 let score = 0;
 let wrongAnswers = []; 
 
+// ==============================================
+// XỬ LÝ CẢM ỨNG (TOUCH EVENTS) CHO MOBILE
+// ==============================================
+let activeTouchItem = null; // Ô đang được chạm
+let touchOffsetX = 0;
+let touchOffsetY = 0;
+let originalTouchStyle = {}; // Lưu style cũ để khôi phục nếu thả trượt
+
 // Tính năng phụ
 let streak = 0;
 let currentMode = 'practice';
@@ -323,7 +331,7 @@ function renderMultipleChoice(q) {
 }
 
 // --- RENDER 2: ĐIỀN TỪ (TEXT INPUT) ---
-// --- RENDER 2: ĐIỀN TỪ (TEXT INPUT) - CẬP NHẬT NÚT BỎ QUA ---
+
 function renderTextInput(q) {
     const wrapper = document.createElement('div');
     wrapper.style.width = '100%';
@@ -440,13 +448,10 @@ function renderTextInput(q) {
 }
 // --- RENDER 3: KÉO THẢ (DRAG & DROP) ---
 // ============================================================
-// BỘ CODE KÉO THẢ (DRAG & DROP) ĐÃ SỬA LỖI & BẮT LỖI
-// ============================================================
 
-function renderDragDrop(q) {
-    window.currentDragStatus = [];  
+    window.currentDragStatus = []; 
     try {
-        // 1. Ép giao diện về dạng Block (để không bị nát nếu đang ở chế độ Grid)
+        // Ép giao diện Block
         if(answerButtonsElement) {
             answerButtonsElement.style.display = "block";
             answerButtonsElement.style.gridTemplateColumns = "none";
@@ -455,42 +460,32 @@ function renderDragDrop(q) {
         matchedCount = 0;
         const container = document.createElement('div');
         container.classList.add('drag-container');
-        // Style cho container
         container.style.display = 'flex';
         container.style.justifyContent = 'space-between';
-        container.style.gap = '20px';
+        container.style.gap = '15px'; // Giảm gap chút cho mobile đỡ bị tràn
         container.style.width = '100%';
         container.style.marginTop = '20px';
 
+        // CSS cho cột: Flex 1 để chia đều, nhưng min-width để không bị bóp méo trên đt bé
         const colLeft = document.createElement('div');
-        colLeft.style.flex = '1'; 
-        colLeft.style.display='flex'; 
-        colLeft.style.flexDirection='column'; 
-        colLeft.style.gap='15px';
+        colLeft.style.flex = '1'; colLeft.style.display='flex'; colLeft.style.flexDirection='column'; colLeft.style.gap='15px';
         
         const colRight = document.createElement('div');
-        colRight.style.flex = '1'; 
-        colRight.style.display='flex'; 
-        colRight.style.flexDirection='column'; 
-        colRight.style.gap='15px';
+        colRight.style.flex = '1'; colRight.style.display='flex'; colRight.style.flexDirection='column'; colRight.style.gap='15px';
 
-        // Kiểm tra dữ liệu
-        if (!q.pairs) {
-            alert("Lỗi: Câu hỏi này thiếu dữ liệu nối (pairs)!");
-            return;
-        }
+        if (!q.pairs) { alert("Lỗi: Thiếu dữ liệu nối!"); return; }
 
         const shuffledPairs = [...q.pairs].sort(() => Math.random() - 0.5);
 
-        // --- TẠO CỘT TRÁI (VÙNG THẢ) ---
+        // --- CỘT TRÁI (VÙNG THẢ) ---
         q.pairs.forEach(pair => {
             const box = document.createElement('div');
             box.className = 'drop-zone';
             box.innerText = pair.left;
-            box.dataset.id = pair.id; // ID để so khớp
+            box.dataset.id = pair.id; 
             
-            // Style cứng (để tránh bị file CSS cũ ghi đè)
-            box.style.padding = '15px';
+            // Style
+            box.style.padding = '10px'; // Padding nhỏ hơn chút cho mobile
             box.style.border = '2px dashed #95a5a6';
             box.style.borderRadius = '8px';
             box.style.background = '#ffffff';
@@ -501,8 +496,10 @@ function renderDragDrop(q) {
             box.style.justifyContent = 'center';
             box.style.textAlign = 'center';
             box.style.fontWeight = 'bold';
+            box.style.fontSize = '0.9rem'; // Chữ nhỏ hơn xíu
+            box.style.wordBreak = 'break-word'; // Ngắt dòng nếu chữ dài
 
-            // Sự kiện thả
+            // Sự kiện chuột (PC)
             box.addEventListener('dragover', e => { e.preventDefault(); box.style.borderColor = '#e74c3c'; });
             box.addEventListener('dragleave', () => box.style.borderColor = '#95a5a6');
             box.addEventListener('drop', handleDrop);
@@ -510,16 +507,16 @@ function renderDragDrop(q) {
             colLeft.appendChild(box);
         });
 
-        // --- TẠO CỘT PHẢI (VÙNG KÉO) ---
+        // --- CỘT PHẢI (VÙNG KÉO) ---
         shuffledPairs.forEach(pair => {
             const item = document.createElement('div');
             item.className = 'draggable-item';
             item.innerText = pair.right;
             item.draggable = true;
-            item.dataset.id = pair.id; // ID khớp với bên trái
+            item.dataset.id = pair.id; 
 
-            // Style cứng
-            item.style.padding = '15px';
+            // Style
+            item.style.padding = '10px';
             item.style.border = '1px solid #3498db';
             item.style.borderRadius = '8px';
             item.style.background = '#ecf0f1';
@@ -530,8 +527,10 @@ function renderDragDrop(q) {
             item.style.alignItems = 'center';
             item.style.justifyContent = 'center';
             item.style.textAlign = 'center';
+            item.style.fontSize = '0.9rem';
+            item.style.touchAction = 'none'; // QUAN TRỌNG: Ngăn cuộn trang khi chạm vào ô này
 
-            // Sự kiện kéo
+            // Sự kiện chuột (PC)
             item.addEventListener('dragstart', () => {
                 draggedItem = item;
                 setTimeout(() => item.style.opacity = '0.5', 0);
@@ -540,6 +539,11 @@ function renderDragDrop(q) {
                 item.style.opacity = '1';
                 draggedItem = null;
             });
+
+            // --- SỰ KHIỆN CẢM ỨNG (MOBILE) - QUAN TRỌNG ---
+            item.addEventListener('touchstart', handleTouchStart, {passive: false});
+            item.addEventListener('touchmove', handleTouchMove, {passive: false});
+            item.addEventListener('touchend', handleTouchEnd);
             
             colRight.appendChild(item);
         });
@@ -550,89 +554,74 @@ function renderDragDrop(q) {
 
     } catch (err) {
         console.error(err);
-        alert("Lỗi hiển thị DragDrop: " + err.message);
+        alert("Lỗi hiển thị: " + err.message);
     }
-}
 
-// --- XỬ LÝ SỰ KIỆN THẢ (DROP) ---
+
+// --- XỬ LÝ SỰ KIỆN THẢ (DROP) - UPDATED ---
 function handleDrop(e) {
     const dropZone = e.target.closest('.drop-zone');
     if (!dropZone) return;
 
-    // Reset màu viền (nếu đang hover)
+    // Reset màu viền
     dropZone.style.borderColor = '#95a5a6';
 
-    // Nếu hộp này đã nối rồi thì chặn
     if (dropZone.classList.contains('correct-match')) return;
 
     if (draggedItem) {
         const dragId = draggedItem.dataset.id;
         const zoneId = dropZone.dataset.id;
         
-        // ====================================================
-        // LOGIC KHÁC BIỆT GIỮA THI THỬ VÀ ÔN TẬP
-        // ====================================================
-        
+        // --- CHẾ ĐỘ THI THỬ ---
         if (currentMode === 'test') {
-            // --- CHẾ ĐỘ THI THỬ (TEST) ---
-            // 1. CHẤP NHẬN MỌI CẶP NỐI (Không cần đúng ID)
-            dropZone.classList.add('correct-match'); // Đánh dấu là đã nối
-            
-            // 2. Hiện màu trung tính (Xanh dương/Xám) - KHÔNG BÁO ĐÚNG SAI
-            dropZone.style.background = '#e3f2fd'; // Xanh nhạt
-            dropZone.style.borderColor = '#2196f3'; // Viền xanh dương
+            dropZone.classList.add('correct-match'); 
+            dropZone.style.background = '#e3f2fd'; 
+            dropZone.style.borderColor = '#2196f3'; 
             dropZone.style.color = '#0d47a1';
             
-            // 3. Hiển thị kết quả nối
             dropZone.innerHTML = `<span>${dropZone.innerText}</span> <b style='margin:0 10px; color:#2196f3'>=</b> <span>${draggedItem.innerText}</span>`;
+            
+            // Xóa item (Nếu là cảm ứng thì activeTouchItem cũng cần biết là nó đã bị xóa)
             draggedItem.remove(); 
+            if(typeof activeTouchItem !== 'undefined' && activeTouchItem === draggedItem) {
+                activeTouchItem = null; // Đánh dấu là null để hàm touchEnd không cố reset style nữa
+            }
 
-            // 4. Lưu ngầm kết quả (Đúng hay Sai) vào mảng tạm
             const isPairCorrect = (dragId === zoneId);
             window.currentDragStatus.push(isPairCorrect);
 
             matchedCount++;
-            
-            // 5. Nếu đã nối hết các cặp -> TÍNH ĐIỂM NGẦM & CHUYỂN CÂU
             let currentQ = currentQuizData[currentQuestionIndex];
             if (matchedCount === currentQ.pairs.length) {
-                // Kiểm tra: Nếu TẤT CẢ các cặp đều True thì mới được điểm
                 const isAllCorrect = window.currentDragStatus.every(status => status === true);
-                
-                if (isAllCorrect) {
-                    score++; // Cộng điểm ngầm
-                } else {
-                    // Nếu sai, lưu vào danh sách sai để xem lại ở cuối
-                    // Tạo một đáp án giả để hiển thị trong phần Review
+                if (isAllCorrect) score++; 
+                else {
                     wrongAnswers.push({
                         question: currentQ.question,
                         correctAnswer: "Xem lại ở phần Drag & Drop",
-                        userAnswer: "Bạn đã nối sai một hoặc nhiều cặp",
+                        userAnswer: "Bạn đã nối sai",
                         explanation: currentQ.explanation
                     });
                 }
-                
-                // Cập nhật điểm hiển thị (hoặc giấu đi nếu muốn bí mật hoàn toàn)
                 scoreText.innerText = `Điểm: ${score}`;
-                
-                // Chuyển câu ngay lập tức (không hiện Alert, không hiện Next)
-                setTimeout(() => {
-                    handleNextButton();
-                }, 500); // Delay 0.5s cho mượt
+                setTimeout(() => handleNextButton(), 500);
             }
 
         } else {
-            // --- CHẾ ĐỘ ÔN TẬP (PRACTICE) - GIỮ NGUYÊN CODE CŨ ---
+            // --- CHẾ ĐỘ ÔN TẬP ---
             if (dragId === zoneId) {
-                // ĐÚNG
                 dropZone.classList.add('correct-match');
                 dropZone.style.background = '#d4edda'; 
                 dropZone.style.borderColor = '#28a745';
                 dropZone.style.color = '#155724';
                 dropZone.innerHTML = `<span>${dropZone.innerText}</span> <b style='margin:0 10px; color:green'>=</b> <span>${draggedItem.innerText}</span>`;
-                draggedItem.remove(); 
-                matchedCount++;
                 
+                draggedItem.remove(); 
+                if(typeof activeTouchItem !== 'undefined' && activeTouchItem === draggedItem) {
+                    activeTouchItem = null;
+                }
+
+                matchedCount++;
                 let currentQ = isRedemptionMode ? redemptionQuestion : currentQuizData[currentQuestionIndex];
                 if (matchedCount === currentQ.pairs.length) {
                     handleCorrectAnswer(); 
@@ -646,6 +635,9 @@ function handleDrop(e) {
                     dropZone.style.background = '#ffffff';
                 }, 500);
                 if(isSfxOn) { wrongSound.currentTime = 0; wrongSound.play(); }
+                
+                // Nếu là mobile: Đưa item về chỗ cũ
+                if(typeof resetTouchItem === 'function') resetTouchItem();
             }
         }
     }
@@ -918,6 +910,91 @@ document.addEventListener('keydown', e => {
         // alert("Không được copy!");
     }
 });
+
+function handleTouchStart(e) {
+    // Ngăn cuộn trang khi đang kéo
+    if(e.cancelable) e.preventDefault(); 
+    
+    const touch = e.touches[0];
+    activeTouchItem = e.target.closest('.draggable-item'); // Đảm bảo lấy đúng div
+    if(!activeTouchItem) return;
+
+    draggedItem = activeTouchItem; // Đồng bộ với logic PC
+
+    // Tính toán vị trí ngón tay so với góc ô
+    const rect = activeTouchItem.getBoundingClientRect();
+    touchOffsetX = touch.clientX - rect.left;
+    touchOffsetY = touch.clientY - rect.top;
+
+    // Lưu style cũ
+    originalTouchStyle = {
+        position: activeTouchItem.style.position,
+        left: activeTouchItem.style.left,
+        top: activeTouchItem.style.top,
+        zIndex: activeTouchItem.style.zIndex,
+        width: activeTouchItem.style.width,
+        opacity: activeTouchItem.style.opacity
+    };
+
+    // Chuyển sang chế độ "Nổi" (Fixed) để di chuyển theo ngón tay
+    activeTouchItem.style.position = 'fixed';
+    activeTouchItem.style.zIndex = '9999';
+    activeTouchItem.style.width = rect.width + 'px'; // Giữ nguyên chiều rộng
+    activeTouchItem.style.left = (rect.left) + 'px';
+    activeTouchItem.style.top = (rect.top) + 'px';
+    activeTouchItem.style.opacity = '0.8';
+    activeTouchItem.style.boxShadow = '0 0 10px rgba(0,0,0,0.5)';
+}
+
+function handleTouchMove(e) {
+    if (!activeTouchItem) return;
+    if(e.cancelable) e.preventDefault();
+
+    const touch = e.touches[0];
+    // Cập nhật vị trí ô theo ngón tay
+    activeTouchItem.style.left = (touch.clientX - touchOffsetX) + 'px';
+    activeTouchItem.style.top = (touch.clientY - touchOffsetY) + 'px';
+}
+
+function handleTouchEnd(e) {
+    if (!activeTouchItem) return;
+
+    const touch = e.changedTouches[0];
+    
+    // Tạm ẩn ô đang kéo để "nhìn xuyên qua" nó xuống dưới xem đang thả vào đâu
+    activeTouchItem.style.display = 'none';
+    let targetElement = document.elementFromPoint(touch.clientX, touch.clientY);
+    activeTouchItem.style.display = 'flex'; // Hiện lại ngay
+
+    // Tìm xem có thả vào Drop Zone nào không
+    let dropZone = targetElement ? targetElement.closest('.drop-zone') : null;
+
+    if (dropZone) {
+        // Nếu trúng đích -> Gọi hàm xử lý Drop như PC
+        // Tạo một event giả để tái sử dụng hàm handleDrop
+        const fakeEvent = { target: dropZone };
+        handleDrop(fakeEvent);
+    } else {
+        // Nếu thả trượt ra ngoài -> Khôi phục về chỗ cũ
+        resetTouchItem();
+    }
+
+    // Dọn dẹp
+    activeTouchItem = null;
+    draggedItem = null;
+}
+
+function resetTouchItem() {
+    if (activeTouchItem) {
+        activeTouchItem.style.position = originalTouchStyle.position;
+        activeTouchItem.style.left = originalTouchStyle.left;
+        activeTouchItem.style.top = originalTouchStyle.top;
+        activeTouchItem.style.zIndex = originalTouchStyle.zIndex;
+        activeTouchItem.style.width = originalTouchStyle.width;
+        activeTouchItem.style.opacity = originalTouchStyle.opacity;
+        activeTouchItem.style.boxShadow = 'none';
+    }
+}
 
 // Khởi chạy
 loadAllData();
