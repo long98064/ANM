@@ -26,6 +26,7 @@
         <div id="home-screen" class="center-box">
             <h1>CHỌN MÔN HỌC</h1>
             <p>Made by: chi yeu minh karina thoi</p>
+            <p>Lưu ý: Ngân hàng câu hỏi trên trang được tổng hợp từ bộ câu hỏi của các thầy cô (ANM: cô Thơm, TMDT&TTTT: thầy Duy). Trang được tạo ra để hỗ trợ học tập, hoàn toàn miễn phí và không nhằm mục đích thương mại,buôn bán..</p>
             <div class="subject-grid">
                 <button class="btn-subject anm-theme" onclick="selectSubject('anm')">
                     <br>AN NINH MẠNG
@@ -47,9 +48,9 @@
             <p>Ngân hàng: <span id="total-questions-count">...</span> câu</p>
             
             <div class="mode-selection">
+                <p>Lưu ý: Đi thi có thể có hoặc không có phần tính toán, phần tính toán trên trang được tham khảo từ bài kiểm tra và phát triển thêm nhờ AI, chỉ học để biết thêm chứ đi thi không chắc trúng</p>
                 <button id="btn-practice" class="btn-start btn-mode" onclick="startQuiz('practice')">📖 ÔN TẬP</button>
-                <button id="btn-test" class="btn-start btn-mode" onclick="startQuiz('test')">⏱️ THI THỬ</button>
-                
+                <button id="btn-test" class="btn-start btn-mode" onclick="startQuiz('test')">⏱️ THI THỬ</button>                
                 <button id="btn-math" class="btn-start btn-mode math-mode hide" onclick="startQuiz('math')">
                     🧮 TÍNH TOÁN
                 </button>
@@ -58,7 +59,7 @@
 
         <div id="quiz-box" class="hide">
             <div class="header">
-                <div id="timer-box" class="hide"><span id="time-left">50:00</span></div>
+                <div id="timer-box" class="hide"><span id="time-left">40:00</span></div>
                 <div class="progress-container"><div id="progress-bar"></div></div>
                 <div class="stats-text"><span id="question-count">Câu 1</span><span id="score">Điểm: 0</span></div>
             </div>
@@ -88,4 +89,5 @@
     <script src="script.js"></script>
 </body>
 </html>
+
 
