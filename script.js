@@ -449,6 +449,7 @@ function renderTextInput(q) {
 // --- RENDER 3: KÉO THẢ (DRAG & DROP) ---
 // ============================================================
 
+function renderDragDrop(q) {  // <--- BẠN BỊ THIẾU DÒNG NÀY
     window.currentDragStatus = []; 
     try {
         // Ép giao diện Block
@@ -462,11 +463,10 @@ function renderTextInput(q) {
         container.classList.add('drag-container');
         container.style.display = 'flex';
         container.style.justifyContent = 'space-between';
-        container.style.gap = '15px'; // Giảm gap chút cho mobile đỡ bị tràn
+        container.style.gap = '15px'; 
         container.style.width = '100%';
         container.style.marginTop = '20px';
 
-        // CSS cho cột: Flex 1 để chia đều, nhưng min-width để không bị bóp méo trên đt bé
         const colLeft = document.createElement('div');
         colLeft.style.flex = '1'; colLeft.style.display='flex'; colLeft.style.flexDirection='column'; colLeft.style.gap='15px';
         
@@ -485,7 +485,7 @@ function renderTextInput(q) {
             box.dataset.id = pair.id; 
             
             // Style
-            box.style.padding = '10px'; // Padding nhỏ hơn chút cho mobile
+            box.style.padding = '10px';
             box.style.border = '2px dashed #95a5a6';
             box.style.borderRadius = '8px';
             box.style.background = '#ffffff';
@@ -496,8 +496,8 @@ function renderTextInput(q) {
             box.style.justifyContent = 'center';
             box.style.textAlign = 'center';
             box.style.fontWeight = 'bold';
-            box.style.fontSize = '0.9rem'; // Chữ nhỏ hơn xíu
-            box.style.wordBreak = 'break-word'; // Ngắt dòng nếu chữ dài
+            box.style.fontSize = '0.9rem';
+            box.style.wordBreak = 'break-word';
 
             // Sự kiện chuột (PC)
             box.addEventListener('dragover', e => { e.preventDefault(); box.style.borderColor = '#e74c3c'; });
@@ -528,7 +528,7 @@ function renderTextInput(q) {
             item.style.justifyContent = 'center';
             item.style.textAlign = 'center';
             item.style.fontSize = '0.9rem';
-            item.style.touchAction = 'none'; // QUAN TRỌNG: Ngăn cuộn trang khi chạm vào ô này
+            item.style.touchAction = 'none'; 
 
             // Sự kiện chuột (PC)
             item.addEventListener('dragstart', () => {
@@ -540,7 +540,7 @@ function renderTextInput(q) {
                 draggedItem = null;
             });
 
-            // --- SỰ KHIỆN CẢM ỨNG (MOBILE) - QUAN TRỌNG ---
+            // --- SỰ KHIỆN CẢM ỨNG (MOBILE) ---
             item.addEventListener('touchstart', handleTouchStart, {passive: false});
             item.addEventListener('touchmove', handleTouchMove, {passive: false});
             item.addEventListener('touchend', handleTouchEnd);
@@ -556,6 +556,7 @@ function renderTextInput(q) {
         console.error(err);
         alert("Lỗi hiển thị: " + err.message);
     }
+} // <--- BẠN BỊ THIẾU DẤU ĐÓNG NGOẶC NÀY
 
 
 // --- XỬ LÝ SỰ KIỆN THẢ (DROP) - UPDATED ---
@@ -581,10 +582,10 @@ function handleDrop(e) {
             
             dropZone.innerHTML = `<span>${dropZone.innerText}</span> <b style='margin:0 10px; color:#2196f3'>=</b> <span>${draggedItem.innerText}</span>`;
             
-            // Xóa item (Nếu là cảm ứng thì activeTouchItem cũng cần biết là nó đã bị xóa)
+            // Xóa item
             draggedItem.remove(); 
             if(typeof activeTouchItem !== 'undefined' && activeTouchItem === draggedItem) {
-                activeTouchItem = null; // Đánh dấu là null để hàm touchEnd không cố reset style nữa
+                activeTouchItem = null;
             }
 
             const isPairCorrect = (dragId === zoneId);
@@ -664,15 +665,13 @@ function selectAnswerChoice(e, questionData) {
         if (button.dataset.correct === "true") button.classList.add('correct');
         else if (button === selectedButton && !isCorrect) button.classList.add('wrong');
         else button.classList.add('dim');
-        button.disabled = true; // Khóa nút sau khi chọn
+        button.disabled = true; 
     });
 
-    // 3. --- KHÔI PHỤC PHẦN GIẢI THÍCH (QUAN TRỌNG) ---
-    // Hiện giải thích ngay lập tức dù đúng hay sai
+    // 3. Hiện giải thích
     if (questionData.explanation && questionData.explanation.trim() !== "") {
         explanationBox.innerHTML = `<strong>💡 Giải thích:</strong><br>${questionData.explanation}`;
         explanationBox.classList.remove('hide');
-        // Kích hoạt MathJax để hiển thị công thức toán trong giải thích
         if (window.MathJax) MathJax.typesetPromise([explanationBox]);
     }
 
@@ -680,7 +679,6 @@ function selectAnswerChoice(e, questionData) {
     nextButton.classList.remove('hide'); 
 }
 
-// Hàm Xử lý ĐÚNG (Dùng chung)
 function handleCorrectAnswer() {
     if(isSfxOn) { correctSound.currentTime=0; correctSound.play(); }
     score++; streak++;
@@ -696,7 +694,6 @@ function handleCorrectAnswer() {
     updateStreakDisplay();
     scoreText.innerText = `Điểm: ${score}`;
     
-    // Hiện giải thích nếu có (lấy câu hiện tại)
     let q = isRedemptionMode ? redemptionQuestion : currentQuizData[currentQuestionIndex];
     if (q.explanation) {
         explanationBox.innerHTML = `<strong>💡 Giải thích:</strong><br>${q.explanation}`;
@@ -707,7 +704,6 @@ function handleCorrectAnswer() {
     nextButton.classList.remove('hide');
 }
 
-// Hàm Xử lý SAI (Dùng chung)
 function handleWrongAnswer(q, userAns) {
     if(isSfxOn) { wrongSound.currentTime=0; wrongSound.play(); }
     streak = 0;
@@ -745,7 +741,6 @@ function handleNextButton() {
 
     currentQuestionIndex++;
     
-    // Logic gỡ điểm
     if (currentMode !== 'test') {
         blockCount++;
         if (blockCount === 10) {
@@ -802,7 +797,7 @@ function showResult() {
 }
 
 // ==============================================
-// 8. CÁC HÀM TIỆN ÍCH (TIMER, CHART, ETC.)
+// 8. CÁC HÀM TIỆN ÍCH
 // ==============================================
 function startTimer(minutes) {
     let seconds = minutes * 60;
@@ -873,7 +868,6 @@ function drawScoreChart() {
     });
 }
 
-// Cài đặt Toggle
 function toggleSettings() { settingsModal.classList.toggle('hide'); }
 if(toggleSfxBtn) toggleSfxBtn.addEventListener('change', (e) => isSfxOn = e.target.checked);
 if(toggleStreakBtn) toggleStreakBtn.addEventListener('change', (e) => { isStreakOn = e.target.checked; updateStreakDisplay(); });
@@ -882,13 +876,11 @@ if(toggleBgmBtn) toggleBgmBtn.addEventListener('change', (e) => {
     isMusicOn ? bgMusic.play().catch(e=>{}) : bgMusic.pause();
 });
 
-// Phím tắt
 document.addEventListener('keydown', (e) => {
     if (quizBox.classList.contains('hide')) return;
     const options = document.querySelectorAll('#options-container .btn');
     const key = e.key.toLowerCase(); 
 
-    // Chỉ dùng phím tắt cho trắc nghiệm (check nếu có ô input thì thôi)
     if(document.querySelector('.input-answer-field')) return;
 
     if ((key === '1' || key === 'a') && options[0]) options[0].click();
@@ -902,31 +894,31 @@ document.addEventListener('keydown', (e) => {
     }
 });
 
-// Chống copy
 document.addEventListener('contextmenu', e => e.preventDefault());
 document.addEventListener('keydown', e => {
     if (e.key === 'F12' || (e.ctrlKey && ['c','x','u','s','p','a'].includes(e.key.toLowerCase()))) {
         e.preventDefault();
-        // alert("Không được copy!");
     }
 });
 
+// ==============================================
+// 9. BỔ SUNG CÁC HÀM CẢM ỨNG CÒN THIẾU
+// ==============================================
+
 function handleTouchStart(e) {
-    // Ngăn cuộn trang khi đang kéo
+    const targetItem = e.target.closest('.draggable-item');
+    if (!targetItem) return; 
+
     if(e.cancelable) e.preventDefault(); 
     
     const touch = e.touches[0];
-    activeTouchItem = e.target.closest('.draggable-item'); // Đảm bảo lấy đúng div
-    if(!activeTouchItem) return;
+    activeTouchItem = targetItem;
+    draggedItem = activeTouchItem; 
 
-    draggedItem = activeTouchItem; // Đồng bộ với logic PC
-
-    // Tính toán vị trí ngón tay so với góc ô
     const rect = activeTouchItem.getBoundingClientRect();
     touchOffsetX = touch.clientX - rect.left;
     touchOffsetY = touch.clientY - rect.top;
 
-    // Lưu style cũ
     originalTouchStyle = {
         position: activeTouchItem.style.position,
         left: activeTouchItem.style.left,
@@ -936,10 +928,9 @@ function handleTouchStart(e) {
         opacity: activeTouchItem.style.opacity
     };
 
-    // Chuyển sang chế độ "Nổi" (Fixed) để di chuyển theo ngón tay
     activeTouchItem.style.position = 'fixed';
     activeTouchItem.style.zIndex = '9999';
-    activeTouchItem.style.width = rect.width + 'px'; // Giữ nguyên chiều rộng
+    activeTouchItem.style.width = rect.width + 'px'; 
     activeTouchItem.style.left = (rect.left) + 'px';
     activeTouchItem.style.top = (rect.top) + 'px';
     activeTouchItem.style.opacity = '0.8';
@@ -951,7 +942,6 @@ function handleTouchMove(e) {
     if(e.cancelable) e.preventDefault();
 
     const touch = e.touches[0];
-    // Cập nhật vị trí ô theo ngón tay
     activeTouchItem.style.left = (touch.clientX - touchOffsetX) + 'px';
     activeTouchItem.style.top = (touch.clientY - touchOffsetY) + 'px';
 }
@@ -961,25 +951,19 @@ function handleTouchEnd(e) {
 
     const touch = e.changedTouches[0];
     
-    // Tạm ẩn ô đang kéo để "nhìn xuyên qua" nó xuống dưới xem đang thả vào đâu
     activeTouchItem.style.display = 'none';
     let targetElement = document.elementFromPoint(touch.clientX, touch.clientY);
-    activeTouchItem.style.display = 'flex'; // Hiện lại ngay
+    activeTouchItem.style.display = 'flex';
 
-    // Tìm xem có thả vào Drop Zone nào không
     let dropZone = targetElement ? targetElement.closest('.drop-zone') : null;
 
     if (dropZone) {
-        // Nếu trúng đích -> Gọi hàm xử lý Drop như PC
-        // Tạo một event giả để tái sử dụng hàm handleDrop
         const fakeEvent = { target: dropZone };
         handleDrop(fakeEvent);
     } else {
-        // Nếu thả trượt ra ngoài -> Khôi phục về chỗ cũ
         resetTouchItem();
     }
 
-    // Dọn dẹp
     activeTouchItem = null;
     draggedItem = null;
 }
