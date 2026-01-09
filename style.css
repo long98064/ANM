@@ -948,3 +948,11 @@ body {
     background-color: #1e4d2b !important;
     color: #2ecc71 !important;
 }
+/* Hiệu ứng khi bấm chọn một ô */
+.selected-item {
+    border: 3px solid #f1c40f !important; /* Viền vàng đậm */
+    background-color: #fef9e7 !important; /* Nền vàng nhạt */
+    transform: scale(1.02); /* Phóng to nhẹ */
+    box-shadow: 0 0 10px rgba(241, 196, 15, 0.5);
+    transition: all 0.2s ease;
+}
