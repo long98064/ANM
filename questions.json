@@ -5220,5 +5220,320 @@
     ],
     "answer": 0,
     "explanation": ""
-  }
+  },
+    {
+        "type": "text",
+        "question": "Thuật ngữ XSS là viết tắt của cụm từ nào?",
+        "correctAnswer": "Cross-Site Scripting",
+        "hint": "Nếu có dấu gạch ngang giữa hai từ thì giữ nguyên"
+    },
+    {
+        "type": "text",
+        "question": "Thuật ngữ WAF trong bảo mật web là viết tắt của cụm từ nào?",
+        "correctAnswer": "Web Application Firewall",
+        "hint": "Giữa các từ chỉ có một dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Thuật ngữ DoS là viết tắt của cụm từ nào?",
+        "correctAnswer": "Denial of Service",
+        "hint": "Giữa các từ chỉ có một dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Thuật ngữ DDoS là viết tắt của cụm từ nào?",
+        "correctAnswer": "Distributed Denial of Service",
+        "hint": "Giữa các từ chỉ có một dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Thuật ngữ IDS là viết tắt của cụm từ nào?",
+        "correctAnswer": "Intrusion Detection System",
+        "hint": "Giữa các từ chỉ có một dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Thuật ngữ IPS là viết tắt của cụm từ nào?",
+        "correctAnswer": "Intrusion Prevention System",
+        "hint": "Giữa các từ chỉ có một dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Giao thức SSL là viết tắt của cụm từ nào?",
+        "correctAnswer": "Secure Sockets Layer",
+        "hint": "Giữa các từ chỉ có một dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Giao thức HTTPS là viết tắt của cụm từ nào?",
+        "correctAnswer": "HyperText Transfer Protocol Secure",
+        "hint": "Giữa các từ chỉ có một dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Thuật ngữ VPN là viết tắt của cụm từ nào?",
+        "correctAnswer": "Virtual Private Network",
+        "hint": "Giữa các từ chỉ có một dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Thuật ngữ APT là viết tắt của cụm từ nào?",
+        "correctAnswer": "Advanced Persistent Threat",
+        "hint": "không phải bài hát của Rosé đâu"
+    },
+    {
+        "type": "text",
+        "question": "Thuật ngữ FTP là viết tắt của cụm từ nào?",
+        "correctAnswer": "File Transfer Protocol",
+        "hint": "Giữa các từ chỉ có một dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Thuật ngữ TCP là viết tắt của cụm từ nào?",
+        "correctAnswer": "Transmission Control Protocol",
+        "hint": "Giữa các từ chỉ có một dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Thuật ngữ CSRF là viết tắt của cụm từ nào?",
+        "correctAnswer": "Cross-Site Request Forgery",
+        "hint": "Giữa các từ chỉ có một dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Thuật ngữ PGP trong mã hóa email là viết tắt của cụm từ nào?",
+        "correctAnswer": "Pretty Good Privacy",
+        "hint": "Giữa các từ chỉ có một dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Thuật ngữ SFTP là viết tắt của cụm từ nào?",
+        "correctAnswer": "Secure File Transfer Protocol",
+        "hint": "Giữa các từ chỉ có một dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Loại phần mềm độc hại nào ghi lại các phím bấm của người dùng để đánh cắp thông tin?",
+        "correctAnswer": "Keylogger",
+        "hint": "Nhập tên thuật ngữ tiếng Anh"
+    },
+    {
+        "type": "text",
+        "question": "Loại phần mềm độc hại mã hóa dữ liệu người dùng và yêu cầu tiền chuộc để mở khóa gọi là gì?",
+        "correctAnswer": "Ransomware",
+        "hint": "Nhập tên thuật ngữ tiếng Anh"
+    },
+    {
+        "type": "text",
+        "question": "Thuật ngữ chỉ một mạng lưới các máy tính bị nhiễm mã độc và bị kẻ tấn công kiểm soát từ xa là gì?",
+        "correctAnswer": "Botnet",
+        "hint": "Nhập tên thuật ngữ tiếng Anh"
+    },
+    {
+        "type": "text",
+        "question": "Tên gọi của hệ thống bẫy được thiết kế để thu hút và giám sát hacker hoặc phát hiện truy cập trái phép là gì?",
+        "correctAnswer": "Honeypot",
+        "hint": "Nhập tên thuật ngữ tiếng Anh"
+    },
+    {
+        "type": "text",
+        "question": "Tên công cụ dùng để phân tích gói tin mạng (packet sniffing) phổ biến được nhắc đến trong tài liệu là gì?",
+        "correctAnswer": "Wireshark",
+        "hint": "Nhập tên phần mềm"
+    },
+     {
+        "type": "text",
+        "question": "DH là viết tắt của cụm từ nào?",
+        "correctAnswer": "Diffie-Hellman",
+        "hint": "Có thể xuất hiện một dấu gạch ngang giữa hai từ, không có dấu gạch nganh thì hai từ chỉ có một dấu cách, không phân biệt chữ hoa-thường"
+    },
+    {
+        "type": "drag",
+        "question": "Ghép các giao thức mạng với số Cổng (Port) mặc định tương ứng:",
+        "pairs": [
+            { "id": "p1", "left": "SSH", "right": "22" },
+            { "id": "p2", "left": "Telnet", "right": "23" },
+            { "id": "p3", "left": "SMTP", "right": "25" },
+            { "id": "p4", "left": "DNS", "right": "53" }
+        ]
+    },
+    {
+        "type": "drag",
+        "question": "Nối các tầng trong mô hình OSI với đơn vị dữ liệu (PDU) của chúng:",
+        "pairs": [
+            { "id": "osi1", "left": "Transport Layer", "right": "Segment" },
+            { "id": "osi2", "left": "Network Layer", "right": "Packet" },
+            { "id": "osi3", "left": "Data Link Layer", "right": "Frame" },
+            { "id": "osi4", "left": "Physical Layer", "right": "Bit" }
+        ]
+    },
+    {
+        "type": "drag",
+        "question": "Phân loại các hình thức tấn công Social Engineering:",
+        "pairs": [
+            { "id": "se1", "left": "Phishing", "right": "Gửi email giả mạo" },
+            { "id": "se2", "left": "Vishing", "right": "Lừa đảo qua điện thoại (Voice)" },
+            { "id": "se3", "left": "Smishing", "right": "Lừa đảo qua tin nhắn SMS" },
+            { "id": "se4", "left": "Whaling", "right": "Nhắm vào mục tiêu cấp cao (CEO)" }
+        ]
+    },
+    {
+        "type": "drag",
+        "question": "Ghép các khái niệm trong Tam giác bảo mật CIA:",
+        "pairs": [
+            { "id": "cia1", "left": "Confidentiality", "right": "Bảo mật (Mã hóa dữ liệu)" },
+            { "id": "cia2", "left": "Integrity", "right": "Toàn vẹn (Hashing, Chữ ký số)" },
+            { "id": "cia3", "left": "Availability", "right": "Sẵn sàng (DDoS protection, Backup)" }
+        ]
+    },
+    {
+        "type": "drag",
+        "question": "Nối các loại Mã độc (Malware) với hành vi đặc trưng:",
+        "pairs": [
+            { "id": "mal1", "left": "Ransomware", "right": "Mã hóa dữ liệu đòi tiền chuộc" },
+            { "id": "mal2", "left": "Trojan", "right": "Ngụy trang phần mềm hợp lệ" },
+            { "id": "mal3", "left": "Rootkit", "right": "Ẩn mình sâu trong hệ điều hành" },
+            { "id": "mal4", "left": "Keylogger", "right": "Ghi lại thao tác bàn phím" }
+        ]
+    },
+    {
+        "type": "drag",
+        "question": "Phân biệt các loại Hacker (Mũ):",
+        "pairs": [
+            { "id": "hat1", "left": "White Hat", "right": "Hacker đạo đức (Ethical Hacker)" },
+            { "id": "hat2", "left": "Black Hat", "right": "Hacker mũ đen (Tội phạm mạng)" },
+            { "id": "hat3", "left": "Gray Hat", "right": "Hoạt động không xin phép nhưng không phá hoại" },
+            { "id": "hat4", "left": "Script Kiddie", "right": "Kẻ nghiệp dư dùng công cụ có sẵn" }
+        ]
+    },
+    {
+        "type": "drag",
+        "question": "Ghép các mô hình điện toán đám mây (Cloud Computing):",
+        "pairs": [
+            { "id": "cloud1", "left": "SaaS", "right": "Software as a Service (Gmail, Office 365)" },
+            { "id": "cloud2", "left": "PaaS", "right": "Platform as a Service (Heroku, Google App Engine)" },
+            { "id": "cloud3", "left": "IaaS", "right": "Infrastructure as a Service (AWS EC2, VPS)" }
+        ]
+    },
+    {
+        "type": "drag",
+        "question": "Nối các thuật ngữ về Kiểm soát truy cập (AAA):",
+        "pairs": [
+            { "id": "aaa1", "left": "Authentication", "right": "Xác thực (Bạn là ai?)" },
+            { "id": "aaa2", "left": "Authorization", "right": "Cấp quyền (Bạn được làm gì?)" },
+            { "id": "aaa3", "left": "Accounting", "right": "Kiểm kê (Bạn đã làm gì? Log)" }
+        ]
+    },
+    {
+        "type": "drag",
+        "question": "Phân loại các thuật toán Mã hóa:",
+        "pairs": [
+            { "id": "cry1", "left": "AES", "right": "Mã hóa đối xứng (Symmetric)" },
+            { "id": "cry2", "left": "RSA", "right": "Mã hóa bất đối xứng (Asymmetric)" },
+            { "id": "cry3", "left": "MD5/SHA", "right": "Hàm băm (Hashing - Một chiều)" }
+        ]
+    },
+    {
+        "type": "drag",
+        "question": "Ghép các chuẩn bảo mật Wifi:",
+        "pairs": [
+            { "id": "wifi1", "left": "WEP", "right": "Chuẩn cũ, rất dễ bị bẻ khóa" },
+            { "id": "wifi2", "left": "WPA2", "right": "Sử dụng mã hóa AES mạnh mẽ" },
+            { "id": "wifi3", "left": "WPA3", "right": "Chuẩn mới nhất, bảo mật cao hơn" }
+        ]
+    },
+    {
+        "type": "drag",
+        "question": "Nối các mô hình Điều khiển truy cập (Access Control):",
+        "pairs": [
+            { "id": "ac1", "left": "DAC", "right": "Chủ sở hữu file quyết định quyền (Discretionary)" },
+            { "id": "ac2", "left": "MAC", "right": "Quyền dựa trên nhãn bảo mật (Mandatory)" },
+            { "id": "ac3", "left": "RBAC", "right": "Quyền dựa trên vai trò chức vụ (Role-Based)" }
+        ]
+    },
+    {
+        "type": "drag",
+        "question": "Ghép các loại Tường lửa (Firewall):",
+        "pairs": [
+            { "id": "fw1", "left": "Packet Filtering", "right": "Lọc dựa trên IP/Port (Layer 3/4)" },
+            { "id": "fw2", "left": "WAF", "right": "Bảo vệ ứng dụng Web (Layer 7)" },
+            { "id": "fw3", "left": "Proxy Firewall", "right": "Đóng vai trò trung gian kết nối" }
+        ]
+    },
+    {
+        "type": "drag",
+        "question": "Nối các lệnh Linux cơ bản với chức năng:",
+        "pairs": [
+            { "id": "cmd1", "left": "chmod", "right": "Thay đổi quyền truy cập file" },
+            { "id": "cmd2", "left": "chown", "right": "Thay đổi chủ sở hữu file" },
+            { "id": "cmd3", "left": "ls", "right": "Liệt kê danh sách file" },
+            { "id": "cmd4", "left": "grep", "right": "Tìm kiếm chuỗi trong văn bản" }
+        ]
+    },
+    {
+        "type": "drag",
+        "question": "Ghép các loại tấn công Mạng (Network Attacks):",
+        "pairs": [
+            { "id": "net1", "left": "MITM", "right": "Xen giữa cuộc hội thoại (Man-in-the-Middle)" },
+            { "id": "net2", "left": "DoS", "right": "Từ chối dịch vụ (Làm sập server)" },
+            { "id": "net3", "left": "Spoofing", "right": "Giả mạo địa chỉ IP/MAC" }
+        ]
+    },
+    {
+        "type": "drag",
+        "question": "Nối các cấp độ RAID (Lưu trữ dự phòng):",
+        "pairs": [
+            { "id": "raid1", "left": "RAID 0", "right": "Tăng tốc độ (Striping), không an toàn" },
+            { "id": "raid2", "left": "RAID 1", "right": "Sao lưu gương (Mirroring)" },
+            { "id": "raid3", "left": "RAID 5", "right": "Cần tối thiểu 3 ổ, dùng Parity" }
+        ]
+    },
+    {
+        "type": "drag",
+        "question": "Ghép các cổng Web & Database:",
+        "pairs": [
+            { "id": "pdb1", "left": "HTTP", "right": "80" },
+            { "id": "pdb2", "left": "HTTPS", "right": "443" },
+            { "id": "pdb3", "left": "MySQL", "right": "3306" },
+            { "id": "pdb4", "left": "SQL Server", "right": "1433" }
+        ]
+    },
+    {
+        "type": "drag",
+        "question": "Nối các thuật ngữ phòng thủ:",
+        "pairs": [
+            { "id": "def1", "left": "Honeypot", "right": "Hệ thống bẫy để dụ hacker" },
+            { "id": "def2", "left": "DMZ", "right": "Vùng mạng trung gian (Public-facing)" },
+            { "id": "def3", "left": "IDS", "right": "Hệ thống phát hiện xâm nhập" },
+            { "id": "def4", "left": "IPS", "right": "Hệ thống ngăn chặn xâm nhập" }
+        ]
+    },
+    {
+        "type": "drag",
+        "question": "Ghép các bước trong quy trình xử lý sự cố (Incident Response):",
+        "pairs": [
+            { "id": "ir1", "left": "Preparation", "right": "Chuẩn bị công cụ và nhân sự" },
+            { "id": "ir2", "left": "Identification", "right": "Phát hiện và xác định sự cố" },
+            { "id": "ir3", "left": "Containment", "right": "Cô lập hệ thống bị nhiễm" },
+            { "id": "ir4", "left": "Eradication", "right": "Loại bỏ nguyên nhân gốc rễ" }
+        ]
+    },
+    {
+        "type": "drag",
+        "question": "Nối các loại tấn công Web (Web Vulnerabilities):",
+        "pairs": [
+            { "id": "web1", "left": "SQL Injection", "right": "Chèn câu lệnh SQL độc hại" },
+            { "id": "web2", "left": "XSS", "right": "Chèn mã Script độc hại (Cross-Site Scripting)" },
+            { "id": "web3", "left": "CSRF", "right": "Giả mạo yêu cầu người dùng" }
+        ]
+    },
+    {
+        "type": "drag",
+        "question": "Ghép các đặc điểm của VPN (Virtual Private Network):",
+        "pairs": [
+            { "id": "vpn1", "left": "Tunneling", "right": "Tạo đường hầm kết nối riêng ảo" },
+            { "id": "vpn2", "left": "Encryption", "right": "Mã hóa dữ liệu truyền đi" },
+            { "id": "vpn3", "left": "IPSec", "right": "Bộ giao thức bảo mật tầng Network" }
+        ]
+    }
 ]
