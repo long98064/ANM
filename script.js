@@ -111,7 +111,7 @@ function selectSubject(subject) {
     if (subject === 'anm') {
         subjectTitle.innerText = "AN NINH MẠNG";
         totalCountSpan.innerText = anmQuestions.length;
-        btnMath.classList.remove('hide'); 
+        btnMath.classList.add('hide'); 
     } else if (subject === 'commerce') {
         subjectTitle.innerText = "THƯƠNG MẠI ĐIỆN TỬ";
         totalCountSpan.innerText = commerceQuestions.length;
@@ -160,58 +160,47 @@ function startQuiz(mode) {
         return;
     }
 
-    // 2. Xử lý chế độ
     if (currentMode === 'math') {
+        // Nếu lỡ bấm vào mode math thì vẫn cho chạy (hoặc có thể chặn luôn ở đây)
         currentQuizData = [...mathQuestions].sort(() => 0.5 - Math.random());
         timerBox.classList.add('hide');
     } 
     else if (currentMode === 'test') {
-        // --- CẤU HÌNH THI THỬ ---
-        const totalReq = 70; // Tổng số câu yêu cầu
-        const timeLimit = 40; // Phút
+        // --- CẤU HÌNH THI THỬ (70 CÂU) ---
+        const totalReq = 70; 
+        const timeLimit = 40; 
         
-        // Số lượng cố định các loại đặc biệt
-        const reqMath = 5;
+        // --- CHỈNH SỬA TẠI ĐÂY: XÓA TOÁN ---
+        const reqMath = 0; // Đặt về 0
         const reqDrag = 3;
         const reqText = 3;
         
-        // A. Lấy Toán (5 câu)
-        let selectedMath = [];
-        if (mathQuestions && mathQuestions.length > 0) {
-            let mathPool = [...mathQuestions].sort(() => 0.5 - Math.random());
-            selectedMath = mathPool.slice(0, reqMath);
-        }
+        // A. Lấy Toán (Mảng rỗng)
+        let selectedMath = []; 
 
         // B. Phân loại câu hỏi từ Môn chính
-        // Lọc ra 3 loại: Drag, Text, và Choice (Trắc nghiệm thường)
         let dragPool = mainSubjectData.filter(q => q.type === 'drag');
         let textPool = mainSubjectData.filter(q => q.type === 'text');
-        // Những câu còn lại (không phải drag, không phải text) là trắc nghiệm
         let choicePool = mainSubjectData.filter(q => q.type !== 'drag' && q.type !== 'text');
 
-        // Trộn ngẫu nhiên từng kho
         dragPool.sort(() => 0.5 - Math.random());
         textPool.sort(() => 0.5 - Math.random());
         choicePool.sort(() => 0.5 - Math.random());
 
-        // C. Lấy câu hỏi đặc biệt (Drag & Text)
+        // C. Lấy câu hỏi đặc biệt
         let selectedDrag = dragPool.slice(0, reqDrag);
         let selectedText = textPool.slice(0, reqText);
 
-        // D. Tính số lượng trắc nghiệm cần lấy (Choice)
-        // Tổng hiện tại = (Toán đã lấy) + (Drag đã lấy) + (Text đã lấy)
+        // D. Tự động lấy trắc nghiệm bù vào cho đủ 70 câu
+        // Lúc này nó sẽ lấy: 70 - 0 - 3 - 3 = 64 câu trắc nghiệm
         let currentCount = selectedMath.length + selectedDrag.length + selectedText.length;
-        
-        // Số câu trắc nghiệm cần lấy = 70 - Tổng hiện tại
-        // (Thường sẽ là 59 câu, nhưng nếu thiếu Drag/Text thì số này tự tăng lên để bù)
         let neededChoice = totalReq - currentCount;
         
-        // Lấy trắc nghiệm
         let selectedChoice = choicePool.slice(0, neededChoice);
 
-        // E. Gộp tất cả và trộn lần cuối
+        // E. Gộp và trộn
         currentQuizData = [
-            ...selectedMath, 
+            ...selectedMath, // Rỗng
             ...selectedDrag, 
             ...selectedText, 
             ...selectedChoice
@@ -220,14 +209,12 @@ function startQuiz(mode) {
         startTimer(timeLimit);
     } 
     else {
-        // Chế độ Ôn tập (Practice) - Lấy hết trộn đều
+        // Chế độ Ôn tập (Practice)
         currentQuizData = [...mainSubjectData].sort(() => 0.5 - Math.random());
         timerBox.classList.add('hide');
     }
     
-    // Reset trạng thái nối cho phần Drag Mode Thi Thử
     window.currentDragStatus = []; 
-
     setNextQuestion();
 }
 
@@ -1053,3 +1040,4 @@ function checkMatchLogic(item1, item2) {
 }
 // Khởi chạy
 loadAllData();
+
