@@ -956,3 +956,48 @@ body {
     box-shadow: 0 0 10px rgba(241, 196, 15, 0.5);
     transition: all 0.2s ease;
 }
+/* --- DÁN ĐOẠN NÀY VÀO CUỐI CÙNG FILE STYLE.CSS CŨ --- */
+
+/* 1. Thêm màu cho nút E (thứ 5) và F (thứ 6) */
+.btn:nth-child(5) { 
+    background-color: #9b59b6 !important; /* Tím */
+    color: white !important;
+    box-shadow: 0 4px 0 #8e44ad !important; /* Giả 3D nếu code cũ có dùng */
+}
+.btn:nth-child(6) { 
+    background-color: #e84393 !important; /* Hồng */
+    color: white !important;
+    box-shadow: 0 4px 0 #c44569 !important;
+}
+
+/* 2. Cưỡng chế hiển thị màu ĐÚNG (Xanh) - SAI (Đỏ) - CHỌN (Xanh dương) */
+/* Dùng !important để đè lên mọi style cũ đang gây lỗi */
+.btn.correct { 
+    background-color: #00b894 !important; 
+    border: 2px solid white !important;
+    opacity: 1 !important;
+}
+
+.btn.wrong { 
+    background-color: #e74c3c !important; 
+    opacity: 1 !important;
+}
+
+.btn.selected {
+    background-color: #0984e3 !important;
+    border: 2px solid white !important;
+    transform: scale(1.02);
+}
+
+/* 3. Đảm bảo nút Chốt đáp án hiện rõ */
+.btn-confirm-multi {
+    background-color: #27ae60 !important;
+    color: white !important;
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
