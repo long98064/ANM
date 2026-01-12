@@ -1484,6 +1484,63 @@
     "answer": 1,
     "explanation": ""
   },
+  [
+    {
+        "type": "choice",
+        "question": "Loại quét nào sau đây không phải là một kiểu quét?",
+        "options": [
+            "Xmas Tree Scan",
+            "Null Scan",
+            "Cloud scan",
+            "SYN Stealth"
+        ],
+        "answer": 2
+    },
+    {
+        "type": "choice",
+        "question": "Loại tài khoản UNIX nào dưới đây cung cấp tất cả các quyền và đặc quyền để thực hiện các chức năng quản trị?",
+        "options": [
+            "Administrative",
+            "Root",
+            "Guest",
+            "Client"
+        ],
+        "answer": 1
+    },
+    {
+        "type": "choice",
+        "question": "Loại văn bản nào sau đây được chuyển đổi bằng cách sử dụng thuật toán mã hóa?",
+        "options": [
+            "Văn bản phức tạp",
+            "Văn bản đã được chuyển đổi",
+            "Văn bản thuần tú",
+            "Văn bản vô hướng"
+        ],
+        "answer": 2
+    },
+    {
+        "type": "choice",
+        "question": "Nguyên tắc nào dưới đây nói rằng: đôi khi việc lưu lại chi tiết của một cuộc xâm nhập trở nên có lợi hơn so với việc áp dụng các biện pháp hiệu quả để tránh nó?",
+        "options": [
+            "Chấp nhận tâm lý",
+            "Cơ chế chung nhất",
+            "Yếu tố công việc",
+            "Ghi nhận sự xâm nhập"
+        ],
+        "answer": 3
+    },
+    {
+        "type": "choice",
+        "question": "Nguyên tắc nào trong an ninh mạng đề cập rằng cơ chế bảo mật phải càng nhỏ gọn và đơn giản càng tốt?",
+        "options": [
+            "Mặc định an toàn (Fail-safe Defaults)",
+            "Tính kinh tế của cơ chế (Economy of the Mechanism)",
+            "Thiết kế mở (Open-Design)",
+            "Quyền hạn tối thiểu (Least privilege)"
+        ],
+        "answer": 1
+    },
+
   {
     "question": "Câu 141: Nguyên tắc nào trong an ninh mạng hạn chế cách thức các quyền truy cập được khởi tạo khi bất kỳ đối tượng hoặc chủ thể nào được tạo ra?",
     "options": [
@@ -5462,16 +5519,6 @@
     },
     {
         "type": "drag",
-        "question": "Nối các lệnh Linux cơ bản với chức năng:",
-        "pairs": [
-            { "id": "cmd1", "left": "chmod", "right": "Thay đổi quyền truy cập file" },
-            { "id": "cmd2", "left": "chown", "right": "Thay đổi chủ sở hữu file" },
-            { "id": "cmd3", "left": "ls", "right": "Liệt kê danh sách file" },
-            { "id": "cmd4", "left": "grep", "right": "Tìm kiếm chuỗi trong văn bản" }
-        ]
-    },
-    {
-        "type": "drag",
         "question": "Ghép các loại tấn công Mạng (Network Attacks):",
         "pairs": [
             { "id": "net1", "left": "MITM", "right": "Xen giữa cuộc hội thoại (Man-in-the-Middle)" },
@@ -5535,5 +5582,314 @@
             { "id": "vpn2", "left": "Encryption", "right": "Mã hóa dữ liệu truyền đi" },
             { "id": "vpn3", "left": "IPSec", "right": "Bộ giao thức bảo mật tầng Network" }
         ]
+    },
+    {
+        "type": "choice",
+        "question": "Điểm yếu của Circuit-level gateway là gì?",
+        "options": [
+            "Không tương thích TCP",
+            "Không hỗ trợ IPsec",
+            "Không kiểm tra nội dung tầng ứng dụng",
+            "Không hỗ trợ VPN site-to-site"
+        ],
+        "answer": 2
+    },
+    {
+        "type": "choice",
+        "question": "Khả năng nào giúp NGFW nhận diện ứng dụng chạy trên cổng không chuẩn?",
+        "options": [
+            "App-ID/DPI",
+            "VLAN Tagging",
+            "Port-based Service",
+            "DHCP Snooping"
+        ],
+        "answer": 0
+    },
+    {
+        "type": "choice",
+        "question": "Zone segmentation giúp ngăn chặn điều gì?",
+        "options": [
+            "Cập nhật firmware firewall",
+            "Lateral movement (di chuyển ngang trong mạng)",
+            "Telnet truy cập trái phép",
+            "NAT loop"
+        ],
+        "answer": 1
+    },
+    {
+        "type": "choice",
+        "question": "UTM firewall được hiểu là gì?",
+        "options": [
+            "Chỉ là firewall lớp mạng L3",
+            "Chỉ là proxy HTTP",
+            "Chỉ là thiết bị cân bằng tải",
+            "Thiết bị “all-in-one” tích hợp firewall, IPS/IDS, AV, web/email filtering…"
+        ],
+        "answer": 3
+    },
+    {
+        "type": "choice",
+        "question": "Nhược điểm chính của stateful firewall so với stateless là gì?",
+        "options": [
+            "Không thể phân biệt ứng dụng trên cùng port",
+            "Không hỗ trợ kiểm tra gói tin sâu",
+            "Tốn tài nguyên hơn vì duy trì bảng trạng thái",
+            "Không theo dõi trạng thái TCP"
+        ],
+        "answer": 2
+    },
+    {
+        "type": "choice",
+        "question": "Lựa chọn firewall phù hợp cho cá nhân/hộ gia đình (ưu tiên đơn giản, chi phí thấp) là gì?",
+        "options": [
+            "NGFW full tính năng",
+            "Router/firewall tích hợp + host-based firewall trên thiết bị",
+            "WAF chuyên dụng",
+            "Cloud firewall"
+        ],
+        "answer": 1
+    },
+    {
+        "type": "choice",
+        "question": "Fortinet cung cấp giải pháp nào?",
+        "options": [
+            "FortiMail",
+            "FortiGate NGFW (tích hợp IPS)",
+            "FortiAnalyzer",
+            "FortiClient"
+        ],
+        "answer": 1
+    },
+    {
+        "type": "choice",
+        "question": "Một giải pháp IPS cần có đặc tính nào?",
+        "options": [
+            "Chỉ ghi log mà không cảnh báo",
+            "Không cần cập nhật chữ ký",
+            "Hoạt động hoàn toàn offline",
+            "Hoạt động inline để ngăn chặn lưu lượng"
+        ],
+        "answer": 3
+    },
+    {
+        "type": "choice",
+        "question": "Loại IPS nào phù hợp để chống rogue AP (Access Point giả mạo)?",
+        "options": [
+            "NIPS",
+            "HIPS",
+            "NBA IPS",
+            "WIPS"
+        ],
+        "answer": 3
+    },
+    {
+        "type": "choice",
+        "question": "Khóa bí mật (Private Key) trong mã hóa bất đối xứng có vai trò gì?",
+        "options": [
+            "Dùng thay thế cho hàm băm",
+            "Có thể phát tán rộng rãi",
+            "Dùng để mã hóa dữ liệu cho người nhận",
+            "Dùng để giải mã dữ liệu hoặc tạo chữ ký số (Digital Signature)"
+        ],
+        "answer": 3
+    },
+    {
+        "type": "choice",
+        "question": "Trong mã hóa dòng (Stream Cipher), độ dài output so với input có quan hệ thế nào?",
+        "options": [
+            "Output không xác định độ dài",
+            "Output luôn dài hơn input",
+            "Output có cùng độ dài với input",
+            "Output luôn ngắn hơn input"
+        ],
+        "answer": 2
+    },
+    {
+        "type": "choice",
+        "question": "Khi dữ liệu được mã hóa bằng khóa công khai, ai có thể giải mã?",
+        "options": [
+            "Người quản trị hệ thống",
+            "Người gửi dữ liệu",
+            "Chỉ người sở hữu khóa bí mật tương ứng",
+            "Bất kỳ ai biết khóa công khai"
+        ],
+        "answer": 2
+    },
+    {
+        "type": "choice",
+        "question": "Vì sao tốc độ của mã hóa bất đối xứng chậm hơn mã hóa đối xứng?",
+        "options": [
+            "Vì chỉ dùng trong mạng không dây",
+            "Vì sử dụng khóa ngắn",
+            "Vì cần padding nhiều lần",
+            "Vì thuật toán phức tạp, phép toán số học lớn"
+        ],
+        "answer": 3
+    },
+    {
+        "type": "choice",
+        "question": "Dữ liệu ứng dụng (Application Data) trong TLS được xử lý bởi:",
+        "options": [
+            "Alert Protocol",
+            "Record Protocol",
+            "ChangeCipherSpec",
+            "Handshake Protocol"
+        ],
+        "answer": 1
+    },
+    {
+        "type": "choice",
+        "question": "DTLS cung cấp bảo mật tương đương TLS nhưng cho:",
+        "options": [
+            "Giao thức datagram (UDP)",
+            "Giao thức IPsec",
+            "Giao thức TCP",
+            "Giao thức ICMP"
+        ],
+        "answer": 0
+    },
+    {
+        "type": "choice",
+        "question": "Alert “close_notify” trong TLS nhằm:",
+        "options": [
+            "Cảnh báo lỗi chứng chỉ",
+            "Yêu cầu reset session",
+            "Báo hiệu đóng kết nối an toàn",
+            "Cảnh báo tấn công"
+        ],
+        "answer": 2
+    },
+    {
+        "type": "choice",
+        "question": "Mục tiêu chính của ISAKMP tunnel trong IKE Phase 1 là gì?",
+        "options": [
+            "Thiết lập kênh bảo mật để bảo vệ các gói IKE trong quá trình thương lượng",
+            "Truyền dữ liệu thực tế giữa hai bên",
+            "Kiểm tra toàn vẹn gói tin",
+            "Cấp phát địa chỉ IP cho client"
+        ],
+        "answer": 0
+    },
+    {
+        "type": "choice",
+        "question": "Mục tiêu của IKE Phase 1 trong quá trình thiết lập IPSec là gì?",
+        "options": [
+            "Truyền dữ liệu thực tế giữa hai bên",
+            "Gán địa chỉ IP cho client",
+            "Thiết lập kênh bảo mật ban đầu ISAKMP tunnel",
+            "Chia sẻ file cấu hình VPN"
+        ],
+        "answer": 2
+    },
+    {
+        "type": "choice",
+        "question": "Mô hình Site-to-Site VPN của một công ty bao gồm một trụ sở chính và ba chi nhánh con. Số VPN tunnel tối đa có thể là bao nhiêu?",
+        "options": [
+            "Không xác định được",
+            "3",
+            "5",
+            "6"
+        ],
+        "answer": 3
+    },
+    {
+        "type": "choice",
+        "question": "TPM giúp chống lại:",
+        "options": [
+            "Virus email",
+            "Tấn công trích xuất khóa mã hóa từ ổ cứng",
+            "Tấn công DoS",
+            "Lỗi phần mềm"
+        ],
+        "answer": 1
+    },
+    {
+        "type": "choice",
+        "question": "Vé TGT (Ticket Granting Ticket) do ai cấp?",
+        "options": [
+            "Router",
+            "Ticket Granting Server",
+            "Authentication Server",
+            "Firewall"
+        ],
+        "answer": 2
+    },
+    {
+        "type": "choice",
+        "question": "802.1X là chuẩn gì?",
+        "options": [
+            "Định tuyến IP",
+            "Bảo mật lớp ứng dụng",
+            "Kiểm soát truy cập mạng",
+            "Truyền dữ liệu không dây"
+        ],
+        "answer": 2
+    },
+    {
+        "type": "choice",
+        "question": "TPM thường dùng trong:",
+        "options": [
+            "BitLocker (Windows)",
+            "Wireshark",
+            "Nmap",
+            "VirtualBox"
+        ],
+        "answer": 0
+    },
+    {
+        "type": "choice",
+        "question": "Dữ liệu trong DNS Tunneling thường được ẩn trong bản tin nào?",
+        "options": [
+            "File đính kèm PDF",
+            "DNS request và response",
+            "HTTP cookie",
+            "Email spam"
+        ],
+        "answer": 1
+    },
+    {
+        "type": "choice",
+        "question": "Ví dụ về XSS thường được hacker dùng để đánh cắp cái gì?",
+        "options": [
+            "Session cookie",
+            "CSS template",
+            "File PDF",
+            "Hình ảnh"
+        ],
+        "answer": 0
+    },
+    {
+        "type": "choice",
+        "question": "DNS Tunneling thường được sử dụng để làm gì?",
+        "options": [
+            "Kiểm tra lỗi DNS",
+            "Bảo mật dữ liệu nội bộ",
+            "Tạo kênh bí mật để đánh cắp dữ liệu",
+            "Giảm tải cho DNS server"
+        ],
+        "answer": 2
+    },
+    {
+        "type": "choice",
+        "question": "NoSQL Injection khác SQL Injection ở điểm nào?",
+        "options": [
+            "Thường khai thác cú pháp JSON hoặc đặc thù NoSQL thay vì SQL truyền thống",
+            "Có thể áp dụng cho cả dữ liệu phi quan hệ và dữ liệu quan hệ",
+            "Chỉ khai thác trên các hệ quản trị CSDL quan hệ",
+            "Không liên quan tới dữ liệu"
+        ],
+        "answer": 0
+    },
+    {
+        "type": "choice",
+        "question": "Connection Flooding trong tấn công email server khai thác giao thức nào?",
+        "options": [
+            "FTP",
+            "DNS",
+            "HTTP",
+            "SMTP"
+        ],
+        "answer": 3
     }
+  ]
 ]
