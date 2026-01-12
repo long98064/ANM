@@ -4756,13 +4756,20 @@
       "a. Máy chủ lưu trữ web",
       "b. Truy cập internet",
       "c. Công cụ xuất bản trên www",
-      "d. Các phần mềm duyệt web",
+      "d. Các phần mềm duyệt web"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Câu 138: Intranet có thể được sử dụng:",
+    "options": [
       "a. Không thường xuyên, không liên tục",
       "b. Có giới hạn do hạn chế công nghê",
       "c. Có một số giới hạn do thiếu sự chấp nhận",
       "d. Mạnh mẽ, các ứng dụng vẫn tiếp tục được phát triển"
     ],
-    "answer": 7,
+    "answer": 3,
     "explanation": ""
   },
   {
