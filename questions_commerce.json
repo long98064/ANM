@@ -2722,13 +2722,20 @@
       "a. Bình luận - comment.",
       "b. Bán sản phẩm dịch vụ liên quan - cross selling.",
       "c. Xúc tiến - promotion.",
-      "d. Bán thêm các sản phẩm dịch vụ gia tăng - up selling.",
+      "d. Bán thêm các sản phẩm dịch vụ gia tăng - up selling."
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "251. Hệ thống địa chỉ dựa theo tên cho phép xác định các website hoặc máy chủ web kết nối vào Internet được gọi là gì?",
+    "options": [
       "a. URL name",
       "b. host name",
       "c. domain name",
       "d. ISP address"
     ],
-    "answer": 6,
+    "answer": 2,
     "explanation": ""
   },
   {
