@@ -1484,7 +1484,6 @@
     "answer": 1,
     "explanation": ""
   },
-  [
     {
         "type": "choice",
         "question": "Loại quét nào sau đây không phải là một kiểu quét?",
@@ -5891,5 +5890,4 @@
         ],
         "answer": 3
     }
-  ]
 ]
