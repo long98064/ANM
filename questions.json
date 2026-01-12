@@ -5279,96 +5279,6 @@
   },
     {
         "type": "text",
-        "question": "Thuật ngữ XSS là viết tắt của cụm từ nào?",
-        "correctAnswer": "Cross-Site Scripting",
-        "hint": "Nếu có dấu gạch ngang giữa hai từ thì giữ nguyên"
-    },
-    {
-        "type": "text",
-        "question": "Thuật ngữ WAF trong bảo mật web là viết tắt của cụm từ nào?",
-        "correctAnswer": "Web Application Firewall",
-        "hint": "Giữa các từ chỉ có một dấu cách"
-    },
-    {
-        "type": "text",
-        "question": "Thuật ngữ DoS là viết tắt của cụm từ nào?",
-        "correctAnswer": "Denial of Service",
-        "hint": "Giữa các từ chỉ có một dấu cách"
-    },
-    {
-        "type": "text",
-        "question": "Thuật ngữ DDoS là viết tắt của cụm từ nào?",
-        "correctAnswer": "Distributed Denial of Service",
-        "hint": "Giữa các từ chỉ có một dấu cách"
-    },
-    {
-        "type": "text",
-        "question": "Thuật ngữ IDS là viết tắt của cụm từ nào?",
-        "correctAnswer": "Intrusion Detection System",
-        "hint": "Giữa các từ chỉ có một dấu cách"
-    },
-    {
-        "type": "text",
-        "question": "Thuật ngữ IPS là viết tắt của cụm từ nào?",
-        "correctAnswer": "Intrusion Prevention System",
-        "hint": "Giữa các từ chỉ có một dấu cách"
-    },
-    {
-        "type": "text",
-        "question": "Giao thức SSL là viết tắt của cụm từ nào?",
-        "correctAnswer": "Secure Sockets Layer",
-        "hint": "Giữa các từ chỉ có một dấu cách"
-    },
-    {
-        "type": "text",
-        "question": "Giao thức HTTPS là viết tắt của cụm từ nào?",
-        "correctAnswer": "HyperText Transfer Protocol Secure",
-        "hint": "Giữa các từ chỉ có một dấu cách"
-    },
-    {
-        "type": "text",
-        "question": "Thuật ngữ VPN là viết tắt của cụm từ nào?",
-        "correctAnswer": "Virtual Private Network",
-        "hint": "Giữa các từ chỉ có một dấu cách"
-    },
-    {
-        "type": "text",
-        "question": "Thuật ngữ APT là viết tắt của cụm từ nào?",
-        "correctAnswer": "Advanced Persistent Threat",
-        "hint": "không phải bài hát của Rosé đâu"
-    },
-    {
-        "type": "text",
-        "question": "Thuật ngữ FTP là viết tắt của cụm từ nào?",
-        "correctAnswer": "File Transfer Protocol",
-        "hint": "Giữa các từ chỉ có một dấu cách"
-    },
-    {
-        "type": "text",
-        "question": "Thuật ngữ TCP là viết tắt của cụm từ nào?",
-        "correctAnswer": "Transmission Control Protocol",
-        "hint": "Giữa các từ chỉ có một dấu cách"
-    },
-    {
-        "type": "text",
-        "question": "Thuật ngữ CSRF là viết tắt của cụm từ nào?",
-        "correctAnswer": "Cross-Site Request Forgery",
-        "hint": "Giữa các từ chỉ có một dấu cách"
-    },
-    {
-        "type": "text",
-        "question": "Thuật ngữ PGP trong mã hóa email là viết tắt của cụm từ nào?",
-        "correctAnswer": "Pretty Good Privacy",
-        "hint": "Giữa các từ chỉ có một dấu cách"
-    },
-    {
-        "type": "text",
-        "question": "Thuật ngữ SFTP là viết tắt của cụm từ nào?",
-        "correctAnswer": "Secure File Transfer Protocol",
-        "hint": "Giữa các từ chỉ có một dấu cách"
-    },
-    {
-        "type": "text",
         "question": "Loại phần mềm độc hại nào ghi lại các phím bấm của người dùng để đánh cắp thông tin?",
         "correctAnswer": "Keylogger",
         "hint": "Nhập tên thuật ngữ tiếng Anh"
@@ -5889,5 +5799,275 @@
             "SMTP"
         ],
         "answer": 3
+    },
+    {
+        "type": "text",
+        "question": "Viết đầy đủ của 'AES' (Tiêu chuẩn mã hóa nâng cao) là gì?",
+        "correctAnswer": "Advanced Encryption Standard",
+        "hint": "Chuẩn mã hóa thay thế cho DES"
+    },
+    {
+        "type": "text",
+        "question": "Thuật ngữ 'Mối đe dọa dai dẳng nâng cao' được viết tắt là gì?",
+        "correctAnswer": "APT",
+        "hint": "Tên 1 bài hát của Rosé"
+    },
+    {
+        "type": "text",
+        "question": "lỗ hổng 'BEAST' là gì?",
+        "correctAnswer": "Browser Exploit Against SSL/TLS",
+        "hint": "Tên một loại tấn công vào giao thức bảo mật"
+    },
+    {
+        "type": "text",
+        "question": "Cơ quan cấp chứng chỉ / Cơ quan chứng thực được gọi là gì?",
+        "correctAnswer": "Certificate Authority",
+        "hint": "CA"
+    },
+    {
+        "type": "text",
+        "question": "Phép thử tự động để phân biệt máy tính và con người gọi là gì?",
+        "correctAnswer": "CAPTCHA",
+        "hint": "Completely Automated Public Turing test..."
+    },
+    {
+        "type": "text",
+        "question": "Giao thức xác thực 'CHAP' đầy đủ là gì?",
+        "correctAnswer": "Challenge Handshake Authentication Protocols",
+        "hint": "Giao thức bắt tay ba bước"
+    },
+    {
+        "type": "text",
+        "question": "Tam giác bảo mật bao gồm: Bảo mật, Toàn vẹn, Sẵn sàng. Viết tắt là gì?",
+        "correctAnswer": "CIA",
+        "hint": "Confidentiality, Integrity, Availability"
+    },
+    {
+        "type": "text",
+        "question": "Kỹ thuật tấn công giả mạo yêu cầu từ trang web khác (CSRF) là gì?",
+        "correctAnswer": "Cross-Site Request Forgery",
+        "hint": "Một loại lỗ hổng web phổ biến"
+    },
+    {
+        "type": "text",
+        "question": "Tấn công 'Từ chối dịch vụ phân tán' viết đầy đủ là gì?",
+        "correctAnswer": "Distributed Denial of Service",
+        "hint": "DDoS"
+    },
+    {
+        "type": "text",
+        "question": "Chuẩn mã hóa dữ liệu (DES) viết đầy đủ là gì?",
+        "correctAnswer": "Data Encryption Standard",
+        "hint": "Một chuẩn mã hóa cũ"
+    },
+    {
+        "type": "text",
+        "question": "Tấn công thu thập thư mục (DHA) viết đầy đủ là?",
+        "correctAnswer": "Directory Harvest Attack",
+        "hint": "Liên quan đến spam email"
+    },
+    {
+        "type": "text",
+        "question": "Hệ thống tên miền (chuyển đổi tên miền sang IP) gọi là gì?",
+        "correctAnswer": "Domain Name System",
+        "hint": "DNS"
+    },
+    {
+        "type": "text",
+        "question": "Tấn công 'Từ chối dịch vụ' (từ một nguồn duy nhất) viết tắt là gì?",
+        "correctAnswer": "DoS",
+        "hint": "Denial of Service"
+    },
+    {
+        "type": "text",
+        "question": "Trao đổi dữ liệu điện tử viết đầy đủ là gì?",
+        "correctAnswer": "Electronic Data Interchange",
+        "hint": "EDI"
+    },
+    {
+        "type": "text",
+        "question": "Giao thức truyền tệp tin cơ bản trên mạng gọi là gì?",
+        "correctAnswer": "File Transfer Protocol",
+        "hint": "FTP"
+    },
+    {
+        "type": "text",
+        "question": "Giao thức truyền siêu văn bản (nền tảng của World Wide Web) là gì?",
+        "correctAnswer": "HyperText Transfer Protocol",
+        "hint": "HTTP"
+    },
+    {
+        "type": "text",
+        "question": "Phiên bản bảo mật của giao thức HTTP được gọi là gì?",
+        "correctAnswer": "HyperText Transfer Protocol Secure",
+        "hint": "HTTPS"
+    },
+    {
+        "type": "text",
+        "question": "Hệ thống phát hiện xâm nhập được viết đầy đủ là gì?",
+        "correctAnswer": "Intrusion Detection System",
+        "hint": "IDS"
+    },
+    {
+        "type": "text",
+        "question": "Giao thức truy cập thư Internet (cho phép quản lý thư trên server) là gì?",
+        "correctAnswer": "Internet Message Access Protocol",
+        "hint": "IMAP"
+    },
+    {
+        "type": "text",
+        "question": "Giao thức Internet (định danh địa chỉ các thiết bị) là gì?",
+        "correctAnswer": "Internet Protocol",
+        "hint": "IP"
+    },
+    {
+        "type": "text",
+        "question": "Hệ thống ngăn chặn xâm nhập được viết đầy đủ là gì?",
+        "correctAnswer": "Intrusion Prevention System",
+        "hint": "IPS"
+    },
+    {
+        "type": "text",
+        "question": "Bộ giao thức dùng để bảo mật cho giao thức IP gọi là gì?",
+        "correctAnswer": "IP Security",
+        "hint": "IP + ... = IPsec"
+    },
+    {
+        "type": "text",
+        "question": "Tác nhân giao thư (MDA) viết đầy đủ là gì?",
+        "correctAnswer": "Mail Delivery Agent",
+        "hint": "Thành phần xử lý email"
+    },
+    {
+        "type": "text",
+        "question": "Tác nhân chuyển thư (MTA) viết đầy đủ là gì?",
+        "correctAnswer": "Mail Transfer Agent",
+        "hint": "Thành phần chuyển email giữa các máy chủ"
+    },
+    {
+        "type": "text",
+        "question": "Tác nhân người dùng thư (Mail User Agent - ví dụ Outlook, Thunderbird) viết tắt là gì?",
+        "correctAnswer": "MUA",
+        "hint": "Ứng dụng client để đọc mail"
+    },
+    {
+        "type": "text",
+        "question": "Bản ghi trong DNS dùng để chỉ định máy chủ nhận thư điện tử gọi là gì?",
+        "correctAnswer": "Mail Exchanger",
+        "hint": "MX"
+    },
+    {
+        "type": "text",
+        "question": "Dự án mở về bảo mật ứng dụng web (nổi tiếng với Top 10 lỗ hổng) là gì?",
+        "correctAnswer": "Open Web Application Security Project",
+        "hint": "OWASP"
+    },
+    {
+        "type": "text",
+        "question": "Chương trình mã hóa dữ liệu 'PGP' viết đầy đủ là gì?",
+        "correctAnswer": "Pretty Good Privacy",
+        "hint": "Dùng để bảo mật email"
+    },
+    {
+        "type": "text",
+        "question": "Cơ sở hạ tầng khóa công khai là gì?",
+        "correctAnswer": "Public Key Infrastructure",
+        "hint": "PkI"
+    },
+    {
+        "type": "text",
+        "question": "Cơ sở hạ tầng quản lý đặc quyền viết đầy đủ là gì?",
+        "correctAnswer": "Privilege Management Infrastructure",
+        "hint": "PMI"
+    },
+    {
+        "type": "text",
+        "question": "Giao thức bưu điện (dùng để tải email về máy) phiên bản 3 là gì?",
+        "correctAnswer": "Post Office Protocol version 3",
+        "hint": "POPv3"
+    },
+    {
+        "type": "text",
+        "question": "Trojan cho phép kẻ tấn công truy cập và điều khiển máy tính từ xa gọi là gì?",
+        "correctAnswer": "Remote Access Trojan",
+        "hint": "RAT"
+    },
+    {
+        "type": "text",
+        "question": "Danh sách đen thời gian thực (dùng để chặn spam) là gì?",
+        "correctAnswer": "Realtime Blackhole List",
+        "hint": "RBL"
+    },
+    {
+        "type": "text",
+        "question": "Chuẩn mở rộng thư tín Internet đa mục đích an toàn/bảo mật là gì?",
+        "correctAnswer": "Secure Multipurpose Internet Mail Extensions",
+        "hint": "S/MIME"
+    },
+    {
+        "type": "text",
+        "question": "Giao thức truyền tệp an toàn (sử dụng SSH) là gì?",
+        "correctAnswer": "Secure File Transfer Protocol",
+        "hint": "SFTP"
+    },
+    {
+        "type": "text",
+        "question": "Ngôn ngữ truy vấn có cấu trúc (dùng trong cơ sở dữ liệu) là gì?",
+        "correctAnswer": "Structured Query Language",
+        "hint": "SQL"
+    },
+    {
+        "type": "text",
+        "question": "Giao thức bảo mật tầng Socket (tiền thân của TLS) là gì?",
+        "correctAnswer": "Secure Sockets Layer",
+        "hint": "SSL"
+    },
+    {
+        "type": "text",
+        "question": "Phương pháp 'Bảo mật thông qua tính ẩn' (che giấu thông tin) viết đầy đủ là gì?",
+        "correctAnswer": "Security Through Obscurity",
+        "hint": "STO"
+    },
+    {
+        "type": "text",
+        "question": "Giao thức điều khiển truyền vận (hướng kết nối, tin cậy) là gì?",
+        "correctAnswer": "Transmission Control Protocol",
+        "hint": "TCP"
+    },
+    {
+        "type": "text",
+        "question": "Bộ giao thức truyền thông cơ bản của Internet viết tắt là gì?",
+        "correctAnswer": "TCP/IP",
+        "hint": "Transmission Control Protocol / Internet Protocol (Viết tắt, có dấu gạch chéo nha các gái iu, bọn ctrai cút)"
+    },
+    {
+        "type": "text",
+        "question": "Giao thức bảo mật tầng giao vận (kế thừa SSL) là gì?",
+        "correctAnswer": "Transport Layer Security",
+        "hint": "TLS"
+    },
+    {
+        "type": "text",
+        "question": "Công nghệ truyền giọng nói qua giao thức IP gọi là gì?",
+        "correctAnswer": "Voice over IP",
+        "hint": "VoIP (Voice over IP nhé điền vào đi câu này khó)"
+    },
+    {
+        "type": "text",
+        "question": "Mạng riêng ảo được gọi là gì?",
+        "correctAnswer": "Virtual Private Network",
+        "hint": "VPN"
+    },
+    {
+        "type": "text",
+        "question": "Tường lửa ứng dụng web được gọi là gì?",
+        "correctAnswer": "Web Application Firewall",
+        "hint": "WAF"
+    },
+    {
+        "type": "text",
+        "question": "Kỹ thuật tấn công chèn mã độc vào trang web (XSS) viết đầy đủ là gì?",
+        "correctAnswer": "Cross-Site Scripting",
+        "hint": "Có 1 dấu gạch ngang. Chữ cái đầu là C thay vì X để tránh nhầm với CSS, là cross đó đoán tiếp 2 chữ sau đi."
     }
 ]
