@@ -6,6 +6,7 @@ let anmQuestions = [];
 let mathQuestions = [];
 let commerceQuestions = [];
 let marketingQuestions = [];
+let termQuestions = []; 
 
 // Biến trạng thái hiện tại
 let currentSubject = ''; 
@@ -62,6 +63,7 @@ const resultBox = document.getElementById('result-box');
 const subjectTitle = document.getElementById('subject-title');
 const totalCountSpan = document.getElementById('total-questions-count');
 const btnMath = document.getElementById('btn-math');
+const btnTerm = document.getElementById('btn-term');
 
 // Quiz Elements
 const questionElement = document.getElementById('question-text');
@@ -86,6 +88,7 @@ const toggleStreakBtn = document.getElementById('toggle-streak');
 
 
 
+
 // ==============================================
 // 2. TẢI DỮ LIỆU
 // ==============================================
@@ -95,6 +98,8 @@ async function loadAllData() {
         try { const r2 = await fetch('questions_math.json'); mathQuestions = await r2.json(); } catch(e) {}
         try { const r3 = await fetch('questions_commerce.json'); commerceQuestions = await r3.json(); } catch(e) {}
         try { const r4 = await fetch('questions_marketing.json'); marketingQuestions = await r4.json(); } catch(e) {}
+        try { const r5 = await fetch('questions_term.json'); termQuestions = await r5.json(); } catch(e) {}
+        
         console.log("Đã tải dữ liệu xong");
     } catch (error) { console.error("Lỗi tải dữ liệu:", error); }
 }
@@ -109,18 +114,21 @@ function selectSubject(subject) {
     startScreen.classList.remove('hide');
     
     if (subject === 'anm') {
-        subjectTitle.innerText = "AN NINH MẠNG";
-        totalCountSpan.innerText = anmQuestions.length;
-        btnMath.classList.add('hide');
+    subjectTitle.innerText = "AN NINH MẠNG";
+    totalCountSpan.innerText = anmQuestions.length;
+    btnMath.classList.add('hide'); // Ẩn Math
+    if(btnTerm) btnTerm.classList.remove('hide'); // Hiện Term
     } else if (subject === 'commerce') {
-        subjectTitle.innerText = "THƯƠNG MẠI ĐIỆN TỬ";
-        totalCountSpan.innerText = commerceQuestions.length;
-        btnMath.classList.add('hide');
+    subjectTitle.innerText = "THƯƠNG MẠI ĐIỆN TỬ";
+    totalCountSpan.innerText = commerceQuestions.length;
+    btnMath.classList.add('hide');
+    if(btnTerm) btnTerm.classList.add('hide'); // Ẩn Term
     } else if (subject === 'marketing') {
-        subjectTitle.innerText = "TIẾP THỊ TRỰC TUYẾN";
-        totalCountSpan.innerText = marketingQuestions.length;
-        btnMath.classList.add('hide');
-    }
+    subjectTitle.innerText = "TIẾP THỊ TRỰC TUYẾN";
+    totalCountSpan.innerText = marketingQuestions.length;
+    btnMath.classList.add('hide');
+    if(btnTerm) btnTerm.classList.add('hide'); // Ẩn Term
+  }
 }
 
 function goHome() {
@@ -160,12 +168,20 @@ function startQuiz(mode) {
         goHome();
         return;
     }
-
+   
     if (currentMode === 'math') {
         // Nếu lỡ bấm vào mode math thì vẫn cho chạy (hoặc có thể chặn luôn ở đây)
         currentQuizData = [...mathQuestions].sort(() => 0.5 - Math.random());
         timerBox.classList.add('hide');
     } 
+    else if (currentMode === 'term') {
+        if (!termQuestions || termQuestions.length === 0) {
+            alert("Chưa có dữ liệu thuật ngữ! Hãy kiểm tra file questions_term.json");
+            goHome(); return;
+        }
+        currentQuizData = [...termQuestions].sort(() => 0.5 - Math.random());
+        timerBox.classList.add('hide'); // Ẩn đồng hồ vì là ôn tập
+    }
     else if (currentMode === 'test') {
         // --- CẤU HÌNH THI THỬ (70 CÂU) ---
         const totalReq = 70; 
@@ -214,6 +230,7 @@ function startQuiz(mode) {
         currentQuizData = [...mainSubjectData].sort(() => 0.5 - Math.random());
         timerBox.classList.add('hide');
     }
+    
     
     window.currentDragStatus = []; 
     setNextQuestion();
@@ -323,58 +340,60 @@ function renderMultipleChoice(q) {
 
 // --- RENDER 2: ĐIỀN TỪ (TEXT INPUT) ---
 
+// --- Thay thế hàm renderTextInput cũ bằng đoạn này ---
 function renderTextInput(q) {
     const wrapper = document.createElement('div');
-    wrapper.style.width = '100%';
-    wrapper.style.display = 'flex';
-    wrapper.style.flexDirection = 'column';
+    wrapper.classList.add('text-question-wrapper');
     
-    // 1. Dòng nhập liệu (Input + Check + Hint)
+    // Tạo container hàng ngang (Input + Nút Check)
     const rowContainer = document.createElement('div');
     rowContainer.style.display = 'flex';
     rowContainer.style.width = '100%'; 
     rowContainer.style.gap = '10px';
     rowContainer.style.justifyContent = 'space-between';
+    rowContainer.style.alignItems = 'center';
 
-    // Ô nhập
+    // Ô nhập liệu
     const input = document.createElement('input');
     input.type = "text";
-    input.placeholder = "Nhập đáp án...";
+    input.placeholder = "Nhập đáp án của bạn...";
     input.classList.add('input-answer-field');
     input.autocomplete = "off";
+    // Style trực tiếp để đảm bảo đẹp
     input.style.flex = "1"; 
-    input.style.padding = "12px 15px";
+    input.style.padding = "15px";
     input.style.fontSize = "1.1rem";
-    input.style.border = "2px solid #374151"; // Viền tối màu hơn cho hợp theme
-    input.style.backgroundColor = "#1f2937"; // Nền tối
+    input.style.border = "2px solid #636e72"; 
+    input.style.borderRadius = "10px";
+    input.style.backgroundColor = "#2d3436";
     input.style.color = "#fff";
-    input.style.borderRadius = "8px";
 
     // Nút Kiểm tra
     const btnCheck = document.createElement('button');
     btnCheck.innerText = "Kiểm tra";
     btnCheck.classList.add('btn-check'); 
     btnCheck.style.whiteSpace = "nowrap";
+    btnCheck.style.padding = "15px 25px";
+    btnCheck.style.height = "100%"; 
 
-    // Nút Gợi ý (Nếu có)
-    let btnHint = null;
-    let hintText = null;
+    // Nút Gợi ý (nếu có)
+    let btnHint = null, hintText = null;
     if (q.hint && q.hint.trim() !== "") {
         btnHint = document.createElement('button');
         btnHint.innerHTML = "💡";
-        btnHint.title = "Gợi ý";
-        btnHint.classList.add('btn-hint'); // Bạn nhớ kiểm tra class btn-hint trong css nhé
+        btnHint.classList.add('btn-hint');
+        btnHint.style.padding = "15px";
         
         hintText = document.createElement('div');
         hintText.classList.add('hint-content', 'hide');
         hintText.innerText = "Gợi ý: " + q.hint;
-        // Style nhanh cho hint text
-        hintText.style.marginTop = "10px";
-        hintText.style.padding = "10px";
-        hintText.style.background = "#fff3cd";
-        hintText.style.color = "#856404";
-        hintText.style.borderRadius = "5px";
-
+        hintText.style.marginTop = "10px"; 
+        hintText.style.background = "#fff3cd"; 
+        hintText.style.padding="10px"; 
+        hintText.style.borderRadius="5px"; 
+        hintText.style.color="#856404";
+        hintText.style.width = "100%";
+        
         btnHint.addEventListener('click', () => hintText.classList.remove('hide'));
     }
 
@@ -382,64 +401,74 @@ function renderTextInput(q) {
     rowContainer.appendChild(btnCheck);
     if (btnHint) rowContainer.appendChild(btnHint);
 
-    // -----------------------------------------------------------
-    // 2. NÚT BỎ QUA (ĐÃ ĐƯỢC LÀM ĐẸP)
-    // -----------------------------------------------------------
+    // Nút Bỏ qua
     const btnSkip = document.createElement('button');
-    btnSkip.innerText = "Không biết? Bỏ qua câu này"; // Bỏ icon ở đây vì CSS đã có ::after
-    btnSkip.className = 'btn-skip'; // <--- Dùng class mới tạo ở bước 1
+    btnSkip.innerText = "Không biết? Bỏ qua câu này";
+    btnSkip.className = 'btn-skip'; 
+    btnSkip.style.marginTop = "15px";
     
-    // Ghép vào wrapper
     wrapper.appendChild(rowContainer);
     if (hintText) wrapper.appendChild(hintText);
     
-    // Thêm một div bao ngoài nút skip để căn trái/phải tùy ý (ở đây mình để căn trái)
     const skipContainer = document.createElement('div');
-    skipContainer.style.display = 'flex';
-    skipContainer.style.justifyContent = 'flex-start'; // Căn trái
+    skipContainer.style.display = 'flex'; 
     skipContainer.appendChild(btnSkip);
-    
     wrapper.appendChild(skipContainer);
 
-    // --- LOGIC ---
-    btnCheck.addEventListener('click', () => {
+    // --- LOGIC KIỂM TRA ĐÁP ÁN ---
+    const checkAnswer = () => {
+        if (input.disabled) return; // Nếu đã trả lời rồi thì không check nữa
+
         const userVal = input.value.trim().toLowerCase();
         const correctVal = q.correctAnswer.toString().toLowerCase();
-        
+
         if (userVal === correctVal) {
-            // Đúng
-            input.style.borderColor = "#2ecc71";
-            input.style.backgroundColor = "#d4edda"; // Màu xanh nhạt
-            input.style.color = "#155724"; // Chữ xanh đậm
+            // ĐÚNG
+            input.style.borderColor = "#00b894"; 
+            input.style.backgroundColor = "#00b894"; 
+            input.style.color = "#fff";
+            btnCheck.innerText = "Chính xác!"; 
+            btnCheck.style.backgroundColor = "#00b894";
             
-            btnCheck.innerText = "Đúng!";
-            btnCheck.disabled = true;
+            btnCheck.disabled = true; 
             input.disabled = true;
-            if(btnHint) btnHint.disabled = true;
-            
-            // Ẩn nút skip đi cho gọn
             skipContainer.style.display = "none";
-            
             if(hintText) hintText.classList.add('hide');
-            handleCorrectAnswer(); 
+            
+            handleCorrectAnswer(); // Gọi hàm xử lý đúng chung
         } else {
-            // Sai
+            // SAI
             input.style.borderColor = "#e74c3c";
-            input.classList.add('shake');
+            input.classList.add('shake'); 
             setTimeout(() => input.classList.remove('shake'), 500);
+            input.focus(); // Focus lại để nhập tiếp
+        }
+    };
+
+    // Sự kiện Click nút
+    btnCheck.addEventListener('click', checkAnswer);
+
+    // --- SỰ KIỆN ENTER (MỚI THÊM) ---
+    input.addEventListener('keypress', function (e) {
+        if (e.key === 'Enter') {
+            e.preventDefault(); // Chặn hành vi xuống dòng mặc định
+            checkAnswer();      // Gọi hàm kiểm tra y hệt như bấm nút
         }
     });
 
+    // Sự kiện Bỏ qua
     btnSkip.addEventListener('click', () => {
         handleWrongAnswer(q, input.value || "Bỏ qua");
         handleNextButton(); 
     });
 
     answerButtonsElement.appendChild(wrapper);
+    
+    // Tự động focus vào ô nhập liệu khi hiện câu hỏi
+    setTimeout(() => input.focus(), 100);
 }
 // --- RENDER 3: KÉO THẢ (DRAG & DROP) ---
 // ============================================================
-// --- RENDER 3: KÉO THẢ & BẤM NỐI (DRAG & TAP TO MATCH) ---
 function renderDragDrop(q) {
     window.currentDragStatus = []; 
     // Reset biến chọn mỗi khi render câu mới
