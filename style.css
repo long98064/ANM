@@ -956,4 +956,75 @@ body {
     box-shadow: 0 0 10px rgba(241, 196, 15, 0.5);
     transition: all 0.2s ease;
 }
+/* ============================================================ */
+/* STYLE MỚI CHO CÁC NÚT CHỌN CHẾ ĐỘ (Ôn tập - Thi thử - Thuật ngữ) */
+/* ============================================================ */
+
+/* 1. Khung bao quanh các nút để căn giữa và tạo khoảng cách */
+.mode-buttons-container {
+    display: flex;
+    justify-content: center; /* Căn giữa màn hình */
+    align-items: center;
+    gap: 20px; /* Khoảng cách giữa các nút */
+    flex-wrap: wrap; /* Tự xuống dòng nếu màn hình bé */
+    margin: 30px 0;
+    width: 100%;
+}
+
+/* 2. Style CHUNG cho cả 3 nút (Để kích thước bằng nhau) */
+.btn-mode {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.3rem; /* Chữ to rõ */
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    border-radius: 50px; /* Bo tròn hình viên thuốc */
+    padding: 18px 40px; /* Độ dày nút */
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    position: relative;
+    min-width: 220px; /* Đảm bảo độ rộng tối thiểu bằng nhau */
+    
+    /* Mặc định là màu Xanh Ngọc (Giống Ôn Tập/Thi Thử cũ) */
+    background: linear-gradient(135deg, #00b894, #00cec9);
+    box-shadow: 0 10px 20px rgba(0, 184, 148, 0.4);
+}
+
+/* Hiệu ứng khi di chuột vào (Hover chung) */
+.btn-mode:hover {
+    transform: translateY(-5px) scale(1.05);
+    filter: brightness(1.1);
+}
+
+.btn-mode:active {
+    transform: translateY(2px) scale(0.98);
+}
+
+/* 3. Style RIÊNG cho nút THUẬT NGỮ (Màu Tím Mộng Mơ) */
+#btn-term {
+    background: linear-gradient(135deg, #a55eea, #8854d0) !important; 
+    box-shadow: 0 10px 20px rgba(136, 84, 208, 0.5) !important;
+}
+
+/* Style RIÊNG cho nút THI THỬ (Nếu muốn màu Cam cho khác biệt - Tùy chọn) */
+/* Nếu bạn muốn giữ màu xanh cũ thì KHÔNG cần copy đoạn #btn-test này */
+#btn-test {
+    background: linear-gradient(135deg, #e17055, #fab1a0) !important;
+    box-shadow: 0 10px 20px rgba(225, 112, 85, 0.5) !important;
+}
+
+/* 4. Responsive trên điện thoại */
+@media (max-width: 600px) {
+    .mode-buttons-container {
+        flex-direction: column; /* Xếp dọc trên điện thoại */
+        gap: 15px;
+    }
+    
+    .btn-mode {
+        width: 100%; /* Full màn hình ngang */
+        font-size: 1.1rem;
+        padding: 15px;
+    }
+}
 
