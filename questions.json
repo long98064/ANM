@@ -6069,5 +6069,269 @@
         "question": "Kỹ thuật tấn công chèn mã độc vào trang web (XSS) viết đầy đủ là gì?",
         "correctAnswer": "Cross-Site Scripting",
         "hint": "Có 1 dấu gạch ngang. Chữ cái đầu là C thay vì X để tránh nhầm với CSS, là cross đó đoán tiếp 2 chữ sau đi."
+    },
+  {
+        "type": "text",
+        "question": "Phần mềm độc hại nói chung được gọi là gì?",
+        "correctAnswer": "Malware",
+        "hint": "Malicious Software"
+    },
+    {
+        "type": "text",
+        "question": "Chương trình tự sao chép và lây lan bằng cách gắn vào các tệp khác gọi là gì?",
+        "correctAnswer": "Virus",
+        "hint": "Một loại mã độc cổ điển"
+    },
+    {
+        "type": "text",
+        "question": "Phần mềm độc hại có khả năng lây lan qua mạng mà không cần chương trình chủ gọi là gì?",
+        "correctAnswer": "Worm",
+        "hint": "Sâu máy tính"
+    },
+    {
+        "type": "text",
+        "question": "Phần mềm giả dạng chương trình hợp pháp để thực hiện hành vi độc hại gọi là gì?",
+        "correctAnswer": "Trojan",
+        "hint": "Con ngựa thành Troy"
+    },
+    {
+        "type": "text",
+        "question": "Phần mềm theo dõi hoạt động và thu thập thông tin người dùng gọi là gì?",
+        "correctAnswer": "Spyware",
+        "hint": "Phần mềm gián điệp"
+    },
+    {
+        "type": "text",
+        "question": "Phần mềm giúp kẻ tấn công chiếm quyền kiểm soát hệ thống và ẩn mình gọi là gì?",
+        "correctAnswer": "Rootkit",
+        "hint": "Quyền Root/Admin"
+    },
+    {
+        "type": "text",
+        "question": "Phần mềm quảng cáo độc hại gọi là gì?",
+        "correctAnswer": "Adware",
+        "hint": "Advertising Software"
+    },
+    {
+        "type": "text",
+        "question": "Thuật ngữ chỉ các máy tính bị chiếm quyền điều khiển trong mạng botnet?",
+        "correctAnswer": "Zombies",
+        "hint": "Xác sống"
+    },
+    {
+        "type": "text",
+        "question": "Virus lây lan dựa trên các ứng dụng có sử dụng macro (như Word, Excel) gọi là gì?",
+        "correctAnswer": "Macro virus",
+        "hint": "Virus văn phòng"
+    },
+    {
+        "type": "text",
+        "question": "Virus cư trú trong phân vùng khởi động của ổ đĩa (BST) gọi là gì?",
+        "correctAnswer": "Boot sector virus",
+        "hint": "Liên quan đến khởi động máy"
+    },
+    {
+        "type": "text",
+        "question": "Hành vi giả mạo thực thể tin cậy để đánh cắp thông tin (thường qua email) gọi là gì?",
+        "correctAnswer": "Phishing",
+        "hint": "Tấn công lừa đảo (nghe giống câu cá)"
+    },
+    {
+        "type": "text",
+        "question": "Kỹ thuật chèn mã SQL trái phép để truy vấn hoặc phá hoại cơ sở dữ liệu gọi là gì?",
+        "correctAnswer": "SQL Injection",
+        "hint": "Tiêm mã độc vào CSDL, SQL +..."
+    },
+    {
+        "type": "text",
+        "question": "Tấn công dò mật khẩu bằng cách thử tất cả các trường hợp có thể gọi là gì?",
+        "correctAnswer": "Brute Force",
+        "hint": "Tấn công vét cạn"
+    },
+    {
+        "type": "text",
+        "question": "Kẻ tấn công đứng giữa chặn và thay đổi giao tiếp của hai bên gọi là tấn công gì?",
+        "correctAnswer": "Man in the middle",
+        "hint": "MitM / Tấn công xen giữa, không có dấu gạch ngang, kí tự đặc biệt nào"
+    },
+    {
+        "type": "text",
+        "question": "Hành vi chiếm đoạt phiên làm việc của người dùng (SH) gọi là gì?",
+        "correctAnswer": "Session Hijacking",
+        "hint": "Cướp phiên"
+    },
+    {
+        "type": "text",
+        "question": "Hành vi cố định ID phiên của người dùng trước khi họ đăng nhập (SF) gọi là gì?",
+        "correctAnswer": "Session Fixation",
+        "hint": "Cố định phiên"
+    },
+    {
+        "type": "text",
+        "question": "Làm hỏng hoặc thao túng bản ghi DNS để chuyển hướng lưu lượng gọi là gì?",
+        "correctAnswer": "DNS Poisoning",
+        "hint": "Đầu độc DNS / DNS Spoofing, không có kí tự đặc biệt, có dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Ghi dữ liệu vượt quá dung lượng bộ đệm để gây sự cố hệ thống (BF) gọi là lỗi gì?",
+        "correctAnswer": "Buffer Overflow",
+        "hint": "Tràn bộ đệm, có dấu cách, không có kí tự đặc biệt"
+    },
+    {
+        "type": "text",
+        "question": "Kỹ thuật thao túng tâm lý con người (SE) để lừa lấy thông tin gọi là gì?",
+        "correctAnswer": "Social Engineering",
+        "hint": "Tấn công phi kỹ thuật, có dấu cách, không có kí tự đặc biệt"
+    },
+    {
+        "type": "text",
+        "question": "Hành vi thu thập và phân tích các gói tin trên mạng (PS) gọi là gì?",
+        "correctAnswer": "Packet Sniffing",
+        "hint": "Nghe lén gói tin, có dấu cách, không có kí tự đặc biệt"
+    },
+    {
+        "type": "text",
+        "question": "Lỗ hổng chưa được nhà cung cấp biết đến hoặc chưa có bản vá gọi là gì?",
+        "correctAnswer": "Zero-day",
+        "hint": "Có kí tự đặc biệt"
+    },
+    {
+        "type": "text",
+        "question": "Tấn công giả mạo nguồn hợp pháp (IP, Email, Caller ID...) gọi là gì?",
+        "correctAnswer": "Spoofing",
+        "hint": "Giả mạo, bắt đầu bằng S, chỉ có 1 từ"
+    },
+    {
+        "type": "text",
+        "question": "Tấn công phát lại (RA) dữ liệu đã đánh cắp để xác thực trái phép gọi là gì?",
+        "correctAnswer": "Replay attack",
+        "hint": "Phát lại tấn công, có dấu cách, không có kí tự đặc biệt"
+    },
+    {
+        "type": "text",
+        "question": "Phản hồi tin nhắn không cần thiết khi spammer giả mạo địa chỉ gọi là gì?",
+        "correctAnswer": "Backscatter",
+        "hint": "Tán xạ ngược, bắt đầu bằng B, chỉ có 1 từ"
+    },
+    {
+        "type": "text",
+        "question": "Hệ thống ngăn chặn truy cập trái phép vào mạng gọi là gì?",
+        "correctAnswer": "Firewall",
+        "hint": "Tường lửa, chỉ có 1 từ, học IT không biết thì tự kiểm điểm"
+    },
+    {
+        "type": "text",
+        "question": "Phần mềm chuyên dụng để diệt virus gọi là gì?",
+        "correctAnswer": "Antivirus",
+        "hint": "Chống virus, chỉ có 1 từ, bắt đầu bằng chữ A"
+    },
+    {
+        "type": "text",
+        "question": "Công cụ dùng để rà soát các điểm yếu bảo mật trong hệ thống gọi là gì?",
+        "correctAnswer": "Vulnerability Scanner",
+        "hint": "Trình quét lỗ hổng (VS), có dấu cách, không có kí tự đặc biệt"
+    },
+    {
+        "type": "text",
+        "question": "Môi trường cách ly an toàn để chạy thử mã không tin cậy gọi là gì?",
+        "correctAnswer": "Sandbox",
+        "hint": "Hộp cát (bắt đầu bằng S), chỉ có 1 từ"
+    },
+    {
+        "type": "text",
+        "question": "Bảo mật các thiết bị đầu cuối (laptop, mobile...) kết nối vào mạng gọi là gì?",
+        "correctAnswer": "Endpoint Security",
+        "hint": "Bảo mật điểm cuối, có dấu cách, không có kí tự đặc biệt"
+    },
+    {
+        "type": "text",
+        "question": "Phương pháp xác thực yêu cầu hai yếu tố khác nhau gọi là gì?",
+        "correctAnswer": "Two-Factor Authentication",
+        "hint": "2FA, có kí tự đặc biệt, có dấu cách."
+    },
+    {
+        "type": "text",
+        "question": "Một tệp điện tử dùng để xác thực danh tính của một thực thể trên mạng gọi là gì?",
+        "correctAnswer": "Digital Certificate",
+        "hint": "Chứng chỉ số viết tắt là DT, không có kí tự đặc biệt"
+    },
+    {
+        "type": "text",
+        "question": "Thiết bị dùng trong pháp y số để đảm bảo dữ liệu không bị thay đổi khi trích xuất gọi là gì?",
+        "correctAnswer": "Write blocking",
+        "hint": "Chặn ghi (WB), có dấu cách, không có kí tự đặc biệt"
+    },
+    {
+        "type": "text",
+        "question": "Quá trình sinh chuỗi cố định từ dữ liệu để kiểm tra tính toàn vẹn (ví dụ: MD5, SHA-1) gọi là gì?",
+        "correctAnswer": "Hashing",
+        "hint": "Hàm băm (bắt đầu bằng H), chỉ có 1 từ, nhớ có ing đằng sau"
+    },
+    {
+        "type": "text",
+        "question": "Quá trình chuyển dữ liệu sang dạng không đọc được để bảo mật gọi là gì?",
+        "correctAnswer": "Encryption",
+        "hint": "Mã hóa (bắt đầu bằng chữ E), không có kí tự đặc biệt, không có dấu cách, chỉ có 1 từ, là danh từ."
+    },
+    {
+        "type": "text",
+        "question": "Loại mã hóa sử dụng chung 1 khóa cho cả mã hóa và giải mã gọi là gì?",
+        "correctAnswer": "Symmetric Encryption",
+        "hint": "Mã hóa đối xứng (SE), có dấu cách, không có kí tự đặc biệt"
+    },
+    {
+        "type": "text",
+        "question": "Loại mã hóa sử dụng cặp khóa công khai và riêng tư gọi là gì?",
+        "correctAnswer": "Asymmetric Cryptography",
+        "hint": "Mã hóa bất đối xứng (AC), không có kí tự đặc biệt, có dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Giao thức bảo mật phổ biến cho mạng Wi-Fi hiện nay là gì?",
+        "correctAnswer": "Wi-Fi Protected Access 2",
+        "hint": "WPA2, có kí tự đặc biệt, có số."
+    },
+    {
+        "type": "text",
+        "question": "Khoa học về việc thu thập, bảo quản và phân tích bằng chứng số gọi là gì?",
+        "correctAnswer": "Digital Forensics",
+        "hint": "Pháp y kỹ thuật số (DF), có dấu cách, không có kí tự đặc biệt"
+    },
+    {
+        "type": "text",
+        "question": "Quá trình ưu tiên phân tích các bằng chứng số quan trọng nhất trước gọi là gì?",
+        "correctAnswer": "Forensic Triage",
+        "hint": "Sàng lọc/Phân loại pháp y (FT), có dấu cách, không có kí tự đặc biệt"
+    },
+    {
+        "type": "text",
+        "question": "Quy trình ghi lại lịch sử quản lý, chuyển giao bằng chứng để đảm bảo tính pháp lý gọi là gì?",
+        "correctAnswer": "Chain of custody",
+        "hint": "Chuỗi giám sát / Chuỗi hành trình bằng chứng, có dấu cách, không có kí tự đặc biệt"
+    },
+    {
+        "type": "text",
+        "question": "Hành động sao chép toàn bộ dữ liệu đang có trên RAM để phân tích gọi là gì?",
+        "correctAnswer": "Memory dump",
+        "hint": "Trích xuất bộ nhớ (Db) không kí tự đặc biệt, có dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Thông tin mô tả về dữ liệu (ví dụ: ngày tạo, tác giả file) gọi là gì?",
+        "correctAnswer": "Metadata",
+        "hint": "Siêu dữ liệu, chỉ có 1 từ, không có kí tự đặc biệt, không có dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Quá trình phục hồi các tệp tin từ không gian đĩa chưa phân bổ (dựa vào header/footer) gọi là gì?",
+        "correctAnswer": "Data carving",
+        "hint": "Khôi phục dữ liệu thô (DC), có dấu cách, không có kí tự đặc biệt"
+    },
+    {
+        "type": "text",
+        "question": "Nguyên tắc bảo mật chỉ cấp quyền hạn thấp nhất đủ để thực hiện công việc gọi là gì?",
+        "correctAnswer": "Least Privilege",
+        "hint": "Quyền hạn tối thiểu (LP), có dấu cách, không có kí tự đặc biệt"
     }
 ]
