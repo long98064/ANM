@@ -361,7 +361,7 @@
     },
     {
         "type": "text",
-        "question": "Virus cư trú trong phân vùng khởi động của ổ đĩa (BST) gọi là gì?",
+        "question": "Virus cư trú trong phân vùng khởi động của ổ đĩa (BSV) gọi là gì?",
         "correctAnswer": "Boot sector virus",
         "hint": "Liên quan đến khởi động máy"
     },
@@ -589,12 +589,6 @@
     },
     {
         "type": "text",
-        "question": "Viết đầy đủ thuật ngữ: DH (Thuật toán trao đổi khóa)",
-        "correctAnswer": "Diffie Hellman",
-        "hint": "2 từ, có dấu cách"
-    },
-    {
-        "type": "text",
         "question": "Viết đầy đủ thuật ngữ: DSA (Thuật toán chữ ký số)",
         "correctAnswer": "Digital Signature Algorithm",
         "hint": "3 từ, có dấu cách"
@@ -738,3 +732,4 @@
         "hint": "3 từ, có dấu cách, OS + ... + ..."
     }
 ]
+
