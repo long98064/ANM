@@ -543,13 +543,13 @@
         "type": "text",
         "question": "Quy trình ghi lại lịch sử quản lý, chuyển giao bằng chứng để đảm bảo tính pháp lý gọi là gì?",
         "correctAnswer": "Chain of custody",
-        "hint": "Chuỗi giám sát / Chuỗi hành trình bằng chứng, có dấu cách, không có kí tự đặc biệt"
+        "hint": "Chuỗi giám sát / Chuỗi hành trình bằng chứng (CoC), có dấu cách, không có kí tự đặc biệt"
     },
     {
         "type": "text",
         "question": "Hành động sao chép toàn bộ dữ liệu đang có trên RAM để phân tích gọi là gì?",
         "correctAnswer": "Memory dump",
-        "hint": "Trích xuất bộ nhớ (Db) không kí tự đặc biệt, có dấu cách"
+        "hint": "Trích xuất bộ nhớ (MD) không kí tự đặc biệt, có dấu cách"
     },
     {
         "type": "text",
@@ -609,7 +609,7 @@
         "type": "text",
         "question": "Viết đầy đủ thuật ngữ: SHA (Thuật toán băm bảo mật)",
         "correctAnswer": "Secure Hash Algorithm",
-        "hint": "3 từ, có dấu cách"
+        "hint": "3 từ, có dấu cách. Tương tự với các phiên bản SHA-1, SHA-2, SHA-3 thì thêm số vào sau."
     },
     {
         "type": "text",
@@ -681,7 +681,7 @@
         "type": "text",
         "question": "Viết đầy đủ thuật ngữ: OTP (Mật khẩu dùng một lần)",
         "correctAnswer": "One Time Password",
-        "hint": "3 từ, có dấu cách"
+        "hint": "3 từ, có dấu cách,"
     },
     {
         "type": "text",
