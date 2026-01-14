@@ -6501,5 +6501,175 @@
         "question": "Viết đầy đủ thuật ngữ: Command Injection (Tấn công chèn lệnh hệ điều hành)",
         "correctAnswer": "OS Command Injection",
         "hint": "3 từ, có dấu cách"
+    },
+    {
+        "type": "match",
+        "question": "Ghép các chuẩn MÃ HÓA và HÀM BĂM với tên đầy đủ:",
+        "pairs": [
+            { "left": "AES", "right": "Advanced Encryption Standard (Tiêu chuẩn mã hóa nâng cao)" },
+            { "left": "RSA", "right": "Rivest-Shamir-Adleman (Thuật toán mã hóa bất đối xứng)" },
+            { "left": "MD5", "right": "Message Digest 5 (Hàm băm tạo chuỗi 128-bit)" },
+            { "left": "SHA", "right": "Secure Hash Algorithm (Thuật toán băm bảo mật)" }
+        ]
+    },
+    {
+        "type": "match",
+        "question": "Ghép các loại tấn công MẠNG và WEB với định nghĩa:",
+        "pairs": [
+            { "left": "DDoS", "right": "Distributed Denial of Service (Từ chối dịch vụ phân tán)" },
+            { "left": "Phishing", "right": "Giả mạo thực thể tin cậy để lừa đảo lấy thông tin" },
+            { "left": "SQL Injection", "right": "Chèn mã SQL độc hại để tấn công cơ sở dữ liệu" },
+            { "left": "MITM", "right": "Man-In-The-Middle (Tấn công xen giữa)" }
+        ]
+    },
+    {
+        "type": "match",
+        "question": "Ghép các GIAO THỨC bảo mật với tên đầy đủ:",
+        "pairs": [
+            { "left": "TLS", "right": "Transport Layer Security (Bảo mật tầng giao vận)" },
+            { "left": "SSH", "right": "Secure Shell (Giao thức điều khiển từ xa an toàn)" },
+            { "left": "IPsec", "right": "Internet Protocol Security (Bộ giao thức bảo mật IP)" },
+            { "left": "HTTPS", "right": "HyperText Transfer Protocol Secure (Web an toàn)" }
+        ]
+    },
+    {
+        "type": "match",
+        "question": "Ghép các thuật ngữ về HẠ TẦNG KHÓA CÔNG KHAI (PKI):",
+        "pairs": [
+            { "left": "PKI", "right": "Public Key Infrastructure (Cơ sở hạ tầng khóa công khai)" },
+            { "left": "CA", "right": "Certificate Authority (Cơ quan cấp chứng chỉ số)" },
+            { "left": "CRL", "right": "Certificate Revocation List (Danh sách chứng chỉ bị thu hồi)" },
+            { "left": "CSR", "right": "Certificate Signing Request (Yêu cầu ký chứng chỉ)" }
+        ]
+    },
+    {
+        "type": "match",
+        "question": "Ghép các thuật ngữ liên quan đến EMAIL:",
+        "pairs": [
+            { "left": "PGP", "right": "Pretty Good Privacy (Bảo mật email)" },
+            { "left": "BEC", "right": "Business Email Compromise (Xâm phạm email doanh nghiệp)" },
+            { "left": "MTA", "right": "Mail Transfer Agent (Tác nhân chuyển thư)" },
+            { "left": "IMAP", "right": "Internet Message Access Protocol (Giao thức truy cập thư)" }
+        ]
+    },
+    {
+        "type": "match",
+        "question": "Ghép các khái niệm về XÁC THỰC và KIỂM SOÁT:",
+        "pairs": [
+            { "left": "MFA", "right": "Multi-Factor Authentication (Xác thực đa yếu tố)" },
+            { "left": "OTP", "right": "One-Time Password (Mật khẩu dùng một lần)" },
+            { "left": "NAC", "right": "Network Access Control (Kiểm soát truy cập mạng)" },
+            { "left": "AAA", "right": "Authentication, Authorization, Accounting" }
+        ]
+    },
+    {
+        "type": "match",
+        "question": "Ghép các hệ thống PHÒNG THỦ & GIÁM SÁT:",
+        "pairs": [
+            { "left": "IDS", "right": "Intrusion Detection System (Hệ thống phát hiện xâm nhập)" },
+            { "left": "SOC", "right": "Security Operations Center (Trung tâm điều hành an ninh mạng)" },
+            { "left": "SIEM", "right": "Security Information and Event Management (Quản lý sự kiện bảo mật)" },
+            { "left": "WAF", "right": "Web Application Firewall (Tường lửa ứng dụng web)" }
+        ]
+    },
+    {
+        "type": "match",
+        "question": "Ghép các thành phần trong hệ thống EMAIL:",
+        "pairs": [
+            { "left": "MUA", "right": "Mail User Agent (Ứng dụng gửi/nhận thư phía người dùng)" },
+            { "left": "MDA", "right": "Mail Delivery Agent (Tác nhân giao thư đến hộp thư)" },
+            { "left": "MX", "right": "Mail Exchanger (Bản ghi DNS chỉ định máy chủ thư)" },
+            { "left": "RBL", "right": "Realtime Blackhole List (Danh sách đen chặn spam thời gian thực)" }
+        ]
+    },
+    {
+        "type": "match",
+        "question": "Ghép các thuật ngữ về MÃ HÓA & CHỮ KÝ SỐ nâng cao:",
+        "pairs": [
+            { "left": "DSA", "right": "Digital Signature Algorithm (Thuật toán chữ ký số)" },
+            { "left": "ECDH", "right": "Elliptic Curve Diffie-Hellman (Trao đổi khóa đường cong Elliptic)" },
+            { "left": "3DES", "right": "Triple DES (Mã hóa dữ liệu 3 lớp)" },
+            { "left": "RC4", "right": "Rivest Cipher 4 (Thuật toán mã hóa dòng)" }
+        ]
+    },
+    {
+        "type": "match",
+        "question": "Ghép các thuật ngữ về QUẢN LÝ KHÓA (Key Management):",
+        "pairs": [
+            { "left": "RNG", "right": "Random Number Generator (Bộ tạo số ngẫu nhiên)" },
+            { "left": "TPM", "right": "Trusted Platform Module (Chip bảo mật phần cứng)" },
+            { "left": "KDF", "right": "Key Derivation Function (Hàm dẫn xuất khóa)" },
+            { "left": "Ephemeral Key", "right": "Khóa tạm thời (Chỉ dùng cho một phiên làm việc)" }
+        ]
+    },
+    {
+        "type": "match",
+        "question": "Ghép các giao thức và cổng (PORT) mạng tương ứng:",
+        "pairs": [
+            { "left": "FTP", "right": "File Transfer Protocol (Port 21 - Truyền tệp)" },
+            { "left": "SSH", "right": "Secure Shell (Port 22 - Điều khiển từ xa an toàn)" },
+            { "left": "Telnet", "right": "Teletype Network (Port 23 - Điều khiển từ xa không mã hóa)" },
+            { "left": "DNS", "right": "Domain Name System (Port 53 - Phân giải tên miền)" }
+        ]
+    },
+    {
+        "type": "match",
+        "question": "Ghép các thuật ngữ về BẢO MẬT WI-FI & KHÔNG DÂY:",
+        "pairs": [
+            { "left": "WPS", "right": "Wi-Fi Protected Setup (Kết nối nhanh bằng nút bấm/PIN)" },
+            { "left": "EAP", "right": "Extensible Authentication Protocol (Giao thức xác thực mở rộng)" },
+            { "left": "SAE", "right": "Simultaneous Authentication of Equals (Xác thực đồng thời - WPA3)" },
+            { "left": "PSK", "right": "Pre-Shared Key (Khóa chia sẻ trước)" }
+        ]
+    },
+    {
+        "type": "match",
+        "question": "Ghép các hình thức TẤN CÔNG MẠNG (Cyber Attacks) cụ thể:",
+        "pairs": [
+            { "left": "DHA", "right": "Directory Harvest Attack (Tấn công thu thập danh bạ email)" },
+            { "left": "BEAST", "right": "Browser Exploit Against SSL/TLS (Tấn công vào giao thức SSL)" },
+            { "left": "STO", "right": "Security Through Obscurity (Bảo mật bằng sự che giấu/ẩn mình)" },
+            { "left": "ARP Spoofing", "right": "Giả mạo địa chỉ MAC để nghe lén trong mạng LAN" }
+        ]
+    },
+    {
+        "type": "match",
+        "question": "Ghép các thuật ngữ về WEB & ỨNG DỤNG:",
+        "pairs": [
+            { "left": "OWASP", "right": "Open Web Application Security Project (Dự án bảo mật web mở)" },
+            { "left": "CAPTCHA", "right": "Phép thử phân biệt người và máy tính" },
+            { "left": "CSRF", "right": "Cross-Site Request Forgery (Giả mạo yêu cầu trang web)" },
+            { "left": "API", "right": "Application Programming Interface (Giao diện lập trình ứng dụng)" }
+        ]
+    },
+    {
+        "type": "match",
+        "question": "Ghép các thành phần trong IPsec (IP Security):",
+        "pairs": [
+            { "left": "AH", "right": "Authentication Header (Chỉ xác thực, không mã hóa dữ liệu)" },
+            { "left": "ESP", "right": "Encapsulating Security Payload (Mã hóa và xác thực dữ liệu)" },
+            { "left": "IKE", "right": "Internet Key Exchange (Giao thức trao đổi khóa)" },
+            { "left": "Tunnel Mode", "right": "Chế độ đường hầm (Mã hóa toàn bộ gói tin IP)" }
+        ]
+    },
+    {
+        "type": "match",
+        "question": "Ghép các khái niệm về XÁC THỰC (Authentication):",
+        "pairs": [
+            { "left": "Biometrics", "right": "Sinh trắc học (Vân tay, khuôn mặt...)" },
+            { "left": "Token", "right": "Thiết bị phần cứng tạo mã xác thực" },
+            { "left": "Smart Card", "right": "Thẻ thông minh (Lưu trữ chứng chỉ số)" },
+            { "left": "Password Spraying", "right": "Thử một mật khẩu phổ biến trên nhiều tài khoản khác nhau" }
+        ]
+    },
+    {
+        "type": "match",
+        "question": "Ghép tên đầy đủ của các tổ chức/tiêu chuẩn:",
+        "pairs": [
+            { "left": "ISO", "right": "International Organization for Standardization" },
+            { "left": "NIST", "right": "National Institute of Standards and Technology" },
+            { "left": "IEEE", "right": "Institute of Electrical and Electronics Engineers" },
+            { "left": "ITU", "right": "International Telecommunication Union" }
+        ]
     }
 ]
