@@ -338,7 +338,7 @@ function renderMultipleChoice(q) {
     });
 }
 
-// --- RENDER 2: ĐIỀN TỪ (TEXT INPUT) ---
+// --- RENDER 2: ĐIỀN TỪ (TEXT INPUT) - ĐÃ MỞ LẠI GỢI Ý ---
 function renderTextInput(q) {
     const wrapper = document.createElement('div');
     wrapper.classList.add('text-question-wrapper');
@@ -373,10 +373,10 @@ function renderTextInput(q) {
     btnCheck.style.padding = "15px 25px";
     btnCheck.style.height = "100%"; 
 
-    // Nút Gợi ý (Chỉ hiện nếu có gợi ý VÀ không phải chế độ thi)
-    // (Thường thi thử cũng nên ẩn gợi ý, tôi thêm logic ẩn luôn ở đây cho chặt chẽ)
+    // --- SỬA LẠI ĐOẠN NÀY: MỞ LẠI GỢI Ý CHO MỌI CHẾ ĐỘ ---
     let btnHint = null, hintText = null;
-    if (q.hint && q.hint.trim() !== "" && currentMode !== 'test') {
+    // Đã xóa điều kiện "&& currentMode !== 'test'"
+    if (q.hint && q.hint.trim() !== "") {
         btnHint = document.createElement('button');
         btnHint.innerHTML = "💡";
         btnHint.classList.add('btn-hint');
@@ -418,9 +418,8 @@ function renderTextInput(q) {
     btnShowAnswer.style.borderColor = "#fab1a0"; 
     btnShowAnswer.style.color = "#fab1a0";
 
-    // --- LOGIC QUAN TRỌNG: ẨN/HIỆN NÚT ---
+    // --- VẪN GIỮ LOGIC ẨN NÚT "XEM ĐÁP ÁN" KHI THI THỬ ---
     if (currentMode !== 'test') {
-        // Nếu KHÔNG phải thi thử thì mới thêm nút Xem đáp án
         actionContainer.appendChild(btnShowAnswer);
     }
     // Nút Bỏ qua thì luôn hiện
@@ -477,7 +476,7 @@ function renderTextInput(q) {
         handleNextButton(); 
     });
 
-    // Sự kiện Xem đáp án (Chỉ chạy khi nút này tồn tại)
+    // Sự kiện Xem đáp án
     btnShowAnswer.addEventListener('click', () => {
         input.value = q.correctAnswer;
         input.style.borderColor = "#e17055"; 
