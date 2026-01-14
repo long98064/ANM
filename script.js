@@ -189,8 +189,8 @@ function startQuiz(mode) {
         
         // --- CHỈNH SỬA TẠI ĐÂY: XÓA TOÁN ---
         const reqMath = 0; // Đặt về 0
-        const reqDrag = 3;
-        const reqText = 3;
+        const reqDrag = 10;
+        const reqText = 10;
         
         // A. Lấy Toán (Mảng rỗng)
         let selectedMath = []; 
@@ -1070,3 +1070,4 @@ function checkMatchLogic(item1, item2) {
 }
 // Khởi chạy
 loadAllData();
+
