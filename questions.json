@@ -876,7 +876,7 @@
       "c. Băm (Hashing)",
       "d. Steganography"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": ""
   },
   {
@@ -6070,7 +6070,7 @@
         "correctAnswer": "Cross-Site Scripting",
         "hint": "Có 1 dấu gạch ngang. Chữ cái đầu là C thay vì X để tránh nhầm với CSS, là cross đó đoán tiếp 2 chữ sau đi."
     },
-  {
+    {
         "type": "text",
         "question": "Phần mềm độc hại nói chung được gọi là gì?",
         "correctAnswer": "Malware",
@@ -6152,7 +6152,7 @@
         "type": "text",
         "question": "Kẻ tấn công đứng giữa chặn và thay đổi giao tiếp của hai bên gọi là tấn công gì?",
         "correctAnswer": "Man in the middle",
-        "hint": "MitM / Tấn công xen giữa, không có dấu gạch ngang, kí tự đặc biệt nào"
+        "hint": "MitM / Tấn công xen giữa, không có dấu gạch ngang, kí tự đặc biệt nào (Sơn Tùng đứng giữa TBT với HT hôm trước thầy cho xem ế)"
     },
     {
         "type": "text",
