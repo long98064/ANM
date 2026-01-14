@@ -339,13 +339,11 @@ function renderMultipleChoice(q) {
 }
 
 // --- RENDER 2: ĐIỀN TỪ (TEXT INPUT) ---
-
-// --- Thay thế hàm renderTextInput cũ bằng đoạn này ---
 function renderTextInput(q) {
     const wrapper = document.createElement('div');
     wrapper.classList.add('text-question-wrapper');
     
-    // Tạo container hàng ngang (Input + Nút Check)
+    // 1. Tạo container hàng ngang (Input + Nút Check + Gợi ý)
     const rowContainer = document.createElement('div');
     rowContainer.style.display = 'flex';
     rowContainer.style.width = '100%'; 
@@ -359,7 +357,6 @@ function renderTextInput(q) {
     input.placeholder = "Nhập đáp án của bạn...";
     input.classList.add('input-answer-field');
     input.autocomplete = "off";
-    // Style trực tiếp để đảm bảo đẹp
     input.style.flex = "1"; 
     input.style.padding = "15px";
     input.style.fontSize = "1.1rem";
@@ -376,9 +373,10 @@ function renderTextInput(q) {
     btnCheck.style.padding = "15px 25px";
     btnCheck.style.height = "100%"; 
 
-    // Nút Gợi ý (nếu có)
+    // Nút Gợi ý (Chỉ hiện nếu có gợi ý VÀ không phải chế độ thi)
+    // (Thường thi thử cũng nên ẩn gợi ý, tôi thêm logic ẩn luôn ở đây cho chặt chẽ)
     let btnHint = null, hintText = null;
-    if (q.hint && q.hint.trim() !== "") {
+    if (q.hint && q.hint.trim() !== "" && currentMode !== 'test') {
         btnHint = document.createElement('button');
         btnHint.innerHTML = "💡";
         btnHint.classList.add('btn-hint');
@@ -401,23 +399,40 @@ function renderTextInput(q) {
     rowContainer.appendChild(btnCheck);
     if (btnHint) rowContainer.appendChild(btnHint);
 
+    // 2. Khu vực các nút phụ
+    const actionContainer = document.createElement('div');
+    actionContainer.style.display = 'flex';
+    actionContainer.style.gap = '15px';
+    actionContainer.style.marginTop = '15px';
+    actionContainer.style.justifyContent = 'center';
+
     // Nút Bỏ qua
     const btnSkip = document.createElement('button');
-    btnSkip.innerText = "Không biết? Bỏ qua câu này";
+    btnSkip.innerText = "Bỏ qua câu này";
     btnSkip.className = 'btn-skip'; 
-    btnSkip.style.marginTop = "15px";
+    
+    // Nút Xem Đáp Án
+    const btnShowAnswer = document.createElement('button');
+    btnShowAnswer.innerText = "Xem đáp án";
+    btnShowAnswer.className = 'btn-skip'; 
+    btnShowAnswer.style.borderColor = "#fab1a0"; 
+    btnShowAnswer.style.color = "#fab1a0";
+
+    // --- LOGIC QUAN TRỌNG: ẨN/HIỆN NÚT ---
+    if (currentMode !== 'test') {
+        // Nếu KHÔNG phải thi thử thì mới thêm nút Xem đáp án
+        actionContainer.appendChild(btnShowAnswer);
+    }
+    // Nút Bỏ qua thì luôn hiện
+    actionContainer.appendChild(btnSkip);
     
     wrapper.appendChild(rowContainer);
     if (hintText) wrapper.appendChild(hintText);
-    
-    const skipContainer = document.createElement('div');
-    skipContainer.style.display = 'flex'; 
-    skipContainer.appendChild(btnSkip);
-    wrapper.appendChild(skipContainer);
+    wrapper.appendChild(actionContainer);
 
     // --- LOGIC KIỂM TRA ĐÁP ÁN ---
     const checkAnswer = () => {
-        if (input.disabled) return; // Nếu đã trả lời rồi thì không check nữa
+        if (input.disabled) return; 
 
         const userVal = input.value.trim().toLowerCase();
         const correctVal = q.correctAnswer.toString().toLowerCase();
@@ -430,41 +445,54 @@ function renderTextInput(q) {
             btnCheck.innerText = "Chính xác!"; 
             btnCheck.style.backgroundColor = "#00b894";
             
-            btnCheck.disabled = true; 
-            input.disabled = true;
-            skipContainer.style.display = "none";
-            if(hintText) hintText.classList.add('hide');
-            
-            handleCorrectAnswer(); // Gọi hàm xử lý đúng chung
+            disableAll();
+            handleCorrectAnswer(); 
         } else {
             // SAI
             input.style.borderColor = "#e74c3c";
             input.classList.add('shake'); 
             setTimeout(() => input.classList.remove('shake'), 500);
-            input.focus(); // Focus lại để nhập tiếp
+            input.focus();
         }
     };
 
-    // Sự kiện Click nút
+    const disableAll = () => {
+        btnCheck.disabled = true; 
+        input.disabled = true;
+        actionContainer.style.display = "none"; 
+        if(hintText) hintText.classList.add('hide');
+    };
+
     btnCheck.addEventListener('click', checkAnswer);
 
-    // --- SỰ KIỆN ENTER (MỚI THÊM) ---
     input.addEventListener('keypress', function (e) {
         if (e.key === 'Enter') {
-            e.preventDefault(); // Chặn hành vi xuống dòng mặc định
-            checkAnswer();      // Gọi hàm kiểm tra y hệt như bấm nút
+            e.preventDefault(); 
+            checkAnswer();      
         }
     });
 
-    // Sự kiện Bỏ qua
     btnSkip.addEventListener('click', () => {
         handleWrongAnswer(q, input.value || "Bỏ qua");
         handleNextButton(); 
     });
 
+    // Sự kiện Xem đáp án (Chỉ chạy khi nút này tồn tại)
+    btnShowAnswer.addEventListener('click', () => {
+        input.value = q.correctAnswer;
+        input.style.borderColor = "#e17055"; 
+        input.style.backgroundColor = "#2d3436"; 
+        input.style.color = "#e17055"; 
+        input.style.fontWeight = "bold";
+        btnCheck.innerText = "Đã xem";
+        btnCheck.style.backgroundColor = "#636e72";
+        
+        handleWrongAnswer(q, "Đã xem đáp án");
+        disableAll();
+        nextButton.classList.remove('hide');
+    });
+
     answerButtonsElement.appendChild(wrapper);
-    
-    // Tự động focus vào ô nhập liệu khi hiện câu hỏi
     setTimeout(() => input.focus(), 100);
 }
 // --- RENDER 3: KÉO THẢ (DRAG & DROP) ---
@@ -1070,4 +1098,3 @@ function checkMatchLogic(item1, item2) {
 }
 // Khởi chạy
 loadAllData();
-
