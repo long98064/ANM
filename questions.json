@@ -6333,5 +6333,173 @@
         "question": "Nguyên tắc bảo mật chỉ cấp quyền hạn thấp nhất đủ để thực hiện công việc gọi là gì?",
         "correctAnswer": "Least Privilege",
         "hint": "Quyền hạn tối thiểu (LP), có dấu cách, không có kí tự đặc biệt"
+    },
+    {
+        "type": "text",
+        "question": "Viết đầy đủ thuật ngữ: 3DES (Chuẩn mã hóa dữ liệu 3 lớp)",
+        "correctAnswer": "Triple Data Encryption Standard",
+        "hint": "4 từ, có dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Viết đầy đủ thuật ngữ: RC4 (Thuật toán mã hóa dòng phổ biến)",
+        "correctAnswer": "Rivest Cipher 4",
+        "hint": "3 từ, có dấu cách, có số"
+    },
+    {
+        "type": "text",
+        "question": "Viết đầy đủ thuật ngữ: RSA (Thuật toán mã hóa bất đối xứng - tên 3 tác giả)",
+        "correctAnswer": "Rivest Shamir Adleman",
+        "hint": "3 từ, có dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Viết đầy đủ thuật ngữ: DH (Thuật toán trao đổi khóa)",
+        "correctAnswer": "Diffie Hellman",
+        "hint": "2 từ, có dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Viết đầy đủ thuật ngữ: DSA (Thuật toán chữ ký số)",
+        "correctAnswer": "Digital Signature Algorithm",
+        "hint": "3 từ, có dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Viết đầy đủ thuật ngữ: MD5 (Hàm băm tạo chuỗi 128-bit)",
+        "correctAnswer": "Message Digest 5",
+        "hint": "3 từ, có dấu cách, có số"
+    },
+    {
+        "type": "text",
+        "question": "Viết đầy đủ thuật ngữ: SHA (Thuật toán băm bảo mật)",
+        "correctAnswer": "Secure Hash Algorithm",
+        "hint": "3 từ, có dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Viết đầy đủ thuật ngữ: RA (Cơ quan đăng ký trong PKI)",
+        "correctAnswer": "Registration Authority",
+        "hint": "2 từ, có dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Viết đầy đủ thuật ngữ: CRL (Danh sách chứng chỉ bị thu hồi)",
+        "correctAnswer": "Certificate Revocation List",
+        "hint": "3 từ, có dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Viết đầy đủ thuật ngữ: OCSP (Giao thức kiểm tra trạng thái chứng chỉ trực tuyến)",
+        "correctAnswer": "Online Certificate Status Protocol",
+        "hint": "4 từ, có dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Viết đầy đủ thuật ngữ: CSR (Yêu cầu ký chứng chỉ)",
+        "correctAnswer": "Certificate Signing Request",
+        "hint": "3 từ, có dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Viết đầy đủ thuật ngữ: SIEM (Quản lý sự kiện và thông tin bảo mật)",
+        "correctAnswer": "Security Information and Event Management",
+        "hint": "6 từ, có dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Viết đầy đủ thuật ngữ: SOC (Trung tâm điều hành an ninh mạng)",
+        "correctAnswer": "Security Operations Center",
+        "hint": "3 từ, có dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Viết đầy đủ thuật ngữ: AAA (Xác thực, Ủy quyền, Kiểm toán)",
+        "correctAnswer": "Authentication Authorization Accounting",
+        "hint": "3 từ, có dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Viết đầy đủ thuật ngữ: SSH (Giao thức điều khiển từ xa an toàn)",
+        "correctAnswer": "Secure Shell",
+        "hint": "2 từ, có dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Viết đầy đủ thuật ngữ: ESP (Giao thức đóng gói tải trọng bảo mật)",
+        "correctAnswer": "Encapsulating Security Payload",
+        "hint": "3 từ, có dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Viết đầy đủ thuật ngữ: AH (Tiêu đề xác thực trong IPsec)",
+        "correctAnswer": "Authentication Header",
+        "hint": "2 từ, có dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Viết đầy đủ thuật ngữ: NAC (Kiểm soát truy cập mạng)",
+        "correctAnswer": "Network Access Control",
+        "hint": "3 từ, có dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Viết đầy đủ thuật ngữ: OTP (Mật khẩu dùng một lần)",
+        "correctAnswer": "One Time Password",
+        "hint": "3 từ, có dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Viết đầy đủ thuật ngữ: TGT (Vé cấp vé trong Kerberos)",
+        "correctAnswer": "Ticket Granting Ticket",
+        "hint": "3 từ, có dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Viết đầy đủ thuật ngữ: TPM (Chip bảo mật phần cứng)",
+        "correctAnswer": "Trusted Platform Module",
+        "hint": "3 từ, có dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Viết đầy đủ thuật ngữ: MFA (Xác thực đa yếu tố)",
+        "correctAnswer": "Multi Factor Authentication",
+        "hint": "3 từ, có dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Viết đầy đủ thuật ngữ: EAP (Giao thức xác thực mở rộng)",
+        "correctAnswer": "Extensible Authentication Protocol",
+        "hint": "3 từ, có dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Viết đầy đủ thuật ngữ: WPS (Thiết lập Wi-Fi nhanh/được bảo vệ)",
+        "correctAnswer": "WiFi Protected Setup",
+        "hint": "3 từ, có dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Viết đầy đủ thuật ngữ: BEC (Xâm phạm email doanh nghiệp)",
+        "correctAnswer": "Business Email Compromise",
+        "hint": "3 từ, có dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Viết đầy đủ thuật ngữ: RNG (Bộ tạo số ngẫu nhiên)",
+        "correctAnswer": "Random Number Generator",
+        "hint": "3 từ, có dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Viết đầy đủ thuật ngữ: ARP Spoofing (Giả mạo địa chỉ MAC)",
+        "correctAnswer": "Address Resolution Protocol Spoofing",
+        "hint": "4 từ, có dấu cách"
+    },
+    {
+        "type": "text",
+        "question": "Viết đầy đủ thuật ngữ: Command Injection (Tấn công chèn lệnh hệ điều hành)",
+        "correctAnswer": "OS Command Injection",
+        "hint": "3 từ, có dấu cách"
     }
 ]
