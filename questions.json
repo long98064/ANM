@@ -5862,7 +5862,7 @@
     {
         "type": "text",
         "question": "Thuật ngữ 'Mối đe dọa dai dẳng nâng cao' được viết tắt là gì?",
-        "correctAnswer": "Advanced Persistent Threa",
+        "correctAnswer": "Advanced Persistent Threat",
         "hint": "APT"
     },
     {
