@@ -5829,8 +5829,8 @@
     {
         "type": "text",
         "question": "Thuật ngữ 'Mối đe dọa dai dẳng nâng cao' được viết tắt là gì?",
-        "correctAnswer": "APT",
-        "hint": "APT  },
+        "correctAnswer": "Advanced Persistent Threat",
+        "hint": "APT"  },
     {
         "type": "choice",
         "question": "NoSQL Injection khác SQL Injection ở điểm nào?",
