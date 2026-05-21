@@ -5492,6 +5492,26 @@
             { "id": "vpn3", "left": "IPSec", "right": "Bộ giao thức bảo mật tầng Network" }
         ]
     },
+   {
+        "type": "drag",
+        "question": "Nối các định nghĩa đúng:",
+        "pairs": [
+            { "id": "cve1", "left": "CVE", "right": "CVE là viết tắt của Common Vulnerabilities and Exposures (Các lỗ hổng và điểm yếu phổ biến)" },
+            { "id": "cve2", "left": "CWE", "right": "CWE là viết tắt của Common Weakness Enumeration (Liệt kê các điểm yếu phổ biến)" },
+            { "id": "cve3", "left": "CVSS", "right": "CVSS là viết tắt của Common Vulnerability Scoring System (Hệ thống chấm điểm lỗ hổng phổ biến)" },
+            { "id": "cve4", "left": "", "right": "NVD là viết tắt của Cơ sở dữ liệu lỗ hổng quốc gia (National Vulnerability Database)" }
+        ]
+    },
+  {
+        "type": "drag",
+        "question": "Ghép các đặc điểm của VPN (Virtual Private Network):",
+        "pairs": [
+            { "id": "sha1", "left": "SHA-1", "right": "160 bit" },
+            { "id": "sha2", "left": "SHA-2 (SHA-256)", "right": "256 bit" },
+            { "id": "sha3", "left": "SHA-3", "right": "512 bit" },
+            { "id": "sha4", "left": "SHA3-256", "right": "256 bit" }
+        ]
+    },  
     {
         "type": "choice",
         "question": "Điểm yếu của Circuit-level gateway là gì?",
@@ -5810,7 +5830,40 @@
         "type": "text",
         "question": "Thuật ngữ 'Mối đe dọa dai dẳng nâng cao' được viết tắt là gì?",
         "correctAnswer": "APT",
-        "hint": "Tên 1 bài hát của Rosé"
+        "hint": "APT  },
+    {
+        "type": "choice",
+        "question": "NoSQL Injection khác SQL Injection ở điểm nào?",
+        "options": [
+            "Thường khai thác cú pháp JSON hoặc đặc thù NoSQL thay vì SQL truyền thống",
+            "Có thể áp dụng cho cả dữ liệu phi quan hệ và dữ liệu quan hệ",
+            "Chỉ khai thác trên các hệ quản trị CSDL quan hệ",
+            "Không liên quan tới dữ liệu"
+        ],
+        "answer": 0
+    },
+    {
+        "type": "choice",
+        "question": "Connection Flooding trong tấn công email server khai thác giao thức nào?",
+        "options": [
+            "FTP",
+            "DNS",
+            "HTTP",
+            "SMTP"
+        ],
+        "answer": 3
+    },
+    {
+        "type": "text",
+        "question": "Viết đầy đủ của 'AES' (Tiêu chuẩn mã hóa nâng cao) là gì?",
+        "correctAnswer": "Advanced Encryption Standard",
+        "hint": "Chuẩn mã hóa thay thế cho DES"
+    },
+    {
+        "type": "text",
+        "question": "Thuật ngữ 'Mối đe dọa dai dẳng nâng cao' được viết tắt là gì?",
+        "correctAnswer": "Advanced Persistent Threa",
+        "hint": "APT"
     },
     {
         "type": "text",
@@ -6152,7 +6205,7 @@
         "type": "text",
         "question": "Kẻ tấn công đứng giữa chặn và thay đổi giao tiếp của hai bên gọi là tấn công gì?",
         "correctAnswer": "Man in the middle",
-        "hint": "MitM / Tấn công xen giữa, không có dấu gạch ngang, kí tự đặc biệt nào (Sơn Tùng đứng giữa TBT với HT hôm trước thầy cho xem ế)"
+        "hint": "MitM / Tấn công xen giữa, không có dấu gạch ngang, kí tự đặc biệt nào"
     },
     {
         "type": "text",
@@ -6500,6 +6553,12 @@
         "type": "text",
         "question": "Viết đầy đủ thuật ngữ: Command Injection (Tấn công chèn lệnh hệ điều hành)",
         "correctAnswer": "OS Command Injection",
+        "hint": "3 từ, có dấu cách"
+    },
+   {
+        "type": "text",
+        "question": "Viết đầy đủ thuật ngữ: UTM – Quản lý mối đe dọa thống nhất",
+        "correctAnswer": "Unified Threat Management",
         "hint": "3 từ, có dấu cách"
     },
     {
